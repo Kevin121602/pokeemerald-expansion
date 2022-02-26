@@ -92,3 +92,7 @@ const u32 gBattleTerrainAnimTilemap_Rayquaza[] = INCBIN_U32("graphics/battle_ter
 const u32 gBattleTerrainTiles_Snow[] = INCBIN_U32("graphics/battle_terrain/snow/tiles.4bpp.lz");
 const u32 gBattleTerrainPalette_Snow[] = INCBIN_U32("graphics/battle_terrain/snow/palette.gbapal.lz");
 const u32 gBattleTerrainTilemap_Snow[] = INCBIN_U32("graphics/battle_terrain/snow/map.bin.lz");
+
+const u32 gBattleTerrainTiles_DarkGrass[] = INCBIN_U32("graphics/battle_terrain/dark_grass/tiles.4bpp.lz");
+const u32 gBattleTerrainPalette_DarkGrass[] = INCBIN_U32("graphics/battle_terrain/dark_grass/palette.gbapal.lz");
+const u32 gBattleTerrainTilemap_DarkGrass[] = INCBIN_U32("graphics/battle_terrain/dark_grass/map.bin.lz");

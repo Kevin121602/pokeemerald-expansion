@@ -380,23 +380,24 @@
 #define BATTLE_TERRAIN_CAVE             7
 #define BATTLE_TERRAIN_BUILDING         8
 #define BATTLE_TERRAIN_PLAIN            9
-#define BATTLE_TERRAIN_SNOW             10
+#define BATTLE_TERRAIN_SNOWY            10
+#define BATTLE_TERRAIN_DARK_GRASS      11
 // New battle terrains are used for Secret Power but not fully implemented.
-#define BATTLE_TERRAIN_SOARING          11
-#define BATTLE_TERRAIN_SKY_PILLAR       12
-#define BATTLE_TERRAIN_BURIAL_GROUND    13
-#define BATTLE_TERRAIN_PUDDLE           14
-#define BATTLE_TERRAIN_MARSH            15
-#define BATTLE_TERRAIN_SWAMP            16
-#define BATTLE_TERRAIN_SNOW             17
-#define BATTLE_TERRAIN_ICE              18
-#define BATTLE_TERRAIN_VOLCANO          19
-#define BATTLE_TERRAIN_DISTORTION_WORLD 20
-#define BATTLE_TERRAIN_SPACE            21
-#define BATTLE_TERRAIN_ULTRA_SPACE      22
-#define BATTLE_TERRAIN_FOREST           23
+#define BATTLE_TERRAIN_SOARING          12
+#define BATTLE_TERRAIN_SKY_PILLAR       13
+#define BATTLE_TERRAIN_BURIAL_GROUND    14
+#define BATTLE_TERRAIN_PUDDLE           15
+#define BATTLE_TERRAIN_MARSH            16
+#define BATTLE_TERRAIN_SWAMP            17
+#define BATTLE_TERRAIN_SNOW             18
+#define BATTLE_TERRAIN_ICE              19
+#define BATTLE_TERRAIN_VOLCANO          20
+#define BATTLE_TERRAIN_DISTORTION_WORLD 21
+#define BATTLE_TERRAIN_SPACE            22
+#define BATTLE_TERRAIN_ULTRA_SPACE      23
+#define BATTLE_TERRAIN_FOREST           24
 
-#define BATTLE_TERRAIN_COUNT            24
+#define BATTLE_TERRAIN_COUNT            25
 
 #define B_WAIT_TIME_LONG     64
 #define B_WAIT_TIME_MED      48

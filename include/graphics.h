@@ -7178,6 +7178,9 @@ extern const u32 gBattleTerrainPalette_StadiumWallace[];
 extern const u32 gBattleTerrainTiles_Snow[];
 extern const u32 gBattleTerrainTilemap_Snow[];
 extern const u32 gBattleTerrainPalette_Snow[];
+extern const u32 gBattleTerrainTiles_DarkGrass[];
+extern const u32 gBattleTerrainTilemap_DarkGrass[];
+extern const u32 gBattleTerrainPalette_DarkGrass[];
 
 // pokedex
 extern const u32 gPokedexInterface_Gfx[];
