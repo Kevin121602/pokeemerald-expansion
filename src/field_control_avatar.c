@@ -3,7 +3,6 @@
 #include "bike.h"
 #include "coord_event_weather.h"
 #include "daycare.h"
-#include "debug.h"
 #include "faraway_island.h"
 #include "event_data.h"
 #include "event_object_movement.h"
@@ -131,13 +130,6 @@ void FieldGetPlayerInput(struct FieldInput *input, u16 newKeys, u16 heldKeys)
     else if (heldKeys & DPAD_RIGHT)
         input->dpadDirection = DIR_EAST;
 
-#if DEBUGGING
-    if ((heldKeys & R_BUTTON) && input->pressedStartButton)
-    {
-        input->input_field_1_2 = TRUE;
-        input->pressedStartButton = FALSE;
-    }
-#endif
 }
 
 int ProcessPlayerFieldInput(struct FieldInput *input)
