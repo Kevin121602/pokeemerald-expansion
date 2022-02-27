@@ -11,29 +11,50 @@
 #include "task.h"
 #include "constants/songs.h"
 
+// *******************************
+// Constants
+
 #define DEBUG_MAIN_MENU_HEIGHT 7
 #define DEBUG_MAIN_MENU_WIDTH 11
+
+// *******************************
+// Defined Functions
 
 void Debug_ShowMainMenu(void);
 static void Debug_DestroyMainMenu(u8);
 static void DebugAction_Cancel(u8);
 static void DebugTask_HandleMainMenuInput(u8);
 
+// *******************************
+// Enums
+
 enum {
     DEBUG_MENU_ITEM_CANCEL,
 };
 
+// *******************************
+// Text
+
 static const u8 gDebugText_Cancel[] = _("Cancel");
+
+// *******************************
+// List Menu Items
 
 static const struct ListMenuItem sDebugMenuItems[] =
 {
     [DEBUG_MENU_ITEM_CANCEL] = {gDebugText_Cancel, DEBUG_MENU_ITEM_CANCEL}
 };
 
+// *******************************
+// Menu Actions
+
 static void (*const sDebugMenuActions[])(u8) =
 {
     [DEBUG_MENU_ITEM_CANCEL] = DebugAction_Cancel
 };
+
+// *******************************
+// Windows
 
 static const struct WindowTemplate sDebugMenuWindowTemplate =
 {
@@ -45,6 +66,9 @@ static const struct WindowTemplate sDebugMenuWindowTemplate =
     .paletteNum = 15,
     .baseBlock = 1,
 };
+
+// *******************************
+// List Menu Templates
 
 static const struct ListMenuTemplate sDebugMenuListTemplate =
 {
@@ -66,6 +90,9 @@ static const struct ListMenuTemplate sDebugMenuListTemplate =
     .fontId = 1,
     .cursorKind = 0
 };
+
+// *******************************
+// Functions universal
 
 void Debug_ShowMainMenu(void) {
     struct ListMenuTemplate menuTemplate;
@@ -99,8 +126,16 @@ static void Debug_DestroyMainMenu(u8 taskId)
     ClearStdWindowAndFrame(gTasks[taskId].data[1], TRUE);
     RemoveWindow(gTasks[taskId].data[1]);
     DestroyTask(taskId);
+}
+
+static void DebugAction_Cancel(u8 taskId)
+{
+    Debug_DestroyMainMenu(taskId);
     EnableBothScriptContexts();
 }
+
+// *******************************
+// Handle Inputs
 
 static void DebugTask_HandleMainMenuInput(u8 taskId)
 {
@@ -118,11 +153,6 @@ static void DebugTask_HandleMainMenuInput(u8 taskId)
         PlaySE(SE_SELECT);
         Debug_DestroyMainMenu(taskId);
     }
-}
-
-static void DebugAction_Cancel(u8 taskId)
-{
-    Debug_DestroyMainMenu(taskId);
 }
 
 //#endif
