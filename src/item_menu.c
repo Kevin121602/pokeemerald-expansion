@@ -281,10 +281,10 @@ static const struct ListMenuTemplate sItemListMenu =
     .cursorKind = 0
 };
 
-static const u8 sMenuText_ByName[] = _("Name");
-static const u8 sMenuText_ByType[] = _("Type");
-static const u8 sMenuText_ByAmount[] = _("Amount");
-static const u8 sMenuText_ByNumber[] = _("Number");
+static const u8 sMenuText_ByName[] = _("NAME");
+static const u8 sMenuText_ByType[] = _("TYPE");
+static const u8 sMenuText_ByAmount[] = _("AMOUNT");
+static const u8 sMenuText_ByNumber[] = _("NUMBER");
 static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
 
 static const struct MenuAction sItemMenuActions[] = {
