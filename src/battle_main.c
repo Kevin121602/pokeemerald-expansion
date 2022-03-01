@@ -3988,12 +3988,14 @@ static void HandleTurnActionSelectionState(void)
                 case B_ACTION_USE_ITEM:
                     #ifdef TX_DEBUGGING
                     if (FlagGet(FLAG_SYS_NO_BAG_USE) || gBattleTypeFlags & (BATTLE_TYPE_LINK //DEBUG
+                                            | BATTLE_TYPE_TRAINER
                                             | BATTLE_TYPE_FRONTIER_NO_PYRAMID
                                             | BATTLE_TYPE_EREADER_TRAINER
                                             | BATTLE_TYPE_RECORDED_LINK))
                     {
                     #else
                     if (gBattleTypeFlags & (BATTLE_TYPE_LINK //DEBUG
+                                            | BATTLE_TYPE_TRAINER
                                             | BATTLE_TYPE_FRONTIER_NO_PYRAMID
                                             | BATTLE_TYPE_EREADER_TRAINER
                                             | BATTLE_TYPE_RECORDED_LINK))

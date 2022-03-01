@@ -139,7 +139,7 @@ void FieldGetPlayerInput(struct FieldInput *input, u16 newKeys, u16 heldKeys)
     #ifdef TX_DEBUGGING
         if (!TX_DEBUG_MENU_OPTION)
         {
-            if (heldKeys & R_BUTTON) 
+            if (heldKeys & L_BUTTON) 
             {
                 if(input->pressedSelectButton)
                 {
