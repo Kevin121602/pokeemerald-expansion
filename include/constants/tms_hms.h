@@ -118,3 +118,104 @@
     FOREACH_HM(F)
 
 #endif
+
+/*  F(ACROBATICS) \ Winona Split
+    F(AERIAL_ACE) \ 113
+    F(AFTER_YOU) \ Slateport
+    F(AIR_SLASH) \ Norman Split
+    F(AURA_SPHERE) \ Dewford
+    F(AURORA_VEIL) \ Sootopolis
+    F(BLIZZARD) \ Winstitute/119
+    F(BODY_PRESS) \ Buck
+    F(BREAKING_SWIPE) \ Terra Cave
+    F(BUG_BUZZ) \ Norman/Juan Split
+    F(BULLDOZE) \ 115
+    F(BULLET_SEED) \ 104
+    F(CHILLING_WATER) \ Lavaridge
+    F(DARK_PULSE) \ Mt Pyre
+    F(DAZZLING_GLEAM) \ Verdanturf/117
+    F(DEFOG) \ Underpass
+    F(DIG) \ Underpass
+    F(DISARMING_VOICE) \ Woods
+    F(DRAGON_CLAW) \ Norman Split
+    F(DRAGON_PULSE) \ 111
+    F(DRAIN_PUNCH) \ Brawly
+    F(DRAINING_KISS) \ Winona Split
+    F(DUAL_WINGBEAT) \ Norman/Juan Split
+    F(EARTH_POWER) \ 111 Desert
+    F(EARTHQUAKE) \ Seafloor Cavern
+    F(ELECTROWEB) \ 114
+    F(ENERGY_BALL) \ Verdanturf/117
+    F(EXPLOSION) \ MHO
+    F(FACADE) \ Norman
+    F(FAKE_TEARS) \ Pyre
+    F(FEATHER_DANCE) \ 118
+    F(FEINT_ATTACK) \ 116
+    F(FLAMETHROWER) \ MHO
+    F(FLASH_CANNON) \ Granite
+    F(FLIP_TURN)\ VR
+    F(GIGA_DRAIN) \ Winona Split
+    F(GRASS_KNOT) \ 123
+    F(GRAVITY) \ Mossdeep
+    F(HEAT_CRASH) \ Abandoned Ship
+    F(HEAVY_SLAM) \ 111 Desert
+    F(HURRICANE) \ Winstitute
+    F(HYPER_VOICE) \ 123
+    F(ICE_BEAM) \ Juan
+    F(ICICLE_SPEAR) \ Altering
+    F(ICY_WIND) \ Meteor Falls
+    F(IRON_HEAD) \ Granite
+    F(LEECH_LIFE) \ Winona Split
+    F(LIGHT_SCREEN) \ T&L
+    F(LIQUIDATION) \ Route 109-108
+    F(LOW_KICK) \ Dewford
+    F(LOW_SWEEP) \ Route 111
+    F(MAGICAL_LEAF) \ Woods
+    F(ME_FIRST) \ Slateport
+    F(MISTY_EXPLOSION) \ Verdanturf
+    F(MUD_SHOT) \ 115
+    F(NIGHT_SHADE) \ Mt Pyre
+    F(PAYBACK) \ Abandoned Ship
+    F(PIN_MISSILE)\ 116
+    F(PLAY_ROUGH) \ Winona Split
+    F(POISON_JAB) \ Abandoned Ship
+    F(POLTERGEIST) \ 121
+    F(POUNCE) \ 114
+    F(POWER_GEM) \ Granite
+    F(PROTECT) \ VR
+    F(PSYCHIC) \ 124
+    F(PSYCHIC_FANGS) \ Lilycove
+    F(REFLECT) \ T&L
+    F(ROCK_BLAST) \ 116
+    F(ROCK_SLIDE) \ Granite
+    F(ROCK_TOMB) \ Roxanne
+    F(ROOST) \ Winona
+    F(SCALD) \ Route 106
+    F(SCALE_SHOT) \ 116
+    F(SCARY_FACE) \ Pyre
+    F(SCREECH) \ Pyre
+    F(SEED_BOMB) \ 103 post matt
+    F(SEISMIC_TOSS) \ 123
+    F(SHADOW_BALL) \ Pyre
+    F(SHOCK_WAVE) \ 115
+    F(SKILL_SWAP) \ Pyre
+    F(SLUDGE_BOMB) \ Dewford
+    F(SMART_STRIKE) \ 112
+    F(SNARL) \ 112
+    F(SOLAR_BEAM) \ Fiery Path
+    F(SOLAR_BLADE) \ Fiery Path
+    F(STRUGGLE_BUG) \ 114
+    F(SUPERCELL_SLAM) \ 119
+    F(TAILWIND) \ Winstitute
+    F(TELEPORT) \ VR
+    F(THROAT_CHOP)\ Abandoned Ship
+    F(THUNDER) \ Winstitute
+    F(THUNDER_WAVE) \ 
+    F(THUNDERBOLT) \ 120
+    F(TOXIC) \ 119
+    F(TRIPLE_AXEL) \ Shoal
+    F(U_TURN)\ VR
+    F(VOLT_SWITCH)\ Wattson
+    F(WEATHER_BALL) \ 119
+    F(WILL_O_WISP) \ Pyre
+    F(X_SCISSOR) abandoned ship*/ 
