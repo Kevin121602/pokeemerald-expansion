@@ -68,8 +68,8 @@ struct Pokemon
     struct String ball;
     int ball_line;
 
-    int friendship;
-    int friendship_line;
+    struct String status;
+    int status_line;
 
     struct String nature;
     int nature_line;
@@ -1438,13 +1438,12 @@ static bool parse_trainer(struct Parser *p, const struct Parsed *parsed, struct 
                 pokemon->ball_line = value.location.line;
                 pokemon->ball = token_string(&value);
             }
-            else if (is_literal_token(&key, "Happiness"))
+            else if (is_literal_token(&key, "Status"))
             {
-                if (pokemon->friendship_line)
-                    any_error = !set_show_parse_error(p, key.location, "duplicate 'Happiness'");
-                pokemon->friendship_line = value.location.line;
-                if (!token_int(p, &value, &pokemon->friendship))
-                    any_error = !show_parse_error(p);
+                if (pokemon->status_line)
+                    any_error = !set_show_parse_error(p, key.location, "duplicate 'Status'");
+                pokemon->status_line = value.location.line;
+                pokemon->status = token_string(&value);
             }
             else if (is_literal_token(&key, "Nature"))
             {
@@ -1494,7 +1493,7 @@ static bool parse_trainer(struct Parser *p, const struct Parsed *parsed, struct 
             }
             else
             {
-                any_error = !set_show_parse_error(p, key.location, "expected one of 'EVs', 'IVs', 'Ability', 'Level', 'Ball', 'Happiness', 'Nature', 'Shiny', 'Dynamax Level', 'Gigantamax', or 'Tera Type'");
+                any_error = !set_show_parse_error(p, key.location, "expected one of 'EVs', 'IVs', 'Ability', 'Level', 'Ball', 'Status', 'Happiness', 'Nature', 'Shiny', 'Dynamax Level', 'Gigantamax', or 'Tera Type'");
             }
         }
 
@@ -2011,10 +2010,12 @@ static void fprint_trainers(const char *output_path, FILE *f, struct Parsed *par
                 fprintf(f, ",\n");
             }
 
-            if (pokemon->friendship_line)
+            if (pokemon->status_line)
             {
-                fprintf(f, "#line %d\n", pokemon->friendship_line);
-                fprintf(f, "            .friendship = %d,\n", pokemon->friendship);
+                fprintf(f, "#line %d\n", pokemon->status_line);
+                fprintf(f, "            .status = ");
+                fprint_constant(f, "STATUS1", pokemon->status);
+                fprintf(f, ",\n");
             }
 
             if (pokemon->nature_line)

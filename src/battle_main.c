@@ -1952,6 +1952,7 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
         {
             u32 monIndex = monIndices[i];
             s32 ball = -1;
+            s32 status = -1;
             u32 personalityHash = GeneratePartyHash(trainer, i);
             const struct TrainerMon *partyData = trainer->party;
             u32 otIdType = OT_ID_RANDOM_NO_SHINY;
@@ -2014,11 +2015,16 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
                 }
             }
             SetMonData(&party[i], MON_DATA_ABILITY_NUM, &abilityNum);
-            SetMonData(&party[i], MON_DATA_FRIENDSHIP, &(partyData[monIndex].friendship));
+            //SetMonData(&party[i], MON_DATA_FRIENDSHIP, &(partyData[monIndex].friendship));
             if (partyData[monIndex].ball != ITEM_NONE)
             {
                 ball = partyData[monIndex].ball;
                 SetMonData(&party[i], MON_DATA_POKEBALL, &ball);
+            }
+            if (partyData[monIndex].status != STATUS1_NONE)
+            {
+                status = partyData[monIndex].status;
+                SetMonData(&party[i], MON_DATA_STATUS, &status);
             }
             if (partyData[monIndex].nickname != NULL)
             {

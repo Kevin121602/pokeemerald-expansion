@@ -338,23 +338,23 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Crabominable @ Never-Melt Ice
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Hyper Cutter
+- Close Combat
+- Ice Punch
+- Crabhammer
+- Protect
 
-Bulbasaur @ Eviolite
-Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Exeggutor @ Tanga Berry
+Level: 37
+Nature: Naive
+Ability: Harvest
+- Extrasensory
+- Giga Drain
+- Self-Destruct
+- Sleep Powder
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
 Name: GRUNT
@@ -2512,23 +2512,23 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Oricorio-Sensu @ Lum Berry
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Dancer
+- Hurricane
+- Revelation Dance
+- Alluring Voice
+- Tailwind
 
-Bulbasaur @ Eviolite
+Oranguru @ Leftovers
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Telepathy
+- Hyper Voice
+- Extrasensory
+- Thunder
+- Encore
 
 === TRAINER_TAMMY ===
 Name: TAMMY
@@ -5513,10 +5513,10 @@ Ability: Psychic Surge
 
 Slowbro-Galar @ Black Sludge
 Level: 37
-Nature: Brave
+Nature: Quiet
 Ability: Quick Draw
 - Poison Jab
-- Zen Headbutt
+- Psyshock
 - Flamethrower
 - Slack Off
 
@@ -11464,41 +11464,44 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Forretress @ Quick Claw
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Brave
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Lunge
+- Gyro Ball
+- Self-Destruct
+- Spikes
 
-Bulbasaur @ Eviolite
-Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Sigilyph @ Flame Orb
+Level: 36
+Nature: Timid
+Ability: Magic Guard
+Status: Burn
+- Psyshock
+- Air Slash
+- Psycho Shift
+- Roost
 
-Bulbasaur @ Eviolite
-Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
-
-Bulbasaur @ Eviolite
+Dugtrio @ Focus Sash
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Arena Trap
+- High Horsepower
+- Rock Slide
+- Aerial Ace
+- Stealth Rock
+
+Raticate @ Leftovers
+Level: 38
+Nature: Jolly
+Ability: Guts
+Status: Burn
+- Facade
+- Stomping Tantrum
+- Sucker Punch
+- U-turn
 
 === TRAINER_KAYLEY ===
 Name: Kayley
@@ -11679,14 +11682,15 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Taillow @ Flame Orb
+Taillow @ Liechi Berry
 Nature: Jolly
 Ability: Guts
 Level: 19
+Status: Burn
 - Dual Wingbeat
 - Facade
 - Steel Wing
-- Protect
+- Substitute
 
 Palpitoad @ Rindo Berry
 Nature: Timid
@@ -16404,10 +16408,11 @@ Level: 23
 - U-Turn
 - Supersonic
 
-Breloom @ Toxic Orb
+Breloom @ Muscle Band
 Nature: Naive
 Ability: Poison Heal
 Level: 23
+Status: Poison
 - Giga Drain
 - Force Palm
 - Rock Tomb
@@ -17132,10 +17137,11 @@ Level: 21
 - Slack Off
 - Teleport
 
-Drifloon @ Flame Orb
+Drifloon @ Wise Glasses
 Nature: Timid
 Ability: Flare Boost
 Level: 21
+Status: Burn
 - Air Cutter
 - Ominous Wind
 - Charge Beam

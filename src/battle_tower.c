@@ -3040,7 +3040,7 @@ void FillPartnerParty(u16 trainerId)
                 if (j < maxAbilities)
                     SetMonData(&gPlayerParty[i + 3], MON_DATA_ABILITY_NUM, &j);
             }
-            SetMonData(&gPlayerParty[i + 3], MON_DATA_FRIENDSHIP, &(partyData[i].friendship));
+            //SetMonData(&gPlayerParty[i + 3], MON_DATA_FRIENDSHIP, &(partyData[i].friendship));
             if (partyData[i].ball != ITEM_NONE)
             {
                 ball = partyData[i].ball;
