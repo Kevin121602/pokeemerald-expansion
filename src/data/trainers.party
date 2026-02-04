@@ -311,23 +311,23 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Cramorant @ Focus Sash
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Hasty
+Ability: Gulp Missile
+- Surf
+- Liquidation
+- Dual Wingbeat
+- Tailwind
 
-Bulbasaur @ Eviolite
+Gyarados @ Power Herb
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Intimidate
+- Bounce
+- Waterfall
+- Power Whip
+- Dragon Dance
 
 === TRAINER_ED ===
 Name: Ed
@@ -692,23 +692,23 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Miltank @ Fighting Gem
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Scrappy
+- Body Slam
+- Iron Tail
+- Wake-Up Slap
+- Milk Drink
 
-Bulbasaur @ Eviolite
+Machamp @ Lum Berry
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Steadfast
+- Wake-Up Slap
+- Knock Off
+- Poison Jab
+- Rock Slide
 
 === TRAINER_MATT ===
 Name: MATT
@@ -898,23 +898,23 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Vivillon @ Focus Sash
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Shield Dust
+- Bug Buzz
+- Air Slash
+- Protect
+- Rage Powder
 
-Bulbasaur @ Eviolite
+Sinistcha @ Leftovers
 Level: 35
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Hospitality
+- Shadow Ball
+- Giga Drain
+- Scald
+- Rage Powder
 
 === TRAINER_FELIX ===
 Name: FELIX
@@ -945,32 +945,41 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Rillaboom @ Custap Berry
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Grassy Surge
+- Drum Beating
+- High Horsepower
+- Hammer Arm
+- Endeavor
 
-Bulbasaur @ Eviolite
+Dedenne @ Petaya Berry
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Cheek Pouch
+- Thunderbolt
+- Dazzling Gleam
+- Grass Knot
+- Endure
 
-Bulbasaur @ Eviolite
+Amoonguss @ Rocky Helmet
+Level: 36
+Nature: Bold
+Ability: Effect Spore
+- Sludge Bomb
+- Giga Drain
+- Foul Play
+- Synthesis
+
+Liepard @ Grassy Seed
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Mild
+Ability: Unburden
+- Dark Pulse
+- Pursuit
+- Psycho Cut
+- Grass Knot
 
 === TRAINER_RILEY_METEOR_FALLS ===
 Name: Riley
@@ -1817,32 +1826,32 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Masquerain @ Focus Sash
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Unnerve
+- Bug Buzz
+- Scald
+- Sticky Web
+- Stun Spore
 
-Bulbasaur @ Eviolite
+Breloom @ Coba Berry
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Technician
+- Bullet Seed
+- Mach Punch
+- Zen Headbutt
+- Spore
 
-Bulbasaur @ Eviolite
+Bellibolt @ Sitrus Berry
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Electromorphosis
+- Parabolic Charge
+- Hyper Voice
+- Muddy Water
+- Slack Off
 
 === TRAINER_VINCENT ===
 Name: VINCENT
@@ -2193,41 +2202,44 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Grapploct @ Lum Berry
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Sassy
+Ability: Technician
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Drain Punch
+- Liquidation
+- Payback
+- Octolock
 
-Bulbasaur @ Eviolite
+Alomomola @ Leftovers
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Quiet
+Ability: Regenerator
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Scald
+- Flip Turn
+- Protect
+- Wish
 
-Bulbasaur @ Eviolite
+Lilligant @ Metronome
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Own Tempo
+- Petal Dance
+- Pollen Puff
+- Quiver Dance
+- Sleep Powder
 
-Bulbasaur @ Eviolite
+Wormadam-Trash @ Assault Vest
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Relaxed
+Ability: Overcoat
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Bug Buzz
+- Iron Head
+- Infestation
+- Metal Burst
 
 === TRAINER_KEIRA ===
 Name: KEIRA
@@ -4329,23 +4341,24 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Raichu @ Absorb Bulb
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Lightning Rod
+- Thunderbolt
+- Fake Out
+- Grass Knot
+- Helping Hand
 
-Bulbasaur @ Eviolite
+Manectric @ Absorb Bulb
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Lightning Rod
+IVs: 31 HP / 30 Atk / 30 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flamethrower
+- Hidden Power
+- Light Screen
 
 === TRAINER_DALTON_1 ===
 Name: Dalton
@@ -4356,23 +4369,23 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Toxtricity @ Throat Spray
 Level: 35
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Hasty
+Ability: Punk Rock
+- Sludge Bomb
+- Overdrive
+- Hyper Voice
+- Trailblaze
 
-Bulbasaur @ Eviolite
+Exploud @ Normal Gem
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Scrappy
+- Hyper Voice
+- Focus Blast
+- Flamethrower
+- Icy Wind
 
 
 === TRAINER_DALTON_2 ===
@@ -5489,41 +5502,41 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Indeedee @ Expert Belt
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Psychic Surge
+- Expanding Force
+- Hyper Voice
+- Dazzling Gleam
+- Mystical Fire
 
-Bulbasaur @ Eviolite
-Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
-
-Bulbasaur @ Eviolite
+Slowbro-Galar @ Black Sludge
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Brave
+Ability: Quick Draw
+- Poison Jab
+- Zen Headbutt
+- Flamethrower
+- Slack Off
 
-Bulbasaur @ Eviolite
+Klinklang @ Psychic Seed
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Clear Body
+- Steel Roller
+- Gear Grind
+- Wild Charge
+- Shift Gear
+
+Malamar @ Muscle Band
+Level: 37
+Nature: Jolly
+Ability: Contrary
+- Night Slash
+- Psycho Cut
+- Superpower
+- Hypnosis
 
 === TRAINER_CAMERON_2 ===
 Name: CAMERON
@@ -5721,23 +5734,23 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Orbeetle @ Sitrus Berry
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Compound Eyes
+- Bug Buzz
+- Psyshock
+- Hypnosis
+- Reflect
 
-Bulbasaur @ Eviolite
+Spiritomb @ Leftovers
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Bold
+Ability: Infiltrator
+- Dark Pulse
+- Hex
+- Dream Eater
+- Hypnosis
 
 === TRAINER_JACKI_2 ===
 Name: JACKI
@@ -8282,41 +8295,41 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Crawdaunt @ Muscle Band
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Adaptability
+- Razor Shell
+- Night Slash
+- X-Scissor
+- Aqua Jet
 
-Bulbasaur @ Eviolite
+Swanna @ Wise Glasses
 Level: 35
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Naive
+Ability: Hydration
+- Hurricane
+- Hydro Pump
+- Flip Turn
+- Roost
 
-Bulbasaur @ Eviolite
+Seismitoad @ Poison Gem
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Mild
+Ability: Swift Swim
+- Earth Power
+- Muddy Water
+- Poison Jab
+- Rain Dance
 
-Bulbasaur @ Eviolite
+Pyukumuku @ Lum Berry
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Calm
+Ability: Innards Out
+- Counter
+- Mirror Coat
+- Block
+- Taunt
 
 === TRAINER_WADE ===
 Name: Wade
@@ -8327,32 +8340,31 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Basculin @ Rindo Berry
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Reckless
+- Wave Crash
+- Zen Headbutt
+- Ice Fang
+- Double Team
 
-Bulbasaur @ Eviolite
+Basculin-Blue-Striped @ Focus Sash
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Rock Head
+- Waterfall
+- Head Smash
+- Double Edge
+- Reversal
 
-Bulbasaur @ Eviolite
+Basculin-White-Striped @ Choice Band
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Adaptability
+- Liquidation
+- Flip Turn
+- Aqua Jet
 
 === TRAINER_CARTER ===
 Name: CARTER
@@ -9214,41 +9226,41 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Skarmory @ Leftovers
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Sturdy
+- Drill Peck
+- Iron Head
+- Body Press
+- Spikes
 
-Bulbasaur @ Eviolite
+Unfezant @ Scope Lens
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Super Luck
+- Drill Peck
+- Quick Attack
+- Steel Wing
+- Focus Energy
 
-Bulbasaur @ Eviolite
+Flapple @ Liechi Berry
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Ripen
+- Dragon Rush
+- Grav Apple
+- Sucker Punch
+- Substitute
 
-Bulbasaur @ Eviolite
+Bombirdier @ Hard Stone
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Rocky Payload
+- Dual Wingbeat
+- Lash Out
+- Rock Slide
+- Roost
 
 === TRAINER_HUGH ===
 Name: HUGH
@@ -9408,32 +9420,32 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Braviary @ Flying Gem
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Defiant
+- Acrobatics
+- Return
+- Close Combat
+- Agility
 
-Bulbasaur @ Eviolite
+Oricorio-Pom-Pom @ Lum Berry
 Level: 36
-Nature: Hardy
+Nature: Timid
 Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+- Revelation Dance
+- Air Slash
+- Calm Mind
+- Roost
 
-Bulbasaur @ Eviolite
+Espathra @ Focus Sash
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Modest
+Ability: Speed Boost
+- Lumina Crash
+- Dazzling Gleam
+- Stored Power
+- Protect
 
 === TRAINER_ROBERT_2 ===
 Name: ROBERT
@@ -10996,45 +11008,41 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
-Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
-
-Bulbasaur @ Eviolite
+Dewgong @ Leftovers
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Hasty
+Ability: Hydration
+- Aqua Tail
+- Ice Beam
+- Icy Wind
+- Fake Out
 
-Bulbasaur @ Eviolite
-Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
-
-Bulbasaur @ Eviolite
+Whimsicott @ Kebia Berry
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Infiltrator
+- Energy Ball
+- Dazzling Gleam
+- Hurricane
+- Fake Tears
 
-Arceus
-Level: 100
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Mismagius @ Lum Berry
+Level: 36
+Nature: Timid
+Ability: Levitate
+- Shadow Ball
+- Thunder
+- Psyshock
+- Protect
+
+Ninetales-Alola @ Wise Glasses
+Level: 37
+Nature: Timid
+Ability: Slush Rush
+- Moonblast
+- Freeze Dry
+- Weather Ball
+- Hypnosis
 
 === TRAINER_AMY_AND_LIV_3 ===
 Name: AMY & LIV
@@ -11429,23 +11437,23 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Stoutland @ Leftovers
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Intimidate
+- Return
+- Superpower
+- Crunch
+- Howl
 
-Bulbasaur @ Eviolite
+Boltund @ Focus Sash
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Strong Jaw
+- Thunder Fang
+- Psychic Fangs
+- Ice Fang
+- Howl
 
 === TRAINER_JONAS ===
 Name: Jonas
@@ -12209,23 +12217,23 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Pinsir @ Muscle Band
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Hyper Cutter
+- X-Scissor
+- High Horsepower
+- Rock Slide
+- Protect
 
-Bulbasaur @ Eviolite
+Centiskorch @ Charti Berry
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: White Smoke
+- Fire Lash
+- Lunge
+- Power Whip
+- Knock Off
 
 === TRAINER_MITCHELL ===
 Name: MITCHELL
@@ -16224,13 +16232,13 @@ Level: 24
 - Psychic Noise
 - Fake Tears
 
-Linoone @ Toxic Orb
+Linoone-Galar @ Toxic Orb
 Nature: Adamant
 Ability: Quick Feet
 Level: 25
 - Facade
-- Seed Bomb
-- Stomping Tantrum
+- Retaliate
+- Lash Out
 - Fling
 
 === TRAINER_COBY ===
@@ -16298,7 +16306,7 @@ Level: 27
 
 Arbok @ Lum Berry
 Nature: Jolly
-Ability: Unnerve
+Ability: Intimidate
 Level: 26
 - Poison Jab
 - Crunch
@@ -16491,23 +16499,24 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Meowstic @ Light Clay
 Level: 36
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Prankster
+- Psychic
+- Signal Beam
+- Light Screen
+- Reflect
 
-Bulbasaur @ Eviolite
+Linoone @ Iapapa Berry
 Level: 36
 Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Ability: Gluttony
+IVs: 30 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Extreme Speed
+- Throat Chop
+- Stomping Tantrum
+- Belly Drum
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_1 ===
 Name: GRUNT
