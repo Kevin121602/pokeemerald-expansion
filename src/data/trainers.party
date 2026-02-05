@@ -11512,23 +11512,23 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Greedent @ Liechi Berry
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Careful
+Ability: Cheek Pouch
+- Body Slam
+- Body Press
+- Seed Bomb
+- Stuff Cheeks
 
-Bulbasaur @ Eviolite
+Comfey @ Leftovers
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Bold
+Ability: Triage
+- Draining Kiss
+- Giga Drain
+- Calm Mind
+- Leech Seed
 
 Lurantis @ Assault Vest
 Level: 38
@@ -11548,14 +11548,14 @@ Ability: Blaze
 - Grass Knot
 - Will-O-Wisp
 
-Kingler @ Leftovers
+Floatzel @ Muscle Band
 Level: 38
 Nature: Jolly
-Ability: Shell Armor
-- Crabhammer
-- X-Scissor
-- Rock Slide
-- Amnesia
+Ability: Water Veil
+- Liquidation
+- Ice Spinner
+- Crunch
+- Power-Up Punch
 
 === TRAINER_AURON ===
 Name: AURON

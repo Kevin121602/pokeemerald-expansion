@@ -29872,48 +29872,48 @@ F_TRAINER_FEMALE |
         {
             {
 #line 11515
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_GREEDENT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11515
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_LIECHI_BERRY,
 #line 11519
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 11518
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_CHEEK_POUCH,
 #line 11516
             .lvl = 37,
 #line 11517
-            .nature = NATURE_HARDY,
+            .nature = NATURE_CAREFUL,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 11519
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_BODY_SLAM,
+                MOVE_BODY_PRESS,
+                MOVE_SEED_BOMB,
+                MOVE_STUFF_CHEEKS,
             },
             },
             {
 #line 11524
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_COMFEY,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11524
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_LEFTOVERS,
 #line 11528
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 11527
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_TRIAGE,
 #line 11525
             .lvl = 37,
 #line 11526
-            .nature = NATURE_HARDY,
+            .nature = NATURE_BOLD,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 11528
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_DRAINING_KISS,
+                MOVE_GIGA_DRAIN,
+                MOVE_CALM_MIND,
+                MOVE_LEECH_SEED,
             },
             },
             {
@@ -29964,14 +29964,14 @@ F_TRAINER_FEMALE |
             },
             {
 #line 11551
-            .species = SPECIES_KINGLER,
+            .species = SPECIES_FLOATZEL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11551
-            .heldItem = ITEM_LEFTOVERS,
+            .heldItem = ITEM_MUSCLE_BAND,
 #line 11555
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 11554
-            .ability = ABILITY_SHELL_ARMOR,
+            .ability = ABILITY_WATER_VEIL,
 #line 11552
             .lvl = 38,
 #line 11553
@@ -29979,10 +29979,10 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 11555
-                MOVE_CRABHAMMER,
-                MOVE_X_SCISSOR,
-                MOVE_ROCK_SLIDE,
-                MOVE_AMNESIA,
+                MOVE_LIQUIDATION,
+                MOVE_ICE_SPINNER,
+                MOVE_CRUNCH,
+                MOVE_POWER_UP_PUNCH,
             },
             },
         },
