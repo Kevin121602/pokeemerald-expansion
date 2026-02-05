@@ -11530,32 +11530,32 @@ Ability: Overgrow
 - Tackle
 - Tackle
 
-Bulbasaur @ Eviolite
+Lurantis @ Assault Vest
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Contrary
+- Leaf Storm
+- Leaf Blade
+- Superpower
+- Knock Off
 
-Bulbasaur @ Eviolite
+Simisear @ Flying Gem
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Naive
+Ability: Blaze
+- Flamethrower
+- Acrobatics
+- Grass Knot
+- Will-O-Wisp
 
-Bulbasaur @ Eviolite
+Kingler @ Leftovers
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Shell Armor
+- Crabhammer
+- X-Scissor
+- Rock Slide
+- Amnesia
 
 === TRAINER_AURON ===
 Name: AURON

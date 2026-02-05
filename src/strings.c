@@ -1863,3 +1863,6 @@ const u8 BattleFrontier_Lounge5_Text_NatureGirlSupportHighSupportLow[] = _(" ");
 const u8 gText_CannotSendMonToBoxHM[] = _("Cannot send that mon to the box,\nbecause it knows a HM move.{PAUSE_UNTIL_PRESS}");
 const u8 gText_CannotSendMonToBoxActive[] = _("Cannot send an active battler\nto the box.{PAUSE_UNTIL_PRESS}");
 const u8 gText_CannotSendMonToBoxPartner[] = _("Cannot send a mon that doesn't,\nbelong to you to the box.{PAUSE_UNTIL_PRESS}");
+const u8 gText_BugBite[] =              _("Bug Bite");
+const u8 gText_Pluck[] =                _("Pluck");
+const u8 gText_Incinerate[] =           _("Incinerate");

@@ -2580,6 +2580,10 @@ extern const u8 gText_FirePunch[];
 extern const u8 gText_IcePunch[];
 extern const u8 gText_ThunderPunch[];
 
+extern const u8 gText_BugBite[];
+extern const u8 gText_Pluck[];
+extern const u8 gText_Incinerate[];
+
 //gourd splicer and nectar text
 extern const u8 gText_SplicerSmall[];
 extern const u8 gText_SplicerAverage[];

@@ -29918,71 +29918,71 @@ F_TRAINER_FEMALE |
             },
             {
 #line 11533
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_LURANTIS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11533
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_ASSAULT_VEST,
 #line 11537
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 11536
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_CONTRARY,
 #line 11534
             .lvl = 38,
 #line 11535
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 11537
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_LEAF_STORM,
+                MOVE_LEAF_BLADE,
+                MOVE_SUPERPOWER,
+                MOVE_KNOCK_OFF,
             },
             },
             {
 #line 11542
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_SIMISEAR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11542
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_FLYING_GEM,
 #line 11546
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 11545
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_BLAZE,
 #line 11543
             .lvl = 37,
 #line 11544
-            .nature = NATURE_HARDY,
+            .nature = NATURE_NAIVE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 11546
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_FLAMETHROWER,
+                MOVE_ACROBATICS,
+                MOVE_GRASS_KNOT,
+                MOVE_WILL_O_WISP,
             },
             },
             {
 #line 11551
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_KINGLER,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11551
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_LEFTOVERS,
 #line 11555
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 11554
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_SHELL_ARMOR,
 #line 11552
             .lvl = 38,
 #line 11553
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 11555
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_CRABHAMMER,
+                MOVE_X_SCISSOR,
+                MOVE_ROCK_SLIDE,
+                MOVE_AMNESIA,
             },
             },
         },
