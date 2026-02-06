@@ -277,9 +277,7 @@ MoveTutor_Text_PunchTeach:
 	.string "my mind.\p"
 	.string "Let me confer some of my techniques.$"
 
-MoveTutor_Text_HealBlock:
-	.string "The soothing steam in Lavaridge\n"
-	.string "Gym is pumped straight from these\l"
-	.string "Hot Springs.\p"
-	.string "But this move can nullify it.\n"
-	.string "Would you like to learn Heal Block?$"
+MoveTutor_Text_BerriesTeach:
+	.string "Do you gaze upon your opponent in envy\n"
+	.string "as they consume endless rare berries?\p"
+	.string "If so, I have just the moves for you!$"

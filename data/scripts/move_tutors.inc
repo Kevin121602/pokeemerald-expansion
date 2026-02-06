@@ -356,7 +356,7 @@ Route112_EventScript_ThunderPunchTutor::
 Route123_EventScript_BerriesTutor::
 	lock
 	faceplayer
-	msgbox MoveTutor_Text_PunchTeach
+	msgbox MoveTutor_Text_BerriesTeach
 	multichoice 21, 0, MULTI_BERRIES_TUTOR, FALSE
 	switch VAR_RESULT
 	case 0, Route123_EventScript_BugBiteTutor

@@ -129,4 +129,106 @@ Route123_BerryMastersHouse_EventScript_GaveBerry::
 	release
 	end
 
+Route123_BerryMastersHouse_EventScript_Trader::
+	lock
+	faceplayer
+	goto_if_set FLAG_ROUTE_123_NPC_TRADE_COMPLETED, Route123_BerryMastersHouse_EventScript_TradeCompleted
+	setvar VAR_0x8008, INGAME_TRADE_HISUIAN_VOLTORB
+	copyvar VAR_0x8004, VAR_0x8008
+	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
+	copyvar VAR_0x8009, VAR_RESULT
+	msgbox Route123_BerryMastersHouse_Text_IllTradeIfYouWant, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route123_BerryMastersHouse_EventScript_ElectrodeTrade
+	special ChoosePartyMon
+	waitstate
+	copyvar VAR_0x800A, VAR_0x8004
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, Route123_BerryMastersHouse_EventScript_DeclineTrade
+	copyvar VAR_0x8005, VAR_0x800A
+	specialvar VAR_RESULT, GetTradeSpecies
+	copyvar VAR_0x800B, VAR_RESULT
+	goto_if_ne VAR_RESULT, VAR_0x8009, Route123_BerryMastersHouse_EventScript_NotRequestedMon1
+	copyvar VAR_0x8004, VAR_0x8008
+	copyvar VAR_0x8005, VAR_0x800A
+	special CreateInGameTradePokemon
+	special DoInGameTradeScene
+	waitstate
+	msgbox Route123_BerryMastersHouse_Text_PleaseBeGoodToMyPokemon, MSGBOX_DEFAULT
+	setflag FLAG_ROUTE_123_NPC_TRADE_COMPLETED
+	release
+	end
+
+Route123_BerryMastersHouse_EventScript_ElectrodeTrade::
+	setvar VAR_0x8008, INGAME_TRADE_HISUIAN_ELECTRODE
+	copyvar VAR_0x8004, VAR_0x8008
+	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
+	copyvar VAR_0x8009, VAR_RESULT
+	msgbox Route123_BerryMastersHouse_Text_HowAboutElectrode, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route123_BerryMastersHouse_EventScript_DeclineTrade
+	special ChoosePartyMon
+	waitstate
+	copyvar VAR_0x800A, VAR_0x8004
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, Route123_BerryMastersHouse_EventScript_DeclineTrade
+	copyvar VAR_0x8005, VAR_0x800A
+	specialvar VAR_RESULT, GetTradeSpecies
+	copyvar VAR_0x800B, VAR_RESULT
+	goto_if_ne VAR_RESULT, VAR_0x8009, Route123_BerryMastersHouse_EventScript_NotRequestedMon2
+	copyvar VAR_0x8004, VAR_0x8008
+	copyvar VAR_0x8005, VAR_0x800A
+	special CreateInGameTradePokemon
+	special DoInGameTradeScene
+	waitstate
+	msgbox Route123_BerryMastersHouse_Text_PleaseBeGoodToMyPokemon, MSGBOX_DEFAULT
+	setflag FLAG_ROUTE_123_NPC_TRADE_COMPLETED
+	release
+	end
+
+Route123_BerryMastersHouse_EventScript_DeclineTrade::
+	msgbox Route123_BerryMastersHouse_Text_LifeIsTough, MSGBOX_DEFAULT
+	release
+	end
+
+Route123_BerryMastersHouse_EventScript_NotRequestedMon1::
+	msgbox Route123_BerryMastersHouse_Text_DoesntLookLikeVoltorbToMe, MSGBOX_DEFAULT
+	release
+	end
+
+Route123_BerryMastersHouse_EventScript_NotRequestedMon2::
+	msgbox Route123_BerryMastersHouse_Text_DoesntLookLikeElectrodeToMe, MSGBOX_DEFAULT
+	release
+	end
+
+Route123_BerryMastersHouse_EventScript_TradeCompleted::
+	msgbox Route123_BerryMastersHouse_Text_IHopeYouFind, MSGBOX_DEFAULT
+	release
+	end
+
+Route123_BerryMastersHouse_Text_IllTradeIfYouWant:
+	.string "I want to prank someone with an\n"
+	.string "exploding Voltorb.\p"
+	.string "But this Hisuian one that I have isn't\n"
+	.string "conspicuous enough.\p"
+	.string "Would you be willing to trade me a\n"
+	.string "Voltorb from Kanto?$"
+
+Route123_BerryMastersHouse_Text_HowAboutElectrode:
+	.string "Fine, I'll settle for an Electrode.\n"
+	.string "How about it?$"
+
+Route123_BerryMastersHouse_Text_PleaseBeGoodToMyPokemon:
+	.string "Thanks, kid.\n"
+	.string "I hope you find my Pokémon electrifying!$"
+
+Route123_BerryMastersHouse_Text_DoesntLookLikeVoltorbToMe:
+	.string "What? That's not a Voltorb.$"
+
+Route123_BerryMastersHouse_Text_DoesntLookLikeElectrodeToMe:
+	.string "What? That's not an Electrode.$"
+
+Route123_BerryMastersHouse_Text_LifeIsTough:
+	.string "Life is tough for a genius prankster\n"
+	.string "like me…$"
+
+Route123_BerryMastersHouse_Text_IHopeYouFind:
+	.string "I hope you find my Pokémon electrifying!$"
+
 `

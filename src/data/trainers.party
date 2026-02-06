@@ -14484,50 +14484,55 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Aromatisse @ Fairy Feather
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Quiet
+Ability: Aroma Veil
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Moonblast
+- Energy Ball
+- Psychic
+- Trick Room
 
-Bulbasaur @ Eviolite
+Marowak @ Thick Club
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Brave
+Ability: Lightning Rod
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Bonemerang
+- Ice Punch
+- Thunder Punch
+- Detect
 
-Bulbasaur @ Eviolite
+Audino @ Leftovers
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Relaxed
+Ability: Healer
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Hyper Voice
+- Knock Off
+- Follow Me
+- Helping Hand
 
-Bulbasaur @ Eviolite
+Wishiwashi @ Iapapa Berry
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Brave
+Ability: Schooling
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Aqua Tail
+- Muddy Water
+- Ice Beam
+- Protect
 
-Bulbasaur @ Eviolite
+Abomasnow @ Occa Berry
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Brave
+Ability: Soundproof
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Wood Hammer
+- Ice Spinner
+- Rock Slide
+- Low Kick
 
 === TRAINER_LEA_AND_JED ===
 Name: LEA & JED

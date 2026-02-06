@@ -258,3 +258,207 @@ Route123_BerryMastersHouse_EventScript_GaveBerry::
 	release
 # 130 "data/maps/Route123_BerryMastersHouse/scripts.pory"
 	end
+# 131 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 132 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_EventScript_Trader::
+# 133 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	lock
+# 134 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	faceplayer
+# 135 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	goto_if_set FLAG_ROUTE_123_NPC_TRADE_COMPLETED, Route123_BerryMastersHouse_EventScript_TradeCompleted
+# 136 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	setvar VAR_0x8008, INGAME_TRADE_HISUIAN_VOLTORB
+# 137 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x8004, VAR_0x8008
+# 138 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
+# 139 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x8009, VAR_RESULT
+# 140 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	msgbox Route123_BerryMastersHouse_Text_IllTradeIfYouWant, MSGBOX_YESNO
+# 141 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	goto_if_eq VAR_RESULT, NO, Route123_BerryMastersHouse_EventScript_ElectrodeTrade
+# 142 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	special ChoosePartyMon
+# 143 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	waitstate
+# 144 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x800A, VAR_0x8004
+# 145 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, Route123_BerryMastersHouse_EventScript_DeclineTrade
+# 146 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x8005, VAR_0x800A
+# 147 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	specialvar VAR_RESULT, GetTradeSpecies
+# 148 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x800B, VAR_RESULT
+# 149 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	goto_if_ne VAR_RESULT, VAR_0x8009, Route123_BerryMastersHouse_EventScript_NotRequestedMon1
+# 150 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x8004, VAR_0x8008
+# 151 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x8005, VAR_0x800A
+# 152 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	special CreateInGameTradePokemon
+# 153 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	special DoInGameTradeScene
+# 154 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	waitstate
+# 155 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	msgbox Route123_BerryMastersHouse_Text_PleaseBeGoodToMyPokemon, MSGBOX_DEFAULT
+# 156 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	setflag FLAG_ROUTE_123_NPC_TRADE_COMPLETED
+# 157 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	release
+# 158 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	end
+# 159 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 160 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_EventScript_ElectrodeTrade::
+# 161 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	setvar VAR_0x8008, INGAME_TRADE_HISUIAN_ELECTRODE
+# 162 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x8004, VAR_0x8008
+# 163 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
+# 164 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x8009, VAR_RESULT
+# 165 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	msgbox Route123_BerryMastersHouse_Text_HowAboutElectrode, MSGBOX_YESNO
+# 166 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	goto_if_eq VAR_RESULT, NO, Route123_BerryMastersHouse_EventScript_DeclineTrade
+# 167 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	special ChoosePartyMon
+# 168 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	waitstate
+# 169 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x800A, VAR_0x8004
+# 170 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, Route123_BerryMastersHouse_EventScript_DeclineTrade
+# 171 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x8005, VAR_0x800A
+# 172 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	specialvar VAR_RESULT, GetTradeSpecies
+# 173 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x800B, VAR_RESULT
+# 174 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	goto_if_ne VAR_RESULT, VAR_0x8009, Route123_BerryMastersHouse_EventScript_NotRequestedMon2
+# 175 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x8004, VAR_0x8008
+# 176 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	copyvar VAR_0x8005, VAR_0x800A
+# 177 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	special CreateInGameTradePokemon
+# 178 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	special DoInGameTradeScene
+# 179 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	waitstate
+# 180 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	msgbox Route123_BerryMastersHouse_Text_PleaseBeGoodToMyPokemon, MSGBOX_DEFAULT
+# 181 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	setflag FLAG_ROUTE_123_NPC_TRADE_COMPLETED
+# 182 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	release
+# 183 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	end
+# 184 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 185 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_EventScript_DeclineTrade::
+# 186 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	msgbox Route123_BerryMastersHouse_Text_LifeIsTough, MSGBOX_DEFAULT
+# 187 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	release
+# 188 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	end
+# 189 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 190 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_EventScript_NotRequestedMon1::
+# 191 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	msgbox Route123_BerryMastersHouse_Text_DoesntLookLikeVoltorbToMe, MSGBOX_DEFAULT
+# 192 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	release
+# 193 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	end
+# 194 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 195 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_EventScript_NotRequestedMon2::
+# 196 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	msgbox Route123_BerryMastersHouse_Text_DoesntLookLikeElectrodeToMe, MSGBOX_DEFAULT
+# 197 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	release
+# 198 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	end
+# 199 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 200 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_EventScript_TradeCompleted::
+# 201 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	msgbox Route123_BerryMastersHouse_Text_IHopeYouFind, MSGBOX_DEFAULT
+# 202 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	release
+# 203 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	end
+# 204 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 205 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_Text_IllTradeIfYouWant:
+# 206 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "I want to prank someone with an\n"
+# 207 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "exploding Voltorb.\p"
+# 208 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "But this Hisuian one that I have isn't\n"
+# 209 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "conspicuous enough.\p"
+# 210 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "Would you be willing to trade me a\n"
+# 211 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "Voltorb from Kanto?$"
+# 212 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 213 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_Text_HowAboutElectrode:
+# 214 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "Fine, I'll settle for an Electrode.\n"
+# 215 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "How about it?$"
+# 216 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 217 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_Text_PleaseBeGoodToMyPokemon:
+# 218 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "Thanks, kid.\n"
+# 219 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "I hope you find my Pokémon electrifying!$"
+# 220 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 221 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_Text_DoesntLookLikeVoltorbToMe:
+# 222 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "What? That's not a Voltorb.$"
+# 223 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 224 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_Text_DoesntLookLikeElectrodeToMe:
+# 225 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "What? That's not an Electrode.$"
+# 226 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 227 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_Text_LifeIsTough:
+# 228 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "Life is tough for a genius prankster\n"
+# 229 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "like me…$"
+# 230 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+
+# 231 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+Route123_BerryMastersHouse_Text_IHopeYouFind:
+# 232 "data/maps/Route123_BerryMastersHouse/scripts.pory"
+	.string "I hope you find my Pokémon electrifying!$"

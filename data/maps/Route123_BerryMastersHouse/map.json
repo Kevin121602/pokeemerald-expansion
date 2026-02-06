@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE123_BERRY_MASTERS_HOUSE",
   "name": "Route123_BerryMastersHouse",
   "layout": "LAYOUT_HOUSE2",
-  "music": "MUS_RUSTBORO",
+  "music": "MUS_DP_OREBURGH_DAY",
   "region_map_section": "MAPSEC_ROUTE_123",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route123_BerryMastersHouse_EventScript_BerryMaster",
+      "script": "Route123_BerryMastersHouse_EventScript_Trader",
       "flag": "0"
     },
     {
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route123_BerryMastersHouse_EventScript_BerryMastersWife",
+      "script": "Route123_EventScript_BerriesTutor",
       "flag": "0"
     }
   ],

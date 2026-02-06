@@ -3416,7 +3416,7 @@ static bool8 DoTradeAnim_Cable(void)
         gSprites[sTradeAnim->monSpriteIds[TRADE_PLAYER]].y2 = gSpeciesInfo[sTradeAnim->monSpecies[TRADE_PLAYER]].frontPicYOffset;
         sTradeAnim->state++;
         sTradeAnim->cachedMapMusic = GetCurrentMapMusic();
-        PlayNewMapMusic(MUS_EVOLUTION);
+        PlayNewMapMusic(MUS_DP_EVOLUTION);
         break;
     case STATE_MON_SLIDE_IN:
         if (sTradeAnim->bg2hofs > 0)
