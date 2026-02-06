@@ -3420,41 +3420,41 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Frosmoth @ Focus Sash
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Shield Dust
+- Bug Buzz
+- Ice Beam
+- Air Slash
+- Quiver Dance
 
-Bulbasaur @ Eviolite
+Dachsbun @ Leftovers
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Well-Baked Body
+- Play Rough
+- Psychic Fangs
+- Body Press
+- Wish
 
-Bulbasaur @ Eviolite
+Rotom @ Blunder Policy
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Levitate
+- Thunder
+- Hex
+- Signal Beam
+- Will-O-Wisp
 
-Bulbasaur @ Eviolite
+Rapidash @ Muscle Band
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Reckless
+- Flare Blitz
+- Megahorn
+- Wild Charge
+- Hypnosis
 
 === TRAINER_GRUNT_MT_CHIMNEY_1 ===
 Name: GRUNT
