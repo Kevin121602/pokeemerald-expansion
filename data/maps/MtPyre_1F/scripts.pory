@@ -2,19 +2,21 @@ raw `
 MtPyre_1F_MapScripts::
 	.byte 0
 
-MtPyre_1F_EventScript_CleanseTagWoman::
+MtPyre_1F_EventScript_FakeTearsWoman::
 	lock
+	goto_if_set FLAG_RECEIVED_TM_FAKE_TEARS, MtPyre_1F_EventScript_ReceivedFakeTears
+	msgbox MtPyre_1F_Text_OhMyPokemon, MSGBOX_DEFAULT
 	faceplayer
-	goto_if_set FLAG_RECEIVED_CLEANSE_TAG, MtPyre_1F_EventScript_ReceivedCleanseTag
-	msgbox MtPyre_1F_Text_TakeThisForYourOwnGood, MSGBOX_DEFAULT
-	giveitem ITEM_CLEANSE_TAG
+	msgbox MtPyre_1F_Text_WasThatAGood, MSGBOX_DEFAULT
+	giveitem ITEM_TM_FAKE_TEARS
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_CLEANSE_TAG
+	setflag FLAG_RECEIVED_TM_FAKE_TEARS
 	release
 	end
 
-MtPyre_1F_EventScript_ReceivedCleanseTag::
-	msgbox MtPyre_1F_Text_ExplainCleanseTag, MSGBOX_DEFAULT
+MtPyre_1F_EventScript_ReceivedFakeTears::
+	faceplayer
+	msgbox MtPyre_1F_Text_ExplainFakeTears, MSGBOX_DEFAULT
 	release
 	end
 
@@ -26,16 +28,18 @@ MtPyre_1F_EventScript_Man::
 	msgbox MtPyre_1F_Text_RestingPlaceOfZigzagoon, MSGBOX_NPC
 	end
 
-MtPyre_1F_Text_TakeThisForYourOwnGood:
-	.string "All sorts of beings wander the slopes\n"
-	.string "of MT. PYRE…\p"
-	.string "There is no telling what may happen.\n"
-	.string "Take this. It's for your own good.$"
+MtPyre_1F_Text_OhMyPokemon:
+	.string "Oh… sniff…\n"
+	.string "My poor Pokémon…$"
 
-MtPyre_1F_Text_ExplainCleanseTag:
-	.string "Have a Pokémon hold that\n"
-	.string "CLEANSE TAG.\p"
-	.string "It will help ward off wild Pokémon.$"
+MtPyre_1F_Text_WasThatAGood:
+	.string "Was that a good performance?\p"
+	.string "You can join in too, with this\n"
+	.string "Technical Machine!$"
+
+MtPyre_1F_Text_ExplainFakeTears:
+	.string "Fake Tears will sharply drop a\n"
+	.string "Pokémon's Special Defense!$"
 
 MtPyre_1F_Text_ComeToPayRespects:
 	.string "Did you come to pay your respect\n"
@@ -44,6 +48,6 @@ MtPyre_1F_Text_ComeToPayRespects:
 
 MtPyre_1F_Text_RestingPlaceOfZigzagoon:
 	.string "This is the final resting place of my\n"
-	.string "ZIGZAGOON. I cherished it…$"
+	.string "Zigzagoon. I cherished it…$"
 
 `
