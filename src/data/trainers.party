@@ -2556,41 +2556,42 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Cursola @ Lum Berry
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Modest
+Ability: Perish Body
+- Hex
+- Night Shade
+- Ice Beam
+- Will-O-Wisp
 
-Bulbasaur @ Eviolite
+Doublade @ Eviolite
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Sassy
+Ability: No Guard
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Shadow Claw
+- Shadow Sneak
+- Gyro Ball
+- Sacred Sword
 
-Bulbasaur @ Eviolite
+Primarina @ Throat Spray
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Torrent
+- Sparkling Aria
+- Draining Kiss
+- Icy Wind
+- Sing
 
-Bulbasaur @ Eviolite
+Wobbuffet @ Leftovers
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Impish
+Ability: Shadow Tag
+- Counter
+- Mirror Coat
+- Destiny Bond
+- Encore
 
 === TRAINER_TASHA ===
 Name: Tasha
@@ -2601,50 +2602,50 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Gourgeist-Small @ Focus Sash
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Insomnia
+- Poltergeist
+- Seed Bomb
+- Foul Play
+- Leech Seed
 
-Bulbasaur @ Eviolite
+Dunsparce @ Eviolite
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Careful
+Ability: Serene Grace
+- Headbutt
+- Pursuit
+- Coil
+- Glare
 
-Bulbasaur @ Eviolite
+Araquanid @ Leftovers
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Impish
+Ability: Water Bubble
+- Waterfall
+- Lunge
+- Protect
+- Toxic
 
-Bulbasaur @ Eviolite
+Mabosstiff @ Lum Berry
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Guard Dog
+- Crunch
+- Play Rough
+- Psychic Fangs
+- Destiny Bond
 
-Bulbasaur @ Eviolite
+Lampent @ Eviolite
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Shadow Tag
+- Heat Wave
+- Shadow Ball
+- Substitute
+- Will-O-Wisp
 
 === TRAINER_VALERIE_2 ===
 Name: VALERIE
@@ -10760,50 +10761,50 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Rapidash-Galar @ Lum Berry
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Pastel Veil
+- Play Rough
+- Zen Headbutt
+- High Horsepower
+- Hypnosis
 
-Bulbasaur @ Eviolite
-Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
-
-Bulbasaur @ Eviolite
-Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
-
-Bulbasaur @ Eviolite
-Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
-
-Bulbasaur @ Eviolite
+Gallade @ Scope Lens
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Sharpness
+- Sacred Sword
+- Psycho Cut
+- X-Scissor
+- Night Slash
+
+Mienshao @ Eject Pack
+Level: 38
+Nature: Jolly
+Ability: Regenerator
+- Close Combat
+- Sky Uppercut
+- Rock Slide
+- Acrobatics
+
+Zoroark @ Lum Berry
+Level: 38
+Nature: Hasty
+Ability: Illusion
+- Knock Off
+- Pursuit
+- Flamethrower
+- Extrasensory
+
+Typhlosion-Hisui @ Ghost Gem
+Level: 38
+Nature: Timid
+Ability: Blaze
+- Flamethrower
+- Shadow Ball
+- Hex
+- Will-O-Wisp
 
 === TRAINER_IRENE ===
 Name: IRENE
