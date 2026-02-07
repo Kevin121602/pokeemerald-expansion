@@ -5436,45 +5436,41 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Rampardos @ Muscle Band
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Mold Breaker
+- Rock Slide
+- Zen Headbutt
+- Fire Punch
+- Ice Punch
 
-Bulbasaur @ Eviolite
+Mr. Rime @ Never-Melt Ice
 Level: 37
 Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Ability: Vital Spirit
+- Psychic
+- Freeze-Dry
+- Focus Blast
+- Slack Off
 
-Bulbasaur @ Eviolite
+Runerigus @ Rindo Berry
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Careful
+Ability: Wandering Spirit
+- Earthquake
+- Shadow Claw
+- Rock Slide
+- Will-O-Wisp
 
-Bulbasaur @ Eviolite
+Musharna @ Leftovers
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
-
-Kirlia
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nature: Bold
+Ability: Synchronize
+- Psychic
+- Moonblast
+- Calm Mind
+- Thunder Wave
 
 === TRAINER_JOSHUA ===
 Name: JOSHUA
@@ -5668,45 +5664,41 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Slowking @ Leftovers
 Level: 37
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Bold
+Ability: Regenerator
+- Future Sight
+- Scald
+- Slack Off
+- Teleport
 
-Bulbasaur @ Eviolite
+Decidueye-Hisui @ Coba Berry
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Hasty
+Ability: Scrappy
+- Leaf Storm
+- Triple Arrows
+- Knock Off
+- Synthesis
 
-Bulbasaur @ Eviolite
+Alcremie @ Weakness Policy
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Aroma Veil
+- Dazzling Gleam
+- Stored Power
+- Acid Armor
+- Calm Mind
 
-Bulbasaur @ Eviolite
+Weavile @ Black Glasses
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
-
-Kadabra
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nature: Jolly
+Ability: Inner Focus
+- Ice Punch
+- Night Slash
+- Pursuit
+- Psycho Cut
 
 === TRAINER_ALEXIS ===
 Name: ALEXIS

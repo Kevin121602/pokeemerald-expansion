@@ -1172,7 +1172,7 @@
 #define FLAG_ITEM_PETALBURG_WOODS_TM_DISARMING_VOICE                0x45D
 #define FLAG_ITEM_ROUTE_115_SILK_SCARF                              0x45E
 #define FLAG_ITEM_SAFARI_ZONE_NORTH_CALCIUM                         0x45F
-#define FLAG_ITEM_MT_PYRE_3F_SUPER_REPEL                            0x460
+#define FLAG_ITEM_MT_PYRE_3F_POISON_GEM                            0x460
 #define FLAG_ITEM_ROUTE_118_TM_FEATHER_DANCE                            0x461
 #define FLAG_ITEM_NEW_MAUVILLE_FULL_HEAL                            0x462
 #define FLAG_ITEM_NEW_MAUVILLE_PARALYZE_HEAL                        0x463
