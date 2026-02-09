@@ -368,94 +368,94 @@ F_TRAINER_FEMALE |
         {
             {
 #line 215
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_NINETALES,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 215
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_WISE_GLASSES,
 #line 219
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 218
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_DROUGHT,
 #line 216
             .lvl = 38,
 #line 217
-            .nature = NATURE_HARDY,
+            .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 219
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_HEAT_WAVE,
+                MOVE_SOLAR_BEAM,
+                MOVE_HEX,
+                MOVE_HYPNOSIS,
             },
             },
             {
 #line 224
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_NIDOQUEEN,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 224
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_ROCKY_HELMET,
 #line 228
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 227
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_POISON_POINT,
 #line 225
             .lvl = 39,
 #line 226
-            .nature = NATURE_HARDY,
+            .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 228
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_EARTH_POWER,
+                MOVE_VENOSHOCK,
+                MOVE_FLAMETHROWER,
+                MOVE_TOXIC_SPIKES,
             },
             },
             {
 #line 233
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_BELLOSSOM,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 233
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_LUM_BERRY,
 #line 237
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 236
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_CHLOROPHYLL,
 #line 234
             .lvl = 38,
 #line 235
-            .nature = NATURE_HARDY,
+            .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 237
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_SOLAR_BEAM,
+                MOVE_WEATHER_BALL,
+                MOVE_QUIVER_DANCE,
+                MOVE_SLEEP_POWDER,
             },
             },
             {
 #line 242
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_EXEGGUTOR_ALOLA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 242
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_CUSTAP_BERRY,
 #line 246
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 245
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_HARVEST,
 #line 243
             .lvl = 39,
 #line 244
-            .nature = NATURE_HARDY,
+            .nature = NATURE_QUIET,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 246
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_DRAGON_HAMMER,
+                MOVE_ENERGY_BALL,
+                MOVE_FLAMETHROWER,
+                MOVE_ENDURE,
             },
             },
         },
@@ -1727,117 +1727,117 @@ F_TRAINER_FEMALE |
         {
             {
 #line 739
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_QUAQUAVAL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 739
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_FLYING_GEM,
 #line 743
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 742
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_MOXIE,
 #line 740
             .lvl = 38,
 #line 741
-            .nature = NATURE_HARDY,
+            .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 743
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_AQUA_STEP,
+                MOVE_LOW_KICK,
+                MOVE_ACROBATICS,
+                MOVE_ROOST,
             },
             },
             {
 #line 748
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_BEARTIC,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 748
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_WATER_GEM,
 #line 752
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 751
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_SNOW_CLOAK,
 #line 749
             .lvl = 39,
 #line 750
-            .nature = NATURE_HARDY,
+            .nature = NATURE_CAREFUL,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 752
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_AVALANCHE,
+                MOVE_BRICK_BREAK,
+                MOVE_AQUA_JET,
+                MOVE_CURSE,
             },
             },
             {
 #line 757
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_BISHARP,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 757
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_FOCUS_SASH,
 #line 761
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 760
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_INNER_FOCUS,
 #line 758
             .lvl = 38,
 #line 759
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 761
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_IRON_HEAD,
+                MOVE_NIGHT_SLASH,
+                MOVE_X_SCISSOR,
+                MOVE_REVERSAL,
             },
             },
             {
 #line 766
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_PASSIMIAN,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 766
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_LUM_BERRY,
 #line 770
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 769
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_DEFIANT,
 #line 767
             .lvl = 38,
 #line 768
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 770
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_LOW_KICK,
+                MOVE_MEGA_KICK,
+                MOVE_ROCK_SLIDE,
+                MOVE_U_TURN,
             },
             },
             {
 #line 775
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_GRANBULL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 775
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_WHITE_HERB,
 #line 779
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 778
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_RATTLED,
 #line 776
             .lvl = 39,
 #line 777
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 779
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_PLAY_ROUGH,
+                MOVE_CLOSE_COMBAT,
+                MOVE_EARTHQUAKE,
+                MOVE_COUNTER,
             },
             },
         },
@@ -2017,71 +2017,71 @@ F_TRAINER_FEMALE |
         {
             {
 #line 848
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_SLOWKING_GALAR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 848
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_BLACK_SLUDGE,
 #line 852
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 851
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_REGENERATOR,
 #line 849
-            .lvl = 39,
+            .lvl = 38,
 #line 850
-            .nature = NATURE_HARDY,
+            .nature = NATURE_BOLD,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 852
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_SLUDGE_BOMB,
+                MOVE_EERIE_SPELL,
+                MOVE_SCALD,
+                MOVE_SLACK_OFF,
             },
             },
             {
 #line 857
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_SKUNTANK,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 857
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_AIR_BALLOON,
 #line 861
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 860
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_AFTERMATH,
 #line 858
-            .lvl = 38,
+            .lvl = 39,
 #line 859
-            .nature = NATURE_HARDY,
+            .nature = NATURE_HASTY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 861
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_POISON_JAB,
+                MOVE_NIGHT_SLASH,
+                MOVE_FLAMETHROWER,
+                MOVE_FOCUS_ENERGY,
             },
             },
             {
 #line 866
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_HOUNDSTONE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 866
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_COLBUR_BERRY,
 #line 870
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 869
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_FLUFFY,
 #line 867
             .lvl = 39,
 #line 868
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 870
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_LAST_RESPECTS,
+                MOVE_SHADOW_SNEAK,
+                MOVE_BODY_PRESS,
+                MOVE_CRUNCH,
             },
             },
         },
@@ -6643,10 +6643,10 @@ F_TRAINER_FEMALE |
             },
             {
 #line 2614
-            .species = SPECIES_DUNSPARCE,
+            .species = SPECIES_DUDUNSPARCE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2614
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_SILK_SCARF,
 #line 2618
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 2617
@@ -10903,71 +10903,71 @@ F_TRAINER_FEMALE |
         {
             {
 #line 4238
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_SIRFETCHD,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4238
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_LEEK,
 #line 4242
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4241
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_SCRAPPY,
 #line 4239
             .lvl = 38,
 #line 4240
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 4242
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_CLOSE_COMBAT,
+                MOVE_FIRST_IMPRESSION,
+                MOVE_LEAF_BLADE,
+                MOVE_DUAL_WINGBEAT,
             },
             },
             {
 #line 4247
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_NIDOKING,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4247
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_LUM_BERRY,
 #line 4251
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4250
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_SHEER_FORCE,
 #line 4248
             .lvl = 38,
 #line 4249
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 4251
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_DRILL_RUN,
+                MOVE_POISON_JAB,
+                MOVE_THUNDER_PUNCH,
+                MOVE_COUNTER,
             },
             },
             {
 #line 4256
-            .species = SPECIES_BULBASAUR,
+            .species = SPECIES_PANGORO,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4256
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_BLACK_BELT,
 #line 4260
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4259
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_MOLD_BREAKER,
 #line 4257
             .lvl = 39,
 #line 4258
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 4260
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_CRUNCH,
+                MOVE_CIRCLE_THROW,
+                MOVE_BULLET_PUNCH,
+                MOVE_HONE_CLAWS,
             },
             },
         },

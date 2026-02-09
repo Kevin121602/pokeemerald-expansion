@@ -212,41 +212,41 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Ninetales @ Wise Glasses
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Drought
+- Heat Wave
+- Solar Beam
+- Hex
+- Hypnosis
 
-Bulbasaur @ Eviolite
+Nidoqueen @ Rocky Helmet
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Poison Point
+- Earth Power
+- Venoshock
+- Flamethrower
+- Toxic Spikes
 
-Bulbasaur @ Eviolite
+Bellossom @ Lum Berry
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Modest
+Ability: Chlorophyll
+- Solar Beam
+- Weather Ball
+- Quiver Dance
+- Sleep Powder
 
-Bulbasaur @ Eviolite
+Exeggutor-Alola @ Custap Berry
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Quiet
+Ability: Harvest
+- Dragon Hammer
+- Energy Ball
+- Flamethrower
+- Endure
 
 === TRAINER_GRUNT_PETALBURG_WOODS ===
 Name: Grunt
@@ -736,50 +736,50 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Quaquaval @ Flying Gem
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Adamant
+Ability: Moxie
+- Aqua Step
+- Low Kick
+- Acrobatics
+- Roost
 
-Bulbasaur @ Eviolite
+Beartic @ Water Gem
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Careful
+Ability: Snow Cloak
+- Avalanche
+- Brick Break
+- Aqua Jet
+- Curse
 
-Bulbasaur @ Eviolite
+Bisharp @ Focus Sash
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Inner Focus
+- Iron Head
+- Night Slash
+- X-Scissor
+- Reversal
 
-Bulbasaur @ Eviolite
+Passimian @ Lum Berry
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Defiant
+- Low Kick
+- Mega Kick
+- Rock Slide
+- U-Turn
 
-Bulbasaur @ Eviolite
+Granbull @ White Herb
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Rattled
+- Play Rough
+- Close Combat
+- Earthquake
+- Counter
 
 === TRAINER_SHELLY_WEATHER_INSTITUTE ===
 Name: SHELLY
@@ -845,32 +845,32 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
-Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
-
-Bulbasaur @ Eviolite
+Slowking-Galar @ Black Sludge
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Bold
+Ability: Regenerator
+- Sludge Bomb
+- Eerie Spell
+- Scald
+- Slack Off
 
-Bulbasaur @ Eviolite
+Skuntank @ Air Balloon
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Hasty
+Ability: Aftermath
+- Poison Jab
+- Night Slash
+- Flamethrower
+- Focus Energy
+
+Houndstone @ Colbur Berry
+Level: 39
+Nature: Jolly
+Ability: Fluffy
+- Last Respects
+- Shadow Sneak
+- Body Press
+- Crunch
 
 === TRAINER_DAISY ===
 Name: DAISY
@@ -2611,7 +2611,7 @@ Ability: Insomnia
 - Foul Play
 - Leech Seed
 
-Dunsparce @ Eviolite
+Dudunsparce @ Silk Scarf
 Level: 38
 Nature: Careful
 Ability: Serene Grace
@@ -4235,32 +4235,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Sirfetch'd @ Leek
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Scrappy
+- Close Combat
+- First Impression
+- Leaf Blade
+- Dual Wingbeat
 
-Bulbasaur @ Eviolite
+Nidoking @ Lum Berry
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Sheer Force
+- Drill Run
+- Poison Jab
+- Thunder Punch
+- Counter
 
-Bulbasaur @ Eviolite
+Pangoro @ Black Belt
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Mold Breaker
+- Crunch
+- Circle Throw
+- Bullet Punch
+- Hone Claws
 
 === TRAINER_KIRK ===
 Name: KIRK

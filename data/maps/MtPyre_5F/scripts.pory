@@ -1,3 +1,9 @@
+script MtPyre_5F_EventScript_GauntletStart{
+	setflag(FLAG_SYS_GAUNTLET)
+	release
+	end
+}
+
 raw `
 MtPyre_5F_MapScripts::
 	.byte 0
