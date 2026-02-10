@@ -221,7 +221,7 @@ Ability: Drought
 - Hex
 - Hypnosis
 
-Nidoqueen @ Rocky Helmet
+Nidoqueen @ Black Sludge
 Level: 39
 Nature: Timid
 Ability: Poison Point
@@ -425,7 +425,7 @@ Nature: Jolly
 Ability: Hydration
 - Dive
 - Zen Headbutt
-- U-Turn
+- U-turn
 - Heal Bell
 
 
@@ -536,41 +536,41 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Clawitzer @ Wise Glasses
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Mega Launcher
+- Water Pulse
+- Dragon Pulse
+- Aura Sphere
+- Dark Pulse
 
-Bulbasaur @ Eviolite
+Dhelmise @ Quick Claw
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Careful
+Ability: Steelworker
+- Power Whip
+- Shadow Claw
+- Iron Head
+- Synthesis
 
-Bulbasaur @ Eviolite
+Eelektross @ Leftovers
 Level: 40
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Levitate
+- Thunder Punch
+- Aqua Tail
+- U-turn
+- Thunder Wave
 
-Bulbasaur @ Eviolite
+Swampert @ Rindo Berry
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Torrent
+- High Horsepower
+- Waterfall
+- Avalanche
+- Bulk Up
 
 === TRAINER_GRUNT_MT_PYRE_2 ===
 Name: GRUNT
@@ -581,41 +581,41 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Armaldo @ Scope Lens
 Level: 38
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Battle Armor
+- X-Scissor
+- Rock Slide
+- Liquidation
+- Stealth Rock
 
-Bulbasaur @ Eviolite
+Toxapex @ Black Sludge
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Impish
+Ability: Regenerator
+- Liquidation
+- Infestation
+- Recover
+- Toxic
 
-Bulbasaur @ Eviolite
+Dragalge @ Rocky Helmet
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Relaxed
+Ability: Poison Point
+- Sludge Wave
+- Dragon Pulse
+- Surf
+- Flip Turn
 
-Bulbasaur @ Eviolite
+Barraskewda @ Focus Band
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Swift Swim
+- Liquidation
+- Psychic Fangs
+- Drill Run
+- Throat Chop
 
 === TRAINER_GRUNT_MT_PYRE_3 ===
 Name: GRUNT
@@ -626,23 +626,21 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Whimsicott @ Covert Cloak
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Prankster
+- Memento
+- Tailwind
 
-Bulbasaur @ Eviolite
+Jellicent @ Ghost Gem
 Level: 40
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Cursed Body
+- Scald
+- Shadow Ball
+- Strength Sap
+- Will-O-Wisp
 
 === TRAINER_GRUNT_WEATHER_INST_4 ===
 Name: GRUNT
@@ -770,7 +768,7 @@ Ability: Defiant
 - Low Kick
 - Mega Kick
 - Rock Slide
-- U-Turn
+- U-turn
 
 Granbull @ White Herb
 Level: 39
@@ -6008,50 +6006,63 @@ Class: Elite Four
 Pic: Elite Four Phoebe
 Gender: Female
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Green
 
-Dusclops
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Punch
-- Confuse Ray
-- Curse
-- Protect
-
-Banette
-Level: 49
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Grudge
-- Will O Wisp
-- Feint Attack
-
-Sableye
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Double Team
-- Night Shade
-- Feint Attack
-
-Banette
-Level: 49
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Psychic
-- Thunderbolt
-- Facade
-
-Dusclops @ Sitrus Berry
-Level: 51
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
+Ludicolo @ Sitrus Berry
+Level: 40
+Nature: Timid
+Ability: Own Tempo
+- Scald
+- Giga Drain
 - Ice Beam
+- Teeter Dance
+
+Gothitelle @ Weakness Policy
+Level: 39
+Nature: Timid
+Ability: Shadow Tag
+- Psyshock
+- Thunderbolt
+- Shadow Ball
+- Signal Beam
+
+Primeape @ Eviolite
+Level: 40
+Nature: Jolly
+Ability: Defiant
+- Cross Chop
+- Iron Tail
 - Rock Slide
-- Earthquake
+- Rage Fist
+
+Mimikyu @ Expert Belt
+Level: 39
+Nature: Jolly
+Ability: Disguise
+- Play Rough
+- Shadow Claw
+- Drain Punch
+- Will-O-Wisp
+
+Spectrier @ Focus Sash
+Level: 41
+Nature: Timid
+Ability: Grim Neigh
+- Shadow Ball
+- Dark Pulse
+- Draining Kiss
+- Nasty Plot
+
+Banette @ Banettite
+Level: 41
+Nature: Jolly
+Ability: Prankster
+- Shadow Sneak
+- Gunk Shot
+- Knock Off
+- Destiny Bond
 
 === TRAINER_GLACIA ===
 Name: GLACIA
@@ -6719,7 +6730,7 @@ Ability: Magic Guard
 - Water Pulse
 - Sing
 
-Gible @ Rocky Helmet
+Gible @ Berry Juice
 Level: 14
 Nature: Naive
 Ability: Rough Skin
@@ -12905,32 +12916,30 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur @ Eviolite
+Shiftry @ Focus Sash
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Wind Rider
+- Explosion
+- Fake Out
 
-Bulbasaur @ Eviolite
+Kilowattrel @ Wise Glasses
 Level: 40
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Wind Power
+- Thunderbolt
+- Air Slash
+- Electro Ball
+- Tailwind
 
-Bulbasaur @ Eviolite
+Brambleghast @ Power Herb
 Level: 39
-Nature: Hardy
-Ability: Overgrow
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Wind Rider
+- Phantom Force
+- Seed Bomb
+- Skitter Smack
+- Infestation
 
 === TRAINER_GRUNT_JAGGED_PASS ===
 Name: GRUNT
@@ -14725,7 +14734,7 @@ Volbeat @ Heat Rock
 Nature: Jolly
 Ability: Prankster
 Level: 33
-- U-Turn
+- U-turn
 - Zen Headbutt
 - Moonlight
 - Sunny Day
@@ -16403,7 +16412,7 @@ Ability: Levitate
 Level: 23
 - Dragon Rush
 - Stomping Tantrum
-- U-Turn
+- U-turn
 - Supersonic
 
 Breloom @ Muscle Band
