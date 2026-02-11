@@ -228,7 +228,7 @@ Ability: Poison Point
 - Earth Power
 - Venoshock
 - Flamethrower
-- Toxic Spikes
+- Attract
 
 Bellossom @ Lum Berry
 Level: 38
@@ -313,12 +313,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Cramorant @ Focus Sash
 Level: 37
-Nature: Hasty
+Nature: Adamant
 Ability: Gulp Missile
+IVs: 31 HP / 31 Atk / 31 Def / 0 SpA / 31 SpD / 31 Spe
 - Surf
 - Liquidation
 - Dual Wingbeat
-- Tailwind
+- Agility
 
 Gyarados @ Power Herb
 Level: 37
@@ -743,32 +744,32 @@ Ability: Moxie
 - Acrobatics
 - Roost
 
-Beartic @ Water Gem
+Emboar @ Lum Berry
 Level: 39
-Nature: Careful
-Ability: Snow Cloak
-- Avalanche
-- Brick Break
-- Aqua Jet
-- Curse
+Nature: Jolly
+Ability: Reckless
+- Heat Crash
+- Low Kick
+- Wild Charge
+- Scary Face
 
 Bisharp @ Focus Sash
 Level: 38
 Nature: Jolly
-Ability: Inner Focus
+Ability: Defiant
 - Iron Head
 - Night Slash
 - X-Scissor
 - Reversal
 
-Passimian @ Lum Berry
+Torterra @ Loaded Dice
 Level: 38
 Nature: Jolly
-Ability: Defiant
-- Low Kick
-- Mega Kick
-- Rock Slide
-- U-turn
+Ability: Overgrow
+- Bullet Seed
+- Earthquake
+- Rock Blast
+- Rock Polish
 
 Granbull @ White Herb
 Level: 39
@@ -777,7 +778,7 @@ Ability: Rattled
 - Play Rough
 - Close Combat
 - Earthquake
-- Counter
+- Heal Bell
 
 === TRAINER_SHELLY_WEATHER_INSTITUTE ===
 Name: SHELLY
@@ -2524,7 +2525,7 @@ Level: 37
 Nature: Timid
 Ability: Telepathy
 - Hyper Voice
-- Extrasensory
+- Psyshock
 - Thunder
 - Encore
 
@@ -2615,8 +2616,8 @@ Nature: Careful
 Ability: Serene Grace
 - Headbutt
 - Pursuit
-- Coil
 - Glare
+- Roost
 
 Araquanid @ Leftovers
 Level: 37
@@ -9241,12 +9242,12 @@ Ability: Sturdy
 
 Unfezant @ Scope Lens
 Level: 36
-Nature: Jolly
+Nature: Naive
 Ability: Super Luck
 - Drill Peck
 - Quick Attack
+- Heat Wave
 - Steel Wing
-- Focus Energy
 
 Flapple @ Liechi Berry
 Level: 36
@@ -10788,16 +10789,16 @@ Ability: Sharpness
 - Sacred Sword
 - Psycho Cut
 - X-Scissor
-- Night Slash
+- Shadow Sneak
 
-Mienshao @ Eject Pack
+Eiscue @ Assault Vest
 Level: 38
 Nature: Jolly
-Ability: Regenerator
-- Close Combat
-- Sky Uppercut
-- Rock Slide
-- Acrobatics
+Ability: Ice Face
+- Icicle Crash
+- Head Smash
+- Zen Headbutt
+- Flip Turn
 
 Zoroark @ Lum Berry
 Level: 38
@@ -10805,7 +10806,7 @@ Nature: Hasty
 Ability: Illusion
 - Knock Off
 - Pursuit
-- Flamethrower
+- Sludge Bomb
 - Extrasensory
 
 Typhlosion-Hisui @ Ghost Gem
@@ -11016,7 +11017,7 @@ Dewgong @ Leftovers
 Level: 36
 Nature: Hasty
 Ability: Hydration
-- Aqua Tail
+- Muddy Water
 - Ice Beam
 - Icy Wind
 - Fake Out
