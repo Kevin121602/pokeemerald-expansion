@@ -126,7 +126,6 @@
     F(AURORA_VEIL) \ Sootopolis
     F(BLIZZARD) \ Winstitute/119
     F(BUG_BUZZ) \ Norman/Juan Split
-    F(DARK_PULSE) \ Mt Pyre
     F(DAZZLING_GLEAM) \ Verdanturf/117
     F(DRAGON_CLAW) \ Norman Split
     F(DRAGON_PULSE) \ 111
@@ -154,7 +153,6 @@
     F(LOW_KICK) \ Dewford
     F(ME_FIRST) \ Slateport
     F(MISTY_EXPLOSION) \ Verdanturf
-    F(NIGHT_SHADE) \ Mt Pyre
     F(PAYBACK) \ Abandoned Ship
     F(PLAY_ROUGH) \ Winona Split
     F(POISON_JAB) \ Abandoned Ship
@@ -167,11 +165,9 @@
     F(ROCK_SLIDE) \ Granite
     F(ROOST) \ Winona
     F(SCALD) \ Route 106
-    F(SCARY_FACE) \ Pyre
     F(SCREECH) \ Pyre
     F(SEED_BOMB) \ 103 post matt
     F(SHADOW_BALL) \ Pyre
-    F(SKILL_SWAP) \ Pyre
     F(SLUDGE_BOMB) \ Dewford
     F(SOLAR_BEAM) \ Fiery Path
     F(SOLAR_BLADE) \ Fiery Path
@@ -187,5 +183,4 @@
     F(U_TURN)\ VR
     F(VOLT_SWITCH)\ Wattson
     F(WEATHER_BALL) \ 119
-    F(WILL_O_WISP) \ Pyre
     F(X_SCISSOR) abandoned ship*/ 

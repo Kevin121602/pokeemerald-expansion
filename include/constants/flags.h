@@ -623,8 +623,8 @@
 #define FLAG_ITEM_JAGGED_PASS_AUSPICIOUS_ARMOR              (FLAG_HIDDEN_ITEMS_START + 0x4C)
 #define FLAG_HIDDEN_ITEM_JAGGED_PASS_FULL_HEAL               (FLAG_HIDDEN_ITEMS_START + 0x4D)
 #define FLAG_HIDDEN_ITEM_MT_PYRE_EXTERIOR_MAX_ETHER          (FLAG_HIDDEN_ITEMS_START + 0x4E)
-#define FLAG_HIDDEN_ITEM_MT_PYRE_SUMMIT_ZINC                 (FLAG_HIDDEN_ITEMS_START + 0x4F)
-#define FLAG_HIDDEN_ITEM_MT_PYRE_SUMMIT_RARE_CANDY           (FLAG_HIDDEN_ITEMS_START + 0x50)
+#define FLAG_ITEM_MT_PYRE_SUMMIT_TM_DARK_PULSE                 (FLAG_HIDDEN_ITEMS_START + 0x4F)
+#define FLAG_ITEM_MT_PYRE_SUMMIT_TM_WILL_O_WISP           (FLAG_HIDDEN_ITEMS_START + 0x50)
 #define FLAG_HIDDEN_ITEM_VICTORY_ROAD_1F_ULTRA_BALL          (FLAG_HIDDEN_ITEMS_START + 0x51)
 #define FLAG_HIDDEN_ITEM_VICTORY_ROAD_B2F_ELIXIR             (FLAG_HIDDEN_ITEMS_START + 0x52)
 #define FLAG_HIDDEN_ITEM_VICTORY_ROAD_B2F_MAX_REPEL          (FLAG_HIDDEN_ITEMS_START + 0x53)
@@ -1125,7 +1125,7 @@
 #define FLAG_ITEM_JAGGED_PASS_DRAGON_FANG                             0x42E
 #define FLAG_ITEM_AQUA_HIDEOUT_B1F_MAX_ELIXIR                       0x42F
 #define FLAG_ITEM_AQUA_HIDEOUT_B2F_NEST_BALL                        0x430
-#define FLAG_ITEM_MT_PYRE_EXTERIOR_MAX_POTION                       0x431
+#define FLAG_ITEM_MT_PYRE_EXTERIOR_PSYCHIC_GEM                       0x431
 #define FLAG_ITEM_MT_PYRE_EXTERIOR_TM_SKILL_SWAP                    0x432
 #define FLAG_ITEM_NEW_MAUVILLE_ULTRA_BALL                           0x433
 #define FLAG_ITEM_NEW_MAUVILLE_ESCAPE_ROPE                          0x434
@@ -1235,11 +1235,11 @@
 #define FLAG_ITEM_ROUTE_112_TM_SNARL                                           0x49B // Unused Flag
 #define FLAG_ITEM_ROUTE_115_TM_MUD_SHOT                                           0x49C // Unused Flag
 #define FLAG_ITEM_LAVARIDGE_TOWN_TM_CHILLING_WATER                                           0x49D // Unused Flag
-#define FLAG_UNUSED_0x49E                                           0x49E // Unused Flag
-#define FLAG_UNUSED_0x49F                                           0x49F // Unused Flag
-#define FLAG_UNUSED_0x4A0                                           0x4A0 // Unused Flag
-#define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused Flag
-#define FLAG_UNUSED_0x4A2                                           0x4A2 // Unused Flag
+#define FLAG_ITEM_MT_PYRE_SUMMIT_DARK_GEM                                           0x49E // Unused Flag
+#define FLAG_ITEM_MT_PYRE_2F_TM_SCARY_FACE                                           0x49F // Unused Flag
+#define FLAG_ITEM_MT_PYRE_3F_TM_NIGHT_SHADE                                           0x4A0 // Unused Flag
+#define FLAG_ITEM_MT_PYRE_5F_TM_SCREECH                                           0x4A1 // Unused Flag
+#define FLAG_ITEM_MT_PYRE_6F_TM_SHADOW_BALL                                           0x4A2 // Unused Flag
 #define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag
 #define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag
 #define FLAG_UNUSED_0x4A5                                           0x4A5 // Unused Flag

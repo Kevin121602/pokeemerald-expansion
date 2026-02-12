@@ -602,12 +602,12 @@ Ability: Regenerator
 
 Dragalge @ Rocky Helmet
 Level: 39
-Nature: Relaxed
+Nature: Bold
 Ability: Poison Point
 - Sludge Wave
 - Dragon Pulse
 - Surf
-- Flip Turn
+- Acid Armor
 
 Barraskewda @ Focus Band
 Level: 39
@@ -4241,7 +4241,7 @@ Ability: Scrappy
 - Close Combat
 - First Impression
 - Leaf Blade
-- Dual Wingbeat
+- Substitute
 
 Nidoking @ Lum Berry
 Level: 38
@@ -4252,14 +4252,14 @@ Ability: Sheer Force
 - Thunder Punch
 - Counter
 
-Pangoro @ Black Belt
+Pangoro @ Assault Vest
 Level: 39
-Nature: Jolly
-Ability: Mold Breaker
+Nature: Careful
+Ability: Iron Fist
+- Hammer Arm
 - Crunch
-- Circle Throw
+- Poison Jab
 - Bullet Punch
-- Hone Claws
 
 === TRAINER_KIRK ===
 Name: KIRK
