@@ -98,7 +98,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_AQUA_HIDEOUT_1] =
     {
 #line 112
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 113
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 114
@@ -132,7 +132,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_AQUA_HIDEOUT_2] =
     {
 #line 125
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 126
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 127
@@ -177,7 +177,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_AQUA_HIDEOUT_3] =
     {
 #line 142
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 143
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 144
@@ -211,7 +211,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_AQUA_HIDEOUT_4] =
     {
 #line 155
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 156
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 157
@@ -245,7 +245,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_SEAFLOOR_CAVERN_1] =
     {
 #line 168
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 169
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 170
@@ -279,7 +279,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_SEAFLOOR_CAVERN_2] =
     {
 #line 181
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 182
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 183
@@ -313,7 +313,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_SEAFLOOR_CAVERN_3] =
     {
 #line 194
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 195
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 196
@@ -741,7 +741,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_SEAFLOOR_CAVERN_4] =
     {
 #line 361
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 362
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 363
@@ -928,7 +928,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_WEATHER_INST_1] =
     {
 #line 434
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 435
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 436
@@ -973,7 +973,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_WEATHER_INST_2] =
     {
 #line 451
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 452
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 453
@@ -1018,7 +1018,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_WEATHER_INST_3] =
     {
 #line 468
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 469
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 470
@@ -1074,7 +1074,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MUSEUM_1] =
     {
 #line 489
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 490
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 491
@@ -1108,7 +1108,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MUSEUM_2] =
     {
 #line 502
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 503
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 504
@@ -1153,7 +1153,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_SPACE_CENTER_1] =
     {
 #line 519
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 520
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 521
@@ -1187,7 +1187,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MT_PYRE_1] =
     {
 #line 532
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 533
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 534
@@ -1302,7 +1302,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MT_PYRE_2] =
     {
 #line 577
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 578
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 579
@@ -1417,7 +1417,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MT_PYRE_3] =
     {
 #line 622
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 623
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 624
@@ -1484,7 +1484,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_WEATHER_INST_4] =
     {
 #line 647
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 648
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 649
@@ -1520,7 +1520,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_AQUA_HIDEOUT_5] =
     {
 #line 660
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 661
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 662
@@ -1556,7 +1556,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_AQUA_HIDEOUT_6] =
     {
 #line 673
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 674
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 675
@@ -7097,7 +7097,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_SPACE_CENTER_2] =
     {
 #line 2784
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 2785
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 2786
@@ -8864,7 +8864,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MT_CHIMNEY_1] =
     {
 #line 3460
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 3461
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 3462
@@ -11032,7 +11032,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_AQUA_HIDEOUT_7] =
     {
 #line 4289
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 4290
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 4291
@@ -11079,7 +11079,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_AQUA_HIDEOUT_8] =
     {
 #line 4306
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 4307
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 4308
@@ -15483,9 +15483,9 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_PHOEBE] =
     {
 #line 6005
-        .trainerName = _("PHOEBE"),
+        .trainerName = _("Phoebe"),
 #line 6006
-        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .trainerClass = TRAINER_CLASS_VETERAN,
 #line 6007
         .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
         .encounterMusic_gender =
@@ -33498,7 +33498,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_SEAFLOOR_CAVERN_5] =
     {
 #line 12878
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 12879
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 12880
@@ -33543,7 +33543,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_UNUSED] =
     {
 #line 12895
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 12896
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 12897
@@ -33590,7 +33590,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MT_PYRE_4] =
     {
 #line 12912
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 12913
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 12914
@@ -33682,7 +33682,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_JAGGED_PASS] =
     {
 #line 12946
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 12947
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 12948
@@ -34108,7 +34108,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MT_CHIMNEY_2] =
     {
 #line 13107
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 13108
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13109
@@ -34350,7 +34350,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_SPACE_CENTER_3] =
     {
 #line 13198
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 13199
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13200
@@ -34397,7 +34397,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_SPACE_CENTER_4] =
     {
 #line 13215
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 13216
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13217
@@ -34431,7 +34431,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_SPACE_CENTER_5] =
     {
 #line 13228
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 13229
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13230
@@ -34465,7 +34465,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_SPACE_CENTER_6] =
     {
 #line 13241
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 13242
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13243
@@ -34499,7 +34499,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_SPACE_CENTER_7] =
     {
 #line 13254
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 13255
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13256
@@ -34740,7 +34740,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_WEATHER_INST_5] =
     {
 #line 13344
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 13345
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 13346
@@ -42984,7 +42984,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_1] =
     {
 #line 16535
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16536
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16537
@@ -43018,7 +43018,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_2] =
     {
 #line 16548
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16549
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16550
@@ -43052,7 +43052,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_3] =
     {
 #line 16561
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16562
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16563
@@ -43086,7 +43086,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_4] =
     {
 #line 16574
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16575
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16576
@@ -43131,7 +43131,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_5] =
     {
 #line 16591
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16592
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16593
@@ -43176,7 +43176,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_6] =
     {
 #line 16608
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16609
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16610
@@ -43210,7 +43210,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_7] =
     {
 #line 16621
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16622
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16623
@@ -43244,7 +43244,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_8] =
     {
 #line 16634
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16635
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16636
@@ -43278,7 +43278,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_9] =
     {
 #line 16647
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16648
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16649
@@ -43312,7 +43312,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_10] =
     {
 #line 16660
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16661
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16662
@@ -43346,7 +43346,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_11] =
     {
 #line 16673
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16674
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16675
@@ -43380,7 +43380,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_12] =
     {
 #line 16686
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16687
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16688
@@ -43414,7 +43414,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_13] =
     {
 #line 16699
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16700
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16701
@@ -43448,7 +43448,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_14] =
     {
 #line 16712
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16713
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16714
@@ -43484,7 +43484,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_15] =
     {
 #line 16725
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16726
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16727
@@ -43520,7 +43520,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_GRUNT_MAGMA_HIDEOUT_16] =
     {
 #line 16738
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Grunt"),
 #line 16739
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 16740

@@ -6138,7 +6138,8 @@ u16 GetBattleBGM(void)
                 return MUS_DP_VS_TRAINER;
             return MUS_DP_VS_RIVAL;
         case TRAINER_CLASS_ELITE_FOUR:
-            return MUS_VS_ELITE_FOUR;
+        case TRAINER_CLASS_VETERAN:
+            return MUS_DP_VS_ELITE_FOUR;
         case TRAINER_CLASS_SALON_MAIDEN:
         case TRAINER_CLASS_DOME_ACE:
         case TRAINER_CLASS_PALACE_MAVEN:

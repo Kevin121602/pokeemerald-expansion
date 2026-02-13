@@ -51,7 +51,7 @@
 #define FLAG_HIDE_RUSTBORO_CITY_GYM_GUIDE    0x25
 #define FLAG_HIDE_RUSTURF_TUNNEL_ROXANNE    0x26
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_2    0x27
-#define FLAG_HIDE_ROUTE_105_WORKERS    0x28
+#define FLAG_HIDE_ROUTE_105_GRUNTS    0x28
 #define FLAG_BEAT_TRICK_HOUSE_PUZZLE_1    0x29 // Unused Flag
 #define FLAG_BEAT_TRICK_HOUSE_PUZZLE_2    0x2A // Unused Flag
 #define FLAG_BEAT_TRICK_HOUSE_PUZZLE_3    0x2B // Unused Flag
@@ -88,7 +88,7 @@
 #define FLAG_DUSK_STONE_AVAILABLE    0x49 // Unused Flag
 #define FLAG_RECIEVED_GALARICA_ITEM    0x4A // Unused Flag
 #define FLAG_ROUTE_123_NPC_TRADE_COMPLETED    0x4B // Unused Flag
-#define FLAG_UNUSED_0x04C    0x4C // Unused Flag
+#define FLAG_HIDE_MT_PYRE_SUMMIT_PHOEBE    0x4C // Unused Flag
 #define FLAG_UNUSED_0x04D    0x4D // NO Encounter
 #define FLAG_UNUSED_0x04E    0x4E // NO Collision
 #define FLAG_UNUSED_0x04F    0x4F // NO OW Trainers

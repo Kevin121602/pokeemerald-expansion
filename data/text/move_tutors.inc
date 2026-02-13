@@ -281,3 +281,9 @@ MoveTutor_Text_BerriesTeach:
 	.string "Do you gaze upon your opponent in envy\n"
 	.string "as they consume endless rare berries?\p"
 	.string "If so, I have just the moves for you!$"
+
+MoveTutor_Text_SealingTeach:
+	.string "There's nothing more terrifying than\n"
+	.string "being unable to act.\p"
+	.string "These hexes restrict your opponent\n"
+	.string "from using their attacks and items!$"

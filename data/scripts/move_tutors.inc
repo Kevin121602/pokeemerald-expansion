@@ -387,3 +387,45 @@ Route123_EventScript_IncinerateTutor::
 	release
 	end
 
+MtPyre_Summit_EventScript_SealingTutor::
+	lock
+	faceplayer
+	msgbox MoveTutor_Text_SealingTeach
+	multichoice 21, 0, MULTI_SEALING_TUTOR, FALSE
+	switch VAR_RESULT
+	case 0, MtPyre_Summit_EventScript_SpiteTutor
+	case 1, MtPyre_Summit_EventScript_GrudgeTutor
+	case 2, MtPyre_Summit_EventScript_EmbargoTutor
+	case 3, MtPyre_Summit_EventScript_ImprisonTutor
+	case MULTI_B_PRESSED, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+
+MtPyre_Summit_EventScript_SpiteTutor::
+	setvar VAR_0x8005, MOVE_SPITE
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+
+MtPyre_Summit_EventScript_GrudgeTutor::
+	setvar VAR_0x8005, MOVE_GRUDGE
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+
+MtPyre_Summit_EventScript_EmbargoTutor::
+	setvar VAR_0x8005, MOVE_EMBARGO
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+
+MtPyre_Summit_EventScript_ImprisonTutor::
+	setvar VAR_0x8005, MOVE_IMPRISON
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+

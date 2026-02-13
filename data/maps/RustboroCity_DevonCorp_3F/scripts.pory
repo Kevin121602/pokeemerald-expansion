@@ -200,7 +200,8 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 	.string "However, there are more Team Aqua thugs\n"
 	.string "blocking the bridge to Dewford Town.\p"
 	.string "Maybe it would be better to head north\n"
-	.string "after getting the Stone Badge.$"
+	.string "after getting the Stone Badge and seek\l"
+	.string "out their leader.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
 	.string "Mr. Stone: Now, you should know that\n"

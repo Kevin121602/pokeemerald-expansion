@@ -2584,6 +2584,11 @@ extern const u8 gText_BugBite[];
 extern const u8 gText_Pluck[];
 extern const u8 gText_Incinerate[];
 
+extern const u8 gText_Spite[];
+extern const u8 gText_Grudge[];
+extern const u8 gText_Embargo[];
+extern const u8 gText_Imprison[];
+
 //gourd splicer and nectar text
 extern const u8 gText_SplicerSmall[];
 extern const u8 gText_SplicerAverage[];

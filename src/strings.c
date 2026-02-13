@@ -1866,3 +1866,7 @@ const u8 gText_CannotSendMonToBoxPartner[] = _("Cannot send a mon that doesn't,\
 const u8 gText_BugBite[] =              _("Bug Bite");
 const u8 gText_Pluck[] =                _("Pluck");
 const u8 gText_Incinerate[] =           _("Incinerate");
+const u8 gText_Spite[] =              _("Spite");
+const u8 gText_Grudge[] =              _("Grudge");
+const u8 gText_Embargo[] =              _("Embargo");
+const u8 gText_Imprison[] =              _("Imprison");

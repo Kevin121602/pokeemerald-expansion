@@ -140,6 +140,7 @@
 #define MULTI_PUNCH_TUTOR                  129
 #define MULTI_SEEDS_MENU                   130
 #define MULTI_BERRIES_TUTOR                131
+#define MULTI_SEALING_TUTOR                132
 
 // Lilycove SS Tidal Multichoice Selections
 #define SSTIDAL_SELECTION_SLATEPORT        0

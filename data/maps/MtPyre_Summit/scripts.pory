@@ -1,10 +1,10 @@
 raw `
-.set LOCALID_ARCHIE, 2
-.set LOCALID_OLD_LADY, 3
-.set LOCALID_GRUNT_1, 4
-.set LOCALID_GRUNT_2, 5
-.set LOCALID_GRUNT_3, 6
-.set LOCALID_GRUNT_4, 7
+.set LOCALID_ARCHIE, 1
+.set LOCALID_PHOEBE, 2
+.set LOCALID_GRUNT_1, 5
+.set LOCALID_GRUNT_2, 4
+.set LOCALID_GRUNT_3, 5
+.set LOCALID_GRUNT_4, 6
 .set LOCALID_MAXIE, 8
 
 MtPyre_Summit_MapScripts::
@@ -39,16 +39,16 @@ MtPyre_Summit_EventScript_TeamAquaTrigger2::
 	end
 
 MtPyre_Summit_EventScript_TeamAquaExits::
-	playbgm MUS_ENCOUNTER_AQUA, FALSE
+	playbgm MUS_DP_ENCOUNTER_GALACTIC, FALSE
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
 	waitmovement 0
-	applymovement LOCALID_ARCHIE, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
 	delay 50
+	msgbox MtPyre_Summit_Text_ArchieDrat, MSGBOX_DEFAULT
+	closemessage
 	call_if_eq VAR_0x8008, 0, MtPyre_Summit_EventScript_ArchieFacePlayer0
 	call_if_eq VAR_0x8008, 1, MtPyre_Summit_EventScript_ArchieFacePlayer1
 	call_if_eq VAR_0x8008, 2, MtPyre_Summit_EventScript_ArchieFacePlayer2
-	msgbox MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo, MSGBOX_DEFAULT
+	msgbox MtPyre_Summit_Text_ArchieMaxieGotAhead, MSGBOX_DEFAULT
 	closemessage
 	fadescreen FADE_TO_BLACK
 	removeobject LOCALID_ARCHIE
@@ -60,15 +60,19 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 	setflag FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA
 	fadedefaultbgm
 	fadescreen FADE_FROM_BLACK
-	delay 20
+	delay 50
 	setvar VAR_MT_PYRE_STATE, 1
-	call_if_eq VAR_0x8008, 0, MtPyre_Summit_EventScript_OldLadyApproachPlayer0
-	call_if_eq VAR_0x8008, 1, MtPyre_Summit_EventScript_OldLadyApproachPlayer1
-	call_if_eq VAR_0x8008, 2, MtPyre_Summit_EventScript_OldLadyApproachPlayer2
-	msgbox MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis, MSGBOX_DEFAULT
-	giveitem ITEM_MAGMA_EMBLEM
-	setflag FLAG_RECEIVED_RED_OR_BLUE_ORB
-	setflag FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD
+	call_if_eq VAR_0x8008, 0, MtPyre_Summit_EventScript_PlayerApproachPhoebe0
+	call_if_eq VAR_0x8008, 1, MtPyre_Summit_EventScript_PlayerApproachPhoebe1
+	call_if_eq VAR_0x8008, 2, MtPyre_Summit_EventScript_PlayerApproachPhoebe2
+	msgbox MtPyre_Summit_Text_YoureNotAfter, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_PHOEBE, MtPyre_Summit_Text_Defeat
+	setflag FLAG_DEFEATED_PHOEBE
+	setflag FLAG_HIDE_ROUTE_105_GRUNTS
+	msgbox MtPyre_Summit_Text_WowYoureCapable, MSGBOX_DEFAULT
+	giveitem ITEM_HEART_SCALE
+	msgbox MtPyre_Summit_Text_PerhapsICould, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, MtPyre_Summit_EventScript_SealingTutor
 	releaseall
 	end
 
@@ -79,6 +83,8 @@ MtPyre_Summit_EventScript_ArchieFacePlayer0::
 
 @ Archie is already facing player
 MtPyre_Summit_EventScript_ArchieFacePlayer1::
+	applymovement LOCALID_ARCHIE, MtPyre_Summit_Movement_ArchieFacePlayer1
+	waitmovement 0
 	return
 
 MtPyre_Summit_EventScript_ArchieFacePlayer2::
@@ -86,24 +92,57 @@ MtPyre_Summit_EventScript_ArchieFacePlayer2::
 	waitmovement 0
 	return
 
+MtPyre_Summit_EventScript_PlayerApproachPhoebe0::
+	applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Movement_PlayerApproachPhoebe0
+	waitmovement 0
+	return
+
+MtPyre_Summit_EventScript_PlayerApproachPhoebe1::
+	applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Movement_PlayerApproachPhoebe1
+	waitmovement 0
+	return
+
+MtPyre_Summit_EventScript_PlayerApproachPhoebe2::
+	applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Movement_PlayerApproachPhoebe2
+	waitmovement 0
+	return
+
 MtPyre_Summit_EventScript_OldLadyApproachPlayer0::
-	applymovement LOCALID_OLD_LADY, MtPyre_Summit_Movement_OldLadyApproachPlayer0
+	applymovement LOCALID_PHOEBE, MtPyre_Summit_Movement_OldLadyApproachPlayer0
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return
 
 MtPyre_Summit_EventScript_OldLadyApproachPlayer1::
-	applymovement LOCALID_OLD_LADY, MtPyre_Summit_Movement_OldLadyApproachPlayer1
+	applymovement LOCALID_PHOEBE, MtPyre_Summit_Movement_OldLadyApproachPlayer1
 	waitmovement 0
 	return
 
 MtPyre_Summit_EventScript_OldLadyApproachPlayer2::
-	applymovement LOCALID_OLD_LADY, MtPyre_Summit_Movement_OldLadyApproachPlayer2
+	applymovement LOCALID_PHOEBE, MtPyre_Summit_Movement_OldLadyApproachPlayer2
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	return
+
+MtPyre_Summit_Movement_PlayerApproachPhoebe0:
+	walk_in_place_faster_right
+	walk_right
+	walk_in_place_faster_up
+	walk_up
+	step_end
+
+MtPyre_Summit_Movement_PlayerApproachPhoebe1:
+	walk_up
+	step_end
+
+MtPyre_Summit_Movement_PlayerApproachPhoebe2:
+	walk_in_place_faster_left
+	walk_left
+	walk_in_place_faster_up
+	walk_up
+	step_end
 
 MtPyre_Summit_Movement_OldLadyApproachPlayer0:
 	walk_down
@@ -123,6 +162,10 @@ MtPyre_Summit_Movement_OldLadyApproachPlayer2:
 
 MtPyre_Summit_Movement_ArchieFacePlayer0:
 	walk_left
+	walk_in_place_faster_down
+	step_end
+
+MtPyre_Summit_Movement_ArchieFacePlayer1:
 	walk_in_place_faster_down
 	step_end
 
@@ -410,6 +453,16 @@ MtPyre_Summit_Movement_MaxieApproachArchie2:
 	walk_in_place_faster_left
 	step_end
 
+MtPyre_Summit_Movement_OldLadyLookAround:
+	delay_16
+	delay_16
+	face_left
+	delay_16
+	delay_16
+	face_down
+	delay_16
+	step_end
+
 MtPyre_Summit_EventScript_Grunt1::
 	trainerbattle_single TRAINER_GRUNT_MT_PYRE_1, MtPyre_Summit_Text_Grunt1Intro, MtPyre_Summit_Text_Grunt1Defeat
 	msgbox MtPyre_Summit_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
@@ -490,14 +543,23 @@ MtPyre_Summit_Text_Grunt4PostBattle:
 	.string "We have a great combination going\n"
 	.string "with us members and our leader.$"
 
-MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
-	.string "ARCHIE: TEAM MAGMA's MAXIE got ahead\n"
-	.string "of us, but we also got what we wanted.\p"
-	.string "The RED ORB preserved at MT. PYRE…\n"
-	.string "I, ARCHIE, now have it in my possession!\p"
-	.string "Fufufu… Now we can bring our ultimate\n"
-	.string "objective to fruition!\p"
-	.string "Okay, TEAM!\n"
+MtPyre_Summit_Text_ArchieDrat:
+	.string "Archie: Drat!\p"
+	.string "I thought it would be effortless to\n"
+	.string "take the Red Orb.\p"
+	.string "I didn't expect that a former member of\n"
+	.string "the Elite Four would get in my way.$"
+
+MtPyre_Summit_Text_ArchieMaxieGotAhead:
+	.string "What's a kid doing here?\n"
+	.string "Nevertheless…\p"
+	.string "Team Magma's Maxie got ahead of us, but\n"
+	.string "there's no sense in dwelling on it.\p"
+	.string "Our operation in Slateport City is\n"
+	.string "almost complete.\p"
+	.string "Once we're done there, we can regroup\n"
+	.string "and come back with even greater power!\p"
+	.string "Okay, Team!\n"
 	.string "We're pulling out!$"
 
 MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
@@ -623,5 +685,43 @@ MtPyre_Summit_Text_HoennTrioTale:
 	.string "becalmed the two enraged Pokémon.\p"
 	.string "Then, its duty done, the green Pokémon\n"
 	.string "flew off into the wild blue yonder…$"
+
+MtPyre_Summit_Text_YoureNotAfter:
+	.string "You're not after the Red Orb as well,\n"
+	.string "are you?\p"
+	.string "What? You say you came here looking\n"
+	.string "for Team Aqua's leader?\p"
+	.string "That was him alright, he's a ruthless\n"
+	.string "man who wants to expand the world's\l"
+	.string "oceans at all costs…\p"
+	.string "His rival, Maxie of Team Magma, came\n"
+	.string "here yesterday and took the Blue Orb.\p"
+	.string "I've trained at Mt. Pyre my whole life\n"
+	.string "and felt it was my duty to protect the\l"
+	.string "remaining Orb.\p"
+	.string "These Orbs have an immense power, The\n"
+	.string "world could be destroyed with them in\l"
+	.string "the wrong hands…\p"
+	.string "If I heard him right, Archie is going\n"
+	.string "to Slateport City next.\p"
+	.string "If you're going to keep pursuing Team\n"
+	.string "Aqua, I'll need to make sure your\l"
+	.string "battling skills are up to the task!$"
+
+MtPyre_Summit_Text_WowYoureCapable:
+	.string "Wow, you're quite a capable trainer!\p"
+	.string "If someone like you is challenging\n"
+	.string "Team Aqua, I feel quite confident\l"
+	.string "in this region's future.\p"
+	.string "I hope you can make good use of this\n"
+	.string "Heart Scale.$"
+
+MtPyre_Summit_Text_PerhapsICould:
+	.string "Perhaps I could also help by\n"
+	.string "teaching your Pokémon some moves?$"
+
+MtPyre_Summit_Text_Defeat:
+	.string "Oh, darn.\n"
+	.string "I've gone and lost.$"
 
 `
