@@ -31530,6 +31530,9 @@ gBattleAnimGeneral_RichSediment::
 gBattleAnimGeneral_SoothingSteam::
 	goto gBattleAnimMove_Haze
 
+gBattleAnimGeneral_Grudge::
+	goto gBattleAnimMove_Grudge
+
 gBattleAnimGeneral_IllusionOff::
 	monbg ANIM_TARGET
 	createvisualtask AnimTask_TransformMon, 2, SPECIES_GFX_CHANGE_ILLUSION_OFF

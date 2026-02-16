@@ -3929,6 +3929,12 @@ bool32 TryFieldEffects(enum FieldEffectCases caseId)
                 gBattleScripting.animArg1 = B_ANIM_SOOTHING_STEAM;
                 effect = TRUE;
                 break;
+            case FIELD_EFFECT_GRUDGE:
+            case FIELD_EFFECT_GRUDGE_FOG:
+                gFieldStatuses = STATUS_FIELD_GRUDGE;
+                gBattleScripting.animArg1 = B_ANIM_GRUDGE;
+                effect = TRUE;
+                break;
             }
         }
         if (effect)

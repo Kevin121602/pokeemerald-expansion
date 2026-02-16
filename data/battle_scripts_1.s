@@ -8841,6 +8841,12 @@ BattleScript_SoothingSteam::
 	waitstate
 	end3
 
+BattleScript_Grudge::
+	pause B_WAIT_TIME_SHORT
+	printstring STRINGID_VENGEFULSPIRITS
+	waitstate
+	end3
+
 BattleScript_SleepClauseBlocked::
 	pause B_WAIT_TIME_SHORT
 	setmoveresultflags MOVE_RESULT_FAILED

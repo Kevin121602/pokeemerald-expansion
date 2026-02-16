@@ -875,6 +875,7 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_POWERCONSTRUCTPRESENCEOFMANY]         = COMPOUND_STRING("You sense the presence of many!"),
     [STRINGID_POWERCONSTRUCTTRANSFORM]              = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} transformed into its Complete Forme!"),
     [STRINGID_ABILITYSHIELDPROTECTS]                = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}'s Ability is protected by the effects of its {B_LAST_ITEM}!"),
+    [STRINGID_VENGEFULSPIRITS]                      = COMPOUND_STRING("You feel the haunting presence of the mountain's vengeful spirits!"),
 };
 
 const u16 gTrainerUsedItemStringIds[] =
@@ -1257,7 +1258,9 @@ const u16 gWeatherStartsStringIds[] =
     [WEATHER_UNDERWATER_BUBBLES] = STRINGID_ITISRAINING,
     [WEATHER_ABNORMAL]           = STRINGID_ITISRAINING,
     [FIELD_EFFECT_RICH_SEDIMENT] = STRINGID_RICHSEDIMENT,
-    [FIELD_EFFECT_SOOTHING_STEAM] = STRINGID_SOOTHINGSTEAM
+    [FIELD_EFFECT_SOOTHING_STEAM] = STRINGID_SOOTHINGSTEAM,
+    [FIELD_EFFECT_GRUDGE]           = STRINGID_VENGEFULSPIRITS,
+    [FIELD_EFFECT_GRUDGE_FOG]       = STRINGID_VENGEFULSPIRITS
 };
 
 const u16 gTerrainStartsStringIds[] =

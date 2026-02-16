@@ -13,16 +13,16 @@ MtPyre_Exterior_EventScript_CheckEnterFromSummit::
 	return
 
 MtPyre_Exterior_EventScript_EnterFromSummit::
-	setweather WEATHER_FOG_HORIZONTAL
+	setweather FIELD_EFFECT_GRUDGE_FOG
 	return
 
 MtPyre_Exterior_EventScript_FogTrigger::
-	setweather WEATHER_FOG_HORIZONTAL
+	setweather FIELD_EFFECT_GRUDGE_FOG
 	doweather
 	end
 
 MtPyre_Exterior_EventScript_SunTrigger::
-	setweather WEATHER_SUNNY
+	setweather FIELD_EFFECT_GRUDGE
 	doweather
 	end
 

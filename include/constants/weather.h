@@ -47,6 +47,7 @@
 #define FIELD_EFFECT_PRIMORDIAL_SEA     43
 #define FIELD_EFFECT_VISCIOUS_SANDSTORM 44
 #define FIELD_EFFECT_HEAVY_HAIL         45
+#define FIELD_EFFECT_GRUDGE_FOG         46
 
 // These are used in maps' coord_weather_event entries.
 // They are not a one-to-one mapping with the engine's

@@ -4362,7 +4362,7 @@ static void Cmd_tryfaintmon(void)
 
             if (gBattleMons[gBattlerTarget].volatiles.destinyBond)
                 gBattleStruct->tryDestinyBond = TRUE;
-            if (gBattleMons[gBattlerTarget].volatiles.grudge)
+            if (gBattleMons[gBattlerTarget].volatiles.grudge || gFieldStatuses & STATUS_FIELD_GRUDGE)
                 gBattleStruct->tryGrudge = TRUE;
 
             TryDeactivateSleepClause(GetBattlerSide(battler), gBattlerPartyIndexes[battler]);

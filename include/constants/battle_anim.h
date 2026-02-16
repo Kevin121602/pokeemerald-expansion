@@ -596,8 +596,9 @@
 #define B_ANIM_SOOTHING_STEAM           55
 #define B_ANIM_SWAP_TO_SUBSTITUTE       56
 #define B_ANIM_SWAP_FROM_SUBSTITUTE     57
+#define B_ANIM_GRUDGE                   58
 
-#define NUM_B_ANIMS_GENERAL             58
+#define NUM_B_ANIMS_GENERAL             59
 
 // special animations table (sBattleAnims_Special)
 #define B_ANIM_LVL_UP                   0
