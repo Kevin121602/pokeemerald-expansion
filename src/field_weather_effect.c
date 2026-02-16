@@ -1409,7 +1409,7 @@ void FogHorizontal_Main(void)
     {
     case 0:
         CreateFogHorizontalSprites();
-        if (gWeatherPtr->currWeather == WEATHER_FOG_HORIZONTAL)
+        if (gWeatherPtr->currWeather == WEATHER_FOG_HORIZONTAL || gWeatherPtr->currWeather == FIELD_EFFECT_GRUDGE_FOG || gWeatherPtr->currWeather == FIELD_EFFECT_SOOTHING_STEAM)
         {
             Weather_SetTargetBlendCoeffs(12, 8, 3);
             UpdateShadowColor(RGB_GRAY);
