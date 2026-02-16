@@ -4290,9 +4290,1500 @@ Ability: Regenerator
 
 /*Loc: Route 118*/
 
+/*Double:*/
+
+=== TRAINER_ROSE_1 ===
+Name: Rose
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Vivillon @ Focus Sash
+Level: 36
+Nature: Timid
+Ability: Shield Dust
+- Bug Buzz
+- Air Slash
+- Protect
+- Rage Powder
+
+Sinistcha @ Leftovers
+Level: 35
+Nature: Timid
+Ability: Hospitality
+- Shadow Ball
+- Giga Drain
+- Scald
+- Rage Powder
+
+=== TRAINER_DALTON_1 ===
+Name: Dalton
+Class: Guitarist
+Pic: Guitarist
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Toxtricity @ Throat Spray
+Level: 35
+Nature: Hasty
+Ability: Punk Rock
+- Sludge Bomb
+- Overdrive
+- Hyper Voice
+- Trailblaze
+
+Exploud @ Normal Gem
+Level: 36
+Nature: Timid
+Ability: Scrappy
+- Hyper Voice
+- Focus Blast
+- Flamethrower
+- Icy Wind
+
+=== TRAINER_WADE ===
+Name: Wade
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Basculin @ Rindo Berry
+Level: 36
+Nature: Jolly
+Ability: Reckless
+- Wave Crash
+- Zen Headbutt
+- Ice Fang
+- Double Team
+
+Basculin-Blue-Striped @ Focus Sash
+Level: 36
+Nature: Jolly
+Ability: Rock Head
+- Waterfall
+- Head Smash
+- Double Edge
+- Reversal
+
+Basculin-White-Striped @ Choice Band
+Level: 36
+Nature: Jolly
+Ability: Adaptability
+- Liquidation
+- Flip Turn
+- Aqua Jet
+
+=== TRAINER_BARNY ===
+Name: Barny
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Crawdaunt @ Muscle Band
+Level: 36
+Nature: Jolly
+Ability: Adaptability
+- Razor Shell
+- Night Slash
+- X-Scissor
+- Aqua Jet
+
+Swanna @ Wise Glasses
+Level: 35
+Nature: Naive
+Ability: Hydration
+- Hurricane
+- Hydro Pump
+- Flip Turn
+- Roost
+
+Seismitoad @ Poison Gem
+Level: 36
+Nature: Mild
+Ability: Swift Swim
+- Earth Power
+- Muddy Water
+- Poison Jab
+- Rain Dance
+
+=== TRAINER_CHESTER ===
+Name: Chester
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Braviary @ Flying Gem
+Level: 36
+Nature: Jolly
+Ability: Defiant
+- Acrobatics
+- Return
+- Close Combat
+- Agility
+
+Oricorio-Pom-Pom @ Lum Berry
+Level: 36
+Nature: Timid
+Ability: Overgrow
+- Revelation Dance
+- Air Slash
+- Calm Mind
+- Roost
+
+Espathra @ Focus Sash
+Level: 37
+Nature: Modest
+Ability: Speed Boost
+- Lumina Crash
+- Dazzling Gleam
+- Stored Power
+- Protect
+
+=== TRAINER_PERRY ===
+Name: Perry
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Skarmory @ Leftovers
+Level: 36
+Nature: Jolly
+Ability: Sturdy
+- Drill Peck
+- Iron Head
+- Body Press
+- Spikes
+
+Unfezant @ Scope Lens
+Level: 36
+Nature: Naive
+Ability: Super Luck
+- Drill Peck
+- Quick Attack
+- Heat Wave
+- Steel Wing
+
+Flapple @ Liechi Berry
+Level: 36
+Nature: Jolly
+Ability: Ripen
+- Dragon Rush
+- Grav Apple
+- Sucker Punch
+- Substitute
+
+Bombirdier @ Hard Stone
+Level: 37
+Nature: Jolly
+Ability: Rocky Payload
+- Dual Wingbeat
+- Lash Out
+- Rock Slide
+- Roost
+
 /*Loc: Route 123*/
 
+/*Double:*/
+
+=== TRAINER_JAZMYN ===
+Name: Jazmyn
+Class: Cooltrainer 2
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Stoutland @ Leftovers
+Level: 36
+Nature: Jolly
+Ability: Intimidate
+- Return
+- Superpower
+- Crunch
+- Howl
+
+Boltund @ Focus Sash
+Level: 37
+Nature: Jolly
+Ability: Strong Jaw
+- Thunder Fang
+- Psychic Fangs
+- Ice Fang
+- Howl
+
+=== TRAINER_DAVIS ===
+Name: Davis
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Pinsir @ Muscle Band
+Level: 36
+Nature: Jolly
+Ability: Hyper Cutter
+- X-Scissor
+- High Horsepower
+- Rock Slide
+- Protect
+
+Centiskorch @ Charti Berry
+Level: 36
+Nature: Jolly
+Ability: White Smoke
+- Fire Lash
+- Lunge
+- Power Whip
+- Knock Off
+
+=== TRAINER_VIOLET ===
+Name: Violet
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rillaboom @ Custap Berry
+Level: 36
+Nature: Jolly
+Ability: Grassy Surge
+- Drum Beating
+- High Horsepower
+- Hammer Arm
+- Endeavor
+
+Dedenne @ Petaya Berry
+Level: 37
+Nature: Timid
+Ability: Cheek Pouch
+- Thunderbolt
+- Dazzling Gleam
+- Grass Knot
+- Endure
+
+Amoonguss @ Rocky Helmet
+Level: 36
+Nature: Bold
+Ability: Effect Spore
+- Sludge Bomb
+- Giga Drain
+- Foul Play
+- Synthesis
+
+Liepard @ Grassy Seed
+Level: 37
+Nature: Mild
+Ability: Unburden
+- Dark Pulse
+- Pursuit
+- Psycho Cut
+- Grass Knot
+
+/*Double:*/
+
+=== TRAINER_JACKI_1 ===
+Name: Jacki
+Class: Psychic
+Pic: Psychic F
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Orbeetle @ Sitrus Berry
+Level: 36
+Nature: Timid
+Ability: Compound Eyes
+- Bug Buzz
+- Psyshock
+- Hypnosis
+- Reflect
+
+Spiritomb @ Leftovers
+Level: 37
+Nature: Bold
+Ability: Infiltrator
+- Dark Pulse
+- Hex
+- Dream Eater
+- Hypnosis
+
+=== TRAINER_FREDRICK ===
+Name: Fredrick
+Class: Expert
+Pic: Expert M
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Miltank @ Fighting Gem
+Level: 37
+Nature: Jolly
+Ability: Scrappy
+- Body Slam
+- Iron Tail
+- Wake-Up Slap
+- Milk Drink
+
+Machamp @ Lum Berry
+Level: 36
+Nature: Jolly
+Ability: Steadfast
+- Wake-Up Slap
+- Knock Off
+- Poison Jab
+- Rock Slide
+
+=== TRAINER_CAMERON_1 ===
+Name: Cameron
+Class: Psychic
+Pic: Psychic M
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Indeedee @ Expert Belt
+Level: 36
+Nature: Timid
+Ability: Psychic Surge
+- Expanding Force
+- Hyper Voice
+- Dazzling Gleam
+- Mystical Fire
+
+Slowbro-Galar @ Black Sludge
+Level: 37
+Nature: Quiet
+Ability: Quick Draw
+- Poison Jab
+- Psyshock
+- Flamethrower
+- Slack Off
+
+Klinklang @ Psychic Seed
+Level: 37
+Nature: Jolly
+Ability: Clear Body
+- Steel Roller
+- Gear Grind
+- Wild Charge
+- Shift Gear
+
+Malamar @ Muscle Band
+Level: 37
+Nature: Jolly
+Ability: Contrary
+- Night Slash
+- Psycho Cut
+- Superpower
+- Hypnosis
+
+/*Double:*/
+
+=== TRAINER_FERNANDO_1 ===
+Name: Fernando
+Class: Guitarist
+Pic: Guitarist
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Raichu @ Absorb Bulb
+Level: 36
+Nature: Timid
+Ability: Lightning Rod
+- Thunderbolt
+- Fake Out
+- Grass Knot
+- Helping Hand
+
+Manectric @ Absorb Bulb
+Level: 37
+Nature: Timid
+Ability: Lightning Rod
+IVs: 31 HP / 30 Atk / 30 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flamethrower
+- Hidden Power
+- Light Screen
+
+=== TRAINER_ALBERTO ===
+Name: Alberto
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Cramorant @ Focus Sash
+Level: 37
+Nature: Adamant
+Ability: Gulp Missile
+IVs: 31 HP / 31 Atk / 31 Def / 0 SpA / 31 SpD / 31 Spe
+- Surf
+- Liquidation
+- Dual Wingbeat
+- Agility
+
+Gyarados @ Power Herb
+Level: 37
+Nature: Jolly
+Ability: Intimidate
+- Bounce
+- Waterfall
+- Power Whip
+- Dragon Dance
+
+=== TRAINER_MIU_AND_YUKI ===
+Name: Miu & Yuki
+Class: Twins
+Pic: Twins
+Gender: Male
+Music: Twins
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Dewgong @ Leftovers
+Level: 36
+Nature: Hasty
+Ability: Hydration
+- Muddy Water
+- Ice Beam
+- Icy Wind
+- Fake Out
+
+Whimsicott @ Kebia Berry
+Level: 38
+Nature: Timid
+Ability: Infiltrator
+- Energy Ball
+- Dazzling Gleam
+- Hurricane
+- Fake Tears
+
+Mismagius @ Lum Berry
+Level: 36
+Nature: Timid
+Ability: Levitate
+- Shadow Ball
+- Thunder
+- Psyshock
+- Protect
+
+Ninetales-Alola @ Wise Glasses
+Level: 37
+Nature: Timid
+Ability: Slush Rush
+- Moonblast
+- Freeze Dry
+- Weather Ball
+- Hypnosis
+
+=== TRAINER_BRAXTON ===
+Name: Braxton
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Masquerain @ Focus Sash
+Level: 37
+Nature: Timid
+Ability: Unnerve
+- Bug Buzz
+- Scald
+- Sticky Web
+- Stun Spore
+
+Breloom @ Coba Berry
+Level: 36
+Nature: Jolly
+Ability: Technician
+- Bullet Seed
+- Mach Punch
+- Zen Headbutt
+- Spore
+
+Bellibolt @ Sitrus Berry
+Level: 38
+Nature: Timid
+Ability: Electromorphosis
+- Parabolic Charge
+- Hyper Voice
+- Muddy Water
+- Slack Off
+
+=== TRAINER_WENDY ===
+Name: Wendy
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Grapploct @ Lum Berry
+Level: 37
+Nature: Sassy
+Ability: Technician
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Drain Punch
+- Liquidation
+- Payback
+- Octolock
+
+Alomomola @ Leftovers
+Level: 36
+Nature: Quiet
+Ability: Regenerator
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Scald
+- Flip Turn
+- Protect
+- Wish
+
+Lilligant @ Metronome
+Level: 37
+Nature: Timid
+Ability: Own Tempo
+- Petal Dance
+- Pollen Puff
+- Quiver Dance
+- Sleep Powder
+
+Wormadam-Trash @ Assault Vest
+Level: 38
+Nature: Relaxed
+Ability: Overcoat
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Bug Buzz
+- Iron Head
+- Infestation
+- Metal Burst
+
+/*Double:*/
+
+=== TRAINER_KINDRA ===
+Name: Kindra
+Class: Hex Maniac
+Pic: Hex Maniac
+Gender: Female
+Music: Suspicious
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Oricorio-Sensu @ Lum Berry
+Level: 38
+Nature: Timid
+Ability: Dancer
+- Hurricane
+- Revelation Dance
+- Alluring Voice
+- Tailwind
+
+Oranguru @ Leftovers
+Level: 37
+Nature: Timid
+Ability: Telepathy
+- Hyper Voice
+- Psyshock
+- Thunder
+- Encore
+
+=== TRAINER_ED ===
+Name: Ed
+Class: Collector
+Pic: Collector
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Crabominable @ Never-Melt Ice
+Level: 37
+Nature: Jolly
+Ability: Hyper Cutter
+- Close Combat
+- Ice Punch
+- Crabhammer
+- Protect
+
+Exeggutor @ Tanga Berry
+Level: 37
+Nature: Naive
+Ability: Harvest
+- Extrasensory
+- Giga Drain
+- Self-Destruct
+- Sleep Powder
+
+=== TRAINER_JONAS ===
+Name: Jonas
+Class: Ninja Boy
+Pic: Ninja Boy
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Forretress @ Quick Claw
+Level: 37
+Nature: Brave
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Lunge
+- Gyro Ball
+- Self-Destruct
+- Spikes
+
+Sigilyph @ Flame Orb
+Level: 36
+Nature: Timid
+Ability: Magic Guard
+Status: Burn
+- Psyshock
+- Air Slash
+- Psycho Shift
+- Roost
+
+Dugtrio @ Focus Sash
+Level: 38
+Nature: Jolly
+Ability: Arena Trap
+- High Horsepower
+- Rock Slide
+- Aerial Ace
+- Stealth Rock
+
+Raticate @ Leftovers
+Level: 38
+Nature: Jolly
+Ability: Guts
+Status: Burn
+- Facade
+- Stomping Tantrum
+- Sucker Punch
+- U-turn
+
+=== TRAINER_KAYLEY ===
+Name: Kayley
+Class: Parasol Lady
+Pic: Parasol Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Greedent @ Liechi Berry
+Level: 37
+Nature: Careful
+Ability: Cheek Pouch
+- Body Slam
+- Body Press
+- Seed Bomb
+- Stuff Cheeks
+
+Comfey @ Leftovers
+Level: 37
+Nature: Bold
+Ability: Triage
+- Draining Kiss
+- Giga Drain
+- Calm Mind
+- Leech Seed
+
+Lurantis @ Assault Vest
+Level: 38
+Nature: Jolly
+Ability: Contrary
+- Leaf Storm
+- Leaf Blade
+- Superpower
+- Knock Off
+
+Simisear @ Flying Gem
+Level: 37
+Nature: Naive
+Ability: Blaze
+- Flamethrower
+- Acrobatics
+- Grass Knot
+- Will-O-Wisp
+
+Floatzel @ Muscle Band
+Level: 38
+Nature: Jolly
+Ability: Water Veil
+- Liquidation
+- Ice Spinner
+- Crunch
+- Power-Up Punch
+
 /*Loc: Mt. Pyre*/
+
+=== TRAINER_DEZ_AND_LUKE ===
+Name: Dez & Luke
+Class: Young Couple
+Pic: Young Couple
+Gender: Male
+Music: Girl
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Aromatisse @ Fairy Feather
+Level: 37
+Nature: Quiet
+Ability: Aroma Veil
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Moonblast
+- Energy Ball
+- Psychic
+- Trick Room
+
+Marowak @ Thick Club
+Level: 37
+Nature: Brave
+Ability: Lightning Rod
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Bonemerang
+- Ice Punch
+- Thunder Punch
+- Detect
+
+Audino @ Leftovers
+Level: 38
+Nature: Relaxed
+Ability: Healer
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Hyper Voice
+- Knock Off
+- Follow Me
+- Helping Hand
+
+Wishiwashi @ Iapapa Berry
+Level: 38
+Nature: Brave
+Ability: Schooling
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Aqua Tail
+- Muddy Water
+- Ice Beam
+- Protect
+
+Abomasnow @ Occa Berry
+Level: 38
+Nature: Brave
+Ability: Soundproof
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Wood Hammer
+- Ice Spinner
+- Rock Slide
+- Low Kick
+
+=== TRAINER_MARK ===
+Name: Mark
+Class: Pokemaniac
+Pic: Pokemaniac
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Frosmoth @ Focus Sash
+Level: 37
+Nature: Timid
+Ability: Shield Dust
+- Bug Buzz
+- Ice Beam
+- Air Slash
+- Quiver Dance
+
+Dachsbun @ Leftovers
+Level: 38
+Nature: Jolly
+Ability: Well-Baked Body
+- Play Rough
+- Psychic Fangs
+- Body Press
+- Wish
+
+Rotom @ Blunder Policy
+Level: 37
+Nature: Timid
+Ability: Levitate
+- Thunder
+- Hex
+- Signal Beam
+- Will-O-Wisp
+
+Rapidash @ Muscle Band
+Level: 38
+Nature: Jolly
+Ability: Reckless
+- Flare Blitz
+- Megahorn
+- Wild Charge
+- Hypnosis
+
+=== TRAINER_KAYLA ===
+Name: Kayla
+Class: Psychic
+Pic: Psychic F
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Slowking @ Leftovers
+Level: 37
+Nature: Bold
+Ability: Regenerator
+- Future Sight
+- Scald
+- Slack Off
+- Teleport
+
+Decidueye-Hisui @ Coba Berry
+Level: 38
+Nature: Hasty
+Ability: Scrappy
+- Leaf Storm
+- Triple Arrows
+- Knock Off
+- Synthesis
+
+Alcremie @ Weakness Policy
+Level: 38
+Nature: Timid
+Ability: Aroma Veil
+- Dazzling Gleam
+- Stored Power
+- Acid Armor
+- Calm Mind
+
+Weavile @ Black Glasses
+Level: 38
+Nature: Jolly
+Ability: Inner Focus
+- Ice Punch
+- Night Slash
+- Pursuit
+- Psycho Cut
+
+=== TRAINER_WILLIAM ===
+Name: William
+Class: Psychic
+Pic: Psychic M
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rampardos @ Muscle Band
+Level: 38
+Nature: Jolly
+Ability: Mold Breaker
+- Rock Slide
+- Zen Headbutt
+- Fire Punch
+- Ice Punch
+
+Mr. Rime @ Never-Melt Ice
+Level: 37
+Nature: Hardy
+Ability: Vital Spirit
+- Psychic
+- Freeze-Dry
+- Focus Blast
+- Slack Off
+
+Runerigus @ Rindo Berry
+Level: 38
+Nature: Careful
+Ability: Wandering Spirit
+- Earthquake
+- Shadow Claw
+- Rock Slide
+- Will-O-Wisp
+
+Musharna @ Leftovers
+Level: 39
+Nature: Bold
+Ability: Synchronize
+- Psychic
+- Moonblast
+- Calm Mind
+- Thunder Wave
+
+=== TRAINER_TASHA ===
+Name: Tasha
+Class: Hex Maniac
+Pic: Hex Maniac
+Gender: Female
+Music: Suspicious
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Gourgeist-Small @ Focus Sash
+Level: 37
+Nature: Jolly
+Ability: Insomnia
+- Poltergeist
+- Seed Bomb
+- Foul Play
+- Leech Seed
+
+Dudunsparce @ Silk Scarf
+Level: 38
+Nature: Careful
+Ability: Serene Grace
+- Headbutt
+- Pursuit
+- Glare
+- Roost
+
+Araquanid @ Leftovers
+Level: 37
+Nature: Impish
+Ability: Water Bubble
+- Waterfall
+- Lunge
+- Protect
+- Toxic
+
+Mabosstiff @ Lum Berry
+Level: 38
+Nature: Jolly
+Ability: Guard Dog
+- Crunch
+- Play Rough
+- Psychic Fangs
+- Destiny Bond
+
+Lampent @ Eviolite
+Level: 39
+Nature: Timid
+Ability: Shadow Tag
+- Heat Wave
+- Shadow Ball
+- Substitute
+- Will-O-Wisp
+
+=== TRAINER_VALERIE_1 ===
+Name: Valerie
+Class: Hex Maniac
+Pic: Hex Maniac
+Gender: Female
+Music: Suspicious
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Cursola @ Lum Berry
+Level: 38
+Nature: Modest
+Ability: Perish Body
+- Hex
+- Night Shade
+- Ice Beam
+- Will-O-Wisp
+
+Doublade @ Eviolite
+Level: 38
+Nature: Sassy
+Ability: No Guard
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Shadow Claw
+- Shadow Sneak
+- Gyro Ball
+- Sacred Sword
+
+Primarina @ Throat Spray
+Level: 38
+Nature: Timid
+Ability: Torrent
+- Sparkling Aria
+- Draining Kiss
+- Icy Wind
+- Sing
+
+Wobbuffet @ Leftovers
+Level: 39
+Nature: Impish
+Ability: Shadow Tag
+- Counter
+- Mirror Coat
+- Destiny Bond
+- Encore
+
+=== TRAINER_CEDRIC ===
+Name: Cedric
+Class: Psychic
+Pic: Psychic M
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rapidash-Galar @ Lum Berry
+Level: 37
+Nature: Jolly
+Ability: Pastel Veil
+- Play Rough
+- Zen Headbutt
+- High Horsepower
+- Hypnosis
+
+Gallade @ Scope Lens
+Level: 39
+Nature: Jolly
+Ability: Sharpness
+- Sacred Sword
+- Psycho Cut
+- X-Scissor
+- Shadow Sneak
+
+Eiscue @ Assault Vest
+Level: 38
+Nature: Jolly
+Ability: Ice Face
+- Icicle Crash
+- Head Smash
+- Zen Headbutt
+- Flip Turn
+
+Zoroark @ Lum Berry
+Level: 38
+Nature: Hasty
+Ability: Illusion
+- Knock Off
+- Pursuit
+- Sludge Bomb
+- Extrasensory
+
+Typhlosion-Hisui @ Ghost Gem
+Level: 38
+Nature: Timid
+Ability: Blaze
+- Flamethrower
+- Shadow Ball
+- Hex
+- Will-O-Wisp
+
+=== TRAINER_ATSUSHI ===
+Name: Atsushi
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sirfetch'd @ Leek
+Level: 38
+Nature: Jolly
+Ability: Scrappy
+- Close Combat
+- First Impression
+- Leaf Blade
+- Substitute
+
+Nidoking @ Lum Berry
+Level: 38
+Nature: Jolly
+Ability: Sheer Force
+- Drill Run
+- Poison Jab
+- Thunder Punch
+- Counter
+
+Pangoro @ Roseli Berry
+Level: 39
+Nature: Careful
+Ability: Mold Breaker
+- Crunch
+- Circle Throw
+- Bullet Punch
+- Hone Claws
+
+=== TRAINER_GABRIELLE_1 ===
+Name: Gabrielle
+Class: Pkmn Breeder
+Pic: Pokemon Breeder F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ninetales @ Wise Glasses
+Level: 38
+Nature: Timid
+Ability: Drought
+- Heat Wave
+- Solar Beam
+- Hex
+- Hypnosis
+
+Nidoqueen @ Black Sludge
+Level: 39
+Nature: Timid
+Ability: Poison Point
+- Earth Power
+- Venoshock
+- Flamethrower
+- Attract
+
+Bellossom @ Lum Berry
+Level: 38
+Nature: Modest
+Ability: Chlorophyll
+- Solar Beam
+- Weather Ball
+- Quiver Dance
+- Sleep Powder
+
+Exeggutor-Alola @ Custap Berry
+Level: 39
+Nature: Quiet
+Ability: Harvest
+- Dragon Hammer
+- Energy Ball
+- Flamethrower
+- Endure
+
+=== TRAINER_LEAH ===
+Name: Leah
+Class: Hex Maniac
+Pic: Hex Maniac
+Gender: Female
+Music: Suspicious
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Slowking-Galar @ Black Sludge
+Level: 38
+Nature: Bold
+Ability: Regenerator
+- Sludge Bomb
+- Eerie Spell
+- Scald
+- Slack Off
+
+Skuntank @ Air Balloon
+Level: 39
+Nature: Hasty
+Ability: Aftermath
+- Poison Jab
+- Night Slash
+- Flamethrower
+- Focus Energy
+
+Houndstone @ Colbur Berry
+Level: 39
+Nature: Jolly
+Ability: Fluffy
+- Last Respects
+- Shadow Sneak
+- Body Press
+- Crunch
+
+=== TRAINER_ZANDER ===
+Name: Zander
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Quaquaval @ Flying Gem
+Level: 38
+Nature: Adamant
+Ability: Moxie
+- Aqua Step
+- Low Kick
+- Acrobatics
+- Roost
+
+Emboar @ Lum Berry
+Level: 39
+Nature: Jolly
+Ability: Reckless
+- Heat Crash
+- Low Kick
+- Wild Charge
+- Scary Face
+
+Bisharp @ Focus Sash
+Level: 38
+Nature: Jolly
+Ability: Defiant
+- Iron Head
+- Night Slash
+- X-Scissor
+- Reversal
+
+Torterra @ Loaded Dice
+Level: 38
+Nature: Jolly
+Ability: Overgrow
+- Bullet Seed
+- Earthquake
+- Rock Blast
+- Rock Polish
+
+Granbull @ White Herb
+Level: 39
+Nature: Jolly
+Ability: Rattled
+- Play Rough
+- Close Combat
+- Earthquake
+- Heal Bell
+
+=== TRAINER_GRUNT_MT_PYRE_2 ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Armaldo @ Scope Lens
+Level: 38
+Nature: Jolly
+Ability: Battle Armor
+- X-Scissor
+- Rock Slide
+- Liquidation
+- Stealth Rock
+
+Toxapex @ Black Sludge
+Level: 39
+Nature: Impish
+Ability: Regenerator
+- Liquidation
+- Infestation
+- Recover
+- Toxic
+
+Dragalge @ Rocky Helmet
+Level: 39
+Nature: Bold
+Ability: Poison Point
+- Sludge Wave
+- Dragon Pulse
+- Surf
+- Acid Armor
+
+Barraskewda @ Focus Band
+Level: 39
+Nature: Jolly
+Ability: Swift Swim
+- Liquidation
+- Psychic Fangs
+- Drill Run
+- Throat Chop
+
+=== TRAINER_GRUNT_MT_PYRE_1 ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Clawitzer @ Wise Glasses
+Level: 38
+Nature: Timid
+Ability: Mega Launcher
+- Water Pulse
+- Dragon Pulse
+- Aura Sphere
+- Dark Pulse
+
+Dhelmise @ Quick Claw
+Level: 39
+Nature: Careful
+Ability: Steelworker
+- Power Whip
+- Shadow Claw
+- Iron Head
+- Synthesis
+
+Eelektross @ Leftovers
+Level: 40
+Nature: Jolly
+Ability: Levitate
+- Thunder Punch
+- Aqua Tail
+- U-turn
+- Thunder Wave
+
+Swampert @ Rindo Berry
+Level: 39
+Nature: Jolly
+Ability: Torrent
+- High Horsepower
+- Waterfall
+- Avalanche
+- Bulk Up
+
+/*Double:*/
+
+=== TRAINER_GRUNT_MT_PYRE_3 ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Whimsicott @ Covert Cloak
+Level: 39
+Nature: Timid
+Ability: Prankster
+- Memento
+- Tailwind
+
+Jellicent @ Ghost Gem
+Level: 40
+Nature: Timid
+Ability: Cursed Body
+- Scald
+- Shadow Ball
+- Strength Sap
+- Will-O-Wisp
+
+=== TRAINER_GRUNT_MT_PYRE_4 ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Shiftry @ Focus Sash
+Level: 39
+Nature: Jolly
+Ability: Wind Rider
+- Explosion
+- Fake Out
+
+Kilowattrel @ Wise Glasses
+Level: 40
+Nature: Timid
+Ability: Wind Power
+- Thunderbolt
+- Air Slash
+- Electro Ball
+- Tailwind
+
+Brambleghast @ Power Herb
+Level: 39
+Nature: Jolly
+Ability: Wind Rider
+- Phantom Force
+- Seed Bomb
+- Skitter Smack
+- Infestation
+
+=== TRAINER_PHOEBE ===
+Name: Phoebe
+Class: Veteran
+Pic: Elite Four Phoebe
+Gender: Female
+Music: Elite Four
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Green
+
+Ludicolo @ Sitrus Berry
+Level: 40
+Nature: Timid
+Ability: Own Tempo
+- Scald
+- Giga Drain
+- Ice Beam
+- Teeter Dance
+
+Gothitelle @ Weakness Policy
+Level: 39
+Nature: Timid
+Ability: Shadow Tag
+- Psyshock
+- Thunderbolt
+- Shadow Ball
+- Signal Beam
+
+Primeape @ Eviolite
+Level: 40
+Nature: Jolly
+Ability: Defiant
+- Cross Chop
+- Iron Tail
+- Rock Slide
+- Rage Fist
+
+Mimikyu @ Expert Belt
+Level: 39
+Nature: Jolly
+Ability: Disguise
+- Play Rough
+- Shadow Claw
+- Drain Punch
+- Will-O-Wisp
+
+Spectrier @ Focus Sash
+Level: 41
+Nature: Timid
+Ability: Grim Neigh
+- Shadow Ball
+- Dark Pulse
+- Draining Kiss
+- Nasty Plot
+
+Banette @ Banettite
+Level: 41
+Nature: Jolly
+Ability: Prankster
+- Shadow Sneak
+- Gunk Shot
+- Knock Off
+- Destiny Bond
 
 /*End Parse*/
 
@@ -4391,51 +5882,6 @@ Zubat
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GABRIELLE_1 ===
-Name: Gabrielle
-Class: Pkmn Breeder
-Pic: Pokemon Breeder F
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Ninetales @ Wise Glasses
-Level: 38
-Nature: Timid
-Ability: Drought
-- Heat Wave
-- Solar Beam
-- Hex
-- Hypnosis
-
-Nidoqueen @ Black Sludge
-Level: 39
-Nature: Timid
-Ability: Poison Point
-- Earth Power
-- Venoshock
-- Flamethrower
-- Attract
-
-Bellossom @ Lum Berry
-Level: 38
-Nature: Modest
-Ability: Chlorophyll
-- Solar Beam
-- Weather Ball
-- Quiver Dance
-- Sleep Powder
-
-Exeggutor-Alola @ Custap Berry
-Level: 39
-Nature: Quiet
-Ability: Harvest
-- Dragon Hammer
-- Energy Ball
-- Flamethrower
-- Endure
-
 === TRAINER_MARCEL ===
 Name: MARCEL
 Class: Cooltrainer
@@ -4452,61 +5898,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Shiftry
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_ALBERTO ===
-Name: Alberto
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Cramorant @ Focus Sash
-Level: 37
-Nature: Adamant
-Ability: Gulp Missile
-IVs: 31 HP / 31 Atk / 31 Def / 0 SpA / 31 SpD / 31 Spe
-- Surf
-- Liquidation
-- Dual Wingbeat
-- Agility
-
-Gyarados @ Power Herb
-Level: 37
-Nature: Jolly
-Ability: Intimidate
-- Bounce
-- Waterfall
-- Power Whip
-- Dragon Dance
-
-=== TRAINER_ED ===
-Name: Ed
-Class: Collector
-Pic: Collector
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Crabominable @ Never-Melt Ice
-Level: 37
-Nature: Jolly
-Ability: Hyper Cutter
-- Close Combat
-- Ice Punch
-- Crabhammer
-- Protect
-
-Exeggutor @ Tanga Berry
-Level: 37
-Nature: Naive
-Ability: Harvest
-- Extrasensory
-- Giga Drain
-- Self-Destruct
-- Sleep Powder
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
 Name: Grunt
@@ -4633,121 +6024,6 @@ Numel
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MT_PYRE_1 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Clawitzer @ Wise Glasses
-Level: 38
-Nature: Timid
-Ability: Mega Launcher
-- Water Pulse
-- Dragon Pulse
-- Aura Sphere
-- Dark Pulse
-
-Dhelmise @ Quick Claw
-Level: 39
-Nature: Careful
-Ability: Steelworker
-- Power Whip
-- Shadow Claw
-- Iron Head
-- Synthesis
-
-Eelektross @ Leftovers
-Level: 40
-Nature: Jolly
-Ability: Levitate
-- Thunder Punch
-- Aqua Tail
-- U-turn
-- Thunder Wave
-
-Swampert @ Rindo Berry
-Level: 39
-Nature: Jolly
-Ability: Torrent
-- High Horsepower
-- Waterfall
-- Avalanche
-- Bulk Up
-
-=== TRAINER_GRUNT_MT_PYRE_2 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Armaldo @ Scope Lens
-Level: 38
-Nature: Jolly
-Ability: Battle Armor
-- X-Scissor
-- Rock Slide
-- Liquidation
-- Stealth Rock
-
-Toxapex @ Black Sludge
-Level: 39
-Nature: Impish
-Ability: Regenerator
-- Liquidation
-- Infestation
-- Recover
-- Toxic
-
-Dragalge @ Rocky Helmet
-Level: 39
-Nature: Bold
-Ability: Poison Point
-- Sludge Wave
-- Dragon Pulse
-- Surf
-- Acid Armor
-
-Barraskewda @ Focus Band
-Level: 39
-Nature: Jolly
-Ability: Swift Swim
-- Liquidation
-- Psychic Fangs
-- Drill Run
-- Throat Chop
-
-=== TRAINER_GRUNT_MT_PYRE_3 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Whimsicott @ Covert Cloak
-Level: 39
-Nature: Timid
-Ability: Prankster
-- Memento
-- Tailwind
-
-Jellicent @ Ghost Gem
-Level: 40
-Nature: Timid
-Ability: Cursed Body
-- Scald
-- Shadow Ball
-- Strength Sap
-- Will-O-Wisp
-
 === TRAINER_GRUNT_WEATHER_INST_4 ===
 Name: Grunt
 Class: Team Aqua
@@ -4787,33 +6063,6 @@ Zubat
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_FREDRICK ===
-Name: Fredrick
-Class: Expert
-Pic: Expert M
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Miltank @ Fighting Gem
-Level: 37
-Nature: Jolly
-Ability: Scrappy
-- Body Slam
-- Iron Tail
-- Wake-Up Slap
-- Milk Drink
-
-Machamp @ Lum Berry
-Level: 36
-Nature: Jolly
-Ability: Steadfast
-- Wake-Up Slap
-- Knock Off
-- Poison Jab
-- Rock Slide
-
 === TRAINER_MATT ===
 Name: MATT
 Class: Aqua Admin
@@ -4830,60 +6079,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Golbat
 Level: 34
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_ZANDER ===
-Name: Zander
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Quaquaval @ Flying Gem
-Level: 38
-Nature: Adamant
-Ability: Moxie
-- Aqua Step
-- Low Kick
-- Acrobatics
-- Roost
-
-Emboar @ Lum Berry
-Level: 39
-Nature: Jolly
-Ability: Reckless
-- Heat Crash
-- Low Kick
-- Wild Charge
-- Scary Face
-
-Bisharp @ Focus Sash
-Level: 38
-Nature: Jolly
-Ability: Defiant
-- Iron Head
-- Night Slash
-- X-Scissor
-- Reversal
-
-Torterra @ Loaded Dice
-Level: 38
-Nature: Jolly
-Ability: Overgrow
-- Bullet Seed
-- Earthquake
-- Rock Blast
-- Rock Polish
-
-Granbull @ White Herb
-Level: 39
-Nature: Jolly
-Ability: Rattled
-- Play Rough
-- Close Combat
-- Earthquake
-- Heal Bell
 
 === TRAINER_SHELLY_WEATHER_INSTITUTE ===
 Name: SHELLY
@@ -4940,42 +6135,6 @@ Sharpedo
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_LEAH ===
-Name: Leah
-Class: Hex Maniac
-Pic: Hex Maniac
-Gender: Female
-Music: Suspicious
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Slowking-Galar @ Black Sludge
-Level: 38
-Nature: Bold
-Ability: Regenerator
-- Sludge Bomb
-- Eerie Spell
-- Scald
-- Slack Off
-
-Skuntank @ Air Balloon
-Level: 39
-Nature: Hasty
-Ability: Aftermath
-- Poison Jab
-- Night Slash
-- Flamethrower
-- Focus Energy
-
-Houndstone @ Colbur Berry
-Level: 39
-Nature: Jolly
-Ability: Fluffy
-- Last Respects
-- Shadow Sneak
-- Body Press
-- Crunch
-
 === TRAINER_DAISY ===
 Name: DAISY
 Class: Aroma Lady
@@ -4992,33 +6151,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Roselia
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ROSE_1 ===
-Name: Rose
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Vivillon @ Focus Sash
-Level: 36
-Nature: Timid
-Ability: Shield Dust
-- Bug Buzz
-- Air Slash
-- Protect
-- Rage Powder
-
-Sinistcha @ Leftovers
-Level: 35
-Nature: Timid
-Ability: Hospitality
-- Shadow Ball
-- Giga Drain
-- Scald
-- Rage Powder
 
 === TRAINER_FELIX ===
 Name: FELIX
@@ -5039,51 +6171,6 @@ Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Skill Swap
 - Earthquake
-
-=== TRAINER_VIOLET ===
-Name: Violet
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Rillaboom @ Custap Berry
-Level: 36
-Nature: Jolly
-Ability: Grassy Surge
-- Drum Beating
-- High Horsepower
-- Hammer Arm
-- Endeavor
-
-Dedenne @ Petaya Berry
-Level: 37
-Nature: Timid
-Ability: Cheek Pouch
-- Thunderbolt
-- Dazzling Gleam
-- Grass Knot
-- Endure
-
-Amoonguss @ Rocky Helmet
-Level: 36
-Nature: Bold
-Ability: Effect Spore
-- Sludge Bomb
-- Giga Drain
-- Foul Play
-- Synthesis
-
-Liepard @ Grassy Seed
-Level: 37
-Nature: Mild
-Ability: Unburden
-- Dark Pulse
-- Pursuit
-- Psycho Cut
-- Grass Knot
 
 === TRAINER_ROSE_3 ===
 Name: ROSE
@@ -5654,42 +6741,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Focus Energy
 - Slash
 
-=== TRAINER_BRAXTON ===
-Name: Braxton
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Masquerain @ Focus Sash
-Level: 37
-Nature: Timid
-Ability: Unnerve
-- Bug Buzz
-- Scald
-- Sticky Web
-- Stun Spore
-
-Breloom @ Coba Berry
-Level: 36
-Nature: Jolly
-Ability: Technician
-- Bullet Seed
-- Mach Punch
-- Zen Headbutt
-- Spore
-
-Bellibolt @ Sitrus Berry
-Level: 38
-Nature: Timid
-Ability: Electromorphosis
-- Parabolic Charge
-- Hyper Voice
-- Muddy Water
-- Slack Off
-
 === TRAINER_VINCENT ===
 Name: VINCENT
 Class: Cooltrainer
@@ -5984,55 +7035,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Swords Dance
 - Slash
 
-=== TRAINER_WENDY ===
-Name: Wendy
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Items: Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Grapploct @ Lum Berry
-Level: 37
-Nature: Sassy
-Ability: Technician
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-- Drain Punch
-- Liquidation
-- Payback
-- Octolock
-
-Alomomola @ Leftovers
-Level: 36
-Nature: Quiet
-Ability: Regenerator
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-- Scald
-- Flip Turn
-- Protect
-- Wish
-
-Lilligant @ Metronome
-Level: 37
-Nature: Timid
-Ability: Own Tempo
-- Petal Dance
-- Pollen Puff
-- Quiver Dance
-- Sleep Powder
-
-Wormadam-Trash @ Assault Vest
-Level: 38
-Nature: Relaxed
-Ability: Overcoat
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-- Bug Buzz
-- Iron Head
-- Infestation
-- Metal Burst
-
 === TRAINER_KEIRA ===
 Name: KEIRA
 Class: Cooltrainer
@@ -6250,33 +7252,6 @@ Lunatone
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_KINDRA ===
-Name: Kindra
-Class: Hex Maniac
-Pic: Hex Maniac
-Gender: Female
-Music: Suspicious
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Oricorio-Sensu @ Lum Berry
-Level: 38
-Nature: Timid
-Ability: Dancer
-- Hurricane
-- Revelation Dance
-- Alluring Voice
-- Tailwind
-
-Oranguru @ Leftovers
-Level: 37
-Nature: Timid
-Ability: Telepathy
-- Hyper Voice
-- Psyshock
-- Thunder
-- Encore
-
 === TRAINER_TAMMY ===
 Name: TAMMY
 Class: Hex Maniac
@@ -6293,106 +7268,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Shuppet
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_VALERIE_1 ===
-Name: Valerie
-Class: Hex Maniac
-Pic: Hex Maniac
-Gender: Female
-Music: Suspicious
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Cursola @ Lum Berry
-Level: 38
-Nature: Modest
-Ability: Perish Body
-- Hex
-- Night Shade
-- Ice Beam
-- Will-O-Wisp
-
-Doublade @ Eviolite
-Level: 38
-Nature: Sassy
-Ability: No Guard
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-- Shadow Claw
-- Shadow Sneak
-- Gyro Ball
-- Sacred Sword
-
-Primarina @ Throat Spray
-Level: 38
-Nature: Timid
-Ability: Torrent
-- Sparkling Aria
-- Draining Kiss
-- Icy Wind
-- Sing
-
-Wobbuffet @ Leftovers
-Level: 39
-Nature: Impish
-Ability: Shadow Tag
-- Counter
-- Mirror Coat
-- Destiny Bond
-- Encore
-
-=== TRAINER_TASHA ===
-Name: Tasha
-Class: Hex Maniac
-Pic: Hex Maniac
-Gender: Female
-Music: Suspicious
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Gourgeist-Small @ Focus Sash
-Level: 37
-Nature: Jolly
-Ability: Insomnia
-- Poltergeist
-- Seed Bomb
-- Foul Play
-- Leech Seed
-
-Dudunsparce @ Silk Scarf
-Level: 38
-Nature: Careful
-Ability: Serene Grace
-- Headbutt
-- Pursuit
-- Glare
-- Roost
-
-Araquanid @ Leftovers
-Level: 37
-Nature: Impish
-Ability: Water Bubble
-- Waterfall
-- Lunge
-- Protect
-- Toxic
-
-Mabosstiff @ Lum Berry
-Level: 38
-Nature: Jolly
-Ability: Guard Dog
-- Crunch
-- Play Rough
-- Psychic Fangs
-- Destiny Bond
-
-Lampent @ Eviolite
-Level: 39
-Nature: Timid
-Ability: Shadow Tag
-- Heat Wave
-- Shadow Ball
-- Substitute
-- Will-O-Wisp
 
 === TRAINER_VALERIE_2 ===
 Name: VALERIE
@@ -6924,51 +7799,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Horsea
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_MARK ===
-Name: Mark
-Class: Pokemaniac
-Pic: Pokemaniac
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Frosmoth @ Focus Sash
-Level: 37
-Nature: Timid
-Ability: Shield Dust
-- Bug Buzz
-- Ice Beam
-- Air Slash
-- Quiver Dance
-
-Dachsbun @ Leftovers
-Level: 38
-Nature: Jolly
-Ability: Well-Baked Body
-- Play Rough
-- Psychic Fangs
-- Body Press
-- Wish
-
-Rotom @ Blunder Policy
-Level: 37
-Nature: Timid
-Ability: Levitate
-- Thunder
-- Hex
-- Signal Beam
-- Will-O-Wisp
-
-Rapidash @ Muscle Band
-Level: 38
-Nature: Jolly
-Ability: Reckless
-- Flare Blitz
-- Megahorn
-- Wild Charge
-- Hypnosis
 
 === TRAINER_GRUNT_MT_CHIMNEY_1 ===
 Name: Grunt
@@ -7603,42 +8433,6 @@ Machoke
 Level: 26
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_ATSUSHI ===
-Name: Atsushi
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Sirfetch'd @ Leek
-Level: 38
-Nature: Jolly
-Ability: Scrappy
-- Close Combat
-- First Impression
-- Leaf Blade
-- Substitute
-
-Nidoking @ Lum Berry
-Level: 38
-Nature: Jolly
-Ability: Sheer Force
-- Drill Run
-- Poison Jab
-- Thunder Punch
-- Counter
-
-Pangoro @ Assault Vest
-Level: 39
-Nature: Careful
-Ability: Iron Fist
-- Hammer Arm
-- Crunch
-- Poison Jab
-- Bullet Punch
-
 === TRAINER_KIRK ===
 Name: KIRK
 Class: Guitarist
@@ -7709,61 +8503,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Magnemite
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_FERNANDO_1 ===
-Name: Fernando
-Class: Guitarist
-Pic: Guitarist
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Raichu @ Absorb Bulb
-Level: 36
-Nature: Timid
-Ability: Lightning Rod
-- Thunderbolt
-- Fake Out
-- Grass Knot
-- Helping Hand
-
-Manectric @ Absorb Bulb
-Level: 37
-Nature: Timid
-Ability: Lightning Rod
-IVs: 31 HP / 30 Atk / 30 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunderbolt
-- Flamethrower
-- Hidden Power
-- Light Screen
-
-=== TRAINER_DALTON_1 ===
-Name: Dalton
-Class: Guitarist
-Pic: Guitarist
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Toxtricity @ Throat Spray
-Level: 35
-Nature: Hasty
-Ability: Punk Rock
-- Sludge Bomb
-- Overdrive
-- Hyper Voice
-- Trailblaze
-
-Exploud @ Normal Gem
-Level: 36
-Nature: Timid
-Ability: Scrappy
-- Hyper Voice
-- Focus Blast
-- Flamethrower
-- Icy Wind
 
 
 === TRAINER_DALTON_2 ===
@@ -8380,51 +9119,6 @@ Girafarig
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_WILLIAM ===
-Name: William
-Class: Psychic
-Pic: Psychic M
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Rampardos @ Muscle Band
-Level: 38
-Nature: Jolly
-Ability: Mold Breaker
-- Rock Slide
-- Zen Headbutt
-- Fire Punch
-- Ice Punch
-
-Mr. Rime @ Never-Melt Ice
-Level: 37
-Nature: Hardy
-Ability: Vital Spirit
-- Psychic
-- Freeze-Dry
-- Focus Blast
-- Slack Off
-
-Runerigus @ Rindo Berry
-Level: 38
-Nature: Careful
-Ability: Wandering Spirit
-- Earthquake
-- Shadow Claw
-- Rock Slide
-- Will-O-Wisp
-
-Musharna @ Leftovers
-Level: 39
-Nature: Bold
-Ability: Synchronize
-- Psychic
-- Moonblast
-- Calm Mind
-- Thunder Wave
-
 === TRAINER_JOSHUA ===
 Name: JOSHUA
 Class: Psychic
@@ -8441,51 +9135,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Solrock
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CAMERON_1 ===
-Name: Cameron
-Class: Psychic
-Pic: Psychic M
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Indeedee @ Expert Belt
-Level: 36
-Nature: Timid
-Ability: Psychic Surge
-- Expanding Force
-- Hyper Voice
-- Dazzling Gleam
-- Mystical Fire
-
-Slowbro-Galar @ Black Sludge
-Level: 37
-Nature: Quiet
-Ability: Quick Draw
-- Poison Jab
-- Psyshock
-- Flamethrower
-- Slack Off
-
-Klinklang @ Psychic Seed
-Level: 37
-Nature: Jolly
-Ability: Clear Body
-- Steel Roller
-- Gear Grind
-- Wild Charge
-- Shift Gear
-
-Malamar @ Muscle Band
-Level: 37
-Nature: Jolly
-Ability: Contrary
-- Night Slash
-- Psycho Cut
-- Superpower
-- Hypnosis
 
 === TRAINER_CAMERON_2 ===
 Name: CAMERON
@@ -8608,51 +9257,6 @@ Kadabra
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_KAYLA ===
-Name: Kayla
-Class: Psychic
-Pic: Psychic F
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Slowking @ Leftovers
-Level: 37
-Nature: Bold
-Ability: Regenerator
-- Future Sight
-- Scald
-- Slack Off
-- Teleport
-
-Decidueye-Hisui @ Coba Berry
-Level: 38
-Nature: Hasty
-Ability: Scrappy
-- Leaf Storm
-- Triple Arrows
-- Knock Off
-- Synthesis
-
-Alcremie @ Weakness Policy
-Level: 38
-Nature: Timid
-Ability: Aroma Veil
-- Dazzling Gleam
-- Stored Power
-- Acid Armor
-- Calm Mind
-
-Weavile @ Black Glasses
-Level: 38
-Nature: Jolly
-Ability: Inner Focus
-- Ice Punch
-- Night Slash
-- Pursuit
-- Psycho Cut
-
 === TRAINER_ALEXIS ===
 Name: ALEXIS
 Class: Psychic
@@ -8669,33 +9273,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Xatu
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_JACKI_1 ===
-Name: Jacki
-Class: Psychic
-Pic: Psychic F
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Orbeetle @ Sitrus Berry
-Level: 36
-Nature: Timid
-Ability: Compound Eyes
-- Bug Buzz
-- Psyshock
-- Hypnosis
-- Reflect
-
-Spiritomb @ Leftovers
-Level: 37
-Nature: Bold
-Ability: Infiltrator
-- Dark Pulse
-- Hex
-- Dream Eater
-- Hypnosis
 
 === TRAINER_JACKI_2 ===
 Name: JACKI
@@ -8953,70 +9530,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Swords Dance
 - Slash
-
-=== TRAINER_PHOEBE ===
-Name: Phoebe
-Class: Veteran
-Pic: Elite Four Phoebe
-Gender: Female
-Music: Elite Four
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Green
-
-Ludicolo @ Sitrus Berry
-Level: 40
-Nature: Timid
-Ability: Own Tempo
-- Scald
-- Giga Drain
-- Ice Beam
-- Teeter Dance
-
-Gothitelle @ Weakness Policy
-Level: 39
-Nature: Timid
-Ability: Shadow Tag
-- Psyshock
-- Thunderbolt
-- Shadow Ball
-- Signal Beam
-
-Primeape @ Eviolite
-Level: 40
-Nature: Jolly
-Ability: Defiant
-- Cross Chop
-- Iron Tail
-- Rock Slide
-- Rage Fist
-
-Mimikyu @ Expert Belt
-Level: 39
-Nature: Jolly
-Ability: Disguise
-- Play Rough
-- Shadow Claw
-- Drain Punch
-- Will-O-Wisp
-
-Spectrier @ Focus Sash
-Level: 41
-Nature: Timid
-Ability: Grim Neigh
-- Shadow Ball
-- Dark Pulse
-- Draining Kiss
-- Nasty Plot
-
-Banette @ Banettite
-Level: 41
-Nature: Jolly
-Ability: Prankster
-- Shadow Sneak
-- Gunk Shot
-- Knock Off
-- Destiny Bond
 
 === TRAINER_GLACIA ===
 Name: GLACIA
@@ -10447,42 +10960,6 @@ Wailmer
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_BARNY ===
-Name: Barny
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Crawdaunt @ Muscle Band
-Level: 36
-Nature: Jolly
-Ability: Adaptability
-- Razor Shell
-- Night Slash
-- X-Scissor
-- Aqua Jet
-
-Swanna @ Wise Glasses
-Level: 35
-Nature: Naive
-Ability: Hydration
-- Hurricane
-- Hydro Pump
-- Flip Turn
-- Roost
-
-Seismitoad @ Poison Gem
-Level: 36
-Nature: Mild
-Ability: Swift Swim
-- Earth Power
-- Muddy Water
-- Poison Jab
-- Rain Dance
-
 Pyukumuku @ Lum Berry
 Level: 37
 Nature: Calm
@@ -10491,41 +10968,6 @@ Ability: Innards Out
 - Mirror Coat
 - Block
 - Taunt
-
-=== TRAINER_WADE ===
-Name: Wade
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Basculin @ Rindo Berry
-Level: 36
-Nature: Jolly
-Ability: Reckless
-- Wave Crash
-- Zen Headbutt
-- Ice Fang
-- Double Team
-
-Basculin-Blue-Striped @ Focus Sash
-Level: 36
-Nature: Jolly
-Ability: Rock Head
-- Waterfall
-- Head Smash
-- Double Edge
-- Reversal
-
-Basculin-White-Striped @ Choice Band
-Level: 36
-Nature: Jolly
-Ability: Adaptability
-- Liquidation
-- Flip Turn
-- Aqua Jet
 
 === TRAINER_CARTER ===
 Name: CARTER
@@ -11343,51 +11785,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Focus Energy
 - Ember
 
-=== TRAINER_PERRY ===
-Name: Perry
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Skarmory @ Leftovers
-Level: 36
-Nature: Jolly
-Ability: Sturdy
-- Drill Peck
-- Iron Head
-- Body Press
-- Spikes
-
-Unfezant @ Scope Lens
-Level: 36
-Nature: Naive
-Ability: Super Luck
-- Drill Peck
-- Quick Attack
-- Heat Wave
-- Steel Wing
-
-Flapple @ Liechi Berry
-Level: 36
-Nature: Jolly
-Ability: Ripen
-- Dragon Rush
-- Grav Apple
-- Sucker Punch
-- Substitute
-
-Bombirdier @ Hard Stone
-Level: 37
-Nature: Jolly
-Ability: Rocky Payload
-- Dual Wingbeat
-- Lash Out
-- Rock Slide
-- Roost
-
 === TRAINER_HUGH ===
 Name: HUGH
 Class: Bird Keeper
@@ -11536,42 +11933,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Xatu
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHESTER ===
-Name: Chester
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Braviary @ Flying Gem
-Level: 36
-Nature: Jolly
-Ability: Defiant
-- Acrobatics
-- Return
-- Close Combat
-- Agility
-
-Oricorio-Pom-Pom @ Lum Berry
-Level: 36
-Nature: Timid
-Ability: Overgrow
-- Revelation Dance
-- Air Slash
-- Calm Mind
-- Roost
-
-Espathra @ Focus Sash
-Level: 37
-Nature: Modest
-Ability: Speed Boost
-- Lumina Crash
-- Dazzling Gleam
-- Stored Power
-- Protect
 
 === TRAINER_ROBERT_2 ===
 Name: ROBERT
@@ -12616,60 +12977,6 @@ Swablu
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_CEDRIC ===
-Name: Cedric
-Class: Psychic
-Pic: Psychic M
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Rapidash-Galar @ Lum Berry
-Level: 37
-Nature: Jolly
-Ability: Pastel Veil
-- Play Rough
-- Zen Headbutt
-- High Horsepower
-- Hypnosis
-
-Gallade @ Scope Lens
-Level: 39
-Nature: Jolly
-Ability: Sharpness
-- Sacred Sword
-- Psycho Cut
-- X-Scissor
-- Shadow Sneak
-
-Eiscue @ Assault Vest
-Level: 38
-Nature: Jolly
-Ability: Ice Face
-- Icicle Crash
-- Head Smash
-- Zen Headbutt
-- Flip Turn
-
-Zoroark @ Lum Berry
-Level: 38
-Nature: Hasty
-Ability: Illusion
-- Knock Off
-- Pursuit
-- Sludge Bomb
-- Extrasensory
-
-Typhlosion-Hisui @ Ghost Gem
-Level: 38
-Nature: Timid
-Ability: Blaze
-- Flamethrower
-- Shadow Ball
-- Hex
-- Will-O-Wisp
-
 === TRAINER_IRENE ===
 Name: IRENE
 Class: Picnicker
@@ -12831,51 +13138,6 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 Minun
 Level: 27
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-=== TRAINER_MIU_AND_YUKI ===
-Name: Miu & Yuki
-Class: Twins
-Pic: Twins
-Gender: Male
-Music: Twins
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Dewgong @ Leftovers
-Level: 36
-Nature: Hasty
-Ability: Hydration
-- Muddy Water
-- Ice Beam
-- Icy Wind
-- Fake Out
-
-Whimsicott @ Kebia Berry
-Level: 38
-Nature: Timid
-Ability: Infiltrator
-- Energy Ball
-- Dazzling Gleam
-- Hurricane
-- Fake Tears
-
-Mismagius @ Lum Berry
-Level: 36
-Nature: Timid
-Ability: Levitate
-- Shadow Ball
-- Thunder
-- Psyshock
-- Protect
-
-Ninetales-Alola @ Wise Glasses
-Level: 37
-Nature: Timid
-Ability: Slush Rush
-- Moonblast
-- Freeze Dry
-- Weather Ball
-- Hypnosis
 
 === TRAINER_AMY_AND_LIV_3 ===
 Name: AMY & LIV
@@ -13213,136 +13475,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Water Pulse
 - Return
 - Attract
-
-=== TRAINER_JAZMYN ===
-Name: Jazmyn
-Class: Cooltrainer 2
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Stoutland @ Leftovers
-Level: 36
-Nature: Jolly
-Ability: Intimidate
-- Return
-- Superpower
-- Crunch
-- Howl
-
-Boltund @ Focus Sash
-Level: 37
-Nature: Jolly
-Ability: Strong Jaw
-- Thunder Fang
-- Psychic Fangs
-- Ice Fang
-- Howl
-
-=== TRAINER_JONAS ===
-Name: Jonas
-Class: Ninja Boy
-Pic: Ninja Boy
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Forretress @ Quick Claw
-Level: 37
-Nature: Brave
-Ability: Sturdy
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-- Lunge
-- Gyro Ball
-- Self-Destruct
-- Spikes
-
-Sigilyph @ Flame Orb
-Level: 36
-Nature: Timid
-Ability: Magic Guard
-Status: Burn
-- Psyshock
-- Air Slash
-- Psycho Shift
-- Roost
-
-Dugtrio @ Focus Sash
-Level: 38
-Nature: Jolly
-Ability: Arena Trap
-- High Horsepower
-- Rock Slide
-- Aerial Ace
-- Stealth Rock
-
-Raticate @ Leftovers
-Level: 38
-Nature: Jolly
-Ability: Guts
-Status: Burn
-- Facade
-- Stomping Tantrum
-- Sucker Punch
-- U-turn
-
-=== TRAINER_KAYLEY ===
-Name: Kayley
-Class: Parasol Lady
-Pic: Parasol Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Greedent @ Liechi Berry
-Level: 37
-Nature: Careful
-Ability: Cheek Pouch
-- Body Slam
-- Body Press
-- Seed Bomb
-- Stuff Cheeks
-
-Comfey @ Leftovers
-Level: 37
-Nature: Bold
-Ability: Triage
-- Draining Kiss
-- Giga Drain
-- Calm Mind
-- Leech Seed
-
-Lurantis @ Assault Vest
-Level: 38
-Nature: Jolly
-Ability: Contrary
-- Leaf Storm
-- Leaf Blade
-- Superpower
-- Knock Off
-
-Simisear @ Flying Gem
-Level: 37
-Nature: Naive
-Ability: Blaze
-- Flamethrower
-- Acrobatics
-- Grass Knot
-- Will-O-Wisp
-
-Floatzel @ Muscle Band
-Level: 38
-Nature: Jolly
-Ability: Water Veil
-- Liquidation
-- Ice Spinner
-- Crunch
-- Power-Up Punch
 
 === TRAINER_AURON ===
 Name: AURON
@@ -13961,33 +14093,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Makuhita
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_DAVIS ===
-Name: Davis
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Pinsir @ Muscle Band
-Level: 36
-Nature: Jolly
-Ability: Hyper Cutter
-- X-Scissor
-- High Horsepower
-- Rock Slide
-- Protect
-
-Centiskorch @ Charti Berry
-Level: 36
-Nature: Jolly
-Ability: White Smoke
-- Fire Lash
-- Lunge
-- Power Whip
-- Knock Off
 
 === TRAINER_MITCHELL ===
 Name: MITCHELL
@@ -14615,40 +14720,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Zubat
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MT_PYRE_4 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt F
-Gender: Female
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Shiftry @ Focus Sash
-Level: 39
-Nature: Jolly
-Ability: Wind Rider
-- Explosion
-- Fake Out
-
-Kilowattrel @ Wise Glasses
-Level: 40
-Nature: Timid
-Ability: Wind Power
-- Thunderbolt
-- Air Slash
-- Electro Ball
-- Tailwind
-
-Brambleghast @ Power Herb
-Level: 39
-Nature: Jolly
-Ability: Wind Rider
-- Phantom Force
-- Seed Bomb
-- Skitter Smack
-- Infestation
 
 === TRAINER_GRUNT_JAGGED_PASS ===
 Name: Grunt
@@ -15566,65 +15637,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Golem
 Level: 33
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_DEZ_AND_LUKE ===
-Name: Dez & Luke
-Class: Young Couple
-Pic: Young Couple
-Gender: Male
-Music: Girl
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Aromatisse @ Fairy Feather
-Level: 37
-Nature: Quiet
-Ability: Aroma Veil
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-- Moonblast
-- Energy Ball
-- Psychic
-- Trick Room
-
-Marowak @ Thick Club
-Level: 37
-Nature: Brave
-Ability: Lightning Rod
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-- Bonemerang
-- Ice Punch
-- Thunder Punch
-- Detect
-
-Audino @ Leftovers
-Level: 38
-Nature: Relaxed
-Ability: Healer
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-- Hyper Voice
-- Knock Off
-- Follow Me
-- Helping Hand
-
-Wishiwashi @ Iapapa Berry
-Level: 38
-Nature: Brave
-Ability: Schooling
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-- Aqua Tail
-- Muddy Water
-- Ice Beam
-- Protect
-
-Abomasnow @ Occa Berry
-Level: 38
-Nature: Brave
-Ability: Soundproof
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-- Wood Hammer
-- Ice Spinner
-- Rock Slide
-- Low Kick
 
 === TRAINER_LEA_AND_JED ===
 Name: LEA & JED
