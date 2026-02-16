@@ -2447,7 +2447,6 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
               || aiData->items[battlerDef] != ITEM_NONE
               || !CanBattlerGetOrLoseItem(battlerAtk, gBattleMons[battlerAtk].item)    // AI knows its own item
               || !CanBattlerGetOrLoseItem(battlerDef, gBattleMons[battlerAtk].item)
-              || aiData->abilities[battlerAtk] == ABILITY_STICKY_HOLD
               || DoesSubstituteBlockMove(battlerAtk, battlerDef, move))
                 ADJUST_SCORE(-10);
             break;

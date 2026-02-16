@@ -6619,7 +6619,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .baseSpDefense = 115,
         .types = MON_TYPES(TYPE_FAIRY),
         .catchRate = 10,
-        .expYield = 335,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_9) ? 330 : 335,
         .evYield_Speed = 3,
         .genderRatio = MON_GENDERLESS,
         .eggCycles = 120,
@@ -6686,7 +6686,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .baseSpDefense = 115,
         .types = MON_TYPES(TYPE_FAIRY, TYPE_STEEL),
         .catchRate = 10,
-        .expYield = 360,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_9) ? 350 : 360,
         .evYield_Speed = 3,
         .genderRatio = MON_GENDERLESS,
         .eggCycles = 120,
@@ -6756,7 +6756,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .baseSpDefense = 115,
         .types = MON_TYPES(TYPE_FIGHTING),
         .catchRate = 10,
-        .expYield = 335,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_9) ? 330 : 335,
         .evYield_Speed = 3,
         .genderRatio = MON_GENDERLESS,
         .eggCycles = 120,
@@ -6824,7 +6824,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .baseSpDefense = P_UPDATED_STATS >= GEN_9 ? 140 : 145,
         .types = MON_TYPES(TYPE_FIGHTING, TYPE_STEEL),
         .catchRate = 10,
-        .expYield = 360,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_9) ? 350 : 360,
         .evYield_Speed = 3,
         .genderRatio = MON_GENDERLESS,
         .eggCycles = 120,
@@ -7203,6 +7203,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .levelUpLearnset = sUrshifuSingleStrikeLevelUpLearnset,
         .teachableLearnset = sUrshifuSingleStrikeTeachableLearnset,
         .formSpeciesIdTable = sUrshifuFormSpeciesIdTable,
+        .formChangeTable = sUrshifuSingleStrikeFormChangeTable,
     },
 #endif //P_GIGANTAMAX_FORMS
 
@@ -7330,6 +7331,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .levelUpLearnset = sUrshifuRapidStrikeLevelUpLearnset,
         .teachableLearnset = sUrshifuRapidStrikeTeachableLearnset,
         .formSpeciesIdTable = sUrshifuFormSpeciesIdTable,
+        .formChangeTable = sUrshifuRapidStrikeFormChangeTable,
     },
 #endif //P_GIGANTAMAX_FORMS
 #endif //P_FAMILY_KUBFU
@@ -7402,6 +7404,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .teachableLearnset = sZarudeTeachableLearnset,
         .formSpeciesIdTable = sZarudeFormSpeciesIdTable,
     },
+
     [SPECIES_ZARUDE_DADA] =
     {
         .baseHP        = 105,
