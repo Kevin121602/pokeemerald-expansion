@@ -4356,7 +4356,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sTypeNullLevelUpLearnset,
         .teachableLearnset = sTypeNullTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_SILVALLY_NORMAL}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 42, SPECIES_SILVALLY_NORMAL}),
     },
 
 #define SILVALLY_SPECIES_INFO(type, _palette)                                       \

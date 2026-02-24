@@ -11657,7 +11657,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sRuffletLevelUpLearnset,
         .teachableLearnset = sRuffletTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_BRAVIARY},
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_BRAVIARY},
                                 {EVO_ITEM, ITEM_DUSK_STONE, SPECIES_BRAVIARY_HISUI}),
     },
 
@@ -11865,7 +11865,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sVullabyLevelUpLearnset,
         .teachableLearnset = sVullabyTeachableLearnset,
         .eggMoveLearnset = sVullabyEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_MANDIBUZZ}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_MANDIBUZZ}),
     },
 
     [SPECIES_MANDIBUZZ] =

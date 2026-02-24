@@ -83,9 +83,13 @@ Double Battle: No
 
 /*Start Parse*/
 
-/*Split: Roxanne Split*/
+/*
+Split: Roxanne Split
+*/
 
-/*Loc: Route 102*/
+/*
+Loc: Route 102
+*/
 
 === TRAINER_CALVIN_1 ===
 Name: Calvin
@@ -110,7 +114,7 @@ Ability: Guts
 - Quick Attack
 - Endeavor
 
-Rattata Alola @ Salac Berry
+Rattata-Alola @ Salac Berry
 Level: 10
 Nature: Adamant
 Ability: Gluttony
@@ -216,7 +220,9 @@ Nature: Adamant
 Ability: Gluttony
 - Metronome
 
-/*Loc: Route 104 South*/
+/*
+Loc: Route 104 South
+*/
 
 === TRAINER_BILLY ===
 Name: Billy
@@ -333,7 +339,9 @@ Ability: Swift Swim
 - Confuse Ray
 - Rain Dance
 
-/*Loc: Petalburg Woods*/
+/*
+Loc: Petalburg Woods
+*/
 
 === TRAINER_LYLE ===
 Name: Lyle
@@ -444,7 +452,9 @@ Ability: Technician
 - Trailblaze
 - Sing
 
-/*Loc: Route 104 North*/
+/*
+Loc: Route 104 North
+*/
 
 === TRAINER_WINSTON_1 ===
 Name: Winston
@@ -526,16 +536,16 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Smeargle @ Covert Cloak
-Level: 14
+Level: 13
 Nature: Bold
 Ability: Own Tempo
 -Follow Me
 -Spore
 
 Smeargle @ Berry Juice
-Level: 13
-IVs: 28 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Adamant
+Level: 14
+IVs: 25 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Impish
 Ability: Own Tempo
 -Extreme Speed
 -Belly Drum
@@ -576,7 +586,9 @@ Ability: Torrent
 -Draining Kiss
 -Sing
 
-/*Loc: Route 116*/
+/*
+Loc: Route 116
+*/
 
 === TRAINER_JOSE ===
 Name: Jose
@@ -650,7 +662,9 @@ Ability: Sturdy
 - Aerial Ace
 - Bulldoze
 
-/*Double:*/
+/*
+Double:
+*/
 
 === TRAINER_JANICE ===
 Name: Janice
@@ -948,7 +962,9 @@ Ability: Weak Armor
 - Aurora Beam
 - Mud Shot
 
-/*Loc: Rusturf Tunnel*/
+/*
+Loc: Rusturf Tunnel
+*/
 
 === TRAINER_GRUNT_RUSTURF_TUNNEL ===
 Name: Grunt
@@ -996,7 +1012,9 @@ Ability: Hydration
 - U-turn
 - Heal Bell
 
-/*Loc: Trick House [Optional]*/
+/*
+Loc: Trick House [Optional]
+*/
 
 === TRAINER_PAUL ===
 Name: Paul
@@ -1053,7 +1071,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pachirisu @ Liechi Berry
-Level: 17
+Level: 16
 Nature: Jolly
 Ability: Volt Absorb
 - Thunder Punch
@@ -1089,7 +1107,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mankey @ Focus Sash
-Level: 16
+Level: 17
 Nature: Jolly
 Ability: Defiant
 - Karate Chop
@@ -1115,7 +1133,9 @@ Ability: Simple
 - Flame Charge
 - Ancient Power
 
-/*Loc: Rustboro Gym*/
+/*
+Loc: Rustboro Gym
+*/
 
 === TRAINER_JOSH ===
 Name: Josh
@@ -1125,6 +1145,10 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: In Rustboro Gym, stat changes from Rock, Ground, and Steel type moves are doubled.
+*/
 
 Parasect @ Coba Berry
 Level: 16
@@ -1312,9 +1336,13 @@ Ability: Magnet Pull
 - Facade
 - Thunder Wave
 
-/*Split: Buck Split*/
+/*
+Split: Buck Split
+*/
 
-/*Loc: Route 115*/
+/*
+Loc: Route 115
+*/
 
 === TRAINER_MARLENE ===
 Name: Marlene
@@ -1712,7 +1740,9 @@ Level: 22
 - Leech Seed
 - Toxic
 
-/*Loc: Meteor Falls*/
+/*
+Loc: Meteor Falls
+*/
 
 === TRAINER_NICOLAS_1 ===
 Name: Nicolas
@@ -1796,7 +1826,7 @@ Level: 22
 
 === TRAINER_RILEY_METEOR_FALLS ===
 Name: Riley
-Class: Rival
+Class: Stat Trainer
 Pic: Riley
 Gender: Male
 Music: Intense
@@ -1858,7 +1888,9 @@ Ability: Justified
 - Bullet Punch
 - Payback
 
-/*Loc: Route 114*/
+/*
+Loc: Route 114
+*/
 
 === TRAINER_LENNY ===
 Name: Lenny
@@ -2335,7 +2367,9 @@ Level: 25
 - Dragon Tail
 - Dragon Rage
 
-/*Loc: Route 113*/
+/*
+Loc: Route 113
+*/
 
 === TRAINER_SOPHIE ===
 Name: Sophie
@@ -2407,7 +2441,7 @@ Level: 25
 - Signal Beam
 - Air Cutter
 - Acrobatics
-- Roost
+- Electroweb
 
 Golbat @ Eviolite
 Nature: Naive
@@ -2422,14 +2456,14 @@ Noctowl @ Leftovers
 Nature: Timid
 Ability: Insomnia
 Level: 25
-- Hyper Voice
 - Air Cutter
+- Round
 - Night Shade
 - Hypnosis
 
 === TRAINER_CHERYL_ROUTE_113 ===
 Name: Cheryl
-Class: Rival
+Class: Stat Trainer
 Pic: Cheryl
 Gender: Female
 Music: Female
@@ -2808,7 +2842,9 @@ Level: 28
 - Shadow Ball
 - Teeter Dance
 
-/*Loc: Route 111*/
+/*
+Loc: Route 111
+*/
 
 === TRAINER_BROOKE_1 ===
 Name: Brooke
@@ -2902,7 +2938,7 @@ Level: 27
 
 === TRAINER_MARLEY_ROUTE_111 ===
 Name: Marley
-Class: Rival
+Class: Stat Trainer
 Pic: Marley
 Gender: Female
 Music: Female
@@ -2973,14 +3009,14 @@ Music: Cool
 Double Battle: No
 AI: Basic Trainer
 
-Swellow @ Lum Berry
+Swellow @ Focus Sash
 Nature: Naive
 Ability: Scrappy
 Level: 28
 - Hyper Voice
 - Air Slash
-- Heat Wave
-- Steel Wing
+- Endeavor
+- Reversal
 
 Furfrou @ Leftovers
 Nature: Jolly
@@ -3001,17 +3037,21 @@ Level: 28
 - Sleep Talk
 
 Whiscash @ Power Herb
-Nature: Naive
+Nature: Jolly
 Ability: Oblivious
 Level: 29
-- Scald
+- Aqua Tail
 - Stomping Tantrum
 - Bounce
 - Dragon Dance
 
-/*Loc: Route 112*/
+/*
+Loc: Route 112
+*/
 
-/*Double:*/
+/*
+Double: 
+*/
 
 === TRAINER_BRYANT ===
 Name: Bryant
@@ -3196,7 +3236,7 @@ Nature: Naive
 Ability: Static
 Level: 29
 - Thunder Punch
-- Surf
+- Extreme Speed
 - Grass Knot
 - Sing
 
@@ -3227,9 +3267,13 @@ Level: 30
 - Chilling Water
 - Block
 
-/*Loc: Mt. Chimney*/
+/*
+Loc: Mt. Chimney
+*/
 
-/*Double:*/
+/*
+Double:
+*/
 
 === TRAINER_MELISSA ===
 Name: Melissa
@@ -3410,7 +3454,7 @@ Level: 30
 - Venoshock
 - Flamethrower
 - Giga Drain
-- Glare
+- Toxic
 
 Dodrio @ Muscle Band
 Nature: Jolly
@@ -3432,7 +3476,7 @@ Level: 31
 
 === TRAINER_MIRA_MT_CHIMNEY ===
 Name: Mira
-Class: Rival
+Class: Stat Trainer
 Pic: Mira
 Gender: Female
 Music: Girl
@@ -3495,7 +3539,9 @@ Ability: Inner Focus
 - Dazzling Gleam
 - Counter
 
-/*Loc: Jagged Pass*/
+/*
+Loc: Jagged Pass
+*/
 
 === TRAINER_ERIC ===
 Name: Eric
@@ -3550,6 +3596,9 @@ Gender: Female
 Music: Girl
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+/*
+Comment: Gauntlet from this fight to Camper Ethan.
+*/
 
 Liepard @ Focus Sash
 Nature: Jolly
@@ -3688,7 +3737,9 @@ Level: 32
 - Shadow Ball
 - Grass Knot
 
-/*Loc: Trick House [Optional]*/
+/*
+Loc: Trick House [Optional]
+*/
 
 === TRAINER_SALLY ===
 Name: Sally
@@ -3841,7 +3892,9 @@ Level: 33
 - Roost
 - Teeter Dance
 
-/*Loc: Lavaridge Gym*/
+/*
+Loc: Lavaridge Gym
+*/
 
 === TRAINER_ELI ===
 Name: Eli
@@ -3851,6 +3904,10 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: In Lavaridge Gym, all Pokémon receive a 20% boost to their weaker defense stat.
+*/
 
 Toedscruel @ Lum Berry
 Nature: Timid
@@ -3943,6 +4000,10 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
+/*
+Comment: Next two trainers are a Gauntlet.
+*/
+
 Grumpig @ Throat Spray
 Nature: Timid
 Ability: Thick Fat
@@ -3997,7 +4058,7 @@ Level: 32
 - Drain Punch
 - Toxic Spikes
 
-Lycanroc Midnight @ Lum Berry
+Lycanroc-Midnight @ Lum Berry
 Nature: Jolly
 Ability: No Guard
 Level: 31
@@ -4085,7 +4146,7 @@ Level: 32
 - Return
 - Beak Blast
 - Heat Wave
-- Steel Wing
+- Bullet Seed
 
 Dusclops @ Eviolite
 Nature: Calm
@@ -4286,11 +4347,17 @@ Ability: Regenerator
 - Slack Off
 - Thunder Wave
 
-/*Split: Brawly Split*/
+/*
+Split: Brawly Split
+*/
 
-/*Loc: Route 118*/
+/*
+Loc: Route 118
+*/
 
-/*Double:*/
+/*
+Double:
+*/
 
 === TRAINER_ROSE_1 ===
 Name: Rose
@@ -4300,6 +4367,10 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: Fought back-to-back with Youngster Deandre.
+*/
 
 Vivillon @ Focus Sash
 Level: 36
@@ -4345,6 +4416,34 @@ Ability: Scrappy
 - Focus Blast
 - Flamethrower
 - Icy Wind
+
+=== TRAINER_DEANDRE ===
+Name: Deandre
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Meowstic @ Light Clay
+Level: 36
+Nature: Timid
+Ability: Prankster
+- Psychic
+- Signal Beam
+- Light Screen
+- Reflect
+
+Linoone @ Iapapa Berry
+Level: 36
+Nature: Hardy
+Ability: Gluttony
+IVs: 30 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Extreme Speed
+- Throat Chop
+- Stomping Tantrum
+- Belly Drum
 
 === TRAINER_WADE ===
 Name: Wade
@@ -4417,6 +4516,15 @@ Ability: Swift Swim
 - Poison Jab
 - Rain Dance
 
+Pyukumuku @ Lum Berry
+Level: 37
+Nature: Calm
+Ability: Innards Out
+- Counter
+- Mirror Coat
+- Block
+- Taunt
+
 === TRAINER_CHESTER ===
 Name: Chester
 Class: Bird Keeper
@@ -4462,14 +4570,14 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Skarmory @ Leftovers
+Mantine @ Wacan Berry
 Level: 36
-Nature: Jolly
-Ability: Sturdy
-- Drill Peck
-- Iron Head
-- Body Press
-- Spikes
+Nature: Timid
+Ability: Water Absorb
+- Hydro Pump
+- Air Slash
+- Mirror Coat
+- Roost
 
 Unfezant @ Scope Lens
 Level: 36
@@ -4498,9 +4606,13 @@ Ability: Rocky Payload
 - Rock Slide
 - Roost
 
-/*Loc: Route 123*/
+/*
+Loc: Route 123
+*/
 
-/*Double:*/
+/*
+Double:
+*/
 
 === TRAINER_JAZMYN ===
 Name: Jazmyn
@@ -4571,8 +4683,8 @@ Level: 36
 Nature: Jolly
 Ability: Grassy Surge
 - Drum Beating
-- High Horsepower
 - Hammer Arm
+- High Horsepower
 - Endeavor
 
 Dedenne @ Petaya Berry
@@ -4602,7 +4714,9 @@ Ability: Unburden
 - Psycho Cut
 - Grass Knot
 
-/*Double:*/
+/*
+Double:
+*/
 
 === TRAINER_JACKI_1 ===
 Name: Jacki
@@ -4667,14 +4781,14 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Indeedee @ Expert Belt
+Indeedee @ Twisted Spoon
 Level: 36
 Nature: Timid
 Ability: Psychic Surge
 - Expanding Force
 - Hyper Voice
-- Dazzling Gleam
 - Mystical Fire
+- Aromatherapy
 
 Slowbro-Galar @ Black Sludge
 Level: 37
@@ -4703,7 +4817,9 @@ Ability: Contrary
 - Superpower
 - Hypnosis
 
-/*Double:*/
+/*
+Double:
+*/
 
 === TRAINER_FERNANDO_1 ===
 Name: Fernando
@@ -4714,24 +4830,23 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Raichu @ Absorb Bulb
+Heliolisk @ Wise Glasses
 Level: 36
 Nature: Timid
-Ability: Lightning Rod
+Ability: Dry Skin
+- Hyper Voice
 - Thunderbolt
-- Fake Out
 - Grass Knot
-- Helping Hand
+- Glare
 
-Manectric @ Absorb Bulb
+Toxicroak @ Life Orb
 Level: 37
-Nature: Timid
-Ability: Lightning Rod
-IVs: 31 HP / 30 Atk / 30 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunderbolt
-- Flamethrower
-- Hidden Power
-- Light Screen
+Nature: Jolly
+Ability: Dry Skin
+- Poison Jab
+- Drain Punch
+- Knock Off
+- Fake Out
 
 === TRAINER_ALBERTO ===
 Name: Alberto
@@ -4744,22 +4859,21 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Cramorant @ Focus Sash
 Level: 37
-Nature: Adamant
+Nature: Hasty
 Ability: Gulp Missile
-IVs: 31 HP / 31 Atk / 31 Def / 0 SpA / 31 SpD / 31 Spe
 - Surf
 - Liquidation
 - Dual Wingbeat
-- Agility
+- Tailwind
 
-Gyarados @ Power Herb
+Staraptor @ Lum Berry
 Level: 37
 Nature: Jolly
 Ability: Intimidate
-- Bounce
-- Waterfall
-- Power Whip
-- Dragon Dance
+- Brave Bird
+- Double Edge
+- Close Combat
+- Detect
 
 === TRAINER_MIU_AND_YUKI ===
 Name: Miu & Yuki
@@ -4769,6 +4883,10 @@ Gender: Male
 Music: Twins
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: Permanent rain from this fight to Kindra & Ed.
+*/
 
 Dewgong @ Leftovers
 Level: 36
@@ -4891,7 +5009,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
 - Infestation
 - Metal Burst
 
-/*Double:*/
+/*
+Double:
+*/
 
 === TRAINER_KINDRA ===
 Name: Kindra
@@ -5049,7 +5169,9 @@ Ability: Water Veil
 - Crunch
 - Power-Up Punch
 
-/*Loc: Mt. Pyre*/
+/*
+Loc: Mt. Pyre
+*/
 
 === TRAINER_DEZ_AND_LUKE ===
 Name: Dez & Luke
@@ -5059,6 +5181,10 @@ Gender: Male
 Music: Girl
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: In Mt. Pyre, all Pokémon have the Grudge status.
+*/
 
 Aromatisse @ Fairy Feather
 Level: 37
@@ -5119,14 +5245,14 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Frosmoth @ Focus Sash
+Maushold @ Wide Lens
 Level: 37
-Nature: Timid
-Ability: Shield Dust
-- Bug Buzz
-- Ice Beam
-- Air Slash
-- Quiver Dance
+Nature: Jolly
+Ability: Technician
+- Population Bomb
+- Bullet Seed
+- Bite
+- Super Fang
 
 Dachsbun @ Leftovers
 Level: 38
@@ -5296,7 +5422,7 @@ Nature: Timid
 Ability: Shadow Tag
 - Heat Wave
 - Shadow Ball
-- Substitute
+- Calm Mind
 - Will-O-Wisp
 
 === TRAINER_VALERIE_1 ===
@@ -5408,14 +5534,18 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
+/*
+Comment: Gauntlet from this fight to Black Belt Zander.
+*/
+
 Sirfetch'd @ Leek
 Level: 38
 Nature: Jolly
 Ability: Scrappy
 - Close Combat
 - First Impression
+- Dual Wingbeat
 - Leaf Blade
-- Substitute
 
 Nidoking @ Lum Berry
 Level: 38
@@ -5579,6 +5709,51 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
+Clawitzer @ Wise Glasses
+Level: 38
+Nature: Timid
+Ability: Mega Launcher
+- Water Pulse
+- Dragon Pulse
+- Aura Sphere
+- Dark Pulse
+
+Dhelmise @ Quick Claw
+Level: 39
+Nature: Careful
+Ability: Steelworker
+- Power Whip
+- Shadow Claw
+- Iron Head
+- Synthesis
+
+Eelektross @ Leftovers
+Level: 39
+Nature: Jolly
+Ability: Levitate
+- Thunder Punch
+- Aqua Tail
+- U-turn
+- Thunder Wave
+
+Swampert @ Rindo Berry
+Level: 39
+Nature: Jolly
+Ability: Torrent
+- High Horsepower
+- Waterfall
+- Ice Punch
+- Bulk Up
+
+=== TRAINER_GRUNT_MT_PYRE_1 ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
 Armaldo @ Scope Lens
 Level: 38
 Nature: Jolly
@@ -5589,7 +5764,7 @@ Ability: Battle Armor
 - Stealth Rock
 
 Toxapex @ Black Sludge
-Level: 39
+Level: 40
 Nature: Impish
 Ability: Regenerator
 - Liquidation
@@ -5615,52 +5790,9 @@ Ability: Swift Swim
 - Drill Run
 - Throat Chop
 
-=== TRAINER_GRUNT_MT_PYRE_1 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Clawitzer @ Wise Glasses
-Level: 38
-Nature: Timid
-Ability: Mega Launcher
-- Water Pulse
-- Dragon Pulse
-- Aura Sphere
-- Dark Pulse
-
-Dhelmise @ Quick Claw
-Level: 39
-Nature: Careful
-Ability: Steelworker
-- Power Whip
-- Shadow Claw
-- Iron Head
-- Synthesis
-
-Eelektross @ Leftovers
-Level: 40
-Nature: Jolly
-Ability: Levitate
-- Thunder Punch
-- Aqua Tail
-- U-turn
-- Thunder Wave
-
-Swampert @ Rindo Berry
-Level: 39
-Nature: Jolly
-Ability: Torrent
-- High Horsepower
-- Waterfall
-- Avalanche
-- Bulk Up
-
-/*Double:*/
+/*
+Double:
+*/
 
 === TRAINER_GRUNT_MT_PYRE_3 ===
 Name: Grunt
@@ -5749,14 +5881,14 @@ Ability: Shadow Tag
 - Shadow Ball
 - Signal Beam
 
-Primeape @ Eviolite
+Mienshao @ Eject Pack
 Level: 40
 Nature: Jolly
-Ability: Defiant
-- Cross Chop
-- Iron Tail
+Ability: Regenerator
+- Close Combat
 - Rock Slide
-- Rage Fist
+- Knock Off
+- Acrobatics
 
 Mimikyu @ Expert Belt
 Level: 39
@@ -5779,7 +5911,7 @@ Ability: Grim Neigh
 Banette @ Banettite
 Level: 41
 Nature: Jolly
-Ability: Prankster
+Ability: Cursed Body
 - Shadow Sneak
 - Gunk Shot
 - Knock Off
@@ -6313,7 +6445,7 @@ Ability: Sand Rush
 === TRAINER_FOSTER ===
 Name: Test
 Class: Ruin Maniac
-Pic: Ruin Maniac
+Pic: Buck
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -10959,15 +11091,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Wailmer
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pyukumuku @ Lum Berry
-Level: 37
-Nature: Calm
-Ability: Innards Out
-- Counter
-- Mirror Coat
-- Block
-- Taunt
 
 === TRAINER_CARTER ===
 Name: CARTER
@@ -16947,34 +17070,6 @@ AI: Check Bad Move
 Numel
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_DEANDRE ===
-Name: Deandre
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Meowstic @ Light Clay
-Level: 36
-Nature: Timid
-Ability: Prankster
-- Psychic
-- Signal Beam
-- Light Screen
-- Reflect
-
-Linoone @ Iapapa Berry
-Level: 36
-Nature: Hardy
-Ability: Gluttony
-IVs: 30 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Extreme Speed
-- Throat Chop
-- Stomping Tantrum
-- Belly Drum
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_1 ===
 Name: Grunt
