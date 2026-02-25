@@ -1096,7 +1096,7 @@ bool32 ShouldSwitch(u32 battler)
     if(gAiLogicData->simulatedDmg[battler][opposingBattler][gAiBattleData->chosenMoveIndex[battler]].minimum >= gBattleMons[opposingBattler].hp)
         battlerCanKOPlayerMon = TRUE;
 
-    if(battlerAbility == ABILITY_NATURAL_CURE && gBattleMons[battler].status1 & STATUS1_ANY && !battlerCanKOPlayerMon){
+    if(battlerAbility == ABILITY_NATURAL_CURE && gBattleMons[battler].status1 & STATUS1_ANY && !battlerCanKOPlayerMon && !gDisableStructs[battler].isFirstTurn){
         if(canPivot){
             gAiBattleData->chosenMoveIndex[battler] = pivot;
             return FALSE;

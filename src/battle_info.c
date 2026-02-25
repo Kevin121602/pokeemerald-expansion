@@ -91,6 +91,8 @@ static s32 CalcInfoBarValue(s32, s32, s32, s32 *, u8, u16);
 static u8 CalcBarFilledPixels(s32, s32, s32, s32 *, u8 *, u8);
 static void Task_ShowAiPartyIcons(u8 taskId);
 static void PrintAiMonAndHealthbar(u8 monNum, u8 xOffset, u8 yOffset, u8 taskId);
+static struct Pokemon *GetIllusionMon(struct Pokemon *mon, u32 battler);
+static struct Pokemon *GetMonWithIllusion(struct Pokemon *mon, u32 battler);
 
 static void DestroyAiPartyViewSwitchPage(u8 taskId, u8 newPage);
 static void DestroyTimersViewSwitchPage(u8 taskId, u8 newPage);
@@ -101,6 +103,45 @@ static void DestroyStatsViewSwitchPage(u8 taskId, u8 newPage);
 
 static const u32 sHeldItemInfoGfx[] = INCBIN_U32("graphics/battle_interface/info_item_sprite.4bpp");
 static const u32 gStatusGfx_InfoIcons[] = INCBIN_U32("graphics/battle_interface/info_status_indicators.4bpp");
+
+static struct Pokemon *GetMonWithIllusion(struct Pokemon *mon, u32 battler){
+    struct Pokemon *illusionMon = mon;
+    struct Pokemon *party = GetBattlerParty(battler);
+    u8 i;
+
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        if(GetMonAbility(&party[i]) == ABILITY_ILLUSION)
+            illusionMon = &party[i];
+    }
+
+    return illusionMon;
+}
+
+static struct Pokemon *GetIllusionMon(struct Pokemon *mon, u32 battler)
+{
+    struct Pokemon *illusionMon = mon;
+    struct Pokemon *party, *partnerMon;
+    u32 id;
+
+    if (GetMonAbility(mon) != ABILITY_ILLUSION)
+        return FALSE;
+
+    party = GetBattlerParty(battler);
+
+    if (IsBattlerAlive(BATTLE_PARTNER(battler)))
+        partnerMon = &party[gBattlerPartyIndexes[BATTLE_PARTNER(battler)]];
+    else
+        partnerMon = mon;
+
+    id = GetIllusionMonPartyId(party, mon, partnerMon, battler);
+    if (id != PARTY_SIZE)
+    {
+        illusionMon = &party[id];
+    }
+
+    return illusionMon;
+}
 
 static const struct VolatileIndex sVolatileStatusListItems[] =
 {
@@ -766,10 +807,17 @@ static void PrintAiMonAndHealthbar(u8 i, u8 xOffset, u8 yOffset, u8 taskId){
 
     mon = &gEnemyParty[i];
     u16 species = SPECIES_NONE;
-    if (GetMonAbility(mon) == ABILITY_ILLUSION && gBattleStruct->illusion[data->battlerId].state != ILLUSION_OFF){
-        species = GetMonData(gBattleStruct->illusion[data->battlerId].mon, MON_DATA_SPECIES); 
+    if (GetMonAbility(mon) == ABILITY_ILLUSION && gBattleMons[data->battlerId].ability != ABILITY_ILLUSION){
+        mon = GetIllusionMon(mon, data->battlerId);
+        species = GetMonData(mon, MON_DATA_SPECIES);  
+    } else if (GetMonAbility(mon) == ABILITY_ILLUSION && gBattleStruct->illusion[data->battlerId].state == ILLUSION_ON){
+        species = GetMonData(GetIllusionMon(mon, data->battlerId), MON_DATA_SPECIES); 
+    } else if (GetMonAbility(mon) != ABILITY_ILLUSION && gBattleStruct->illusion[data->battlerId].state == ILLUSION_ON && mon == GetIllusionMon(mon, data->battlerId)){
+        species = GetMonData(mon, MON_DATA_SPECIES); 
+        mon = GetIllusionMon(mon, data->battlerId);
     } else {
         species = GetMonData(mon, MON_DATA_SPECIES);  
+        mon = GetMonWithIllusion(mon, data->battlerId);
     }
 
     if (aiMons[i].species == SPECIES_NONE)
@@ -794,17 +842,10 @@ static void PrintAiMonAndHealthbar(u8 i, u8 xOffset, u8 yOffset, u8 taskId){
     if (aiMons[i].isFainted)
         return;
 
-    if (GetMonAbility(mon) == ABILITY_ILLUSION && gBattleStruct->illusion[data->battlerId].state != ILLUSION_OFF){
-        if(GetMonData(gBattleStruct->illusion[data->battlerId].mon, MON_DATA_HELD_ITEM) != ITEM_NONE){
+    if(GetMonData(mon, MON_DATA_HELD_ITEM) != ITEM_NONE){
             gSprites[data->spriteIds.aiPartyIcons[i]].sItemSpriteId = CreateSprite(&sSpriteTemplate_HeldItem, xOffset + 6, yOffset + 12, 0);
             gSprites[gSprites[data->spriteIds.aiPartyIcons[i]].sItemSpriteId].oam.priority = 0;
-        } 
-    } else {
-        if(GetMonData(mon, MON_DATA_HELD_ITEM) != ITEM_NONE){
-            gSprites[data->spriteIds.aiPartyIcons[i]].sItemSpriteId = CreateSprite(&sSpriteTemplate_HeldItem, xOffset + 6, yOffset + 12, 0);
-            gSprites[gSprites[data->spriteIds.aiPartyIcons[i]].sItemSpriteId].oam.priority = 0;
-        }  
-    }
+    }  
 
     gSprites[data->spriteIds.aiPartyIcons[i]].sHealthBarId = CreateSprite(&gSpriteTemplate_Healthbar[i], xOffset - 15, yOffset + 19, 0);
     SetSubspriteTables(&gSprites[gSprites[data->spriteIds.aiPartyIcons[i]].sHealthBarId], &sHealthBar_SubspriteTables[B_SIDE_OPPONENT]);
@@ -814,7 +855,6 @@ static void PrintAiMonAndHealthbar(u8 i, u8 xOffset, u8 yOffset, u8 taskId){
 
     data->hpBarValue[i] = -32768;
     CalcInfoBarValue(GetMonData(mon, MON_DATA_MAX_HP), GetMonData(mon, MON_DATA_HP), 0, &data->hpBarValue[i], 6, 1);
-
     data->pixelsCount[i] = CalcBarFilledPixels(GetMonData(mon, MON_DATA_MAX_HP), GetMonData(mon, MON_DATA_HP), 0, &data->hpBarValue[i], array, 6);
 
     if (data->pixelsCount[i] > 24) // more than 50 % hp

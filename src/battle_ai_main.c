@@ -4484,6 +4484,12 @@ static s32 AI_CalcMoveEffectScore(u32 battlerAtk, u32 battlerDef, u32 move, stru
         break;
     //best_status if player is gonna defog away screens or hazards, not used otherwise
     case EFFECT_TAUNT:
+        if(HasMoveWithEffect(battlerDef, EFFECT_NON_VOLATILE_STATUS) && 
+            (HasMoveWithEffect(battlerAtk, EFFECT_COUNTER) || HasMoveWithEffect(battlerAtk, EFFECT_MIRROR_COAT))){
+                ADJUST_SCORE(WEAK_EFFECT);
+                if(Random() % 100 < 60)
+                    ADJUST_SCORE(WEAK_EFFECT);
+        }
         break;
     case EFFECT_METRONOME:
         ADJUST_SCORE(DECENT_EFFECT);
