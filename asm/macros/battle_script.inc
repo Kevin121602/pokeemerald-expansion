@@ -767,12 +767,13 @@
 	.byte B_SCR_OP_UNUSED_0x88
 	.endm
 
-	.macro statbuffchange battler:req, flags:req, failInstr:req, stats=0
+	.macro statbuffchange battler:req, flags:req, failInstr:req, stats=0, fromMove = 1
 	.byte B_SCR_OP_STATBUFFCHANGE
 	.byte \battler
 	.2byte \flags
 	.4byte \failInstr
 	.byte \stats
+	.byte \fromMove
 	.endm
 
 	.macro normalisebuffs

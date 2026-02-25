@@ -330,7 +330,7 @@ enum GiveCaughtMonStates
 
 #define TAG_LVLUP_BANNER_MON_ICON 55130
 
-static u32 ChangeStatBuffs(u32 battler, s8 statValue, enum Stat statId, union StatChangeFlags flags, u32 stats, const u8 *BS_ptr);
+static u32 ChangeStatBuffs(u32 battler, s8 statValue, enum Stat statId, union StatChangeFlags flags, u32 stats, const u8 *BS_ptr, u8 fromMove);
 static bool32 IsMonGettingExpSentOut(void);
 static void InitLevelUpBanner(void);
 static bool8 SlideInLevelUpBanner(void);
@@ -3301,7 +3301,7 @@ void SetMoveEffect(u32 battler, u32 effectBattler, enum MoveEffect moveEffect, c
                 SET_STAT_BUFF_VALUE(1),
                 moveEffect - MOVE_EFFECT_ATK_PLUS_1 + 1,
                 STAT_CHANGE_UPDATE_MOVE_EFFECT,
-                0, 0) == STAT_CHANGE_DIDNT_WORK)
+                0, 0, TRUE) == STAT_CHANGE_DIDNT_WORK)
         {
             gBattlescriptCurrInstr = battleScript;
         }
@@ -3334,7 +3334,7 @@ void SetMoveEffect(u32 battler, u32 effectBattler, enum MoveEffect moveEffect, c
                 SET_STAT_BUFF_VALUE(1) | STAT_BUFF_NEGATIVE,
                 moveEffect - MOVE_EFFECT_ATK_MINUS_1 + 1,
                 flags,
-                0, battleScript) == STAT_CHANGE_DIDNT_WORK)
+                0, battleScript, TRUE) == STAT_CHANGE_DIDNT_WORK)
         {
             if (!mirrorArmorReflected)
                 gBattlescriptCurrInstr = battleScript;
@@ -3360,7 +3360,7 @@ void SetMoveEffect(u32 battler, u32 effectBattler, enum MoveEffect moveEffect, c
                 SET_STAT_BUFF_VALUE(2),
                 moveEffect - MOVE_EFFECT_ATK_PLUS_2 + 1,
                 STAT_CHANGE_UPDATE_MOVE_EFFECT,
-                0, 0) == STAT_CHANGE_DIDNT_WORK)
+                0, 0, TRUE) == STAT_CHANGE_DIDNT_WORK)
         {
             gBattlescriptCurrInstr = battleScript;
         }
@@ -3393,7 +3393,7 @@ void SetMoveEffect(u32 battler, u32 effectBattler, enum MoveEffect moveEffect, c
                 SET_STAT_BUFF_VALUE(2) | STAT_BUFF_NEGATIVE,
                 moveEffect - MOVE_EFFECT_ATK_MINUS_2 + 1,
                 flags,
-                0, battleScript) == STAT_CHANGE_DIDNT_WORK)
+                0, battleScript, TRUE) == STAT_CHANGE_DIDNT_WORK)
         {
             if (!mirrorArmorReflected)
                 gBattlescriptCurrInstr = battleScript;
@@ -3727,7 +3727,7 @@ void SetMoveEffect(u32 battler, u32 effectBattler, enum MoveEffect moveEffect, c
                     stat,
                     STAT_CHANGE_UPDATE_MOVE_EFFECT,
                     0,
-                    0) == STAT_CHANGE_DIDNT_WORK)
+                    0, TRUE) == STAT_CHANGE_DIDNT_WORK)
             {
                 gBattlescriptCurrInstr = battleScript;
             }
@@ -10381,7 +10381,7 @@ static void TryPlayStatChangeAnimation(u32 battler, enum Ability ability, u32 st
     }
 }
 
-static u32 ChangeStatBuffs(u32 battler, s8 statValue, enum Stat statId, union StatChangeFlags flags, u32 stats, const u8 *BS_ptr)
+static u32 ChangeStatBuffs(u32 battler, s8 statValue, enum Stat statId, union StatChangeFlags flags, u32 stats, const u8 *BS_ptr, u8 fromMove)
 {
     u32 index, battlerAbility;
     enum HoldEffect battlerHoldEffect;
@@ -10407,7 +10407,7 @@ static u32 ChangeStatBuffs(u32 battler, s8 statValue, enum Stat statId, union St
         RecordAbilityBattle(battler, battlerAbility);
     }
 
-    if ((moveType == TYPE_GROUND || moveType == TYPE_ROCK || moveType == TYPE_STEEL) && gFieldStatuses & STATUS_FIELD_RICH_SEDIMENT && !flags.onlyChecking)
+    if ((moveType == TYPE_GROUND || moveType == TYPE_ROCK || moveType == TYPE_STEEL) && gFieldStatuses & STATUS_FIELD_RICH_SEDIMENT && !flags.onlyChecking && fromMove)
     {
         statValue = (SET_STAT_BUFF_VALUE(GET_STAT_BUFF_VALUE(statValue) * 2)) | ((statValue <= -1) ? STAT_BUFF_NEGATIVE : 0);
         RecordAbilityBattle(battler, battlerAbility);
@@ -10657,12 +10657,13 @@ static u32 ChangeStatBuffs(u32 battler, s8 statValue, enum Stat statId, union St
 
 static void Cmd_statbuffchange(void)
 {
-    CMD_ARGS(u8 battler, u16 flags, const u8 *failInstr, u8 stats);
+    CMD_ARGS(u8 battler, u16 flags, const u8 *failInstr, u8 stats, u8 fromMove);
 
     u16 flags = cmd->flags;
     u32 stats = cmd->stats;
     const u8 *ptrBefore = gBattlescriptCurrInstr;
     const u8 *failInstr = cmd->failInstr;
+    u8 fromMove = cmd->fromMove;
 
     if (ChangeStatBuffs(
             GetBattlerForBattleScript(cmd->battler),
@@ -10670,7 +10671,7 @@ static void Cmd_statbuffchange(void)
             GET_STAT_BUFF_ID(gBattleScripting.statChanger),
             flags,
             stats,
-            failInstr) == STAT_CHANGE_WORKED)
+            failInstr, fromMove) == STAT_CHANGE_WORKED)
         gBattlescriptCurrInstr = cmd->nextInstr;
     else if (gBattlescriptCurrInstr == ptrBefore) // Prevent infinite looping.
         gBattlescriptCurrInstr = failInstr;
@@ -16084,7 +16085,7 @@ void BS_SpectralThiefPrintStats(void)
                     GET_STAT_BUFF_VALUE_WITH_SIGN(gBattleScripting.statChanger),
                     stat,
                     STAT_CHANGE_CERTAIN,
-                    0, NULL) == STAT_CHANGE_WORKED)
+                    0, NULL, FALSE) == STAT_CHANGE_WORKED)
             {
                 BattleScriptCall(BattleScript_StatUp);
                 return;

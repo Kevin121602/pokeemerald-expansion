@@ -11383,7 +11383,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sPawniardLevelUpLearnset,
         .teachableLearnset = sPawniardTeachableLearnset,
         .eggMoveLearnset = sPawniardEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_BISHARP}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 42, SPECIES_BISHARP}),
     },
 
     [SPECIES_BISHARP] =
@@ -11450,7 +11450,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sBisharpLevelUpLearnset,
         .teachableLearnset = sBisharpTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_KINGAMBIT}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 65, SPECIES_KINGAMBIT}),
     },
 
 #if P_GEN_9_CROSS_EVOS
