@@ -862,8 +862,8 @@ static void Task_ShowAiPartyIcons(u8 taskId)
         LoadSpritePalette(&sSpritePalettes_BattleInfoHealthBar);
         LoadSpriteSheet(&gSpriteSheet_HeldItemInfo);
         data->battlerId = B_POSITION_OPPONENT_LEFT;
-        if(FALSE){
-            for (i = 0; i < gAiPartyData->count[GetBattlerSide(data->battlerId)]; i++)
+        if(gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS){
+            for (i = 0; i < 3; i++)
             {
                 xOffset = 39 + (i % 3) * 80;
                 yOffset = 40;
