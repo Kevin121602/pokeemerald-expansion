@@ -78,6 +78,7 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 	giveitem ITEM_HEART_SCALE
 	msgbox MtPyre_Summit_Text_PerhapsICould, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, MtPyre_Summit_EventScript_SealingTutor
+	msgbox MtPyre_Summit_Text_GoodLuckAnd, MSGBOX_DEFAULT
 	releaseall
 	end
 
@@ -724,6 +725,9 @@ MtPyre_Summit_Text_WowYoureCapable:
 MtPyre_Summit_Text_PerhapsICould:
 	.string "Perhaps I could also help by\n"
 	.string "teaching your Pokémon some moves?$"
+
+MtPyre_Summit_Text_GoodLuckAnd:
+	.string "Good luck, and take care!$"
 
 MtPyre_Summit_Text_Defeat:
 	.string "Oh, darn.\n"
