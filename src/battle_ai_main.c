@@ -647,6 +647,10 @@ static void CalcBattlerAiMovesData(struct AiLogicData *aiData, u32 battlerAtk, u
         if(aiData->simulatedDmg[battlerAtk][battlerDef][moveIndex].minimum >= gBattleMons[battlerDef].maxHP && MonHasInTactFocusSashSturdy(battlerDef, battlerAtk, gAiLogicData->holdEffects[battlerDef], gAiLogicData->abilities[battlerDef], moves[moveIndex])){
             aiData->simulatedDmg[battlerAtk][battlerDef][moveIndex].minimum = gBattleMons[battlerDef].maxHP - 1;
         }
+        if (aiData->abilities[battlerDef] == ABILITY_DISGUISE && gBattleMons[battlerDef].species == SPECIES_MIMIKYU && aiData->simulatedDmg[battlerAtk][battlerDef][moveIndex].minimum >= gBattleMons[battlerDef].maxHP)
+            aiData->simulatedDmg[battlerAtk][battlerDef][moveIndex].minimum = gBattleMons[battlerDef].maxHP - 1;
+        if (aiData->abilities[battlerDef] == ABILITY_ICE_FACE && gBattleMons[battlerDef].species == SPECIES_EISCUE && GetBattleMoveCategory(move) == DAMAGE_CATEGORY_PHYSICAL && aiData->simulatedDmg[battlerAtk][battlerDef][moveIndex].minimum >= gBattleMons[battlerDef].maxHP)
+            aiData->simulatedDmg[battlerAtk][battlerDef][moveIndex].minimum = gBattleMons[battlerDef].maxHP - 1;
         if (gMovesInfo[move].effect == EFFECT_EXPLOSION || gMovesInfo[move].effect == EFFECT_MISTY_EXPLOSION)
             aiData->simulatedDmg[battlerAtk][battlerDef][moveIndex].minimum = 0;
         if (IsTwoTurnNotSemiInvulnerableMove(battlerAtk, move))
