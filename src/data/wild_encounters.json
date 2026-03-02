@@ -3078,17 +3078,17 @@
               {
                 "min_level": 19,
                 "max_level": 20,
-                "species": "SPECIES_CLEFAIRY"
+                "species": "SPECIES_SWIRLIX"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_SPRITZEE"
               },
               {
                 "min_level": 19,
                 "max_level": 20,
                 "species": "SPECIES_KIRLIA"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_FLOETTE"
               },
               {
                 "min_level": 19,
@@ -3103,12 +3103,12 @@
               {
                 "min_level": 19,
                 "max_level": 20,
-                "species": "SPECIES_SWIRLIX"
+                "species": "SPECIES_CLEFAIRY"
               },
               {
                 "min_level": 19,
                 "max_level": 20,
-                "species": "SPECIES_SPRITZEE"
+                "species": "SPECIES_FLOETTE"
               },
               {
                 "min_level": 19,
