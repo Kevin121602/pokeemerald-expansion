@@ -590,10 +590,10 @@
 #define FLAG_HIDDEN_ITEM_LILYCOVE_CITY_PP_UP                 (FLAG_HIDDEN_ITEMS_START + 0x2B)
 #define FLAG_HIDDEN_ITEM_ROUTE_104_SUPER_POTION              (FLAG_HIDDEN_ITEMS_START + 0x2C)
 #define FLAG_HIDDEN_ITEM_ROUTE_116_SUPER_POTION              (FLAG_HIDDEN_ITEMS_START + 0x2D)
-#define FLAG_HIDDEN_ITEM_ROUTE_106_STARDUST                  (FLAG_HIDDEN_ITEMS_START + 0x2E)
-#define FLAG_HIDDEN_ITEM_ROUTE_106_HEART_SCALE               (FLAG_HIDDEN_ITEMS_START + 0x2F)
-#define FLAG_HIDDEN_ITEM_GRANITE_CAVE_B2F_EVERSTONE_1        (FLAG_HIDDEN_ITEMS_START + 0x30)
-#define FLAG_HIDDEN_ITEM_GRANITE_CAVE_B2F_EVERSTONE_2        (FLAG_HIDDEN_ITEMS_START + 0x31)
+#define FLAG_ITEM_GRANITE_CAVE_B2F_ICE_GEM                  (FLAG_HIDDEN_ITEMS_START + 0x2E)
+#define FLAG_ITEM_GRANITE_CAVE_STEVENS_ROOM_STEEL_GEM               (FLAG_HIDDEN_ITEMS_START + 0x2F)
+#define FLAG_ITEM_GRANITE_CAVE_1F_THICK_CLUB        (FLAG_HIDDEN_ITEMS_START + 0x30)
+#define FLAG_ITEM_GRANITE_CAVE_B1F_TM_ROCK_SLIDE        (FLAG_HIDDEN_ITEMS_START + 0x31)
 #define FLAG_HIDDEN_ITEM_ROUTE_109_REVIVE                    (FLAG_HIDDEN_ITEMS_START + 0x32)
 #define FLAG_HIDDEN_ITEM_ROUTE_109_GREAT_BALL                (FLAG_HIDDEN_ITEMS_START + 0x33)
 #define FLAG_HIDDEN_ITEM_ROUTE_109_HEART_SCALE_1             (FLAG_HIDDEN_ITEMS_START + 0x34)
@@ -607,7 +607,7 @@
 #define FLAG_HIDDEN_ITEM_PETALBURG_WOODS_TINY_MUSHROOM_2     (FLAG_HIDDEN_ITEMS_START + 0x3C)
 #define FLAG_HIDDEN_ITEM_PETALBURG_WOODS_POKE_BALL           (FLAG_HIDDEN_ITEMS_START + 0x3D)
 #define FLAG_HIDDEN_ITEM_ROUTE_104_POKE_BALL                 (FLAG_HIDDEN_ITEMS_START + 0x3E)
-#define FLAG_HIDDEN_ITEM_ROUTE_106_POKE_BALL                 (FLAG_HIDDEN_ITEMS_START + 0x3F)
+#define FLAG_ITEM_GRANITE_CAVE_1F_TM_POWER_GEM                 (FLAG_HIDDEN_ITEMS_START + 0x3F)
 #define FLAG_HIDDEN_ITEM_ROUTE_109_ETHER                     (FLAG_HIDDEN_ITEMS_START + 0x40)
 #define FLAG_HIDDEN_ITEM_ROUTE_110_POKE_BALL                 (FLAG_HIDDEN_ITEMS_START + 0x41)
 #define FLAG_HIDDEN_ITEM_ROUTE_118_HEART_SCALE               (FLAG_HIDDEN_ITEMS_START + 0x42)
@@ -1056,7 +1056,7 @@
 #define FLAG_ITEM_ROUTE_116_TM_FEINT_ATTACK                               0x3E9
 #define FLAG_ITEM_ROUTE_104_PP_UP                                   0x3EA
 #define FLAG_ITEM_ROUTE_105_IRON                                    0x3EB
-#define FLAG_ITEM_ROUTE_106_PROTEIN                                 0x3EC
+#define FLAG_ITEM_ROUTE_106_DRAGON_GEM                                 0x3EC
 #define FLAG_ITEM_ROUTE_109_PP_UP                                   0x3ED
 #define FLAG_ITEM_ROUTE_110_RARE_CANDY                              0x3EE
 #define FLAG_ITEM_ROUTE_110_DIRE_HIT                                0x3EF
@@ -1102,8 +1102,8 @@
 #define FLAG_ITEM_METEOR_FALLS_1F_1R_PP_UP                          0x417
 #define FLAG_ITEM_RUSTURF_TUNNEL_POKE_BALL                          0x418
 #define FLAG_ITEM_RUSTURF_TUNNEL_MAX_ETHER                          0x419
-#define FLAG_ITEM_GRANITE_CAVE_1F_ESCAPE_ROPE                       0x41A
-#define FLAG_ITEM_GRANITE_CAVE_B1F_POKE_BALL                        0x41B
+#define FLAG_ITEM_GRANITE_CAVE_1F_GROUND_GEM                       0x41A
+#define FLAG_ITEM_GRANITE_CAVE_B1F_ROCK_GEM                        0x41B
 #define FLAG_ITEM_MT_PYRE_5F_FIRE_GEM                            0x41C
 #define FLAG_ITEM_GRANITE_CAVE_B2F_REPEL                            0x41D
 #define FLAG_ITEM_GRANITE_CAVE_B2F_RARE_CANDY                       0x41E
@@ -1240,7 +1240,7 @@
 #define FLAG_ITEM_MT_PYRE_3F_TM_NIGHT_SHADE                                           0x4A0 // Unused Flag
 #define FLAG_ITEM_MT_PYRE_5F_TM_SCREECH                                           0x4A1 // Unused Flag
 #define FLAG_ITEM_MT_PYRE_6F_TM_SHADOW_BALL                                           0x4A2 // Unused Flag
-#define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag
+#define FLAG_ITEM_GRANITE_CAVE_B2F_TM_IRON_HEAD                                           0x4A3 // Unused Flag
 #define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag
 #define FLAG_UNUSED_0x4A5                                           0x4A5 // Unused Flag
 #define FLAG_UNUSED_0x4A6                                           0x4A6 // Unused Flag

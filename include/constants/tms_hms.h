@@ -155,7 +155,7 @@
     F(MISTY_EXPLOSION) \ Verdanturf
     F(PAYBACK) \ Abandoned Ship
     F(PLAY_ROUGH) \ Winona Split
-    F(POISON_JAB) \ Abandoned Ship
+    F(POISON_JAB) \ Dewford
     F(POLTERGEIST) \ 121
     F(POWER_GEM) \ Granite
     F(PROTECT) \ VR
@@ -164,11 +164,8 @@
     F(REFLECT) \ T&L
     F(ROCK_SLIDE) \ Granite
     F(ROOST) \ Winona
-    F(SCALD) \ Route 106
-    F(SCREECH) \ Pyre
     F(SEED_BOMB) \ 103 post matt
-    F(SHADOW_BALL) \ Pyre
-    F(SLUDGE_BOMB) \ Dewford
+    F(SLUDGE_BOMB) \ Abandoned Ship
     F(SOLAR_BEAM) \ Fiery Path
     F(SOLAR_BLADE) \ Fiery Path
     F(SUPERCELL_SLAM) \ 119
