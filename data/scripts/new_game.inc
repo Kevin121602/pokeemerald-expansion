@@ -294,6 +294,6 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2
 	setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3
 	setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3
-	setflag FLAG_HIDE_MT_PYRE_SUMMIT_PHOEBE
+	setflag FLAG_HIDE_CHAMBER_GUARD_TRAINERS
 	call EventScript_ResetAllBerries
 	end

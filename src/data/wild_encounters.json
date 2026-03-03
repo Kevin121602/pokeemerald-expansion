@@ -2962,6 +2962,81 @@
         {
           "map": "MAP_ROUTE107",
           "base_label": "gRoute107",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_SCYTHER"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_PINSIR"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_HERACROSS"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_ORICORIO"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_ROSELIA"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_SWIRLIX"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_SPRITZEE"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_KIRLIA"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_GOTHITA"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_SOLOSIS"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_CLEFAIRY"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_FLOETTE"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_HATTREM"
+              },
+              {
+                "min_level": 19,
+                "max_level": 20,
+                "species": "SPECIES_MORGREM"
+              }
+            ]
+          },
           "fishing_mons": {
             "encounter_rate": 30,
             "mons": [
@@ -3044,81 +3119,6 @@
                 "min_level": 19,
                 "max_level": 20,
                 "species": "SPECIES_BASCULIN_WHITE_STRIPED"
-              }
-            ]
-          },
-          "land_mons": {
-            "encounter_rate": 10,
-            "mons": [
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_SCYTHER"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_PINSIR"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_HERACROSS"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_SWADLOON"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_WHIRLIPEDE"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_SWIRLIX"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_SPRITZEE"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_KIRLIA"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_GOTHITA"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_SOLOSIS"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_CLEFAIRY"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_FLOETTE"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_HATTREM"
-              },
-              {
-                "min_level": 19,
-                "max_level": 20,
-                "species": "SPECIES_MORGREM"
               }
             ]
           }
@@ -4343,12 +4343,12 @@
               {
                 "min_level": 17,
                 "max_level": 18,
-                "species": "SPECIES_ROSELIA"
+                "species": "SPECIES_SWADLOON"
               },
               {
                 "min_level": 17,
                 "max_level": 18,
-                "species": "SPECIES_ROSELIA"
+                "species": "SPECIES_WHIRLIPEDE"
               }
             ]
           },

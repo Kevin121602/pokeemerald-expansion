@@ -54,7 +54,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route105_EventScript_Dominik",
-      "flag": "0"
+      "flag": "FLAG_HIDE_CHAMBER_GUARD_TRAINERS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
@@ -80,7 +80,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route105_EventScript_Imani",
-      "flag": "0"
+      "flag": "FLAG_HIDE_CHAMBER_GUARD_TRAINERS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -159,6 +159,32 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route105_EventScript_AquaGrunts",
       "flag": "FLAG_HIDE_ROUTE_105_GRUNTS"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 17,
+      "y": 56,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_FLYING_GEM",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_ROUTE_105_FLYING_GEM"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_TM_BALL",
+      "x": 16,
+      "y": 71,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_TM_SCALD",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_ROUTE_105_TM_SCALD"
     }
   ],
   "warp_events": [
@@ -171,22 +197,5 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [
-    {
-      "type": "hidden_item",
-      "x": 15,
-      "y": 68,
-      "elevation": 3,
-      "item": "ITEM_HEART_SCALE",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_105_HEART_SCALE"
-    },
-    {
-      "type": "hidden_item",
-      "x": 5,
-      "y": 56,
-      "elevation": 3,
-      "item": "ITEM_BIG_PEARL",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL"
-    }
-  ]
+  "bg_events": []
 }
