@@ -1,3 +1,42 @@
+const LOCALID_DUSK_STONE_COURIER = 3
+
+script GraniteCave_B1F_EventScript_DuskStoneCourier{
+	lock
+	faceplayer
+	msgbox("Hey dude…\n"
+			"I'm totally lost…\p"
+			"Do you know where the Stone Emporium\n"
+			"is?\p"
+			"I was supposed to deliver some Dusk\n"
+			"Stones to them.\p"
+			"…\p"
+			"What?! They're in Lavaridge?\n"
+			"I got some lousy directions, man.\p"
+			"Thanks for helping me out, bro.\n"
+			"Here, take this!$")
+	giveitem(ITEM_DUSK_STONE)
+	msgbox("I gotta hurry!$")
+	waitmessage
+	closemessage
+	setflag(FLAG_DUSK_STONE_AVAILABLE)
+	applymovement(LOCALID_DUSK_STONE_COURIER, CourierMovement)
+	waitmovement(0)
+	removeobject(LOCALID_DUSK_STONE_COURIER)
+	release
+	end
+}
+
+movement CourierMovement{
+	face_up
+	walk_faster_up * 4
+	face_right
+	walk_faster_right * 3
+	face_up
+	walk_faster_up
+	face_right
+	walk_faster_right * 4
+}
+
 raw `
 GraniteCave_B1F_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, CaveHole_CheckFallDownHole

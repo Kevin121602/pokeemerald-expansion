@@ -7,7 +7,14 @@ LavaridgeTown_HerbShop_EventScript_Clerk::
 	faceplayer
 	message LavaridgeTown_HerbShop_Text_WelcomeToHerbShop
 	waitmessage
+	goto_if_set FLAG_DUSK_STONE_AVAILABLE, LavaridgeTown_HerbShop_EventScript_ShopDuskStoneAvailable
 	pokemart LavaridgeTown_HerbShop_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+LavaridgeTown_HerbShop_EventScript_ShopDuskStoneAvailable::
+	pokemart LavaridgeTown_HerbShop_PokemartWithDuskStone
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
