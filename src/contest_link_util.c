@@ -33,6 +33,7 @@ static void Task_LinkContest_CalculateTurnOrderEm(u8);
 void Task_LinkContest_StartCommunicationEm(u8 taskId)
 {
     int gameCleared;
+    enum ContestCategories category = gTasks[taskId].tCategory;
 
     /*switch (gTasks[taskId].tCategory)
     {
