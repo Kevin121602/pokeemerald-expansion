@@ -7322,7 +7322,7 @@ F_TRAINER_FEMALE |
 #line 2980
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 2979
-            .ability = ABILITY_MYSTIC_CHARM,
+            .ability = ABILITY_CURSED_BODY,
 #line 2977
             .lvl = 28,
 #line 2978
