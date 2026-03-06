@@ -7,6 +7,7 @@ ALIGNED(4)
 const u8 gText_ExpandedPlaceholder_Empty[] = _("");
 const u8 gText_ExpandedPlaceholder_Kun[] = _("");
 const u8 gText_ExpandedPlaceholder_Chan[] = _("");
+<<<<<<< HEAD
 const u8 gText_ExpandedPlaceholder_Sapphire[] = _("Sapphire");
 const u8 gText_ExpandedPlaceholder_Ruby[] = _("Ruby");
 const u8 gText_ExpandedPlaceholder_Emerald[] = _("Emerald");
@@ -24,6 +25,27 @@ const u8 gText_Player[] = _("Player"); // Unused
 const u8 gText_Pokedex[] = _("Pokédex"); // Unused
 const u8 gText_Time[] = _("Time");
 const u8 gText_Badges[] = _("Badges"); // Unused
+=======
+const u8 gText_ExpandedPlaceholder_Sapphire[] = _("SAPPHIRE");
+const u8 gText_ExpandedPlaceholder_Ruby[] = _("RUBY");
+const u8 gText_ExpandedPlaceholder_Emerald[] = _("EMERALD");
+const u8 gText_ExpandedPlaceholder_Aqua[] = _("AQUA");
+const u8 gText_ExpandedPlaceholder_Magma[] = _("MAGMA");
+const u8 gText_ExpandedPlaceholder_Archie[] = _("ARCHIE");
+const u8 gText_ExpandedPlaceholder_Maxie[] = _("MAXIE");
+const u8 gText_ExpandedPlaceholder_Kyogre[] = _("KYOGRE");
+const u8 gText_ExpandedPlaceholder_Groudon[] = _("GROUDON");
+const u8 gText_ExpandedPlaceholder_Brendan[] = _("BRENDAN");
+const u8 gText_ExpandedPlaceholder_May[] = _("MAY");
+const u8 gText_ExpandedPlaceholder_Red[] = _("RED");
+const u8 gText_ExpandedPlaceholder_Green[] = _("GREEN");
+const u8 gText_EggNickname[POKEMON_NAME_LENGTH + 1] = _("EGG");
+const u8 gText_Pokemon[POKEMON_NAME_LENGTH + 1] = _("POKéMON");
+const u8 gText_Player[] = _("PLAYER"); // Unused
+const u8 gText_Pokedex[] = _("POKéDEX"); // Unused
+const u8 gText_Time[] = _("TIME");
+const u8 gText_Badges[] = _("BADGES"); // Unused
+>>>>>>> 97e83ebe6a2328b21000f9d17053660bd5a0c56e
 const u8 gText_AButton[] = _("A Button"); // Unused
 const u8 gText_BButton[] = _("B Button"); // Unused
 const u8 gText_RButton[] = _("R Button"); // Unused
@@ -32,6 +54,7 @@ const u8 gText_Start[] = _("Start"); // Unused
 const u8 gText_Select[] = _("Select"); // Unused
 const u8 gText_ControlPad[] = _("+ Control Pad"); // Unused
 const u8 gText_LButtonRButton[] = _("L Button  R Button"); // Unused
+<<<<<<< HEAD
 const u8 gText_Controls[] = _("Controls"); // Unused
 ALIGNED(4) const u8 gText_PickOk[] = _("{DPAD_UPDOWN}Pick {A_BUTTON}OK"); // Unused
 ALIGNED(4) const u8 gText_Next[] = _("{A_BUTTON}Next"); // Unused
@@ -86,6 +109,19 @@ const u8 gText_DefaultNameHalie[] = _("HALIE");
 
 const u8 gText_ThisIsAPokemon[] = _("This is what we call a “Pokémon.”{PAUSE 96}\p");
 const u8 gText_5MarksPokemon[] = _("????? Pokémon");
+=======
+const u8 gText_Controls[] = _("CONTROLS"); // Unused
+ALIGNED(4) const u8 gText_PickOk[] = _("{DPAD_UPDOWN}PICK {A_BUTTON}OK"); // Unused
+ALIGNED(4) const u8 gText_Next[] = _("{A_BUTTON}NEXT");
+ALIGNED(4) const u8 gText_NextBack[] = _("{A_BUTTON}NEXT {B_BUTTON}BACK");
+ALIGNED(4) const u8 gText_PickNextCancel[] = _("{DPAD_UPDOWN}PICK {A_BUTTON}NEXT {B_BUTTON}CANCEL");
+ALIGNED(4) const u8 gText_PickCancel[] = _("{DPAD_UPDOWN}PICK {A_BUTTON}{B_BUTTON}CANCEL");
+ALIGNED(4) const u8 gText_AButtonExit[] = _("{A_BUTTON}EXIT");
+const u8 gText_Boy[] = _("BOY");
+const u8 gText_Girl[] = _("GIRL");
+const u8 gText_ThisIsAPokemon[] = _("This is what we call a “POKéMON.”{PAUSE 96}\p");
+const u8 gText_5MarksPokemon[] = _("????? POKéMON");
+>>>>>>> 97e83ebe6a2328b21000f9d17053660bd5a0c56e
 const u8 gText_UnkHeight[] = _("{CLEAR_TO 0x0C}??'??”");
 const u8 gText_UnkHeightMetric[] = _("???.? m");
 const u8 gText_UnkWeight[] = _("????.? lbs.");
@@ -691,9 +727,16 @@ const u8 gText_HeldItems[] = _("Held Items");
 const u8 gText_MegaStones[] = _("Mega Stones");
 const u8 gText_Gems[] = _("Gems");
 const u8 gText_TMs_Hms[] = _("TMs & HMs");
+<<<<<<< HEAD
 const u8 gText_Berries2[] = _("Berries");
 const u8 gText_SomeonesPC[] = _("Someone's PC");
 const u8 gText_LanettesPC[] = _("Lanette's PC");
+=======
+const u8 gText_Berries2[] = _("BERRIES");
+const u8 gText_SomeonesPC[] = _("SOMEONE'S PC");
+const u8 gText_LanettesPC[] = _("LANETTE'S PC");
+const u8 gText_BillsPc[] = _("BILL'S PC");
+>>>>>>> 97e83ebe6a2328b21000f9d17053660bd5a0c56e
 const u8 gText_PlayersPC[] = _("{PLAYER}'s PC");
 const u8 gText_HallOfFame[] = _("Hall Of Fame");
 const u8 gText_LogOff[] = _("Log Off");
@@ -1103,9 +1146,16 @@ const u8 gText_Dry2[] = _("dry");
 const u8 gText_Sweet2[] = _("sweet");
 const u8 gText_Bitter2[] = _("bitter");
 const u8 gText_Sour2[] = _("sour");
+<<<<<<< HEAD
 const u8 gText_Single[] = _("Single");
 const u8 gText_Double[] = _("Double");
 const u8 gText_Jackpot[] = _("jackpot");
+=======
+const u8 gText_Single[] = _("SINGLE");
+const u8 gText_Double[] = _("DOUBLE");
+const u8 gText_Knockout[] = _("KNOCKOUT");
+const u8 gText_Mixed[] = _("MIXED");
+>>>>>>> 97e83ebe6a2328b21000f9d17053660bd5a0c56e
 const u8 gText_First[] = _("first");
 const u8 gText_Second[] = _("second");
 const u8 gText_Third[] = _("third");
@@ -1660,6 +1710,7 @@ const u8 gText_Nickname[] = _("Nickname");
 //const u8 gText_Status[] = _("STATUS");
 const u8 gText_ExpShareOn[] = _("The Exp. Share has been turned on.{PAUSE_UNTIL_PRESS}");
 const u8 gText_ExpShareOff[] = _("The Exp. Share has been turned off.{PAUSE_UNTIL_PRESS}");
+<<<<<<< HEAD
 const u8 gText_BasePointsResetToZero[] = _("{STR_VAR_1}'s base points\nwere all reset to zero!{PAUSE_UNTIL_PRESS}");
 const u8 gText_AM[] = _("AM");
 const u8 gText_PM[] = _("PM");
@@ -1812,3 +1863,16 @@ const u8 gText_Spite[] =              _("Spite");
 const u8 gText_Grudge[] =              _("Grudge");
 const u8 gText_Embargo[] =              _("Embargo");
 const u8 gText_Imprison[] =              _("Imprison");
+=======
+ALIGNED(4) const u8 gText_Ghost[] = _("GHOST");
+const u8 gText_Boulderbadge[] = _("BOULDERBADGE");
+const u8 gText_Cascadebadge[] = _("CASCADEBADGE");
+const u8 gText_Thunderbadge[] = _("THUNDERBADGE");
+const u8 gText_Rainbowbadge[] = _("RAINBOWBADGE");
+const u8 gText_Soulbadge[] = _("SOULBADGE");
+const u8 gText_Marshbadge[] = _("MARSHBADGE");
+const u8 gText_Volcanobadge[] = _("VOLCANOBADGE");
+const u8 gText_Earthbadge[] = _("EARTHBADGE");
+const u8 gText_OakImportantToGetToKnowPokemonThroughly[] = _("OAK: It's important to get to know\nyour POKéMON thoroughly.\p");
+const u8 gText_OakThisIsListOfPokemon[] = _("This is a list of your POKéMON,\n{PLAYER}.\pOpen this to check the skills\nand moves of your POKéMON.\pYou also choose POKéMON here if\nyou want to use an item on one.{PAUSE_UNTIL_PRESS}");
+>>>>>>> 97e83ebe6a2328b21000f9d17053660bd5a0c56e

@@ -423,7 +423,8 @@
 #define ANIM_TAG_TATSUGIRI_CURLY            (ANIM_SPRITES_START + 409)
 #define ANIM_TAG_TATSUGIRI_DROOPY           (ANIM_SPRITES_START + 410)
 #define ANIM_TAG_TATSUGIRI_STRETCHY         (ANIM_SPRITES_START + 411)
-#define ANIM_TAG_COUNT                      GET_TRUE_SPRITE_INDEX(ANIM_TAG_TATSUGIRI_STRETCHY + 1)
+#define ANIM_TAG_SAFARI_BAIT                (ANIM_SPRITES_START + 412)
+#define ANIM_TAG_COUNT                      GET_TRUE_SPRITE_INDEX(ANIM_TAG_SAFARI_BAIT + 1)
 
 // battlers
 enum AnimBattler
@@ -600,8 +601,12 @@ enum AnimBattler
 #define B_ANIM_SWAP_TO_SUBSTITUTE       56
 #define B_ANIM_SWAP_FROM_SUBSTITUTE     57
 #define B_ANIM_GRUDGE                   58
-
-#define NUM_B_ANIMS_GENERAL             59
+#define B_ANIM_MON_SCARED               59
+#define B_ANIM_GHOST_GET_OUT            60
+#define B_ANIM_SILPH_SCOPED             61
+#define B_ANIM_ROCK_THROW               62
+#define B_ANIM_SAFARI_REACTION          63
+#define NUM_B_ANIMS_GENERAL             64
 
 // special animations table (sBattleAnims_Special)
 #define B_ANIM_LVL_UP                   0
@@ -683,6 +688,7 @@ enum SpeciesGfxChange
     SPECIES_GFX_CHANGE_TRANSFORM,
     SPECIES_GFX_CHANGE_FORM_CHANGE,
     SPECIES_GFX_CHANGE_ILLUSION_OFF,
+    SPECIES_GFX_CHANGE_GHOST_UNVEIL,
 };
 
 // Surf wave palettes

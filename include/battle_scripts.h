@@ -810,7 +810,14 @@ extern const u8 BattleScript_EffectFilletAway[];
 extern const u8 BattleScript_EffectShedTail[];
 extern const u8 BattleScript_EffectTidyUp[];
 extern const u8 BattleScript_EffectSpicyExtract[];
+<<<<<<< HEAD
 extern const u8 BattleScript_RichSediment[];
 extern const u8 BattleScript_Grudge[];
+=======
+extern const u8 BattleScript_GhostBallDodge[];
+extern const u8 BattleScript_GhostGetOutGetOut[];
+extern const u8 BattleScript_TooScaredToMove[];
+extern const u8 BattleScript_SilphScopeUnveiled[];
+>>>>>>> 97e83ebe6a2328b21000f9d17053660bd5a0c56e
 
 #endif // GUARD_BATTLE_SCRIPTS_H
