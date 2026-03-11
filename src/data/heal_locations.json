@@ -192,8 +192,12 @@
       "id": "HEAL_LOCATION_ROUTE122",
       "map": "MAP_ROUTE122",
       "x": 22,
-      "y": 30
-    }
+      "y": 30,
+      "respawn_map": "MAP_ROUTE122",
+      "respawn_npc": "LOCALID_NONE",
+      "respawn_x": 22,
+      "respawn_y": 30
+    },
     {
       "id": "HEAL_LOCATION_PALLET_TOWN",
       "map": "MAP_PALLET_TOWN",

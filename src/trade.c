@@ -2963,7 +2963,7 @@ static void CB2_InitInGameTrade(void)
     {
     case 0:
         //If ChooseBoxMon points to a pc mon, we store it into gEnemyParty
-        if(gSpecialVar_0x8004 == PC_MON_CHOSEN)
+        if (gSpecialVar_0x8004 == PC_MON_CHOSEN)
         {
             gSelectedTradeMonPositions[TRADE_PLAYER] = TRADEMON_FROM_PC;
             RemoveSelectedPcMon(&gEnemyParty[TRADEMON_FROM_PC]);
@@ -3337,7 +3337,7 @@ static void BufferTradeSceneStrings(void)
         ingameTrade = &sIngameTrades[gSpecialVar_0x8005];
         StringCopy(gStringVar1, ingameTrade->otName);
         StringCopy_Nickname(gStringVar3, ingameTrade->nickname);
-        if(gSpecialVar_0x8004 == PC_MON_CHOSEN)
+        if (gSpecialVar_0x8004 == PC_MON_CHOSEN)
             GetMonData(&gEnemyParty[TRADEMON_FROM_PC], MON_DATA_NICKNAME, name);
         else
             GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_NICKNAME, name);
@@ -4564,7 +4564,7 @@ static void CreateInGameTradePokemonInternal(u8 whichPlayerMon, u8 whichInGameTr
     u8 mailNum;
     struct Pokemon *pokemon = &gEnemyParty[0];
 
-    CreateMon(pokemon, inGameTrade->species, level, USE_RANDOM_IVS, FALSE, 0, OT_ID_PRESET, inGameTrade->otId);
+    CreateMonWithIVs(pokemon, inGameTrade->species, level, Random32(), OTID_STRUCT_PRESET(inGameTrade->otId), USE_RANDOM_IVS);
     
     u32 i;
     u8 availableIVs[NUM_STATS];

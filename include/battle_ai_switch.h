@@ -61,19 +61,16 @@ struct MostSuitableCandidate
     u8 score; 
 };
 
-void GetAIPartyIndexes(u32 battlerId, s32 *firstId, s32 *lastId);
-void AI_TrySwitchOrUseItem(u32 battler);
-void InitializeSwitchinCandidate(struct Pokemon *mon);
-struct MostSuitableCandidate GetMostSuitableMonToSwitchInto(u32 battler, bool32 switchAfterMonKOd);
-bool32 ShouldSwitch(u32 battler);
-bool32 ShouldSwitchIfOutspedAndKOd(u32 battler, bool32 emitResult);
-bool32 ShouldSwitchIfFasterButKOd(u32 battler, bool32 emitResult);
-bool32 ShouldSwitchIfBadMatchup(u32 battler, bool32 emitResult);
-bool32 ShouldSwitchIfStatusedNaturalCure(u32 battler, bool32 emitResult);
-u32 GetSwitchInSpeedStatArgs(struct BattlePokemon battleMon, u32 battler, u32 holdEffect);
-u32 GetMonSwitchScore(struct BattlePokemon battleMon, u32 battler, u32 opposingBattler, bool32 switchAfterMonKOd);
+struct MostSuitableCandidate GetMostSuitableMonToSwitchInto(enum BattlerId battler, bool32 switchAfterMonKOd);
+bool32 ShouldSwitch(enum BattlerId battler);
+bool32 ShouldSwitchIfOutspedAndKOd(enum BattlerId battler, bool32 emitResult);
+bool32 ShouldSwitchIfFasterButKOd(enum BattlerId battler, bool32 emitResult);
+bool32 ShouldSwitchIfBadMatchup(enum BattlerId battler, bool32 emitResult);
+bool32 ShouldSwitchIfStatusedNaturalCure(enum BattlerId battler, bool32 emitResult);
+//u32 GetSwitchInSpeedStatArgs(struct BattlePokemon battleMon, enum BattlerId battler, u32 holdEffect);
+u32 GetMonSwitchScore(enum BattlerId battler, enum BattlerId opposingBattler, bool32 switchAfterMonKOd);
 bool32 IsMonGrounded(enum HoldEffect heldItemEffect, enum Ability ability, enum Type type1, enum Type type2);
-void ModifySwitchAfterMoveScoring(u32 battler);
+void ModifySwitchAfterMoveScoring(enum BattlerId battler);
 u32 AI_SelectRevivalBlessingMon(enum BattlerId battler);
 bool32 IsSwitchinValid(enum BattlerId battler);
 bool32 IsAceMon(enum BattlerId battler, u32 monPartyId);

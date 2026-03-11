@@ -601,12 +601,6 @@ const struct BattleMoveEffect gBattleMoveEffects[NUM_BATTLE_MOVE_EFFECTS] =
         .encourageEncore = TRUE,
     },
 
-    [EFFECT_SANDSTORM] =
-    {
-        .battleScript = BattleScript_EffectSandstorm,
-        .battleTvScore = 4,
-    },
-
     [EFFECT_ENDURE] =
     {
         .battleScript = BattleScript_EffectEndure,
@@ -718,13 +712,7 @@ const struct BattleMoveEffect gBattleMoveEffects[NUM_BATTLE_MOVE_EFFECTS] =
 
     [EFFECT_WEATHER] =
     {
-        .battleScript = BattleScript_EffectRainDance,
-        .battleTvScore = 4,
-    },
-
-    [EFFECT_SUNNY_DAY] =
-    {
-        .battleScript = BattleScript_EffectSunnyDay,
+        .battleScript = BattleScript_EffectWeather,
         .battleTvScore = 4,
     },
 
@@ -744,12 +732,6 @@ const struct BattleMoveEffect gBattleMoveEffects[NUM_BATTLE_MOVE_EFFECTS] =
     {
         .battleScript = BattleScript_EffectPsychUp,
         .battleTvScore = 7,
-    },
-
-    [EFFECT_MIRROR_COAT] =
-    {
-        .battleScript = BattleScript_EffectMirrorCoat,
-        .battleTvScore = 6,
     },
 
     [EFFECT_EARTHQUAKE] =
@@ -838,12 +820,6 @@ const struct BattleMoveEffect gBattleMoveEffects[NUM_BATTLE_MOVE_EFFECTS] =
     {
         .battleScript = BattleScript_EffectOverwriteAbility,
         .battleTvScore = 0, // TODO: Assign points
-    },
-
-    [EFFECT_HAIL] =
-    {
-        .battleScript = BattleScript_EffectHail,
-        .battleTvScore = 4,
     },
 
     [EFFECT_TORMENT] =
@@ -1880,7 +1856,7 @@ const struct BattleMoveEffect gBattleMoveEffects[NUM_BATTLE_MOVE_EFFECTS] =
 
     [EFFECT_SKY_DROP] =
     {
-        .battleScript = BattleScript_EffectSkyDrop,
+        .battleScript = BattleScript_EffectHit,
         .battleTvScore = 0, // TODO: Assign points
         .twoTurnEffect = TRUE,
         .semiInvulnerableEffect = TRUE,

@@ -16,7 +16,9 @@ BattleFrontier_Lounge5_EventScript_NatureGirl::
 	msgbox BattleFrontier_Lounge5_Text_NatureGirlGreeting, MSGBOX_YESNO
 # 9 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_Lounge5_EventScript_NatureGirlNoneShown
-	chooseboxmon
+# 10 "data/maps/BattleFrontier_Lounge5/scripts.pory"
+	special ChoosePartyMon
+# 11 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 	waitstate
 # 12 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 	lock

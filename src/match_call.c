@@ -1157,7 +1157,7 @@ static u32 GetActiveMatchCallTrainerId(u32 activeMatchCallId)
 */
 bool32 TryStartMatchCall(void)
 {
-    /*if (FlagGet(FLAG_HAS_MATCH_CALL)
+    if (FlagGet(FLAG_HAS_MATCH_CALL)
         && UpdateMatchCallStepCounter()
         && UpdateMatchCallMinutesCounter()
         && CheckMatchCallChance()
@@ -1166,7 +1166,7 @@ bool32 TryStartMatchCall(void)
     {
         StartMatchCall();
         return TRUE;
-    }*/
+    }
 
     return FALSE;
 }
@@ -2040,4 +2040,36 @@ void LoadMatchCallWindowGfx(u32 windowId, u32 destOffset, u32 paletteId)
 void DrawMatchCallTextBoxBorder(u32 windowId, u32 tileOffset, u32 paletteId)
 {
     DrawMatchCallTextBoxBorder_Internal(windowId, tileOffset, paletteId);
+}
+
+u32 GetTrainerRematchStepCounter(void)
+{
+#if FREE_MATCH_CALL == FALSE
+    return gSaveBlock1Ptr->trainerRematchStepCounter;
+#else
+    return 0;
+#endif
+}
+
+void SetTrainerRematchStepCounter(u32 value)
+{
+#if FREE_MATCH_CALL == FALSE
+    gSaveBlock1Ptr->trainerRematchStepCounter = value;
+#endif
+}
+
+bool32 GetActiveTrainerRematches(u32 matchCallId)
+{
+#if FREE_MATCH_CALL == FALSE
+    return gSaveBlock1Ptr->trainerRematches[matchCallId];
+#else
+    return 0;
+#endif
+}
+
+void SetActiveTrainerRematches(u32 matchCallId, u32 value)
+{
+#if FREE_MATCH_CALL == FALSE
+    gSaveBlock1Ptr->trainerRematches[matchCallId] = value;
+#endif
 }

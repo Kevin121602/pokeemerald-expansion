@@ -43,9 +43,6 @@ bool32 ShouldUseItem(enum BattlerId battler)
     if (gBattleMons[battler].volatiles.embargo)
         return FALSE;
 
-    if (AiExpectsToFaintPlayer(battler))
-        return FALSE;
-
     party = GetBattlerParty(battler);
 
     for (u32 monIndex = 0; monIndex < PARTY_SIZE; monIndex++)

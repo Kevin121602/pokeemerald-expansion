@@ -264,8 +264,10 @@ Std_PutItemAway::
 EventScript_BufferPutAwayPocketName::
 	switch VAR_RESULT
 	case POCKET_ITEMS,       EventScript_BufferPutAwayPocketItems
+	case POCKET_HELD_ITEMS,       EventScript_BufferPutAwayPocketHeldItems
+	case POCKET_MEGA_STONES,       EventScript_BufferPutAwayPocketMegaStones
 	case POCKET_KEY_ITEMS,   EventScript_BufferPutAwayPocketKeyItems
-	case POCKET_POKE_BALLS,  EventScript_BufferPutAwayPocketPokeBalls
+	case POCKET_GEMS,  EventScript_BufferPutAwayPocketGems
 	case POCKET_TM_HM,     EventScript_BufferPutAwayPocketTMCase
 	case POCKET_BERRIES, EventScript_BufferPutAwayPocketBerryPouch
 	end
@@ -274,12 +276,20 @@ EventScript_BufferPutAwayPocketItems::
 	bufferstdstring STR_VAR_3, STDSTRING_ITEMS
 	return
 
+EventScript_BufferPutAwayPocketHeldItems::
+	bufferstdstring STR_VAR_3, STDSTRING_HELDITEMS
+	return
+
+EventScript_BufferPutAwayPocketMegaStones::
+	bufferstdstring STR_VAR_3, STDSTRING_MEGASTONES
+	return
+
 EventScript_BufferPutAwayPocketKeyItems::
 	bufferstdstring STR_VAR_3, STDSTRING_KEYITEMS
 	return
 
-EventScript_BufferPutAwayPocketPokeBalls::
-	bufferstdstring STR_VAR_3, STDSTRING_POKEBALLS
+EventScript_BufferPutAwayPocketGems::
+	bufferstdstring STR_VAR_3, STDSTRING_GEMS
 	return
 
 EventScript_BufferPutAwayPocketTMCase::

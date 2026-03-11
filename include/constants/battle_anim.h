@@ -606,7 +606,9 @@ enum AnimBattler
 #define B_ANIM_SILPH_SCOPED             61
 #define B_ANIM_ROCK_THROW               62
 #define B_ANIM_SAFARI_REACTION          63
-#define NUM_B_ANIMS_GENERAL             64
+#define B_ANIM_FORM_CHANGE_INSTANT      64
+#define B_ANIM_FORM_CHANGE_DISGUISE     65
+#define NUM_B_ANIMS_GENERAL             66
 
 // special animations table (sBattleAnims_Special)
 #define B_ANIM_LVL_UP                   0
@@ -687,6 +689,7 @@ enum SpeciesGfxChange
 {
     SPECIES_GFX_CHANGE_TRANSFORM,
     SPECIES_GFX_CHANGE_FORM_CHANGE,
+    SPECIES_GFX_CHANGE_FORM_CHANGE_INSTANT,
     SPECIES_GFX_CHANGE_ILLUSION_OFF,
     SPECIES_GFX_CHANGE_GHOST_UNVEIL,
 };

@@ -6,7 +6,7 @@ BattleFrontier_Lounge7_MapScripts::
 	.byte 0
 # 4 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 
-@special ChooseMonForMoveTutor
+# 5 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 BattleFrontier_Lounge7_EventScript_LeftMoveTutor::
 # 6 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	lock
@@ -434,6 +434,7 @@ BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection::
 	end
 # 218 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 
+# 219 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 BattleFrontier_Lounge7_EventScript_TeachTutorMove::
 # 220 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	msgbox BattleFrontier_Lounge7_Text_TeachMoveToWhichMon, MSGBOX_DEFAULT
@@ -443,7 +444,9 @@ BattleFrontier_Lounge7_EventScript_TeachTutorMove::
 	special CloseBattlePointsWindow
 # 223 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	special CloseBattleFrontierTutorWindow
-	chooseboxmon SELECT_PC_MON_MOVE_TUTOR
+# 224 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+	special ChooseMonForMoveTutor
+# 225 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	waitstate
 # 226 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, BattleFrontier_Lounge7_EventScript_CancelChooseMon

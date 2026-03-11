@@ -676,9 +676,9 @@
 #define FLAG_DEFEATED_AQUA_GRUNTS_SLATEPORT  0x26B // Unused Flag
 #define FLAG_DEFEATED_SIDNEY  0x26C // Unused Flag
 #define FLAG_DEFEATED_CLAIR  0x26D // Unused Flag
-#define FLAG_DEFEATED_BROCK  0x26E // Unused Flag
-#define FLAG_DEFEATED_BRUNO  0x26F // Unused Flag
-#define FLAG_DEFEATED_LANCE  0x270 // Unused Flag
+#define FLAG_DEFEATED_BROCK_DESERT  0x26E // Unused Flag
+#define FLAG_DEFEATED_BRUNO_MIRAGE_TOWER  0x26F // Unused Flag
+#define FLAG_DEFEATED_LANCE_MT_CHIMNEY  0x270 // Unused Flag
 #define FLAG_DEFEATED_MAXIE  0x271 // Unused Flag
 #define FLAG_DEFEATED_119_RIVAL  0x272 // Unused Flag
 #define FLAG_DEFEATED_SHELLY  0x273 // Unused Flag
