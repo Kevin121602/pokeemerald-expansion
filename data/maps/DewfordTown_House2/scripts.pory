@@ -27,6 +27,52 @@ DewfordTown_House2_EventScript_Boy::
 	msgbox DewfordTown_House2_Text_BrawlySoCool, MSGBOX_NPC
 	end
 
+DewfordTown_House2_EventScript_Trader::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEWFORD_NPC_TRADE_COMPLETED, DewfordTown_House2_EventScript_TradeCompleted
+	random 3
+	switch VAR_RESULT
+	case 0, DewfordTown_House2_EventScript_CombatTrade
+	case 1, DewfordTown_House2_EventScript_BlazeTrade
+	case 2, DewfordTown_House2_EventScript_AquaTrade
+	release
+	end
+
+DewfordTown_House2_EventScript_CombatTrade::
+	ingame_trade INGAME_TRADE_PALDEAN_TAUROS_COMBAT, DewfordTown_House2_Text_IllTradeYouTauros, DewfordTown_House2_EventScript_DeclineTrade, DewfordTown_House2_EventScript_NotRequestedMon, DewfordTown_House2_Text_TaurosIsVery
+	setflag FLAG_DEWFORD_NPC_TRADE_COMPLETED
+	release
+	end
+
+DewfordTown_House2_EventScript_BlazeTrade::
+	ingame_trade INGAME_TRADE_PALDEAN_TAUROS_BLAZE, DewfordTown_House2_Text_IllTradeYouTauros, DewfordTown_House2_EventScript_DeclineTrade, DewfordTown_House2_EventScript_NotRequestedMon, DewfordTown_House2_Text_TaurosIsVery
+	setflag FLAG_DEWFORD_NPC_TRADE_COMPLETED
+	release
+	end
+
+DewfordTown_House2_EventScript_AquaTrade::
+	ingame_trade INGAME_TRADE_PALDEAN_TAUROS_AQUA, DewfordTown_House2_Text_IllTradeYouTauros, DewfordTown_House2_EventScript_DeclineTrade, DewfordTown_House2_EventScript_NotRequestedMon, DewfordTown_House2_Text_TaurosIsVery
+	setflag FLAG_DEWFORD_NPC_TRADE_COMPLETED
+	release
+	end
+
+DewfordTown_House2_EventScript_DeclineTrade::
+	msgbox DewfordTown_House2_Text_ThatsFine, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_House2_EventScript_NotRequestedMon::
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+	msgbox DewfordTown_House2_Text_DoesntLookLikeMonToMe, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_House2_EventScript_TradeCompleted::
+	msgbox DewfordTown_House2_Text_TaurosIsVery, MSGBOX_DEFAULT
+	release
+	end
+
 DewfordTown_House2_Text_WantYouToHaveSilkScarf:
 	.string "Gorge your eyes on this!\p"
 	.string "It's a SILK SCARF. It's right at the\n"
@@ -49,11 +95,29 @@ DewfordTown_House2_Text_ExplainSilkScarf:
 	.string "with almost all Pokémon!$"
 
 DewfordTown_House2_Text_BrawlySoCool:
-	.string "Wow, you bothered to cross the sea\n"
-	.string "to visit DEWFORD?\p"
+	.string "Wow, you bothered to cross the bridge\n"
+	.string "to visit Dewford?\p"
 	.string "Did you maybe come here because you\n"
-	.string "heard about BRAWLY?\p"
+	.string "heard about Brawly?\p"
 	.string "He's so cool…\n"
 	.string "Everyone idolizes him.$"
 
+DewfordTown_House2_Text_TaurosIsVery:
+	.string "Tauros is a very fashionable\n"
+	.string "Pokémon!$"
+
+DewfordTown_House2_Text_IllTradeYouTauros:
+	.string "Here in Dewford Town, Paldean Tauros is\n"
+	.string "all the rage.\p"
+	.string "But me, I prefer the classics.\p"
+	.string "Do you have a Tauros from Kanto?\n"
+	.string "I can trade you mine from Paldea.$"
+
+DewfordTown_House2_Text_ThatsFine:
+	.string "That's fine, I'll be here in case you\n"
+	.string "change your mind…$"
+
+DewfordTown_House2_Text_DoesntLookLikeMonToMe:
+	.string "That doesn't look like a Tauros to me…$"
+	
 `

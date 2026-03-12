@@ -1411,11 +1411,11 @@ DewfordTown_Text_PetalburgWereSettingSail:
 # 706 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_SlateportWereSettingSail:
 # 707 "data/maps/DewfordTown/scripts.pory"
-	.string "MR. BRINEY: SLATEPORT, is it?\p"
+	.string "Mr. Briney: Slateport, is it?\p"
 # 708 "data/maps/DewfordTown/scripts.pory"
 	.string "Anchors aweigh!\n"
 # 709 "data/maps/DewfordTown/scripts.pory"
-	.string "PEEKO, we're setting sail, my darling!$"
+	.string "Peeko, we're setting sail, my darling!$"
 # 710 "data/maps/DewfordTown/scripts.pory"
 
 # 711 "data/maps/DewfordTown/scripts.pory"

@@ -13,7 +13,7 @@ FortreeCity_House1_EventScript_Trader::
 # 7 "data/maps/FortreeCity_House1/scripts.pory"
 	faceplayer
 # 8 "data/maps/FortreeCity_House1/scripts.pory"
-	goto_if_set FLAG_FORTREE_NPC_TRADE_COMPLETED, FortreeCity_House1_EventScript_TradeCompleted
+	goto_if_set FLAG_DEWFORD_NPC_TRADE_COMPLETED, FortreeCity_House1_EventScript_TradeCompleted
 # 9 "data/maps/FortreeCity_House1/scripts.pory"
 	setvar VAR_0x8008, INGAME_TRADE_GALARIAN_CORSOLA
 # 10 "data/maps/FortreeCity_House1/scripts.pory"
@@ -57,7 +57,7 @@ FortreeCity_House1_EventScript_Trader::
 # 29 "data/maps/FortreeCity_House1/scripts.pory"
 	msgbox FortreeCity_House1_Text_MonYouTakeCare, MSGBOX_DEFAULT
 # 30 "data/maps/FortreeCity_House1/scripts.pory"
-	setflag FLAG_FORTREE_NPC_TRADE_COMPLETED
+	setflag FLAG_DEWFORD_NPC_TRADE_COMPLETED
 # 31 "data/maps/FortreeCity_House1/scripts.pory"
 	release
 # 32 "data/maps/FortreeCity_House1/scripts.pory"

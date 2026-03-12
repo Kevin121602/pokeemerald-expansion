@@ -4565,6 +4565,7 @@ static void CreateInGameTradePokemonInternal(u8 whichPlayerMon, u8 whichInGameTr
     struct Pokemon *pokemon = &gEnemyParty[0];
 
     CreateMonWithIVs(pokemon, inGameTrade->species, level, Random32(), OTID_STRUCT_PRESET(inGameTrade->otId), USE_RANDOM_IVS);
+    GiveMonInitialMoveset(pokemon);
     
     u32 i;
     u8 availableIVs[NUM_STATS];
