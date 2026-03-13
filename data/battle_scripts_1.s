@@ -3822,6 +3822,7 @@ BattleScript_EffectRefresh::
 
 BattleScript_EffectGrudge::
 	attackcanceler
+	jumpifhalfword CMP_COMMON_BITS, gFieldStatuses, STATUS_FIELD_GRUDGE, BattleScript_ButItFailed
 	jumpifvolatile BS_ATTACKER, VOLATILE_GRUDGE, BattleScript_ButItFailed
 	setvolatile BS_ATTACKER, VOLATILE_GRUDGE, 2
 	attackanimation

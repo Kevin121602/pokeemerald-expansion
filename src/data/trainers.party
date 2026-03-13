@@ -4437,7 +4437,7 @@ Ability: Prankster
 
 Linoone @ Iapapa Berry
 Level: 36
-Nature: Hardy
+Nature: Adamant
 Ability: Gluttony
 IVs: 30 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Extreme Speed
@@ -4620,7 +4620,6 @@ Class: Cooltrainer 2
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
@@ -4966,7 +4965,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
@@ -5917,6 +5915,936 @@ Ability: Cursed Body
 - Knock Off
 - Destiny Bond
 
+/*
+Loc: Route 105
+*/
+
+=== TRAINER_BEVERLY ===
+Name: Beverly
+Class: Battle Girl
+Pic: Battle Girl
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 39
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 40
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_FOSTER ===
+Name: Foster
+Class: Ruin Maniac
+Pic: Ruin Maniac
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 40
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 40
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+/*
+Double:
+*/
+
+=== TRAINER_JOSUE ===
+Name: Josue
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 40
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_ANDRES_1 ===
+Name: Andres
+Class: Ruin Maniac
+Pic: Ruin Maniac
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_LUIS ===
+Name: Luis
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 40
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+/*
+Loc: Route 106
+*/
+
+=== TRAINER_DOUGLAS ===
+Name: Douglas
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_KYLA ===
+Name: Kyla
+Class: Battle Girl
+Pic: Battle Girl
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_ELLIOT_1 ===
+Name: Elliot
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_NED ===
+Name: Ned
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+/*
+Loc: Trick House [Optional]
+*/
+
+=== TRAINER_SOPHIA ===
+Name: Sophia
+Class: Pkmn Ranger
+Pic: Pokemon Ranger F
+Gender: Female
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 41
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_SEBASTIAN ===
+Name: Sebastian
+Class: Pkmn Ranger
+Pic: Pokemon Ranger M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_BENNY ===
+Name: Benny
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+/*
+Loc: Dewford Gym
+*/
+
+=== TRAINER_LAURA ===
+Name: Laura
+Class: Battle Girl
+Pic: Battle Girl
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: In Dewford Gym, accuracy is decreased until you use flash in battle. This fight has a 0.7x accuracy modifier
+*/
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 44
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_TAKAO ===
+Name: Takao
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: This fight has a 0.75x accuracy modifier
+*/
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 44
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+/*
+Double:
+*/
+
+=== TRAINER_LILITH ===
+Name: Lilith
+Class: Battle Girl
+Pic: Battle Girl
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: This fight has a 0.8x accuracy modifier
+*/
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 44
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_BRENDEN ===
+Name: Brenden
+Class: Sailor
+Pic: Sailor
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 42
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 44
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_CRISTIAN ===
+Name: Cristian
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: This fight has a 0.85x accuracy modifier
+*/
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 44
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 44
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_JOCELYN ===
+Name: Jocelyn
+Class: Battle Girl
+Pic: Battle Girl
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: This fight has a 0.9x accuracy modifier
+*/
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 44
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 43
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 44
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+Spinda @ Eviolite
+Level: 44
+Nature: Hardy
+Ability: Contrary
+- Tackle
+- Tackle
+- Tackle
+- Tackle
+
+=== TRAINER_BRAWLY_1 ===
+Name: Brawly
+Class: Leader
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: Brawly has a 0.95x accuracy modifier
+*/
+
+Obstagoon @ Flame Orb
+Level: 45
+Nature: Jolly
+Ability: Guts
+- Facade
+- Knock Off
+- Cross Chop
+- Taunt
+
+Arcanine-Hisui @ Focus Sash
+Level: 44
+Nature: Jolly
+Ability: Rock Head
+- Head Smash
+- Flare Blitz
+- Close Combat
+- Will-O-Wisp
+
+Hitmontop @ Life Orb
+Level: 45
+Nature: Adamant
+Ability: Technician
+- Mach Punch
+- Triple Axel
+- Bullet Punch
+- Pursuit
+
+Annihilape @ Rocky Helmet
+Level: 43
+Nature: Jolly
+Ability: Defiant
+- Drain Punch
+- Rage Fist
+- Stomping Tantrum
+- Rock Tomb
+
+Cobalion @ Lum Berry
+Level: 43
+Nature: Jolly
+Ability: Justified
+- Sacred Sword
+- Iron Head
+- Stone Edge
+- Swords Dance
+
+Lopunny @ Lopunnite
+Level: 45
+Nature: Jolly
+Ability: Limber
+- Close Combat
+- Return
+- Retaliate
+- U-turn
+
 /*End Parse*/
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
@@ -6441,21 +7369,6 @@ Ability: Sand Rush
 -Bulldoze
 -Aerial Ace
 -Rollout
-
-=== TRAINER_FOSTER ===
-Name: Test
-Class: Ruin Maniac
-Pic: Buck
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Ludicolo @ Lum Berry
-Level: 40
-Nature: Timid
-Ability: Own Tempo
-- Tackle 
 
 === TRAINER_DUSTY_3 ===
 Name: DUSTY
@@ -8009,19 +8922,6 @@ Rhydon
 Level: 35
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_LUIS ===
-Name: LUIS
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Carvanha
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_DOMINIK ===
 Name: DOMINIK
 Class: Swimmer M
@@ -8034,23 +8934,6 @@ AI: Check Bad Move
 Tentacool
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_DOUGLAS ===
-Name: DOUGLAS
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Tentacool
-Level: 24
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Tentacool
-Level: 24
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_DARRIN ===
 Name: DARRIN
@@ -8428,19 +9311,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Sharpedo
 Level: 39
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_TAKAO ===
-Name: TAKAO
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Machop
-Level: 13
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_HITOSHI ===
 Name: HITOSHI
@@ -9765,40 +10635,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Crunch
 
-=== TRAINER_BRAWLY_1 ===
-Name: BRAWLY
-Class: Leader
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Super Potion / Super Potion
-Double Battle: No
-AI: Basic Trainer
-
-Machop
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
-- Bulk Up
-
-Meditite
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
-- Light Screen
-- Reflect
-- Bulk Up
-
-Makuhita @ Sitrus Berry
-Level: 19
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
-- Vital Throw
-- Reversal
-- Bulk Up
-
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
 Class: Leader
@@ -11033,40 +11869,6 @@ Magikarp
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_ELLIOT_1 ===
-Name: ELLIOT
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Magikarp
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacool
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magikarp
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_NED ===
-Name: NED
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Tentacool
-Level: 11
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
 === TRAINER_DALE ===
 Name: DALE
 Class: Fisherman
@@ -12036,27 +12838,6 @@ Swablu
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_BENNY ===
-Name: BENNY
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Check Bad Move
-
-Swellow
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pelipper
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Xatu
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_ROBERT_2 ===
 Name: ROBERT
 Class: Bird Keeper
@@ -12364,32 +13145,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Tackle
 - Sludge
 
-=== TRAINER_JOCELYN ===
-Name: JOCELYN
-Class: Battle Girl
-Pic: Battle Girl
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Meditite
-Level: 13
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-
-=== TRAINER_LAURA ===
-Name: LAURA
-Class: Battle Girl
-Pic: Battle Girl
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Meditite
-Level: 13
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
 === TRAINER_CORA ===
 Name: CORA
 Class: Battle Girl
@@ -12602,23 +13357,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Earthquake
 - Sunny Day
 
-=== TRAINER_BEVERLY ===
-Name: BEVERLY
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Wingull
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wailmer
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_IMANI ===
 Name: IMANI
 Class: Swimmer F
@@ -12629,19 +13367,6 @@ Double Battle: No
 AI: Check Bad Move
 
 Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_KYLA ===
-Name: KYLA
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Wailmer
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -14606,20 +15331,6 @@ Lombre
 Level: 28
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-=== TRAINER_SEBASTIAN ===
-Name: SEBASTIAN
-Class: Pkmn Ranger
-Pic: Pokemon Ranger M
-Gender: Male
-Music: Cool
-Items: Full Restore
-Double Battle: No
-AI: Basic Trainer
-
-Cacturne
-Level: 39
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
 === TRAINER_JACKSON_2 ===
 Name: JACKSON
 Class: Pkmn Ranger
@@ -14718,24 +15429,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Nuzleaf
 Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_SOPHIA ===
-Name: SOPHIA
-Class: Pkmn Ranger
-Pic: Pokemon Ranger F
-Gender: Female
-Music: Cool
-Items: Full Restore
-Double Battle: No
-AI: Basic Trainer
-
-Swablu
-Level: 38
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Roselia
-Level: 38
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_CATHERINE_2 ===
@@ -14860,45 +15553,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Numel
 Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_BRENDEN ===
-Name: BRENDEN
-Class: Sailor
-Pic: Sailor
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Machop
-Level: 13
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_LILITH ===
-Name: LILITH
-Class: Battle Girl
-Pic: Battle Girl
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Meditite
-Level: 13
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-=== TRAINER_CRISTIAN ===
-Name: CRISTIAN
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Makuhita
-Level: 13
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_SYLVIA ===
 Name: SYLVIA
@@ -17376,40 +18030,6 @@ AI: Check Bad Move
 Marill
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ANDRES_1 ===
-Name: ANDRES
-Class: Ruin Maniac
-Pic: Ruin Maniac
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Sandshrew
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Sandshrew
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_JOSUE ===
-Name: JOSUE
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Check Bad Move
-
-Taillow
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Wingull
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_CAMRON ===
 Name: CAMRON
