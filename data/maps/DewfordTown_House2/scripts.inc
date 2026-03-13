@@ -13,15 +13,15 @@ DewfordTown_House2_EventScript_Man::
 # 7 "data/maps/DewfordTown_House2/scripts.pory"
 	faceplayer
 # 8 "data/maps/DewfordTown_House2/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SILK_SCARF, DewfordTown_House2_EventScript_ExplainSilkScarf
+	goto_if_set FLAG_RECEIVED_PROTECTIVE_PADS, DewfordTown_House2_EventScript_ExplainProtectivePads
 # 9 "data/maps/DewfordTown_House2/scripts.pory"
-	msgbox DewfordTown_House2_Text_WantYouToHaveSilkScarf, MSGBOX_DEFAULT
+	msgbox DewfordTown_House2_Text_WantYouToHaveProtectivePads, MSGBOX_DEFAULT
 # 10 "data/maps/DewfordTown_House2/scripts.pory"
-	giveitem ITEM_SILK_SCARF
+	giveitem ITEM_PROTECTIVE_PADS
 # 11 "data/maps/DewfordTown_House2/scripts.pory"
-	goto_if_eq VAR_RESULT, FALSE, DewfordTown_House2_EventScript_NoRoomForScarf
+	goto_if_eq VAR_RESULT, FALSE, DewfordTown_House2_EventScript_NoRoomForPads
 # 12 "data/maps/DewfordTown_House2/scripts.pory"
-	setflag FLAG_RECEIVED_SILK_SCARF
+	setflag FLAG_RECEIVED_PROTECTIVE_PADS
 # 13 "data/maps/DewfordTown_House2/scripts.pory"
 	release
 # 14 "data/maps/DewfordTown_House2/scripts.pory"
@@ -29,7 +29,7 @@ DewfordTown_House2_EventScript_Man::
 # 15 "data/maps/DewfordTown_House2/scripts.pory"
 
 # 16 "data/maps/DewfordTown_House2/scripts.pory"
-DewfordTown_House2_EventScript_NoRoomForScarf::
+DewfordTown_House2_EventScript_NoRoomForPads::
 # 17 "data/maps/DewfordTown_House2/scripts.pory"
 	msgbox DewfordTown_House2_Text_NoRoom, MSGBOX_DEFAULT
 # 18 "data/maps/DewfordTown_House2/scripts.pory"
@@ -39,9 +39,9 @@ DewfordTown_House2_EventScript_NoRoomForScarf::
 # 20 "data/maps/DewfordTown_House2/scripts.pory"
 
 # 21 "data/maps/DewfordTown_House2/scripts.pory"
-DewfordTown_House2_EventScript_ExplainSilkScarf::
+DewfordTown_House2_EventScript_ExplainProtectivePads::
 # 22 "data/maps/DewfordTown_House2/scripts.pory"
-	msgbox DewfordTown_House2_Text_ExplainSilkScarf, MSGBOX_DEFAULT
+	msgbox DewfordTown_House2_Text_ExplainProtectivePads, MSGBOX_DEFAULT
 # 23 "data/maps/DewfordTown_House2/scripts.pory"
 	release
 # 24 "data/maps/DewfordTown_House2/scripts.pory"
@@ -149,21 +149,21 @@ DewfordTown_House2_EventScript_TradeCompleted::
 # 75 "data/maps/DewfordTown_House2/scripts.pory"
 
 # 76 "data/maps/DewfordTown_House2/scripts.pory"
-DewfordTown_House2_Text_WantYouToHaveSilkScarf:
+DewfordTown_House2_Text_WantYouToHaveProtectivePads:
 # 77 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "Gorge your eyes on this!\p"
 # 78 "data/maps/DewfordTown_House2/scripts.pory"
-	.string "It's a SILK SCARF. It's right at the\n"
+	.string "They're Protective Pads. Right at the\n"
 # 79 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "cutting edge of fashion, yeah!\p"
 # 80 "data/maps/DewfordTown_House2/scripts.pory"
-	.string "Oh, I can see your eyes twinkling!\n"
+	.string "What? you say these pads are bulky\n"
 # 81 "data/maps/DewfordTown_House2/scripts.pory"
-	.string "You appreciate my dazzling style!\p"
+	.string "and unfashionable?\p"
 # 82 "data/maps/DewfordTown_House2/scripts.pory"
-	.string "Oh, you're a delight!\n"
+	.string "I can't believe it! Maybe once I give\n"
 # 83 "data/maps/DewfordTown_House2/scripts.pory"
-	.string "Here you go. I want you to have it!$"
+	.string "them to you you'll change your mind.$"
 # 84 "data/maps/DewfordTown_House2/scripts.pory"
 
 # 85 "data/maps/DewfordTown_House2/scripts.pory"
@@ -171,7 +171,7 @@ DewfordTown_House2_Text_NoRoom:
 # 86 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "Oh, you don't have room?\p"
 # 87 "data/maps/DewfordTown_House2/scripts.pory"
-	.string "Now, listen tight, this SCARF is a must-\n"
+	.string "Now listen, these Pads are a must-\n"
 # 88 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "have! Why, I would sell all my items\l"
 # 89 "data/maps/DewfordTown_House2/scripts.pory"
@@ -179,13 +179,13 @@ DewfordTown_House2_Text_NoRoom:
 # 90 "data/maps/DewfordTown_House2/scripts.pory"
 
 # 91 "data/maps/DewfordTown_House2/scripts.pory"
-DewfordTown_House2_Text_ExplainSilkScarf:
+DewfordTown_House2_Text_ExplainProtectivePads:
 # 92 "data/maps/DewfordTown_House2/scripts.pory"
-	.string "The SILK SCARF raises the power of\n"
+	.string "The Protective Pads stop you from\n"
 # 93 "data/maps/DewfordTown_House2/scripts.pory"
-	.string "NORMAL-type moves.\p"
+	.string "making contact.\p"
 # 94 "data/maps/DewfordTown_House2/scripts.pory"
-	.string "It's a marvelous SCARF that will go\n"
+	.string "They're a marvelous item that will go\n"
 # 95 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "with almost all Pokémon!$"
 # 96 "data/maps/DewfordTown_House2/scripts.pory"
@@ -209,7 +209,7 @@ DewfordTown_House2_Text_BrawlySoCool:
 # 105 "data/maps/DewfordTown_House2/scripts.pory"
 DewfordTown_House2_Text_TaurosIsVery:
 # 106 "data/maps/DewfordTown_House2/scripts.pory"
-	.string "Tauros is a very fashionable\n"
+	.string "Tauros is a very magnificent\n"
 # 107 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "Pokémon!$"
 # 108 "data/maps/DewfordTown_House2/scripts.pory"

@@ -321,7 +321,7 @@
 #define FLAG_DECLINED_RIVAL_BATTLE_LILYCOVE  0x11E
 #define FLAG_MET_DEVON_EMPLOYEE              0x11F
 #define FLAG_MET_RIVAL_RUSTBORO              0x120
-#define FLAG_RECEIVED_SILK_SCARF             0x121
+#define FLAG_RECEIVED_PROTECTIVE_PADS             0x121
 #define FLAG_NOT_READY_FOR_BATTLE_ROUTE_120  0x122
 #define FLAG_RECEIVED_SS_TICKET              0x123
 #define FLAG_MET_RIVAL_LILYCOVE              0x124
@@ -1055,7 +1055,7 @@
 #define FLAG_ITEM_ROUTE_102_METRONOME                               0x3E8
 #define FLAG_ITEM_ROUTE_116_TM_FEINT_ATTACK                               0x3E9
 #define FLAG_ITEM_ROUTE_104_PP_UP                                   0x3EA
-#define FLAG_ITEM_ROUTE_105_IRON                                    0x3EB
+#define FLAG_ITEM_ROUTE_107_FAIRY_GEM                                    0x3EB
 #define FLAG_ITEM_ROUTE_106_DRAGON_GEM                                 0x3EC
 #define FLAG_ITEM_ROUTE_109_PP_UP                                   0x3ED
 #define FLAG_ITEM_ROUTE_110_RARE_CANDY                              0x3EE
@@ -1177,10 +1177,10 @@
 #define FLAG_ITEM_NEW_MAUVILLE_FULL_HEAL                            0x462
 #define FLAG_ITEM_NEW_MAUVILLE_PARALYZE_HEAL                        0x463
 #define FLAG_ITEM_AQUA_HIDEOUT_B1F_MASTER_BALL                      0x464
-#define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MASTER_BALL                 0x465 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MAX_ELIXIR                  0x466 // Unused Flag, leftover from the Ruby Magma hideout
+#define FLAG_ITEM_DEWFORD_TOWN_FIGHTING_GEM                 0x465 // Unused Flag, leftover from the Ruby Magma hideout
+#define FLAG_ITEM_DEWFORD_TOWN_TM_LOW_KICK                  0x466 // Unused Flag, leftover from the Ruby Magma hideout
 #define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B2F_NEST_BALL                   0x467 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_UNUSED_0x468                                           0x468 // Unused Flag
+#define FLAG_ITEM_ROUTE_107_TM_AURA_SPHERE                          0x468 
 #define FLAG_ITEM_MT_PYRE_2F_GHOST_GEM                             0x469
 #define FLAG_ITEM_MT_PYRE_4F_LAGGING_TAIL                            0x46A
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_WEST_MAX_REVIVE                 0x46B

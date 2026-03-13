@@ -138,7 +138,6 @@
     F(EXPLOSION) \ MHO
     F(FACADE) \ Norman
     F(FLAMETHROWER) \ MHO
-    F(FLASH_CANNON) \ Granite
     F(FLIP_TURN)\ VR
     F(GIGA_DRAIN) \ Winona Split
     F(GRAVITY) \ Mossdeep
@@ -146,7 +145,6 @@
     F(HEAVY_SLAM) \ 111 Desert
     F(HURRICANE) \ Winstitute
     F(ICE_BEAM) \ Juan
-    F(IRON_HEAD) \ Granite
     F(LEECH_LIFE) \ Winona Split
     F(LIGHT_SCREEN) \ T&L
     F(LIQUIDATION) \ Route 109-108
@@ -155,14 +153,11 @@
     F(MISTY_EXPLOSION) \ Verdanturf
     F(PAYBACK) \ Abandoned Ship
     F(PLAY_ROUGH) \ Winona Split
-    F(POISON_JAB) \ Dewford
     F(POLTERGEIST) \ 121
-    F(POWER_GEM) \ Granite
     F(PROTECT) \ VR
     F(PSYCHIC) \ 124
     F(PSYCHIC_FANGS) \ Lilycove
     F(REFLECT) \ T&L
-    F(ROCK_SLIDE) \ Granite
     F(ROOST) \ Winona
     F(SEED_BOMB) \ 103 post matt
     F(SLUDGE_BOMB) \ Abandoned Ship
