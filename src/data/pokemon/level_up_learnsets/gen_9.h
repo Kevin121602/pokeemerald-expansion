@@ -5463,11 +5463,11 @@ static const struct LevelUpMove sUnownLevelUpLearnset[] = {
 static const struct LevelUpMove sWynautLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SPLASH),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
-    LEVEL_UP_MOVE( 1, MOVE_ENCORE),
+    LEVEL_UP_MOVE( 1, MOVE_DESTINY_BOND),
     LEVEL_UP_MOVE(15, MOVE_COUNTER),
     LEVEL_UP_MOVE(15, MOVE_MIRROR_COAT),
     LEVEL_UP_MOVE(15, MOVE_SAFEGUARD),
-    LEVEL_UP_MOVE(15, MOVE_DESTINY_BOND),
+    LEVEL_UP_MOVE(15, MOVE_ENCORE),
     LEVEL_UP_END
 };
 #endif //P_GEN_3_CROSS_EVOS

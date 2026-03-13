@@ -611,18 +611,22 @@ void ScrCmd_createmon(struct ScriptContext *ctx)
         }
     }
 
+    /*
     // Perfect IV calculation
+    if (gSpeciesInfo[species].perfectIVCount != 0)
+    {
         // Select the IVs that will be perfected.
-        for (i = 0; i < nonFixedIvCount && i < 3; i++)
+        for (i = 0; i < nonFixedIvCount && i < gSpeciesInfo[species].perfectIVCount; i++)
         {
             u8 index = Random() % (nonFixedIvCount - i);
             selectedIvs[i] = availableIVs[index];
             RemoveIVIndexFromList(availableIVs, index);
         }
-        for (i = 0; i < nonFixedIvCount && i < 3; i++)
+        for (i = 0; i < nonFixedIvCount && i < gSpeciesInfo[species].perfectIVCount; i++)
         {
             ivs[selectedIvs[i]] = MAX_PER_STAT_IVS;
         }
+    }*/
 
     enum Move move1          = PARSE_FLAG(17, MOVE_DEFAULT);
     enum Move move2          = PARSE_FLAG(18, MOVE_DEFAULT);

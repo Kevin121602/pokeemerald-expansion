@@ -2383,6 +2383,14 @@ extern const u8 gText_Grudge[];
 extern const u8 gText_Embargo[];
 extern const u8 gText_Imprison[];
 
+extern const u8 gText_Bind[];
+extern const u8 gText_Wrap[];
+extern const u8 gText_FireSpin[];
+extern const u8 gText_Clamp[];
+extern const u8 gText_Whirlpool[];
+extern const u8 gText_SandTomb[];
+extern const u8 gText_Infestation[];
+
 //gourd splicer and nectar text
 extern const u8 gText_SplicerSmall[];
 extern const u8 gText_SplicerAverage[];

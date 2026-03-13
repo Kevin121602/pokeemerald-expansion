@@ -13,7 +13,7 @@ BattleFrontier_Lounge6_EventScript_Trader::
 # 7 "data/maps/BattleFrontier_Lounge6/scripts.pory"
 	faceplayer
 # 8 "data/maps/BattleFrontier_Lounge6/scripts.pory"
-	goto_if_set FLAG_BATTLE_FRONTIER_TRADE_DONE, BattleFrontier_Lounge6_EventScript_TradeCompleted
+	goto_if_set FLAG_DEWFORD_HALL_TRADE_DONE, BattleFrontier_Lounge6_EventScript_TradeCompleted
 # 9 "data/maps/BattleFrontier_Lounge6/scripts.pory"
 	setvar VAR_0x8008, INGAME_TRADE_GALARIAN_WEEZING
 # 10 "data/maps/BattleFrontier_Lounge6/scripts.pory"
@@ -55,7 +55,7 @@ BattleFrontier_Lounge6_EventScript_Trader::
 # 28 "data/maps/BattleFrontier_Lounge6/scripts.pory"
 	msgbox BattleFrontier_Lounge6_Text_PromiseIllBeGoodToIt, MSGBOX_DEFAULT
 # 29 "data/maps/BattleFrontier_Lounge6/scripts.pory"
-	setflag FLAG_BATTLE_FRONTIER_TRADE_DONE
+	setflag FLAG_DEWFORD_HALL_TRADE_DONE
 # 30 "data/maps/BattleFrontier_Lounge6/scripts.pory"
 	release
 # 31 "data/maps/BattleFrontier_Lounge6/scripts.pory"

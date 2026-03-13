@@ -436,6 +436,75 @@ MtPyre_Summit_EventScript_ImprisonTutor::
 	release
 	end
 
+DewfordTown_EventScript_TrappingTutor::
+	lock
+	faceplayer
+	msgbox MoveTutor_Text_TrappingTeach
+	waitmessage
+	closemessage
+	multichoice 21, 0, MULTI_TRAPPING_TUTOR, FALSE
+	switch VAR_RESULT
+	case 0, DewfordTown_EventScript_BindTutor
+	case 1, DewfordTown_EventScript_WrapTutor
+	case 2, DewfordTown_EventScript_FireSpinTutor
+	case 3, DewfordTown_EventScript_ClampTutor
+	case 4, DewfordTown_EventScript_WhirlpoolTutor
+	case 5, DewfordTown_EventScript_SandTombTutor
+	case 6, DewfordTown_EventScript_InfestationTutor
+	case MULTI_B_PRESSED, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+
+DewfordTown_EventScript_BindTutor::
+	setvar VAR_0x8005, MOVE_BIND
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+
+DewfordTown_EventScript_WrapTutor::
+	setvar VAR_0x8005, MOVE_WRAP
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+
+DewfordTown_EventScript_FireSpinTutor::
+	setvar VAR_0x8005, MOVE_FIRE_SPIN
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+
+DewfordTown_EventScript_ClampTutor::
+	setvar VAR_0x8005, MOVE_CLAMP
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+	
+DewfordTown_EventScript_WhirlpoolTutor::
+	setvar VAR_0x8005, MOVE_WHIRLPOOL
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+	
+DewfordTown_EventScript_SandTombTutor::
+	setvar VAR_0x8005, MOVE_SAND_TOMB
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+	
+DewfordTown_EventScript_InfestationTutor::
+	setvar VAR_0x8005, MOVE_INFESTATION
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+	
+
 MoveTutor_AfterChooseBoxMon::
 	waitstate
 	special CanTeachMoveBoxMon

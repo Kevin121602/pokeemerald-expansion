@@ -260,6 +260,51 @@ DewfordTown_Hall_EventScript_ReceivedSludgeBomb::
 	release
 	end
 
+DewfordTown_HallEventScript_Trader::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEWFORD_HALL_TRADE_DONE, DewfordTown_HallEventScript_TradeCompleted
+	ingame_trade INGAME_TRADE_WYNAUT, DewfordTown_HallText_WhatsReallyTrendy, DewfordTown_HallEventScript_DeclineTrade, DewfordTown_HallEventScript_NotRequestedMon, DewfordTown_HallText_ThankYouMyCollectionIs
+	setflag FLAG_DEWFORD_HALL_TRADE_DONE
+	release
+	end
+
+DewfordTown_HallEventScript_DeclineTrade::
+	msgbox DewfordTown_HallText_YoureTramplingOn, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_HallEventScript_NotRequestedMon::
+	msgbox DewfordTown_HallText_DoesntLookLikeMonToMe, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_HallEventScript_TradeCompleted::
+	msgbox DewfordTown_HallText_MyCollectionIs, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_HallText_WhatsReallyTrendy:
+	.string "Do you know what's really trendy?\n"
+	.string "Collecting Unown!\p"
+	.string "If you have an Unown, I'll trade you\n"
+	.string "a Wynaut for it…$"
+
+DewfordTown_HallText_ThankYouMyCollectionIs:
+	.string "Thank you!\n"
+	.string "My collection is almost complete…$"
+
+DewfordTown_HallText_DoesntLookLikeMonToMe:
+	.string "Huh? That doesn't look like an\n"
+	.string "Unown at all…$"
+
+DewfordTown_HallText_YoureTramplingOn:
+	.string "You're trampling on my lifelong\n"
+	.string "dream…$"
+
+DewfordTown_HallText_MyCollectionIs:
+	.string "My collection is almost complete…$"
+
 DewfordTown_Hall_Text_CantImagineLifeWithoutTrend:
 	.string "What's in vogue? Why, it has to be\n"
 	.string "“{STR_VAR_1}”!\p"

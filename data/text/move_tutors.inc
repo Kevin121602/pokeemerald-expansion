@@ -287,3 +287,11 @@ MoveTutor_Text_SealingTeach:
 	.string "being unable to act.\p"
 	.string "These hexes restrict your opponent\n"
 	.string "from using their attacks and items!$"
+
+MoveTutor_Text_TrappingTeach:
+	.string "Your angling technique isn't the only\n"
+	.string "important part of fishing.\p"
+	.string "You also need to learn how to keep\n"
+	.string "your catch on the hook!\p"
+	.string "Luckily I have some moves that can\n"
+	.string "help with that.$"
