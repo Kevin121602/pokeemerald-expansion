@@ -311,7 +311,7 @@
 #define FLAG_RECEIVED_KINGS_ROCK             0x114
 #define FLAG_RECEIVED_MACHO_BRACE            0x115
 #define FLAG_RECEIVED_SOOTHE_BELL            0x116
-#define FLAG_RECEIVED_WHITE_HERB             0x117
+#define FLAG_RECEIVED_MENTAL_HERB             0x117
 #define FLAG_RECEIVED_SOFT_SAND              0x118
 #define FLAG_ENABLE_PROF_BIRCH_MATCH_CALL    0x119
 #define FLAG_RECEIVED_TM_FAKE_TEARS            0x11A
@@ -956,7 +956,7 @@
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0x387
 #define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3                          0x388
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS                     0x389
-#define FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST                      0x38A
+#define FLAG_HIDE_ROUTE_104_MENTAL_HERB_FLORIST                      0x38A
 #define FLAG_HIDE_FALLARBOR_AZURILL                                 0x38B
 #define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_ATTENDANT                   0x38C
 #define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR                      0x38D
@@ -1054,7 +1054,7 @@
 // Item Ball Flags
 #define FLAG_ITEM_ROUTE_102_METRONOME                               0x3E8
 #define FLAG_ITEM_ROUTE_116_TM_FEINT_ATTACK                               0x3E9
-#define FLAG_ITEM_ROUTE_104_PP_UP                                   0x3EA
+#define FLAG_ITEM_ROUTE_104_POWER_HERB                                   0x3EA
 #define FLAG_ITEM_ROUTE_107_FAIRY_GEM                                    0x3EB
 #define FLAG_ITEM_ROUTE_106_DRAGON_GEM                                 0x3EC
 #define FLAG_ITEM_ROUTE_109_PP_UP                                   0x3ED

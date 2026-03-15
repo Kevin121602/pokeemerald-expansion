@@ -6786,9 +6786,10 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Blue
 
 /*
-Comment: Brawly has a 0.95x accuracy modifier
+Comment: This fight has a 0.95x accuracy modifier
 */
 
 Obstagoon @ Flame Orb

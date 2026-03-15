@@ -73,6 +73,7 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 	setflag FLAG_HIDE_ROUTE_105_GRUNTS
 	setflag FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE
 	setflag FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA
+	clearflag FLAG_HIDE_ROUTE_104_MENTAL_HERB_FLORIST
 	setvar VAR_MT_PYRE_STATE, 1
 	msgbox MtPyre_Summit_Text_WowYoureCapable, MSGBOX_DEFAULT
 	giveitem ITEM_HEART_SCALE

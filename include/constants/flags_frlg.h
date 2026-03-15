@@ -1706,7 +1706,7 @@
 #define FLAG_RECEIVED_KINGS_ROCK             0
 #define FLAG_RECEIVED_MACHO_BRACE            0
 #define FLAG_RECEIVED_SOOTHE_BELL            0
-#define FLAG_RECEIVED_WHITE_HERB             0
+#define FLAG_RECEIVED_MENTAL_HERB             0
 #define FLAG_RECEIVED_SOFT_SAND              0
 #define FLAG_ENABLE_PROF_BIRCH_MATCH_CALL    0
 #define FLAG_RECEIVED_CLEANSE_TAG            0
@@ -2204,7 +2204,7 @@
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0
 #define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3                          0
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS                     0
-#define FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST                      0
+#define FLAG_HIDE_ROUTE_104_MENTAL_HERB_FLORIST                      0
 #define FLAG_HIDE_FALLARBOR_AZURILL                                 0
 #define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_ATTENDANT                   0
 #define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR                      0
@@ -2302,7 +2302,7 @@
 // Item Ball Flags
 #define FLAG_ITEM_ROUTE_102_POTION                                  0
 #define FLAG_ITEM_ROUTE_116_X_SPECIAL                               0
-#define FLAG_ITEM_ROUTE_104_PP_UP                                   0
+#define FLAG_ITEM_ROUTE_104_POWER_HERB                                   0
 #define FLAG_ITEM_ROUTE_105_IRON                                    0
 #define FLAG_ITEM_ROUTE_106_PROTEIN                                 0
 #define FLAG_ITEM_ROUTE_109_PP_UP                                   0
