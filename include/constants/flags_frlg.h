@@ -1650,7 +1650,7 @@
 
 #define FLAG_RECEIVED_GO_GOGGLES             0
 #define FLAG_WINGULL_SENT_ON_ERRAND          0
-#define FLAG_RECEIVED_MENTAL_HERB            0
+#define FLAG_UNUSED            0
 #define FLAG_WINGULL_DELIVERED_MAIL          0
 #define FLAG_RECEIVED_20_COINS               0
 #define FLAG_RECEIVED_STARTER_DOLL           0

@@ -23,10 +23,64 @@ script LittlerootTown_ProfessorBirchsLab_EventScript_DeoxysAide{
 script LittlerootTown_ProfessorBirchsLab_EventScript_SilvallyAide{
 	lock
 	faceplayer
-	msgbox("Have you heard of Silvally?\p"
+	if(flag(FLAG_RECEIVED_MEMORY)){
+		msgbox("That memory was developed right here\n"
+				"in Birch's Lab!$")
+	} else {
+		special(IsTypeNullSilvallyInParty)
+		if(var(VAR_RESULT) == NO){
+			msgbox("Have you heard of Silvally?\p"
 				"Apparently it has the potential to\n"
 				"become every possible type!$")
-	releaseall
+		} else {
+			msgbox("Have you heard of Silvally?\p"
+				"Apparently it has the potential to\n"
+				"become every possible type.\p"
+				"Oh! That's just the Pokémon I'm\n"
+				"looking for!\p")
+			random(17)
+			switch(var(VAR_RESULT)){
+				case 0:
+					giveitem(ITEM_BUG_MEMORY)
+				case 1:
+					giveitem(ITEM_DARK_MEMORY)
+				case 2:
+					giveitem(ITEM_DRAGON_MEMORY)
+				case 3:
+					giveitem(ITEM_ELECTRIC_MEMORY)
+				case 4:
+					giveitem(ITEM_FAIRY_MEMORY)
+				case 5:
+					giveitem(ITEM_FIGHTING_MEMORY)
+				case 6:
+					giveitem(ITEM_FIRE_MEMORY)
+				case 7:
+					giveitem(ITEM_FLYING_MEMORY)
+				case 8:
+					giveitem(ITEM_GHOST_MEMORY)
+				case 9:
+					giveitem(ITEM_GRASS_MEMORY)
+				case 10:
+					giveitem(ITEM_GROUND_MEMORY)
+				case 11:
+					giveitem(ITEM_ICE_MEMORY)
+				case 12:
+					giveitem(ITEM_POISON_MEMORY)
+				case 13:
+					giveitem(ITEM_PSYCHIC_MEMORY)
+				case 14:
+					giveitem(ITEM_ROCK_MEMORY)
+				case 15:
+					giveitem(ITEM_STEEL_MEMORY)
+				case 16:
+					giveitem(ITEM_WATER_MEMORY)
+			}
+			setflag(FLAG_RECEIVED_MEMORY)
+			msgbox("We're working on developing a memory\n"
+					"for each type!$")
+		}
+	}
+	release
 	end
 }
 
@@ -36,7 +90,7 @@ script LittlerootTown_ProfessorBirchsLab_EventScript_GameInfo{
 	msgbox(format("What would you like to know about?"))
 	multichoice(17, 2, MULTI_BIRCH_GAME_INFO, FALSE)
 	if(var(VAR_RESULT) == 4 || var(VAR_RESULT) == MULTI_B_PRESSED){
-		releaseall
+		release
 		end
 	}
 	switch(var(VAR_RESULT)){
