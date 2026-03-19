@@ -8204,6 +8204,12 @@ BattleScript_Grudge::
 	waitstate
 	end3
 
+BattleScript_Darkness::
+	pause B_WAIT_TIME_SHORT
+	printstring STRINGID_PERMEATINGDARKNESS
+	waitstate
+	end3
+
 BattleScript_SleepClauseBlocked::
 	pause B_WAIT_TIME_SHORT
 	setmoveresultflags MOVE_RESULT_FAILED
@@ -8311,3 +8317,7 @@ BattleScript_SilphScopeUnveiled::
 	printstring STRINGID_GHOSTWASMAROWAK
 	waitmessage B_WAIT_TIME_LONG
 	end2
+
+BattleScript_EffectFlash::
+	setstatchanger STAT_ACC, 1, TRUE
+	goto BattleScript_EffectStatDown

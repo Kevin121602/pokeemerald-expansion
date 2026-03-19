@@ -378,14 +378,14 @@ void ComputeBattlerDecisions(enum BattlerId battler)
         gAiBattleData->chosenMoveIndex[battler] = BattleAI_ChooseMoveIndex(battler); // Calculate score and chose move index
         if (isAiBattler)
             BattlerChooseNonMoveAction();
-        //ModifySwitchAfterMoveScoring(battler);
+        ModifySwitchAfterMoveScoring(battler);
 
         // AI's own switching data
         if (isAiBattler)
         {
             gAiLogicData->mostSuitableMonId[battler] = PARTY_SIZE;
-            if (ShouldSwitch(battler))
-                gAiLogicData->shouldSwitch |= (1u << battler);
+            //if (ShouldSwitch(battler))
+            //    gAiLogicData->shouldSwitch |= (1u << battler);
             gBattleStruct->prevTurnSpecies[battler] = gBattleMons[battler].species;
         }
 
@@ -554,6 +554,28 @@ void Ai_InitPartyStruct(void)
             gAiPartyData->mons[B_SIDE_PLAYER][monIndex].ability = GetMonAbility(mon);
             for (u32 moveIndex = 0; moveIndex < MAX_MON_MOVES; moveIndex++)
                 gAiPartyData->mons[B_SIDE_PLAYER][monIndex].moves[moveIndex] = GetMonData(mon, MON_DATA_MOVE1 + moveIndex);
+        }
+    }
+
+    for (u32 monIndex = 0; monIndex < PARTY_SIZE; monIndex++)
+    {
+        if (GetMonData(&gEnemyParty[monIndex], MON_DATA_SPECIES) == SPECIES_NONE)
+            continue;
+
+        mon = &gEnemyParty[monIndex];
+        if (GetMonData(&gEnemyParty[monIndex], MON_DATA_HP) == 0)
+            gAiPartyData->mons[B_SIDE_OPPONENT][monIndex].isFainted = TRUE;
+
+        if (isOmniscient || hasPartyKnowledge)
+            gAiPartyData->mons[B_SIDE_OPPONENT][monIndex].species = GetMonData(mon, MON_DATA_SPECIES);
+
+        if (isOmniscient)
+        {
+            gAiPartyData->mons[B_SIDE_OPPONENT][monIndex].item = GetMonData(mon, MON_DATA_HELD_ITEM);
+            gAiPartyData->mons[B_SIDE_OPPONENT][monIndex].heldEffect = GetItemHoldEffect(gAiPartyData->mons[B_SIDE_PLAYER][monIndex].item);
+            gAiPartyData->mons[B_SIDE_OPPONENT][monIndex].ability = GetMonAbility(mon);
+            for (u32 moveIndex = 0; moveIndex < MAX_MON_MOVES; moveIndex++)
+                gAiPartyData->mons[B_SIDE_OPPONENT][monIndex].moves[moveIndex] = GetMonData(mon, MON_DATA_MOVE1 + moveIndex);
         }
     }
 }

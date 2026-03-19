@@ -4067,7 +4067,7 @@ static enum Move GetAssistMove(void)
 
     for (u32 i = 0; i < PARTY_SIZE; i++)
         battlerByPartyId[i] = MAX_BATTLERS_COUNT;
-    for (u32 battler = 0; battler < gBattlersCount; battler++)
+    for (enum BattlerId battler = 0; battler < gBattlersCount; battler++)
     {
         if (!IsBattlerAlly(battler, gBattlerAttacker))
             continue;

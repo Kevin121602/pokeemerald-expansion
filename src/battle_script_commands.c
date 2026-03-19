@@ -14181,7 +14181,7 @@ void BS_TryAutotomize(void)
     }
 }
 
-static inline bool32 IsInstructBannedChargingMove(u32 battler)
+static inline bool32 IsInstructBannedChargingMove(enum BattlerId battler)
 {
     enum BattleMoveEffects moveEffect;
 

@@ -608,7 +608,8 @@ enum AnimBattler
 #define B_ANIM_SAFARI_REACTION          63
 #define B_ANIM_FORM_CHANGE_INSTANT      64
 #define B_ANIM_FORM_CHANGE_DISGUISE     65
-#define NUM_B_ANIMS_GENERAL             66
+#define B_ANIM_DARKNESS                 66
+#define NUM_B_ANIMS_GENERAL             67
 
 // special animations table (sBattleAnims_Special)
 #define B_ANIM_LVL_UP                   0

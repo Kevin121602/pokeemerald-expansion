@@ -969,7 +969,7 @@ static void PutAiInfoText(struct BattleDebugMenu *data)
 static void PutAiPartyText(struct BattleDebugMenu *data)
 {
     u32 i, j, count;
-    u32 battler;
+    enum BattlerId battler;
     u8 *text = Alloc(0x50), *txtPtr;
     struct AiPartyMon *aiMons = gAiPartyData->mons[GetBattlerSide(data->aiBattlerId)];
 
@@ -1103,7 +1103,7 @@ static void Task_ShowAiParty(u8 taskId)
         {
             mon = &gEnemyParty[i];
             u16 species = SPECIES_NONE; // Question mark
-            if (aiMons[i].wasSentInBattle && aiMons[i].species)
+            if (aiMons[i].species)
                 species = aiMons[i].species;
             data->spriteIds.aiPartyIcons[i] = CreateMonIcon(species, SpriteCallbackDummy, (i * 41) + 15, 7, 1, 0);
             gSprites[data->spriteIds.aiPartyIcons[i]].oam.priority = 0;

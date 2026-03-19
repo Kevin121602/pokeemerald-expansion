@@ -82,7 +82,7 @@ SINGLE_BATTLE_TEST("Ingrain prevents regular switching out")
     } SCENE {
         ANIMATION(ANIM_TYPE_MOVE, MOVE_INGRAIN, player);
     } THEN {
-        u32 battler = GetBattlerAtPosition(B_POSITION_PLAYER_LEFT);
+        enum BattlerId battler = GetBattlerAtPosition(B_POSITION_PLAYER_LEFT);
         EXPECT_EQ(CanBattlerEscape(battler), FALSE);
     }
 }

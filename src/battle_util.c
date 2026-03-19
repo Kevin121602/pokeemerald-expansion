@@ -3054,6 +3054,11 @@ bool32 TryFieldEffects(enum FieldEffectCases caseId)
                 gBattleScripting.animArg1 = B_ANIM_GRUDGE;
                 effect = TRUE;
                 break;
+            case FIELD_EFFECT_DARKNESS:
+                gFieldStatuses = STATUS_FIELD_DARKNESS;
+                gBattleScripting.animArg1 = B_ANIM_DARKNESS;
+                effect = TRUE;
+                break;
             }
         }
         if (effect)

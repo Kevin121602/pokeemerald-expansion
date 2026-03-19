@@ -31489,6 +31489,9 @@ gBattleAnimGeneral_SoothingSteam::
 gBattleAnimGeneral_Grudge::
 	goto gBattleAnimMove_Grudge
 
+gBattleAnimGeneral_Darkness::
+	goto gBattleAnimMove_MeanLook
+
 gBattleAnimGeneral_IllusionOff::
 	monbg ANIM_TARGET
 	playsewithpan SE_M_TELEPORT, SOUND_PAN_ATTACKER

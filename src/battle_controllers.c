@@ -431,7 +431,7 @@ static inline bool32 IsControllerWally(enum BattlerId battler)
     return (gBattlerControllerEndFuncs[battler] == WallyBufferExecCompleted);
 }
 
-static inline bool32 IsControllerOakOldMan(u32 battler)
+static inline bool32 IsControllerOakOldMan(enum BattlerId battler)
 {
     return (gBattlerControllerEndFuncs[battler] == OakOldManBufferExecCompleted);
 }
@@ -1460,7 +1460,7 @@ u16 GetMegaEvolutionTargetSpecies(struct Pokemon *mon)
     return targetSpecies;
 }
 
-static u32 GetBattlerMonData(u32 battler, struct Pokemon *party, u32 monId, u8 *dst)
+static u32 GetBattlerMonData(enum BattlerId battler, struct Pokemon *party, u32 monId, u8 *dst)
 {
     struct BattlePokemon battleMon;
     struct MovePpInfo moveData;
@@ -1503,7 +1503,6 @@ static u32 GetBattlerMonData(u32 battler, struct Pokemon *party, u32 monId, u8 *
         battleMon.otId = GetMonData(&party[monId], MON_DATA_OT_ID);
         battleMon.metLevel = GetMonData(&party[monId], MON_DATA_MET_LEVEL);
         battleMon.isShiny = GetMonData(&party[monId], MON_DATA_IS_SHINY);
-        battleMon.levelCap = GetMonData(&party[monId], MON_DATA_LEVEL_CAP);
         GetMonData(&party[monId], MON_DATA_NICKNAME, nickname);
         StringCopy_Nickname(battleMon.nickname, nickname);
         GetMonData(&party[monId], MON_DATA_OT_NAME, battleMon.otName);
@@ -1749,29 +1748,29 @@ static u32 GetBattlerMonData(u32 battler, struct Pokemon *party, u32 monId, u8 *
         size = 1;
         break;
     case REQUEST_SHEEN_BATTLE:
-        dst[0] = GetMonData(&party[monId], MON_DATA_TOUGH);
+        //dst[0] = GetMonData(&party[monId], MON_DATA_SHEEN);
         size = 1;
         break;
-    /*case REQUEST_COOL_RIBBON_BATTLE:
-        dst[0] = GetMonData(&party[monId], MON_DATA_COOL_RIBBON);
+    case REQUEST_COOL_RIBBON_BATTLE:
+        //dst[0] = GetMonData(&party[monId], MON_DATA_COOL_RIBBON);
         size = 1;
         break;
     case REQUEST_BEAUTY_RIBBON_BATTLE:
-        dst[0] = GetMonData(&party[monId], MON_DATA_BEAUTY_RIBBON);
+        //dst[0] = GetMonData(&party[monId], MON_DATA_BEAUTY_RIBBON);
         size = 1;
         break;
     case REQUEST_CUTE_RIBBON_BATTLE:
-        dst[0] = GetMonData(&party[monId], MON_DATA_CUTE_RIBBON);
+        //dst[0] = GetMonData(&party[monId], MON_DATA_CUTE_RIBBON);
         size = 1;
         break;
     case REQUEST_SMART_RIBBON_BATTLE:
-        dst[0] = GetMonData(&party[monId], MON_DATA_SMART_RIBBON);
+        //dst[0] = GetMonData(&party[monId], MON_DATA_SMART_RIBBON);
         size = 1;
         break;
     case REQUEST_TOUGH_RIBBON_BATTLE:
-        dst[0] = GetMonData(&party[monId], MON_DATA_TOUGH_RIBBON);
+        //dst[0] = GetMonData(&party[monId], MON_DATA_TOUGH_RIBBON);
         size = 1;
-        break;*/
+        break;
     }
 
     return size;

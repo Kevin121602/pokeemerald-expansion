@@ -91,8 +91,8 @@ static s32 CalcInfoBarValue(s32, s32, s32, s32 *, u8, u16);
 static u8 CalcBarFilledPixels(s32, s32, s32, s32 *, u8 *, u8);
 static void Task_ShowAiPartyIcons(u8 taskId);
 static void PrintAiMonAndHealthbar(u8 monNum, u8 xOffset, u8 yOffset, u8 taskId);
-static struct Pokemon *GetIllusionMon(struct Pokemon *mon, u32 battler);
-static struct Pokemon *GetMonWithIllusion(struct Pokemon *mon, u32 battler);
+static struct Pokemon *GetIllusionMon(struct Pokemon *mon, enum BattlerId battler);
+static struct Pokemon *GetMonWithIllusion(struct Pokemon *mon, enum BattlerId battler);
 
 static void DestroyAiPartyViewSwitchPage(u8 taskId, u8 newPage);
 static void DestroyTimersViewSwitchPage(u8 taskId, u8 newPage);
@@ -104,7 +104,7 @@ static void DestroyStatsViewSwitchPage(u8 taskId, u8 newPage);
 static const u32 sHeldItemInfoGfx[] = INCBIN_U32("graphics/battle_interface/info_item_sprite.4bpp");
 static const u32 gStatusGfx_InfoIcons[] = INCBIN_U32("graphics/battle_interface/info_status_indicators.4bpp");
 
-static struct Pokemon *GetMonWithIllusion(struct Pokemon *mon, u32 battler){
+static struct Pokemon *GetMonWithIllusion(struct Pokemon *mon, enum BattlerId battler){
     struct Pokemon *illusionMon = mon;
     struct Pokemon *party = GetBattlerParty(battler);
     u8 i;
@@ -118,7 +118,7 @@ static struct Pokemon *GetMonWithIllusion(struct Pokemon *mon, u32 battler){
     return illusionMon;
 }
 
-static struct Pokemon *GetIllusionMon(struct Pokemon *mon, u32 battler)
+static struct Pokemon *GetIllusionMon(struct Pokemon *mon, enum BattlerId battler)
 {
     struct Pokemon *illusionMon = mon;
     struct Pokemon *party, *partnerMon;

@@ -286,7 +286,7 @@ static bool32 HandleEndTurnWish(enum BattlerId battler)
     return effect;
 }
 
-static u32 GetBattlerHighestDefenseStat(u32 battler)
+static u32 GetBattlerHighestDefenseStat(enum BattlerId battler)
 {
     u32 def, spDef;
 
