@@ -5928,41 +5928,41 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Ambipom @ Loaded Dice
 Level: 39
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Technician
+- Tail Slap
+- Foul Play
+- Low Kick
+- Counter
 
-Spinda @ Eviolite
+Orthworm @ Sitrus Berry
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Earth Eater
+- Heavy Slam
+- Body Press
+- Shed Tail
+- Stealth Rock
 
-Spinda @ Eviolite
+Decidueye @ Starf Berry
 Level: 40
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Overgrow
+- Leaf Blade
+- Spirit Shackle
+- Baton Pass
+- Substitute
 
-Spinda @ Eviolite
+Blaziken @ White Herb
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Naughty
+Ability: Speed Boost
+- Overheat
+- Close Combat
+- Thunder Punch
+- Detect
 
 === TRAINER_FOSTER ===
 Name: Foster
@@ -5973,41 +5973,41 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Skarmory @ Red Card
 Level: 40
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Sturdy
+- Drill Peck
+- Iron Head
+- Body Press
+- Spikes
 
-Spinda @ Eviolite
+Relicanth @ Rindo Berry
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Careful
+Ability: Rock Head
+- Head Smash
+- Aqua Tail
+- Earthquake
+- Whirlpool
 
-Spinda @ Eviolite
+Tyrantrum @ Metronome
 Level: 40
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Strong Jaw
+- Outrage
+- Rock Slide
+- Psychic Fangs
+- Fire Fang
 
-Spinda @ Eviolite
+Wailord @ Leftovers
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Hasty
+Ability: Multiscale
+- Water Spout
+- Ice Beam
+- Earthquake
+- Self-Destruct
 
 /*
 Double:
@@ -6022,23 +6022,23 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Corviknight @ Weakness Policy
 Level: 40
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Unnerve
+- Heavy Slam
+- Body Press
+- Power Trip
+- Tailwind
 
-Spinda @ Eviolite
+Aerodactyl @ Focus Sash
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Unnerve
+- Dual Wingbeat
+- Rock Slide
+- Fire Fang
+- Swagger
 
 === TRAINER_ANDRES_1 ===
 Name: Andres
@@ -6049,23 +6049,23 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Sandaconda @ Lum Berry
 Level: 41
 Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Ability: Sand Spit
+- Earthquake
+- Stone Edge
+- Dragon Rush
+- Glare
 
-Spinda @ Eviolite
+Empoleon @ Leftovers
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Competitive
+- Hydro Pump
+- Flash Cannon
+- Grass Knot
+- Sing
 
 === TRAINER_LUIS ===
 Name: Luis

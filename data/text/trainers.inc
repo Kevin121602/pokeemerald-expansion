@@ -469,7 +469,7 @@ Route105_Text_DominikPostBattle:
 	.string "Slateport, but I forgot.$"
 
 Route105_Text_BeverlyIntro:
-	.string "My body feels lighter in the water.\n"
+	.string "My body feels lighter when I swim.\n"
 	.string "It's as if I've gotten slimmer!$"
 
 Route105_Text_BeverlyDefeated:
