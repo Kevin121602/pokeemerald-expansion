@@ -4677,14 +4677,14 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rillaboom @ Custap Berry
+Rillaboom @ Flying Gem
 Level: 36
 Nature: Jolly
 Ability: Grassy Surge
 - Drum Beating
+- Acrobatics
 - Hammer Arm
 - High Horsepower
-- Endeavor
 
 Dedenne @ Petaya Berry
 Level: 37
@@ -5295,7 +5295,7 @@ Ability: Regenerator
 - Future Sight
 - Scald
 - Slack Off
-- Teleport
+- Chilly Reception
 
 Decidueye-Hisui @ Coba Berry
 Level: 38
@@ -5924,7 +5924,7 @@ Name: Beverly
 Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
-Music: Swimmer
+Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
@@ -6026,10 +6026,10 @@ Corviknight @ Weakness Policy
 Level: 40
 Nature: Jolly
 Ability: Unnerve
-- Heavy Slam
-- Body Press
+- Brave Bird
+- Iron Head
 - Power Trip
-- Tailwind
+- Bulk Up
 
 Aerodactyl @ Focus Sash
 Level: 41
@@ -6051,7 +6051,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Sandaconda @ Lum Berry
 Level: 41
-Nature: Hardy
+Nature: Jolly
 Ability: Sand Spit
 - Earthquake
 - Stone Edge
@@ -6072,54 +6072,54 @@ Name: Luis
 Class: Fisherman
 Pic: Fisherman
 Gender: Male
-Music: Swimmer
+Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Golisopod @ Sitrus Berry
 Level: 40
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Careful
+Ability: Emergency Exit
+- First Impression
+- Liquidation
+- Leech Life
+- Aqua Jet
 
-Spinda @ Eviolite
+Cetitan @ Custap Berry
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Sheer Force
+- Icicle Crash
+- Play Rough
+- Liquidation
+- Endure
 
-Spinda @ Eviolite
+Raichu-Alola @ Water Gem
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Surge Surfer
+- Psychic
+- Thunderbolt
+- Surf
+- Nasty Plot
 
-Spinda @ Eviolite
+Wugtrio @ Focus Sash
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Arena Trap
+- Triple Dive
+- Foul Play
+- Final Gambit
+- Sand Attack
 
-Spinda @ Eviolite
+Kingler @ Scope Lens
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Hyper Cutter
+- Crabhammer
+- X-Scissor
+- Rock Slide
+- Amnesia
 
 /*
 Loc: Route 106
@@ -6130,99 +6130,99 @@ Name: Douglas
 Class: Fisherman
 Pic: Fisherman
 Gender: Male
-Music: Swimmer
+Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Tauros-Paldea-Aqua @ Lum Berry
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Intimidate
+- Close Combat
+- Wave Crash
+- Zen Headbutt
+- Aqua Jet
 
-Spinda @ Eviolite
+Appletun @ White Herb
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Quiet
+Ability: Thick Fat
+- Draco Meteor
+- Leaf Storm
+- Iron Head
+- Leech Seed
 
-Spinda @ Eviolite
+Muk @ Air Balloon
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Impish
+Ability: Poison Touch
+- Poison Jab
+- Ice Punch
+- Knock Off
+- Self-Destruct
 
-Spinda @ Eviolite
+Omastar @ Focus Sash
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Weak Armor
+- Muddy Water
+- Ancient Power
+- Earth Power
+- Ice Beam
 
 === TRAINER_KYLA ===
 Name: Kyla
 Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
-Music: Swimmer
+Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Grafaiai @ Focus Sash
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Prankster
+- Gunk Shot
+- Knock Off
+- Baton Pass
+- Swords Dance
 
-Spinda @ Eviolite
+Carracosta @ White Herb
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Careful
+Ability: Sturdy
+- Stone Edge
+- Aqua Tail
+- Superpower
+- Stealth Rock
 
-Spinda @ Eviolite
+Cinderace @ Scope Lens
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Blaze
+- Blaze Kick
+- Mega Kick
+- Zen Headbutt
+- Reversal
 
-Spinda @ Eviolite
+Avalugg @ Red Card
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Careful
+Ability: Sturdy
+- Avalanche
+- Stomping Tantrum
+- Heavy Slam
+- Mirror Coat
 
-Spinda @ Eviolite
+Lilligant-Hisui @ Lum Berry
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Hustle
+- Leaf Blade
+- Low Kick
+- Ice Spinner
+- Sleep Powder
 
 === TRAINER_ELLIOT_1 ===
 Name: Elliot
@@ -6233,41 +6233,41 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Palossand @ Lum Berry
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Calm
+Ability: Water Compaction
+- Earth Power
+- Shadow Ball
+- Ancient Power
+- Stealth Rock
 
-Spinda @ Eviolite
+Tentacruel @ Black Sludge
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Clear Body
+- Sludge Wave
+- Scald
+- Mirror Coat
+- Toxic Spikes
 
-Spinda @ Eviolite
+Walrein @ Sitrus Berry
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Oblivious
+- Liquidation
+- Earthquake
+- Ice Ball
+- Defense Curl
 
-Spinda @ Eviolite
+Starmie @ Expert Belt
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Analytic
+- Surf
+- Psyshock
+- Ice Beam
+- Thunderbolt
 
 === TRAINER_NED ===
 Name: Ned
@@ -6278,50 +6278,50 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Scolipede @ Life Orb
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Adamant
+Ability: Speed Boost
+- Poison Jab
+- X-Scissor
+- Rock Slide
+- Stomping Tantrum
 
-Spinda @ Eviolite
+Gyarados @ Wacan Berry
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Intimidate
+- Waterfall
+- Power Whip
+- Ice Fang
+- Thunder Wave
 
-Spinda @ Eviolite
+Stunfisk-Galar @ Sitrus Berry
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Impish
+Ability: Filter
+- Earthquake
+- Iron Head
+- Snap Trap
+- Counter
 
-Spinda @ Eviolite
+Lanturn @ Blunder Policy
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Volt Absorb
+- Thunder
+- Muddy Water
+- Blizzard
+- Heal Bell
 
-Spinda @ Eviolite
+Cloyster @ Kings Rock
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Skill Link
+- Icicle Spear
+- Waterfall
+- Rock Blast
+- Shell Smash
 
 /*
 Loc: Trick House [Optional]
@@ -6336,50 +6336,51 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Volbeat @ Focus Sash
 Level: 41
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Prankster
+- Bug Buzz
+- Baton Pass
+- Spider Web
+- Tail Glow
 
-Spinda @ Eviolite
+Vaporeon @ Leftovers
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Water Absorb
+- Muddy Water
+- Ice Beam
+- Acid Armor
+- Tail Glow
 
-Spinda @ Eviolite
+Sceptile @ White Herb
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Modest
+Ability: Unburden
+- Leaf Storm
+- Focus Blast
+- Dragon Pulse
+- Tail Glow
 
-Spinda @ Eviolite
+Charizard @ Power Herb
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Blaze
+- Hurricane
+- Flamethrower
+- Solar Beam
+- Tail Glow
 
-Spinda @ Eviolite
+Ampharos @ Rocky Helmet
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Static
+IVs: 31 HP / 30 Atk / 30 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Hidden Power
+- Agility
+- Tail Glow
 
 === TRAINER_SEBASTIAN ===
 Name: Sebastian

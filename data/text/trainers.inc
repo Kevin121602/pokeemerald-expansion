@@ -443,9 +443,7 @@ Route105_Text_FosterPostBattle:
 	.string "at a nice rock without growing bored.$"
 
 Route105_Text_LuisIntro:
-	.string "Whew! I was worried that a kid was\n"
-	.string "drowning when I saw you.\p"
-	.string "You seem to be okay, so what do you\n"
+	.string "I can't get a bite, so what do you\n"
 	.string "say to a battle?$"
 
 Route105_Text_LuisDefeated:
@@ -580,13 +578,13 @@ Route106_Text_NedPostBattle:
 
 Route106_Text_DouglasIntro:
 	.string "Hahahah! I'm a lousy runner, but in\n"
-	.string "the water you can't catch me!$"
+	.string "fishing I'm undefeated!$"
 
 Route106_Text_DouglasDefeated:
 	.string "I give up!$"
 
 Route106_Text_DouglasPostBattle:
-	.string "I wouldn't lose in a swim race…$"
+	.string "I wouldn't lose in a fishing contest…$"
 
 Route106_Text_KylaIntro:
 	.string "The sea is my backyard. I'm not going\n"
