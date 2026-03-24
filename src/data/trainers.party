@@ -2574,6 +2574,7 @@ Lairon @ Focus Band
 Nature: Sassy
 Ability: Sturdy
 Level: 26
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
 - Iron Head
 - Rock Slide
 - Body Slam
@@ -4534,14 +4535,14 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Braviary @ Flying Gem
+Yanmega @ Rock Gem
 Level: 36
-Nature: Jolly
-Ability: Defiant
-- Acrobatics
-- Return
-- Close Combat
-- Agility
+Nature: Modest
+Ability: Speed Boost
+- Bug Buzz
+- Air Slash
+- Ancient Power
+- Hypnosis
 
 Oricorio-Pom-Pom @ Lum Berry
 Level: 36
@@ -6143,12 +6144,12 @@ Ability: Intimidate
 - Zen Headbutt
 - Aqua Jet
 
-Appletun @ White Herb
+Appletun @ Leftovers
 Level: 42
 Nature: Quiet
 Ability: Thick Fat
-- Draco Meteor
-- Leaf Storm
+- Dragon Pulse
+- Giga Drain
 - Iron Head
 - Leech Seed
 
@@ -6391,50 +6392,50 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Kabutops @ Scope Lens
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Weak Armor
+- Stone Axe
+- Liquidation
+- Aqua Jet
+- X-Scissor
 
-Spinda @ Eviolite
+Morpeko @ Focus Sash
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Hunger Switch
+- Aura Wheel
+- Knock Off
+- Reversal
+- Obstruct
 
-Spinda @ Eviolite
+Victreebel @ Starf Berry
+Level: 42
+Nature: Jolly
+Ability: Gluttony
+- Gunk Shot
+- Snap Trap
+- Knock Off
+- Substitute
+
+Hitmonchan @ Punching Glove
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Iron Fist
+- Close Combat
+- Wicked Blow
+- Ice Punch
+- Mach Punch
 
-Spinda @ Eviolite
-Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
-
-Spinda @ Eviolite
+Reuniclus @ Life Orb
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Bold
+Ability: Magic Guard
+- Future Sight
+- Psystrike
+- Signal Beam
+- Recover
 
 === TRAINER_BENNY ===
 Name: Benny
@@ -6445,50 +6446,50 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Flygon @ Yache Berry
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Levitate
+- Dragon Darts
+- Earthquake
+- Iron Tail
+- Supersonic
 
-Spinda @ Eviolite
+Noctowl @ Silk Scarf
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Tinted Lens
+- Boomburst
+- Hurricane
+- Hypnosis
+- Roost
 
-Spinda @ Eviolite
+Minior @ White Herb
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Shields Down
+- Aeroblast
+- Power Gem
+- Earth Power
+- Shell Smash
 
-Spinda @ Eviolite
+Honchkrow @ Dark Gem
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Hasty
+Ability: Insomnia
+- Oblivion Wing
+- Sucker Punch
+- Pursuit
+- Heat Wave
 
-Spinda @ Eviolite
+Porygon2 @ Eviolite
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Download
+- Techno Blast
+- Ice Beam
+- Dark Pulse
+- Thunder Wave
 
 /*
 Loc: Dewford Gym
@@ -6507,41 +6508,41 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Comment: In Dewford Gym, accuracy is decreased until you use flash in battle. This fight has a 0.7x accuracy modifier
 */
 
-Spinda @ Eviolite
+Kingambit @ Chople Berry
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Defiant
+- Kowtow Cleave
+- Iron Head
+- Low Kick
+- Stealth Rock
 
-Spinda @ Eviolite
+Lycanroc-Midnight @ Muscle Band
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: No Guard
+- Stone Edge
+- Cross Chop
+- Play Rough
+- Counter
 
-Spinda @ Eviolite
+Heracross @ Flame Orb
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Adamant
+Ability: Guts
+- Close Combat
+- Megahorn
+- Rock Slide
+- Trailblaze
 
-Spinda @ Eviolite
+Golurk @ Punching Glove
 Level: 44
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: No Guard
+- Earthquake
+- Shadow Punch
+- Dynamic Punch
+- Ice Punch
 
 === TRAINER_TAKAO ===
 Name: Takao
@@ -6556,41 +6557,42 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Comment: This fight has a 0.75x accuracy modifier
 */
 
-Spinda @ Eviolite
+Passimian @ Flying Gem
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Defiant
+- Close Combat
+- Acrobatics
+- Earthquake
+- U-turn
 
-Spinda @ Eviolite
+Sharpedo @ Life Orb
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Adamant
+Ability: Speed Boost
+- Crunch
+- Waterfall
+- Destiny Bond
+- Taunt
 
-Spinda @ Eviolite
+Aggron @ Leftovers
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Sassy
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Stone Edge
+- Heavy Slam
+- Fire Punch
+- Metal Burst
 
-Spinda @ Eviolite
+Machamp @ Lum Berry
 Level: 44
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: No Guard
+- Dynamic Punch
+- Rock Slide
+- Bullet Punch
+- Bulk Up
 
 /*
 Double:
@@ -6609,23 +6611,23 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Comment: This fight has a 0.8x accuracy modifier
 */
 
-Spinda @ Eviolite
+Braviary @ White Herb
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Defiant
+- Dual Wingbeat
+- Crush Claw
+- Close Combat
+- Tailwind
 
-Spinda @ Eviolite
+Magmortar @ Magmarizer
 Level: 44
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Flame Body
+- Flamethrower
+- Thunderbolt
+- Aura Sphere
+- Detect
 
 === TRAINER_BRENDEN ===
 Name: Brenden
@@ -6636,32 +6638,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Eviolite
+Milotic @ Sitrus Berry
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Timid
+Ability: Competitive
+- Muddy Water
+- Ice Beam
+- Hypnosis
+- Recover
 
-Spinda @ Eviolite
+Electivire @ Electirizer
 Level: 42
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Vital Spirit
+- Thunder Punch
+- Ice Punch
+- Low Kick
+- Magnet Rise
 
-Spinda @ Eviolite
+Scrafty @ Roseli Berry
 Level: 44
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Intimidate
+- Close Combat
+- Crunch
+- Fake Out
+- Dragon Dance
 
 === TRAINER_CRISTIAN ===
 Name: Cristian
