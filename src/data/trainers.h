@@ -17016,7 +17016,7 @@
 #line 6654
                 MOVE_THUNDER_PUNCH,
                 MOVE_ICE_PUNCH,
-                MOVE_LOW_KICK,
+                MOVE_POWER_UP_PUNCH,
                 MOVE_MAGNET_RISE,
             },
             },
@@ -17025,7 +17025,7 @@
             .species = SPECIES_SCRAFTY,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6659
-            .heldItem = ITEM_ROSELI_BERRY,
+            .heldItem = ITEM_LUM_BERRY,
 #line 6663
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 6662
@@ -17039,7 +17039,7 @@
             .moves = {
 #line 6663
                 MOVE_CLOSE_COMBAT,
-                MOVE_CRUNCH,
+                MOVE_KNOCK_OFF,
                 MOVE_FAKE_OUT,
                 MOVE_DRAGON_DANCE,
             },
@@ -17070,122 +17070,122 @@
         {
             {
 #line 6681
-            .species = SPECIES_SPINDA,
+            .species = SPECIES_GLISCOR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6681
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_TOXIC_ORB,
 #line 6685
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 6684
-            .ability = ABILITY_CONTRARY,
+            .ability = ABILITY_POISON_HEAL,
 #line 6682
             .lvl = 43,
             .ball = POKEBALL_COUNT,
 #line 6683
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 6685
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_EARTHQUAKE,
+                MOVE_DUAL_WINGBEAT,
+                MOVE_STEALTH_ROCK,
+                MOVE_TAUNT,
             },
             },
             {
 #line 6690
-            .species = SPECIES_SPINDA,
+            .species = SPECIES_POLIWRATH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6690
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_BLUNDER_POLICY,
 #line 6694
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 6693
-            .ability = ABILITY_CONTRARY,
+            .ability = ABILITY_WATER_ABSORB,
 #line 6691
             .lvl = 43,
             .ball = POKEBALL_COUNT,
 #line 6692
-            .nature = NATURE_HARDY,
+            .nature = NATURE_NAUGHTY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 6694
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_HYDRO_PUMP,
+                MOVE_DYNAMIC_PUNCH,
+                MOVE_BLIZZARD,
+                MOVE_HYPNOSIS,
             },
             },
             {
 #line 6699
-            .species = SPECIES_SPINDA,
+            .species = SPECIES_ZANGOOSE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6699
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_TOXIC_ORB,
 #line 6703
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 6702
-            .ability = ABILITY_CONTRARY,
+            .ability = ABILITY_TOXIC_BOOST,
 #line 6700
             .lvl = 43,
             .ball = POKEBALL_COUNT,
 #line 6701
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 6703
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_FACADE,
+                MOVE_CLOSE_COMBAT,
+                MOVE_PURSUIT,
+                MOVE_DETECT,
             },
             },
             {
 #line 6708
-            .species = SPECIES_SPINDA,
+            .species = SPECIES_DUSKNOIR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6708
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_REAPER_CLOTH,
 #line 6712
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 6711
-            .ability = ABILITY_CONTRARY,
+            .ability = ABILITY_HUSTLE,
 #line 6709
             .lvl = 44,
             .ball = POKEBALL_COUNT,
 #line 6710
-            .nature = NATURE_HARDY,
+            .nature = NATURE_IMPISH,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 6712
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_POLTERGEIST,
+                MOVE_SHADOW_SNEAK,
+                MOVE_DYNAMIC_PUNCH,
+                MOVE_DARKEST_LARIAT,
             },
             },
             {
 #line 6717
-            .species = SPECIES_SPINDA,
+            .species = SPECIES_SLAKING,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6717
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_EJECT_BUTTON,
 #line 6721
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 6720
-            .ability = ABILITY_CONTRARY,
+            .ability = ABILITY_TRUANT,
 #line 6718
             .lvl = 44,
             .ball = POKEBALL_COUNT,
 #line 6719
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 6721
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_BODY_SLAM,
+                MOVE_RETALIATE,
+                MOVE_DRAIN_PUNCH,
+                MOVE_KNOCK_OFF,
             },
             },
         },
@@ -17214,122 +17214,122 @@
         {
             {
 #line 6739
-            .species = SPECIES_SPINDA,
+            .species = SPECIES_PRIMEAPE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6739
             .heldItem = ITEM_EVIOLITE,
 #line 6743
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 6742
-            .ability = ABILITY_CONTRARY,
+            .ability = ABILITY_DEFIANT,
 #line 6740
             .lvl = 43,
             .ball = POKEBALL_COUNT,
 #line 6741
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 6743
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_CROSS_CHOP,
+                MOVE_IRON_TAIL,
+                MOVE_ROCK_SLIDE,
+                MOVE_RAGE_FIST,
             },
             },
             {
 #line 6748
-            .species = SPECIES_SPINDA,
+            .species = SPECIES_TAUROS_PALDEA_COMBAT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6748
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_LIECHI_BERRY,
 #line 6752
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 6751
-            .ability = ABILITY_CONTRARY,
+            .ability = ABILITY_CUD_CHEW,
 #line 6749
             .lvl = 44,
             .ball = POKEBALL_COUNT,
 #line 6750
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 6752
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_CLOSE_COMBAT,
+                MOVE_REVERSAL,
+                MOVE_LASH_OUT,
+                MOVE_ENDURE,
             },
             },
             {
 #line 6757
-            .species = SPECIES_SPINDA,
+            .species = SPECIES_KOMMO_O,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6757
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_KEE_BERRY,
 #line 6761
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 6760
-            .ability = ABILITY_CONTRARY,
+            .ability = ABILITY_SOUNDPROOF,
 #line 6758
             .lvl = 43,
             .ball = POKEBALL_COUNT,
 #line 6759
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 6761
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_BODY_PRESS,
+                MOVE_DRAGON_TAIL,
+                MOVE_POISON_JAB,
+                MOVE_CLANGING_SCALES,
             },
             },
             {
 #line 6766
-            .species = SPECIES_SPINDA,
+            .species = SPECIES_SNORLAX,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6766
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_IAPAPA_BERRY,
 #line 6770
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 6769
-            .ability = ABILITY_CONTRARY,
+            .ability = ABILITY_GLUTTONY,
 #line 6767
             .lvl = 44,
             .ball = POKEBALL_COUNT,
 #line 6768
-            .nature = NATURE_HARDY,
+            .nature = NATURE_IMPISH,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 6770
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_BODY_SLAM,
+                MOVE_HAMMER_ARM,
+                MOVE_HEAT_CRASH,
+                MOVE_REFLECT,
             },
             },
             {
 #line 6775
-            .species = SPECIES_SPINDA,
+            .species = SPECIES_PAWMOT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6775
-            .heldItem = ITEM_EVIOLITE,
+            .heldItem = ITEM_FOCUS_SASH,
 #line 6779
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 6778
-            .ability = ABILITY_CONTRARY,
+            .ability = ABILITY_IRON_FIST,
 #line 6776
             .lvl = 44,
             .ball = POKEBALL_COUNT,
 #line 6777
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 6779
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
-                MOVE_TACKLE,
+                MOVE_DOUBLE_SHOCK,
+                MOVE_DRAIN_PUNCH,
+                MOVE_SEED_BOMB,
+                MOVE_REVIVAL_BLESSING,
             },
             },
         },

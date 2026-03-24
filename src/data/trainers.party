@@ -6653,15 +6653,15 @@ Nature: Jolly
 Ability: Vital Spirit
 - Thunder Punch
 - Ice Punch
-- Low Kick
+- Power-Up Punch
 - Magnet Rise
 
-Scrafty @ Roseli Berry
+Scrafty @ Lum Berry
 Level: 44
 Nature: Jolly
 Ability: Intimidate
 - Close Combat
-- Crunch
+- Knock Off
 - Fake Out
 - Dragon Dance
 
@@ -6678,50 +6678,50 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Comment: This fight has a 0.85x accuracy modifier
 */
 
-Spinda @ Eviolite
+Gliscor @ Toxic Orb
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Poison Heal
+- Earthquake
+- Dual Wingbeat
+- Stealth Rock
+- Taunt
 
-Spinda @ Eviolite
+Poliwrath @ Blunder Policy
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Naughty
+Ability: Water Absorb
+- Hydro Pump
+- Dynamic Punch
+- Blizzard
+- Hypnosis
 
-Spinda @ Eviolite
+Zangoose @ Toxic Orb
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Toxic Boost
+- Facade
+- Close Combat
+- Pursuit
+- Detect
 
-Spinda @ Eviolite
+Dusknoir @ Reaper Cloth
 Level: 44
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Impish
+Ability: Hustle
+- Poltergeist
+- Shadow Sneak
+- Dynamic Punch
+- Darkest Lariat
 
-Spinda @ Eviolite
+Slaking @ Eject Button
 Level: 44
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Truant
+- Body Slam
+- Retaliate
+- Drain Punch
+- Knock Off
 
 === TRAINER_JOCELYN ===
 Name: Jocelyn
@@ -6736,50 +6736,50 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Comment: This fight has a 0.9x accuracy modifier
 */
 
-Spinda @ Eviolite
+Primeape @ Eviolite
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Defiant
+- Cross Chop
+- Iron Tail
+- Rock Slide
+- Rage Fist
 
-Spinda @ Eviolite
+Tauros-Paldea-Combat @ Liechi Berry
 Level: 44
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Cud Chew
+- Close Combat
+- Reversal
+- Lash Out
+- Endure
 
-Spinda @ Eviolite
+Kommo-o @ Kee Berry
 Level: 43
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Soundproof
+- Body Press
+- Dragon Tail
+- Poison Jab
+- Clanging Scales
 
-Spinda @ Eviolite
+Snorlax @ Iapapa Berry
 Level: 44
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Impish
+Ability: Gluttony
+- Body Slam
+- Hammer Arm
+- Heat Crash
+- Reflect
 
-Spinda @ Eviolite
+Pawmot @ Focus Sash
 Level: 44
-Nature: Hardy
-Ability: Contrary
-- Tackle
-- Tackle
-- Tackle
-- Tackle
+Nature: Jolly
+Ability: Iron Fist
+- Double Shock
+- Drain Punch
+- Seed Bomb
+- Revival Blessing
 
 === TRAINER_BRAWLY_1 ===
 Name: Brawly
