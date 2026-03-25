@@ -16848,7 +16848,7 @@
 #line 6583
                 MOVE_STONE_EDGE,
                 MOVE_HEAVY_SLAM,
-                MOVE_FIRE_PUNCH,
+                MOVE_STOMPING_TANTRUM,
                 MOVE_METAL_BURST,
             },
             },
@@ -16990,7 +16990,7 @@
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 6645
-                MOVE_MUDDY_WATER,
+                MOVE_SCALD,
                 MOVE_ICE_BEAM,
                 MOVE_HYPNOSIS,
                 MOVE_RECOVER,
