@@ -77,6 +77,8 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 	setvar VAR_MT_PYRE_STATE, 1
 	msgbox MtPyre_Summit_Text_WowYoureCapable, MSGBOX_DEFAULT
 	giveitem ITEM_HEART_SCALE
+	msgbox MtPyre_Summit_Text_ThisIsAZoomLens, MSGBOX_DEFAULT
+	giveitem ITEM_ZOOM_LENS
 	msgbox MtPyre_Summit_Text_PerhapsICould, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, MtPyre_Summit_EventScript_SealingTutor
 	msgbox MtPyre_Summit_Text_GoodLuckAnd, MSGBOX_DEFAULT
@@ -722,6 +724,12 @@ MtPyre_Summit_Text_WowYoureCapable:
 	.string "in this region's future.\p"
 	.string "I hope you can make good use of this\n"
 	.string "Heart Scale.$"
+
+MtPyre_Summit_Text_ThisIsAZoomLens:
+	.string "You should have this too, it's a Zoom\n"
+	.string "Lens.\p"
+	.string "A slower Pokémon that has it equipped\n"
+	.string "is sure to hit!$"
 
 MtPyre_Summit_Text_PerhapsICould:
 	.string "Perhaps I could also help by\n"

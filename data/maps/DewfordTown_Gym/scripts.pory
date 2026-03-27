@@ -150,33 +150,28 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	msgbox DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_DEWFORD_GYM
 	setflag FLAG_BADGE02_GET
-	addvar VAR_PETALBURG_GYM_STATE, 1
-	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 2
 	call Common_EventScript_SetGymTrainers
+	setvar VAR_TRICK_HOUSE_LEVEL, 3
+	setvar VAR_TRICK_HOUSE_BEING_WATCHED_STATE, 0
+	setvar VAR_TRICK_HOUSE_ENTRANCE_STATE, 0
 	call DewfordTown_Gym_EventScript_GiveBulkUp
-	closemessage
-	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox DewfordTown_Gym_Text_RegisteredBrawly, MSGBOX_DEFAULT
-	waitfanfare
-	closemessage
-	delay 30
-	setflag FLAG_ENABLE_BRAWLY_MATCH_CALL
-	setvar VAR_ROXANNE_CALL_STEP_COUNTER, 0
-	setflag FLAG_ENABLE_ROXANNE_FIRST_CALL
+	msgbox DewfordTown_Gym_Text_IHaveSomeOtherThings, MSGBOX_DEFAULT
+	giveitem ITEM_HEART_SCALE
+	giveitem ITEM_PUNCHING_GLOVE
+	msgbox DewfordTown_Gym_Text_ThisIsAHeartScale, MSGBOX_DEFAULT
 	release
 	end
 
 DewfordTown_Gym_EventScript_GiveBulkUp::
-	giveitem ITEM_TM_ACROBATICS
+	giveitem ITEM_TM_DRAIN_PUNCH
 	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
 	msgbox DewfordTown_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_BULK_UP
 	return
 
 DewfordTown_Gym_EventScript_GiveBulkUp2:
-	giveitem ITEM_TM_ACROBATICS
+	giveitem ITEM_TM_DRAIN_PUNCH
 	goto_if_eq VAR_RESULT, 0, Common_EventScript_ShowBagIsFull
 	msgbox DewfordTown_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_BULK_UP
@@ -415,6 +410,17 @@ DewfordTown_Gym_Text_ExplainBulkUp:
 	.string "It's a move that deals damage while\n"
 	.string "healing up the user.\p"
 	.string "… … … … … …$"
+
+DewfordTown_Gym_Text_IHaveSomeOtherThings:
+	.string "I have some other things to give you\n"
+	.string "as well.$"
+
+DewfordTown_Gym_Text_ThisIsAHeartScale:
+	.string "That is a Heart Scale, I'm sure you\n"
+	.string "know what it does, and this is a\l"
+	.string "Punching Glove.\p"
+	.string "It makes your punches stronger while\n"
+	.string "avoiding contact, it's a win-win!$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
 	.string "Registered Gym Leader Brawly\n"

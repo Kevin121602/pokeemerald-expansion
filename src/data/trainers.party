@@ -6849,6 +6849,472 @@ Ability: Limber
 - Retaliate
 - U-turn
 
+/*
+Split: Norman Split
+*/
+
+/*
+Loc: Route 109
+*/
+
+=== TRAINER_HUEY ===
+Name: Huey
+Class: Sailor
+Pic: Sailor
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: Gauntlet until reaching Slateport City.
+*/
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 44
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 44
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 45
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+=== TRAINER_ELIJAH ===
+Name: Elijah
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 45
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 44
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 45
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 45
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+=== TRAINER_AUSTINA ===
+Name: Austina
+Class: Tuber F
+Pic: Tuber F
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 45
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 45
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 46
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+=== TRAINER_GWEN ===
+Name: Gwen
+Class: Tuber F
+Pic: Tuber F
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 46
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 45
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 46
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 46
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+=== TRAINER_EDMOND ===
+Name: Edmond
+Class: Sailor
+Pic: Sailor
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 46
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 46
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 47
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+=== TRAINER_HAILEY ===
+Name: Hailey
+Class: Tuber F
+Pic: Tuber F
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 46
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 47
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 46
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 47
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+=== TRAINER_RICKY_1 ===
+Name: Ricky
+Class: Tuber M
+Pic: Tuber M
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 47
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 46
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 47
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 48
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+/*
+Double:
+*/
+
+=== TRAINER_LOLA_1 ===
+Name: Lola
+Class: Tuber F
+Pic: Tuber F
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 47
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 48
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+=== TRAINER_CHANDLER ===
+Name: Chandler
+Class: Tuber M
+Pic: Tuber M
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 47
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 48
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 47
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+=== TRAINER_CARTER ===
+Name: Carter
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 47
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 48
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 47
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 48
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 49
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+=== TRAINER_MEL_AND_PAUL ===
+Name: Mel & Paul
+Class: Young Couple
+Pic: Young Couple
+Gender: Male
+Music: Girl
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 48
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 49
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 48
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
+Spinda @ Chople Berry
+Nature: Naive
+Ability: Contrary
+Level: 49
+- Facade
+- Superpower
+- Shadow Ball
+- Teeter Dance
+
 /*End Parse*/
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
@@ -7535,49 +8001,6 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Supersonic
 - Hyper Voice
 
-=== TRAINER_LOLA_1 ===
-Name: LOLA
-Class: Tuber F
-Pic: Tuber F
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Azurill
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Azurill
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-=== TRAINER_AUSTINA ===
-Name: AUSTINA
-Class: Tuber F
-Pic: Tuber F
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GWEN ===
-Name: GWEN
-Class: Tuber F
-Pic: Tuber F
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_LOLA_3 ===
 Name: LOLA
 Class: Tuber F
@@ -7628,23 +8051,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Azumarill
 Level: 35
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_RICKY_1 ===
-Name: RICKY
-Class: Tuber M
-Pic: Tuber M
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Zigzagoon
-Level: 13
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Sand Attack
-- Headbutt
-- Tail Whip
-- Surf
 
 === TRAINER_SIMON ===
 Name: SIMON
@@ -11898,23 +12304,6 @@ Wailmer
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_CARTER ===
-Name: CARTER
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Wailmer
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Tentacruel
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
 === TRAINER_ELLIOT_2 ===
 Name: ELLIOT
 Class: Fisherman
@@ -14095,36 +14484,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Charge
 - Charm
 - Helping Hand
-
-=== TRAINER_HUEY ===
-Name: HUEY
-Class: Sailor
-Pic: Sailor
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Wingull
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Machop
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-=== TRAINER_EDMOND ===
-Name: EDMOND
-Class: Sailor
-Pic: Sailor
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Wingull
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ERNEST_1 ===
 Name: ERNEST
@@ -17305,31 +17664,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rest
 - Earthquake
 
-=== TRAINER_MEL_AND_PAUL ===
-Name: MEL & PAUL
-Class: Young Couple
-Pic: Young Couple
-Gender: Male
-Music: Girl
-Double Battle: Yes
-AI: Check Bad Move
-
-Dustox
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Gust
-- Psybeam
-- Toxic
-- Protect
-
-Beautifly
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Gust
-- Mega Drain
-- Attract
-- Stun Spore
-
 === TRAINER_JOHN_AND_JAY_2 ===
 Name: JOHN & JAY
 Class: Old Couple
@@ -17572,36 +17906,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Carvanha
 Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_HAILEY ===
-Name: HAILEY
-Class: Tuber F
-Pic: Tuber F
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Marill
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANDLER ===
-Name: CHANDLER
-Class: Tuber M
-Pic: Tuber M
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Tentacool
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacool
-Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KALEB ===
@@ -18090,23 +18394,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Manectric
 Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_ELIJAH ===
-Name: ELIJAH
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Check Bad Move
-
-Skarmory
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Skarmory
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CELIA ===
 Name: CELIA
