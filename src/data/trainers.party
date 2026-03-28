@@ -6870,32 +6870,32 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Comment: Gauntlet until reaching Slateport City.
 */
 
-Spinda @ Chople Berry
+Scovillain @ Focus Sash
 Nature: Naive
-Ability: Contrary
+Ability: Moody
 Level: 44
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Flamethrower
+- Giga Drain
+- Stomping Tantrum
+- Will-O-Wisp
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Octillery @ Water Gem
+Nature: Timid
+Ability: Sniper
 Level: 44
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Water Spout
+- Octazooka
+- Energy Ball
+- Ice Beam
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Oinkologne-F @ Chople Berry
+Nature: Impish
+Ability: Lingering Aroma
 Level: 45
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Body Slam
+- High Horsepower
+- Iron Head
+- Curse
 
 === TRAINER_ELIJAH ===
 Name: Elijah
@@ -6906,41 +6906,41 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Chople Berry
+Rotom-Fan @ Lum Berry
 Nature: Naive
 Ability: Contrary
 Level: 45
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Thunderbolt
+- Air Slash
+- Hex
+- Will-O-Wisp
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Drampa @ Sitrus Berry
+Nature: Bold
+Ability: Berserk
 Level: 44
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Hyper Voice
+- Dragon Pulse
+- Flamethrower
+- Glare
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Scyther @ Eviolite
+Nature: Jolly
+Ability: Technician
 Level: 45
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Dual Wingbeat
+- Bug Bite
+- Brick Break
+- Roost
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Flamigo @ White Herb
+Nature: Jolly
+Ability: Scrappy
 Level: 45
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Close Combat
+- Dual Wingbeat
+- Acrobatics
+- Roost
 
 === TRAINER_AUSTINA ===
 Name: Austina
@@ -6951,32 +6951,32 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Swoobat @ Focus Sash
+Nature: Timid
+Ability: Simple
 Level: 45
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Extrasensory
+- Air Slash
+- Stored Power
+- Calm Mind
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Polteageist @ White Herb
+Nature: Timid
+Ability: Cursed Body
 Level: 45
-- Facade
-- Superpower
 - Shadow Ball
-- Teeter Dance
+- Dark Pulse
+- Stored Power
+- Shell Smash
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Dubwool @ Grass Gem
+Nature: Jolly
+Ability: Defiant
 Level: 46
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Mega Kick
+- Grassy Glide
+- Reversal
+- Thunder Wave
 
 === TRAINER_GWEN ===
 Name: Gwen
@@ -6987,41 +6987,42 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Jumpluff @ Flying Gem
+Nature: Hasty
+Ability: Infiltrator
 Level: 46
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Leaf Storm
+- Acrobatics
+- Sleep Powder
+- Swords Dance
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Duraludon @ Wise Glasses
+Nature: Timid
+Ability: Light Metal
 Level: 45
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Dragon Pulse
+- Flash Cannon
+- Thunderbolt
+- Thunder Wave
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Lickilicky @ Assault Vest
+Nature: Brave
+Ability: Oblivious
 Level: 46
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Body Slam
+- Power Whip
+- Knock Off
+- Surf
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Electrode-Hisui @ Rocky Helmet
+Nature: Timid
+Ability: Static
 Level: 46
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+IVs: 31 HP / 30 Atk / 30 Def / 31 SpA / 31 SpD / 31 Spe
+- Energy Ball
+- Thunderbolt
+- Foul Play
+- Hidden Power
 
 === TRAINER_EDMOND ===
 Name: Edmond
@@ -7032,32 +7033,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Bastiodon @ Leftovers
+Nature: Sassy
+Ability: Sturdy
 Level: 46
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Stone Edge
+- Heavy Slam
+- Metal Burst
+- Stealth Rock
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Lapras @ Iapapa Berry
+Nature: Timid
+Ability: Water Absorb
 Level: 46
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Surf
+- Freeze-Dry
+- Whirlpool
+- Perish Song
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Type: Null @ Eviolite
+Nature: Relaxed
+Ability: Battle Armor
 Level: 47
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Tri-Attack
+- Payback
+- Rest
+- Sleep Talk
 
 === TRAINER_HAILEY ===
 Name: Hailey
@@ -7068,41 +7069,41 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Vanilluxe @ Light Clay
+Nature: Hasty
+Ability: Snow Warning
 Level: 46
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Blizzard
+- Freeze-Dry
+- Ice Shard
+- Aurora Veil
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Azumarill @ Wacan Berry
+Nature: Timid
+Ability: Sap Sipper
 Level: 47
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Hydro Pump
+- Moonblast
+- Whirlpool
+- Blizzard
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Armarouge @ Lum Berry
+Nature: Timid
+Ability: Weak Armor
 Level: 46
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Lava Plume
+- Psyshock
+- Weather Ball
+- Will-O-Wisp
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Frosmoth @ Occa Berry
+Nature: Timid
+Ability: Ice Scales
 Level: 47
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Bug Buzz
+- Ice Beam
+- Air Slash
+- Quiver Dance
 
 === TRAINER_RICKY_1 ===
 Name: Ricky
@@ -7113,41 +7114,41 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Crustle @ Red Card
+Nature: Jolly
+Ability: Sturdy
 Level: 47
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- X-Scissor
+- Rock Slide
+- Stomping Tantrum
+- Stealth Rock
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Samurott @ Salac Berry
+Nature: Jolly
+Ability: Torrent
 Level: 46
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Aqua Tail
+- Megahorn
+- Sacred Sword
+- Substitute
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Veluza @ Sitrus Berry
+Nature: Jolly
+Ability: Sharpness
 Level: 47
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Aqua Cutter
+- Psycho Cut
+- Night Slash
+- Fillet Away
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Cofagrigus @ Leftovers
+Nature: Calm
+Ability: Mummy
 Level: 48
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Hex
+- Body Press
+- Infestation
+- Will-O-Wisp
 
 /*
 Double:
@@ -7162,23 +7163,23 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Qwilfish-Hisui @ Focus Sash
+Nature: Jolly
+Ability: Intimidate
 Level: 47
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Crunch
+- Barb Barrage
+- Surf
+- Reversal
 
-Spinda @ Chople Berry
+Pikachu @ Light Ball
 Nature: Naive
-Ability: Contrary
+Ability: Static
 Level: 48
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Volt Tackle
+- Iron Tail
+- Surf
+- Nuzzle
 
 === TRAINER_CHANDLER ===
 Name: Chandler
@@ -7189,32 +7190,29 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
-Level: 47
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
-
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Gastrodon @ Rindo Berry
+Nature: Bold
+Ability: Storm Drain
 Level: 48
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Earth Power
+- Scald
+- Ice Beam
+- Recover
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Maractus @ Choice Specs
+Nature: Timid
+Ability: Storm Drain
 Level: 47
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Petal Dance
+
+Tatsugiri @ Lum Berry
+Nature: Timid
+Ability: Storm Drain
+Level: 47
+- Muddy Water
+- Dragon Pulse
+- Whirlpool
+- Icy Wind
 
 === TRAINER_CARTER ===
 Name: Carter
@@ -7225,50 +7223,48 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Delibird @ Focus Sash
+Nature: Jolly
+Ability: Hustle
 Level: 47
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Brave Bird
+- Triple Axel
+- Destiny Bond
+- Spikes
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Bibarel @ Power Herb
+Nature: Jolly
+Ability: Simple
 Level: 48
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Skull Bash
+- Waterfall
+- Aqua Jet
+- Swords Dance
 
-Spinda @ Chople Berry
+Mothim @ Flying Gem
 Nature: Naive
-Ability: Contrary
+Ability: Tinted Lens
 Level: 47
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Acrobatics
+- Bug Buzz
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Luvdisc @ Kings Rock
+Nature: Hasty
+Ability: Run Away
 Level: 48
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Surf
+- Flip Turn
+- Ice Beam
+- Sweet Kiss
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Trapinch @ Custap Berry
+Nature: Adamant
+Ability: Arena Trap
 Level: 49
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Earthquake
+- First Impression
+- Rock Slide
+- Endure
 
 === TRAINER_MEL_AND_PAUL ===
 Name: Mel & Paul
@@ -7279,41 +7275,41 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Persian @ Focus Sash
+Nature: Jolly
+Ability: Unnerve
 Level: 48
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Fake Out
+- Endeavor
+- Foul Play
+- Swagger
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Murkrow @ Eviolite
+Nature: Jolly
+Ability: Prankster
 Level: 49
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Foul Play
+- Drill Peck
+- Quash
+- Swagger
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Pyroar @ Power Herb
+Nature: Timid
+Ability: Unnerve
 Level: 48
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Flamethrower
+- Hyper Voice
+- Solar Beam
+- Swagger
 
-Spinda @ Chople Berry
-Nature: Naive
-Ability: Contrary
+Grimmsnarl @ Muscle Band
+Nature: Jolly
+Ability: Prankster
 Level: 49
-- Facade
-- Superpower
-- Shadow Ball
-- Teeter Dance
+- Foul Play
+- Spirit Break
+- Fake Out
+- Swagger
 
 /*End Parse*/
 
