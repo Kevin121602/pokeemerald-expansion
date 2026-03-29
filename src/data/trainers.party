@@ -6678,10 +6678,10 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Comment: This fight has a 0.85x accuracy modifier
 */
 
-Gliscor @ Toxic Orb
+Gliscor @ Lum Berry
 Level: 43
 Nature: Jolly
-Ability: Poison Heal
+Ability: Hyper Cutter
 - Earthquake
 - Dual Wingbeat
 - Stealth Rock
@@ -6707,8 +6707,8 @@ Ability: Toxic Boost
 
 Dusknoir @ Reaper Cloth
 Level: 44
-Nature: Impish
-Ability: Hustle
+Nature: Adamant
+Ability: Intimidate
 - Poltergeist
 - Shadow Sneak
 - Dynamic Punch
@@ -6804,6 +6804,15 @@ Ability: Guts
 - Cross Chop
 - Taunt
 
+Annihilape @ Rocky Helmet
+Level: 43
+Nature: Jolly
+Ability: Defiant
+- Drain Punch
+- Rage Fist
+- Stomping Tantrum
+- Rock Tomb
+
 Arcanine-Hisui @ Focus Sash
 Level: 44
 Nature: Jolly
@@ -6814,22 +6823,13 @@ Ability: Rock Head
 - Will-O-Wisp
 
 Hitmontop @ Life Orb
-Level: 45
+Level: 44
 Nature: Adamant
 Ability: Technician
 - Mach Punch
 - Triple Axel
 - Bullet Punch
 - Pursuit
-
-Annihilape @ Rocky Helmet
-Level: 43
-Nature: Jolly
-Ability: Defiant
-- Drain Punch
-- Rage Fist
-- Stomping Tantrum
-- Rock Tomb
 
 Cobalion @ Lum Berry
 Level: 43
@@ -6907,8 +6907,8 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rotom-Fan @ Lum Berry
-Nature: Naive
-Ability: Contrary
+Nature: Timid
+Ability: Levitate
 Level: 45
 - Thunderbolt
 - Air Slash
@@ -6931,7 +6931,7 @@ Level: 45
 - Dual Wingbeat
 - Bug Bite
 - Brick Break
-- Roost
+- Pursuit
 
 Flamigo @ White Herb
 Nature: Jolly
@@ -6971,11 +6971,11 @@ Level: 45
 
 Dubwool @ Grass Gem
 Nature: Jolly
-Ability: Defiant
+Ability: Fluffy
 Level: 46
 - Mega Kick
+- Wild Charge
 - Grassy Glide
-- Reversal
 - Thunder Wave
 
 === TRAINER_GWEN ===
@@ -7147,7 +7147,7 @@ Ability: Mummy
 Level: 48
 - Hex
 - Body Press
-- Infestation
+- Dark Pulse
 - Will-O-Wisp
 
 /*
@@ -7310,6 +7310,92 @@ Level: 49
 - Spirit Break
 - Fake Out
 - Swagger
+
+/*
+Loc: Slateport Museum
+*/
+
+/*
+Double:
+*/
+
+=== TRAINER_MATT_1 ===
+Name: Matt
+Class: Aqua Admin
+Pic: Aqua Admin M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Yellow
+
+/*
+Comment: Not a true double, Heracross and Pelipper leads.
+*/
+
+Heracross @ Heracronite
+Nature: Jolly
+Ability: Swarm
+Level: 50
+- Pin Missile
+- Arm Thrust
+- Bullet Seed
+- Rock Blast
+
+Beartic @ Assault Vest
+Nature: Jolly
+Ability: Swift Swim
+Level: 49
+- Icicle Crash
+- Liquidation
+- Throat Chop
+- Low Kick
+
+Urshifu-Rapid-Strike @ Mystic Water
+Nature: Jolly
+Ability: Unseen Fist
+Level: 50
+- Close Combat
+- Surging Strikes
+- Aqua Jet
+- Detect
+
+=== TRAINER_GRUNT_MUSEUM ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Yellow
+
+Pelipper @ Focus Sash
+Nature: Timid
+Ability: Drizzle
+Level: 49
+- Hurricane
+- Hydro Pump
+- Helping Hand
+- Tailwind
+
+Goodra @ Wise Glasses
+Nature: Timid
+Ability: Hydration
+Level: 48
+- Dragon Pulse
+- Thunder
+- Sludge Bomb
+- Rest
+
+Blastoise @ Leftovers
+Nature: Timid
+Ability: Rain Dish
+Level: 49
+- Muddy Water
+- Fake Out
+- Follow Me
+- Protect
 
 /*End Parse*/
 
@@ -7507,36 +7593,6 @@ Carvanha
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MUSEUM_1 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Carvanha
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRUNT_MUSEUM_2 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Zubat
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Carvanha
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: Grunt
 Class: Team Magma
@@ -7589,7 +7645,7 @@ Zubat
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_MATT ===
+=== TRAINER_MATT_2 ===
 Name: MATT
 Class: Aqua Admin
 Pic: Aqua Admin M
