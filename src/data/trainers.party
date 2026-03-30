@@ -7397,6 +7397,376 @@ Level: 49
 - Follow Me
 - Protect
 
+/*
+Loc: Route 110
+*/
+
+/*
+Double:
+*/
+
+=== TRAINER_ISABEL_1 ===
+Name: Isabel
+Class: Pokefan
+Pic: Pokefan F
+Gender: Female
+Music: Twins
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Emolga @ Covert Cloak
+Nature: Timid
+Ability: Motor Drive
+Level: 48
+- Discharge
+- Air Slash
+- Light Screen
+- Tailwind
+
+Heliolisk @ Focus Sash
+Nature: Timid
+Ability: Dry Skin
+Level: 49
+- Hyper Voice
+- Discharge
+- Grass Knot
+- Psych Up
+
+=== TRAINER_KALEB ===
+Name: Kaleb
+Class: Pokefan
+Pic: Pokefan M
+Gender: Male
+Music: Twins
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Raichu @ Air Balloon
+Nature: Timid
+Ability: Lightning Rod
+Level: 48
+- Thunderbolt
+- Focus Blast
+- Surf
+- Fake Out
+
+Seaking @ Rindo Berry
+Nature: Hasty
+Ability: Lightning Rod
+Level: 49
+- Hydro Pump
+- Waterfall
+- Megahorn
+- Ice Beam
+
+=== TRAINER_TIMMY ===
+Name: Timmy
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Aron
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Electrike
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/*
+Loc: Route 103
+*/
+
+/*
+Double:
+*/
+
+=== TRAINER_RHETT ===
+Name: RHETT
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Makuhita
+Level: 15
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_MARCOS ===
+Name: MARCOS
+Class: Guitarist
+Pic: Guitarist
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Voltorb
+Level: 15
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_DAISY ===
+Name: DAISY
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Shroomish
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Roselia
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_AMY_AND_LIV_1 ===
+Name: AMY & LIV
+Class: Twins
+Pic: Twins
+Gender: Male
+Music: Twins
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Plusle @ Focus Sash
+Level: 18
+Nature: Timid
+Ability: Plus
+-Shock Wave
+-Grass Knot
+-Electroweb 
+-Protect
+
+Klink @ Eviolite
+Level: 18
+Nature: Careful
+Ability: Minus
+-Gear Up
+-Magnetic Flux
+
+Minun @ Air Balloon
+Level: 18
+Nature: Timid
+Ability: Minus
+IVs: 30 HP / 31 Atk / 30 Def / 30 SpA / 31 SpD / 30 Spe
+-Thunderbolt
+-Hidden Power
+-Charge Beam
+-Helping Hand
+
+Flaaffy @ Fire Gem
+Level: 18
+Nature: Brave
+Ability: Plus
+-Shock Wave
+-Fire Punch
+-Dazzling Gleam
+-Cotton Spore
+
+=== TRAINER_MIGUEL_1 ===
+Name: MIGUEL
+Class: Pokefan
+Pic: Pokefan M
+Gender: Male
+Music: Twins
+Double Battle: No
+AI: Check Bad Move
+
+Skitty @ Oran Berry
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ANDREW ===
+Name: ANDREW
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Magikarp
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Tentacool
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magikarp
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/*
+Loc: Route 109
+*/
+
+=== TRAINER_DAVID ===
+Name: DAVID
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Tentacool
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Carvanha
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ALICE ===
+Name: ALICE
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Goldeen
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Wingull
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Goldeen
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/*
+Loc: Route 108
+*/
+
+=== TRAINER_JEROME ===
+Name: JEROME
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Tentacruel
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_TARA ===
+Name: TARA
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Horsea
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Marill
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_MATTHEW ===
+Name: MATTHEW
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Carvanha
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_MISSY ===
+Name: MISSY
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move
+
+Goldeen
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/*
+Double:
+*/
+
+=== TRAINER_CAROLINA ===
+Name: CAROLINA
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Basic Trainer
+
+Manectric
+Level: 24
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Swellow
+Level: 24
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Manectric
+Level: 24
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_CORY_1 ===
+Name: CORY
+Class: Sailor
+Pic: Sailor
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Wingull
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Tentacool
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/*
+Loc: Abandoned Ship
+*/
+
 /*End Parse*/
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
@@ -7716,23 +8086,6 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Sharpedo
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-=== TRAINER_DAISY ===
-Name: DAISY
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Shroomish
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Roselia
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FELIX ===
 Name: FELIX
@@ -9429,49 +9782,6 @@ AI: Check Bad Move
 
 Carvanha
 Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_JEROME ===
-Name: JEROME
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Tentacruel
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_MATTHEW ===
-Name: MATTHEW
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Carvanha
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_DAVID ===
-Name: DAVID
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Tentacool
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Carvanha
-Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SPENCER ===
@@ -11667,19 +11977,6 @@ Zigzagoon @ Oran Berry
 Level: 16
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-=== TRAINER_MIGUEL_1 ===
-Name: MIGUEL
-Class: Pokefan
-Pic: Pokefan M
-Gender: Male
-Music: Twins
-Double Battle: No
-AI: Check Bad Move
-
-Skitty @ Oran Berry
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_COLTON ===
 Name: COLTON
 Class: Pokefan
@@ -11835,23 +12132,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Azumarill @ Oran Berry
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_ISABEL_1 ===
-Name: ISABEL
-Class: Pokefan
-Pic: Pokefan F
-Gender: Female
-Music: Twins
-Double Battle: No
-AI: Check Bad Move
-
-Plusle @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Minun @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ISABEL_2 ===
 Name: ISABEL
@@ -12234,23 +12514,6 @@ Mightyena
 Level: 36
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_TIMMY ===
-Name: TIMMY
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Aron
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Electrike
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_WALLACE ===
 Name: WALLACE
 Class: Champion
@@ -12309,27 +12572,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
 - Ice Beam
 - Toxic
-
-=== TRAINER_ANDREW ===
-Name: ANDREW
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacool
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magikarp
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DALE ===
 Name: DALE
@@ -13845,57 +14087,6 @@ Goldeen
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_TARA ===
-Name: TARA
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Horsea
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Marill
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_MISSY ===
-Name: MISSY
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Goldeen
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ALICE ===
-Name: ALICE
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Goldeen
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wingull
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Goldeen
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_JENNY_1 ===
 Name: JENNY
 Class: Swimmer F
@@ -14370,50 +14561,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Altaria
 Level: 40
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_AMY_AND_LIV_1 ===
-Name: AMY & LIV
-Class: Twins
-Pic: Twins
-Gender: Male
-Music: Twins
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Plusle @ Focus Sash
-Level: 18
-Nature: Timid
-Ability: Plus
--Shock Wave
--Grass Knot
--Electroweb 
--Protect
-
-Klink @ Eviolite
-Level: 18
-Nature: Careful
-Ability: Minus
--Gear Up
--Magnetic Flux
-
-Minun @ Air Balloon
-Level: 18
-Nature: Timid
-Ability: Minus
-IVs: 30 HP / 31 Atk / 30 Def / 30 SpA / 31 SpD / 30 Spe
--Thunderbolt
--Hidden Power
--Charge Beam
--Helping Hand
-
-Flaaffy @ Fire Gem
-Level: 18
-Nature: Brave
-Ability: Plus
--Shock Wave
--Fire Punch
--Dazzling Gleam
--Cotton Spore
 
 === TRAINER_AMY_AND_LIV_2 ===
 Name: AMY & LIV
@@ -17960,23 +18107,6 @@ Carvanha
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_KALEB ===
-Name: KALEB
-Class: Pokefan
-Pic: Pokefan M
-Gender: Male
-Music: Twins
-Double Battle: No
-AI: Check Bad Move
-
-Minun @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Plusle @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_JOSEPH ===
 Name: JOSEPH
 Class: Guitarist
@@ -18006,32 +18136,6 @@ AI: Check Bad Move
 Magnemite
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_MARCOS ===
-Name: MARCOS
-Class: Guitarist
-Pic: Guitarist
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Voltorb
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_RHETT ===
-Name: RHETT
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Makuhita
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_TYRON ===
 Name: TYRON
@@ -18403,49 +18507,6 @@ AI: Check Bad Move
 Staryu
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CORY_1 ===
-Name: CORY
-Class: Sailor
-Pic: Sailor
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Wingull
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machop
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacool
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CAROLINA ===
-Name: CAROLINA
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Basic Trainer
-
-Manectric
-Level: 24
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Swellow
-Level: 24
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Manectric
-Level: 24
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_CELIA ===
 Name: CELIA
