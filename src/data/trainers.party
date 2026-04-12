@@ -7475,15 +7475,43 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Aron
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Electrike
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 48
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 /*
 Loc: Route 103
@@ -7494,50 +7522,115 @@ Double:
 */
 
 === TRAINER_RHETT ===
-Name: RHETT
+Name: Rhett
 Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Makuhita
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 === TRAINER_MARCOS ===
-Name: MARCOS
+Name: Marcos
 Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Voltorb
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 48
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 === TRAINER_DAISY ===
-Name: DAISY
+Name: Daisy
 Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Shroomish
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Roselia
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 === TRAINER_AMY_AND_LIV_1 ===
-Name: AMY & LIV
+Name: Amy & Liv
 Class: Twins
 Pic: Twins
 Gender: Male
@@ -7545,227 +7638,896 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Plusle @ Focus Sash
-Level: 18
-Nature: Timid
-Ability: Plus
--Shock Wave
--Grass Knot
--Electroweb 
--Protect
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Klink @ Eviolite
-Level: 18
-Nature: Careful
-Ability: Minus
--Gear Up
--Magnetic Flux
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Minun @ Air Balloon
-Level: 18
-Nature: Timid
-Ability: Minus
-IVs: 30 HP / 31 Atk / 30 Def / 30 SpA / 31 SpD / 30 Spe
--Thunderbolt
--Hidden Power
--Charge Beam
--Helping Hand
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Flaaffy @ Fire Gem
-Level: 18
-Nature: Brave
-Ability: Plus
--Shock Wave
--Fire Punch
--Dazzling Gleam
--Cotton Spore
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 === TRAINER_MIGUEL_1 ===
-Name: MIGUEL
+Name: Miguel
 Class: Pokefan
 Pic: Pokefan M
 Gender: Male
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Skitty @ Oran Berry
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 === TRAINER_ANDREW ===
-Name: ANDREW
+Name: Andrew
 Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Tentacool
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Magikarp
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 /*
 Loc: Route 109
 */
 
 === TRAINER_DAVID ===
-Name: DAVID
+Name: David
 Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Tentacool
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Carvanha
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 === TRAINER_ALICE ===
-Name: ALICE
+Name: Alice
 Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Goldeen
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 49
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Wingull
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Goldeen
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 /*
 Loc: Route 108
 */
 
 === TRAINER_JEROME ===
-Name: JEROME
+Name: Jerome
 Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Tentacruel
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 === TRAINER_TARA ===
-Name: TARA
+Name: Tara
 Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Horsea
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Marill
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 === TRAINER_MATTHEW ===
-Name: MATTHEW
+Name: Matthew
 Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Carvanha
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 === TRAINER_MISSY ===
-Name: MISSY
+Name: Missy
 Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Goldeen
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 /*
 Double:
 */
 
 === TRAINER_CAROLINA ===
-Name: CAROLINA
+Name: Carolina
 Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Manectric
-Level: 24
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Swellow
-Level: 24
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Manectric
-Level: 24
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 === TRAINER_CORY_1 ===
-Name: CORY
+Name: Cory
 Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Wingull
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Machop
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
-Tentacool
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
 
 /*
 Loc: Abandoned Ship
 */
+
+=== TRAINER_THALIA_1 ===
+Name: Thalia
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 52
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+=== TRAINER_DEMETRIUS ===
+Name: Demetrius
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 52
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+=== TRAINER_DUNCAN ===
+Name: Duncan
+Class: Sailor
+Pic: Sailor
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+=== TRAINER_CHARLIE ===
+Name: Charlie
+Class: Tuber M
+Pic: Tuber M
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 52
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+=== TRAINER_GARRISON ===
+Name: Garrison
+Class: Ruin Maniac
+Pic: Ruin Maniac
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 52
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+=== TRAINER_JANI ===
+Name: Jani
+Class: Tuber F
+Pic: Tuber F
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 50
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 51
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 52
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+Rhyperior @ Assault Vest
+Nature: Jolly
+Ability: Lightning Rod
+Level: 52
+- High Horsepower
+- Rock Slide
+- Fire Punch
+- Avalanche
+
+=== TRAINER_KIRA_AND_DAN_1 ===
+Name: Kira & Dan
+Class: Young Couple
+Pic: Young Couple
+Gender: Male
+Music: Girl
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Coalossal @ Covert Cloak
+Level: 53
+Nature: Hasty
+Ability: Steam Engine
+- Burn Up
+- Power Gem
+- Earth Power
+- Explosion
+
+Dragapult @ Kings Rock
+Level: 49
+Nature: Jolly
+Ability: Cursed Body
+IVs: 31 HP / 31 Atk / 31 Def / 0 SpA / 31 SpD / 31 Spe
+- Dragon Darts
+- Surf
+- Steel Wing
+- Infestation
+
+Ceruledge @ Focus Sash
+Level: 52
+Nature: Jolly
+Ability: Sharpness
+- Bitter Blade
+- Shadow Claw
+- X-Scissor
+- Shadow Sneak
+
+Gardevoir @ Lum Berry
+Level: 52
+Nature: Timid
+Ability: Telepathy
+- Moonblast
+- Psychic
+- Thunderbolt
+- Hypnosis
+
+=== TRAINER_SIDNEY ===
+Name: Sidney
+Class: Veteran
+Pic: Elite Four Sidney
+Gender: Male
+Music: Elite Four
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Purple
+
+Tinkaton @ Focus Sash
+Level: 53
+Nature: Jolly
+Ability: Mold Breaker
+- Gigaton Hammer
+- Play Rough
+- Knock Off
+- Stealth Rock
+
+Honchkrow @ Scope Lens
+Level: 52
+Nature: Jolly
+Ability: Super Luck
+- Drill Peck
+- Night Slash
+- Sucker Punch
+- Superpower
+
+Overqwil @ Lum Berry
+Level: 51
+Nature: Jolly
+Ability: Intimidate
+- Crunch
+- Poison Jab
+- Waterfall
+- Destiny Bond
+
+Inteleon @ Wise Glasses
+Level: 52
+Nature: Timid
+Ability: Sniper
+- Snipe Shot
+- Ice Beam
+- Dark Pulse
+- Focus Energy
+
+Urshifu @ Black Glasses
+Level: 53
+Nature: Jolly
+Ability: Unseen Fist
+- Close Combat
+- Wicked Blow
+- Iron Head
+- Swords Dance
+
+Absol @ Absolite
+Level: 53
+Nature: Jolly
+Ability: Justified
+- Night Slash
+- Psycho Cut
+- X-Scissor
+- Pursuit
 
 /*End Parse*/
 
@@ -8472,19 +9234,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marill
 Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHARLIE ===
-Name: CHARLIE
-Class: Tuber M
-Pic: Tuber M
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Marill
-Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_RICKY_3 ===
@@ -9642,23 +10391,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Mud Sport
 - Odor Sleuth
 - Sand Attack
-
-=== TRAINER_THALIA_1 ===
-Name: THALIA
-Class: Beauty
-Pic: Beauty
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Wailmer
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Horsea
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_CHIMNEY_1 ===
 Name: Grunt
@@ -11253,57 +11985,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Spark
 - Odor Sleuth
 - Roar
-
-=== TRAINER_SIDNEY ===
-Name: SIDNEY
-Class: Elite Four
-Pic: Elite Four Sidney
-Gender: Male
-Music: Elite Four
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Basic Trainer / Force Setup First Turn
-Mugshot: Purple
-
-Mightyena
-Level: 46
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Roar
-- Double Edge
-- Sand Attack
-- Crunch
-
-Shiftry
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Torment
-- Double Team
-- Swagger
-- Extrasensory
-
-Cacturne
-Level: 46
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Leech Seed
-- Feint Attack
-- Needle Arm
-- Cotton Spore
-
-Crawdaunt
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Surf
-- Swords Dance
-- Strength
-- Facade
-
-Absol @ Sitrus Berry
-Level: 49
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Rock Slide
-- Swords Dance
-- Slash
 
 === TRAINER_GLACIA ===
 Name: GLACIA
@@ -13063,23 +13744,6 @@ Staryu
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DEMETRIUS ===
-Name: DEMETRIUS
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Zigzagoon
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Electrike
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_ISAIAH_1 ===
 Name: ISAIAH
 Class: Triathlete
@@ -13673,18 +14337,6 @@ Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thunderbolt
 - Earthquake
-
-=== TRAINER_JANI ===
-Name: JANI
-Class: Tuber F
-Pic: Tuber F
-Gender: Female
-Music: Girl
-Double Battle: No
-
-Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LAO_2 ===
 Name: LAO
@@ -14760,23 +15412,6 @@ Machoke
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DUNCAN ===
-Name: DUNCAN
-Class: Sailor
-Pic: Sailor
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Spheal
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machoke
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_ERNEST_2 ===
 Name: ERNEST
 Class: Sailor
@@ -15710,19 +16345,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Absol
 Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GARRISON ===
-Name: GARRISON
-Class: Ruin Maniac
-Pic: Ruin Maniac
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Sandslash
-Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LYDIA_2 ===
@@ -16992,23 +17614,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Luvdisc
 Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_KIRA_AND_DAN_1 ===
-Name: KIRA & DAN
-Class: Young Couple
-Pic: Young Couple
-Gender: Male
-Music: Girl
-Double Battle: Yes
-AI: Check Bad Move
-
-Volbeat
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Illumise
-Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KIRA_AND_DAN_2 ===
