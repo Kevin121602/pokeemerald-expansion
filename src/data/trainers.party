@@ -6642,7 +6642,7 @@ Milotic @ Sitrus Berry
 Level: 43
 Nature: Timid
 Ability: Competitive
-- Scald
+- Brine
 - Ice Beam
 - Hypnosis
 - Recover
@@ -6894,7 +6894,7 @@ Ability: Lingering Aroma
 Level: 45
 - Body Slam
 - High Horsepower
-- Iron Head
+- Play Rough
 - Curse
 
 === TRAINER_ELIJAH ===
@@ -7477,41 +7477,42 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Wyrdeer @ Leftovers
+Nature: Hasty
+Ability: Intimidate
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Future Sight
+- Hyper Voice
+- Megahorn
+- Thunder Wave
 
-Rhyperior @ Assault Vest
+Talonflame @ Flying Gem
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Flame Body
 Level: 48
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Flare Blitz
+- Acrobatics
+- Steel Wing
+- Will-O-Wisp
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Salazzle @ Air Balloon
+Nature: Timid
+Ability: Corrosion
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+IVs: 31 HP / 30 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Sludge Bomb
+- Hidden Power
+- Toxic
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Hydrapple @ Eject Pack
+Nature: Bold
+Ability: Regenerator
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Draco Meteor
+- Leaf Storm
+- Body Press
+- Recover
 
 /*
 Loc: Route 103
