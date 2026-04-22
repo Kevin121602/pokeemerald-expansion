@@ -2275,6 +2275,17 @@ static s32 AI_CheckBadMove(enum BattlerId battlerAtk, enum BattlerId battlerDef,
     case EFFECT_REFLECT_DAMAGE:
         if (IsBattlerIncapacitated(battlerDef, aiData->abilities[battlerDef]))
             ADJUST_SCORE(-10);
+
+        if (GetMoveReflectDamage_DamageCategories(move) & (1u << DAMAGE_CATEGORY_PHYSICAL) // Can reflect physical damage
+         && !HasMoveWithCategory(battlerDef, DAMAGE_CATEGORY_PHYSICAL)) // Opponent has no physical moves
+            ADJUST_SCORE(-10);
+        else if (GetMoveReflectDamage_DamageCategories(move) & (1u << DAMAGE_CATEGORY_SPECIAL) // Can reflect special damage
+         && !HasMoveWithCategory(battlerDef, DAMAGE_CATEGORY_SPECIAL)) // Opponent has no special moves
+            ADJUST_SCORE(-10);
+
+        if (gMovesInfo[move].priority == 0 && AI_IsFaster(battlerAtk, battlerDef, move, DONT_CONSIDER_PRIORITY))
+            ADJUST_SCORE(-10);
+
         break;
     case EFFECT_NON_VOLATILE_STATUS:
         if (DoesPartnerHaveSameMoveEffect(BATTLE_PARTNER(battlerAtk), battlerDef, move, aiData->partnerMove))
