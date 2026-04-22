@@ -1733,7 +1733,8 @@ u32 GetBestDmgFromBattler(enum BattlerId battler, enum BattlerId battlerTarget, 
          && !IsMoveUnusable(moveIndex, moves[moveIndex], moveLimitations)
          && bestDmg < AI_GetDamage(battler, battlerTarget, moveIndex, calcContext, aiData)
          && !IsTwoTurnNotSemiInvulnerableMove(battler, moves[moveIndex])
-         && gAiThinkingStruct->score[moveIndex] >= 100)
+         && gAiThinkingStruct->score[moveIndex] >= 100
+         && !IsExplosionMove(moves[moveIndex]))
         {
             bestDmg = AI_GetDamage(battler, battlerTarget, moveIndex, calcContext, aiData);
         }

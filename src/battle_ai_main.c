@@ -1472,8 +1472,6 @@ static s32 AI_CheckBadMove(enum BattlerId battlerAtk, enum BattlerId battlerDef,
 
     if (IsExplosionMove(move))
     {
-        if (!aiData->shouldConsiderExplosion)
-            ADJUST_SCORE(-5);
         if (effectiveness == UQ_4_12(0.0))
         {
             ADJUST_SCORE(-10);
@@ -1482,12 +1480,10 @@ static s32 AI_CheckBadMove(enum BattlerId battlerAtk, enum BattlerId battlerDef,
         {
             ADJUST_SCORE(-10);
         }
-        else if (CountUsablePartyMons(battlerAtk) == 0 && LAST_MON_PREFERS_NOT_SACRIFICE)
+        else if (CountUsablePartyMons(battlerAtk) == 0)
         {
             if (CountUsablePartyMons(battlerDef) != 0)
                 ADJUST_SCORE(-10);
-            else
-                ADJUST_SCORE(-1);
         }
     }
 
@@ -4004,9 +4000,29 @@ static s32 AI_CalcMoveEffectScore(enum BattlerId battlerAtk, enum BattlerId batt
         RETURN_SCORE_PLUS(LAST_CHANCE);
     }
 
-
-    if (IsExplosionMove(move) && gAiThinkingStruct->aiFlags[battlerAtk] & AI_FLAG_WILL_SUICIDE && gBattleMons[battlerDef].statStages[STAT_EVASION] <= DEFAULT_STAT_STAGE)
-        ADJUST_SCORE(DECENT_EFFECT);
+    if (IsExplosionMove(move)){
+        if((AI_CalcDamage(move, battlerAtk, battlerDef, &effectiveness, USE_GIMMICK, NO_GIMMICK, AI_GetWeather(), FALSE, TRUE, FALSE).minimum * 2) > GetBestDmgFromBattler(battlerAtk, battlerDef, AI_ATTACKING)){
+            if (aiData->hpPercents[battlerAtk] > 70){
+                if(Random() % 100 < 40)
+                    ADJUST_SCORE(WEAK_EFFECT);
+            } 
+            else if(aiData->hpPercents[battlerAtk] > 50){
+                ADJUST_SCORE(WEAK_EFFECT);
+                if(Random() % 100 < 10)
+                    ADJUST_SCORE(WEAK_EFFECT);
+            }
+            else if(aiData->hpPercents[battlerAtk] > 20){
+                ADJUST_SCORE(DECENT_EFFECT);
+                if(Random() % 100 < 20)
+                    ADJUST_SCORE(WEAK_EFFECT);
+            }
+            else{
+                ADJUST_SCORE(GOOD_EFFECT);
+                if(Random() % 100 < 50)
+                    ADJUST_SCORE(WEAK_EFFECT);
+            }
+        }
+    }
 
     // Non-volatile statuses
     switch (GetMoveNonVolatileStatus(move))

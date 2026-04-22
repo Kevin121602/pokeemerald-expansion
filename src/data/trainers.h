@@ -21690,7 +21690,7 @@
 #line 8481
             .ability = ABILITY_MOLD_BREAKER,
 #line 8479
-            .lvl = 53,
+            .lvl = 52,
             .ball = POKEBALL_COUNT,
 #line 8480
             .nature = NATURE_JOLLY,
