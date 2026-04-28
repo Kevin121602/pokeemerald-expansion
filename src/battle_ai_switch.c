@@ -56,11 +56,12 @@ static void InitializeSwitchinCandidate(enum BattlerId switchinBattler, u32 monI
 {
     u32 storeCurrBattlerPartyIndex = gBattlerPartyIndexes[switchinBattler]; // Rage Fist fix
     PokemonToBattleMon(mon, &gBattleMons[switchinBattler]);
+    gBattlerPartyIndexes[switchinBattler] = monIndex;
+    CopyMonAbilityAndTypesToBattleMon(switchinBattler, mon);
     // Setup switchin battler data
     gAiThinkingStruct->saved[switchinBattler].saved = TRUE;
     SetBattlerAiData(switchinBattler, gAiLogicData);
     SetBattlerFieldStatusForSwitchin(switchinBattler);
-    gBattlerPartyIndexes[switchinBattler] = monIndex;
     gAiLogicData->switchInCalc = TRUE;
 
     for (enum BattlerId battlerIndex = 0; battlerIndex < gBattlersCount; battlerIndex++)
@@ -1188,42 +1189,75 @@ bool32 ShouldSwitch(enum BattlerId battler)
         return FALSE;
     }
 
+    // Save existing battler data
+    struct AiLogicData *savedAiLogicData = AllocSaveAiLogicData();
+    struct BattlePokemon *savedBattleMons = AllocSaveBattleMons();
+
     //gets most suitable candidate for mid turn switching
     bestCandidate = GetMostSuitableMonToSwitchInto(battler, FALSE);
     InitializeSwitchinCandidate(battler, bestCandidate.mon, &party[bestCandidate.mon]);
 
     if(IsDoubleBattle()){
         if(bestCandidate.score < (SCORE_DEFAULT + SCORE_DEFAULT)){
+            // Restore battler data
+            FreeRestoreAiLogicData(savedAiLogicData);
+            FreeRestoreBattleMons(savedBattleMons);
+            SetBattlerAiData(battler, gAiLogicData);
             return FALSE;
         }
         else if (gBattleMons[battler].volatiles.wrapped
                     || gBattleMons[battler].volatiles.escapePrevention
                     || gBattleMons[battler].volatiles.root
                     || IsAbilityPreventingEscape(battler)){
+            // Restore battler data
+            FreeRestoreAiLogicData(savedAiLogicData);
+            FreeRestoreBattleMons(savedBattleMons);
+            SetBattlerAiData(battler, gAiLogicData);
             return FALSE;
         } 
         else if (gBattleMons[battler].volatiles.perishSong
         && gBattleMons[battler].volatiles.perishSongTimer == 0
         && battlerAbility != ABILITY_SOUNDPROOF){
             gAiLogicData->mostSuitableMonId[battler] = bestCandidate.mon;
+            // Restore battler data
+            FreeRestoreAiLogicData(savedAiLogicData);
+            FreeRestoreBattleMons(savedBattleMons);
+            SetBattlerAiData(battler, gAiLogicData);
             return TRUE;
         }
-        else if(gAiLogicData->hasViableMoveDoubles[battler])
+        else if(gAiLogicData->hasViableMoveDoubles[battler]){
+            // Restore battler data
+            FreeRestoreAiLogicData(savedAiLogicData);
+            FreeRestoreBattleMons(savedBattleMons);
+            SetBattlerAiData(battler, gAiLogicData);
             return FALSE;
+        }
         else{
             gAiLogicData->mostSuitableMonId[battler] = bestCandidate.mon;
+            // Restore battler data
+            FreeRestoreAiLogicData(savedAiLogicData);
+            FreeRestoreBattleMons(savedBattleMons);
+            SetBattlerAiData(battler, gAiLogicData);
             return TRUE;
         }
     }
 
     //returns false if score -5 or lower, wont switch even if all moves have negative score or will faint to perish song
-    if(bestCandidate.score <= SCORE_FASTER_BUT_KOD)
+    if(bestCandidate.score <= SCORE_FASTER_BUT_KOD){
+        // Restore battler data
+        FreeRestoreAiLogicData(savedAiLogicData);
+        FreeRestoreBattleMons(savedBattleMons);
+        SetBattlerAiData(battler, gAiLogicData);
         return FALSE;
-
+    }
     if (gBattleMons[battler].volatiles.perishSong
         && gBattleMons[battler].volatiles.perishSongTimer == 0
         && battlerAbility != ABILITY_SOUNDPROOF){
             gAiLogicData->mostSuitableMonId[battler] = bestCandidate.mon;
+            // Restore battler data
+            FreeRestoreAiLogicData(savedAiLogicData);
+            FreeRestoreBattleMons(savedBattleMons);
+            SetBattlerAiData(battler, gAiLogicData);
             return TRUE;
     }
 
@@ -1256,6 +1290,10 @@ bool32 ShouldSwitch(enum BattlerId battler)
 
     if(hasNoGoodMoves){
         gAiLogicData->mostSuitableMonId[battler] = bestCandidate.mon;
+        // Restore battler data
+        FreeRestoreAiLogicData(savedAiLogicData);
+        FreeRestoreBattleMons(savedBattleMons);
+        SetBattlerAiData(battler, gAiLogicData);
         return TRUE;
     }
     
@@ -1321,16 +1359,30 @@ bool32 ShouldSwitch(enum BattlerId battler)
 
     if(AnyStatIsRaised(battler) && canBatonPass && (GetBattleMovePriority(battler, battlerAbility, gBattleMons[battler].moves[batonPass]) > GetBattleMovePriority(opposingBattler, playerAbility, bestPlayerMove) || battlerSpeed >= playerSpeed)){
         gAiBattleData->chosenMoveIndex[battler] = batonPass;
+        // Restore battler data
+        FreeRestoreAiLogicData(savedAiLogicData);
+        FreeRestoreBattleMons(savedBattleMons);
+        SetBattlerAiData(battler, gAiLogicData);
         return FALSE;
     }
 
-    if(gBattleMons[battler].hp*5 <= gBattleMons[battler].maxHP)
+    if(gBattleMons[battler].hp*5 <= gBattleMons[battler].maxHP){
+        // Restore battler data
+        FreeRestoreAiLogicData(savedAiLogicData);
+        FreeRestoreBattleMons(savedBattleMons);
+        SetBattlerAiData(battler, gAiLogicData);
         return FALSE;
+    }
 
     //all other switch functions require a score of +2, return false here if none found
-    if(bestCandidate.score < SCORE_SLOW_THREATEN)
+    if(bestCandidate.score < SCORE_SLOW_THREATEN){
+        // Restore battler data
+        FreeRestoreAiLogicData(savedAiLogicData);
+        FreeRestoreBattleMons(savedBattleMons);
+        SetBattlerAiData(battler, gAiLogicData);
         return FALSE;
-
+    }
+    
     //represents whether or not the AI is faster
     if(GetBattleMovePriority(battler, battlerAbility, bestBattlerMove) > GetBattleMovePriority(opposingBattler, playerAbility, bestPlayerMove)){
         aiIsFaster = TRUE;
@@ -1356,14 +1408,26 @@ bool32 ShouldSwitch(enum BattlerId battler)
     if(battlerAbility == ABILITY_NATURAL_CURE && gBattleMons[battler].status1 & STATUS1_ANY && !battlerCanKOPlayerMon && !gBattleStruct->battlerState[battler].isFirstTurn){
         if(canPivot){
             gAiBattleData->chosenMoveIndex[battler] = pivot;
+            // Restore battler data
+            FreeRestoreAiLogicData(savedAiLogicData);
+            FreeRestoreBattleMons(savedBattleMons);
+            SetBattlerAiData(battler, gAiLogicData);
             return FALSE;
         } else if (gBattleMons[battler].volatiles.wrapped
                     || gBattleMons[battler].volatiles.escapePrevention
                     || gBattleMons[battler].volatiles.root
                     || IsAbilityPreventingEscape(battler)){
+            // Restore battler data
+            FreeRestoreAiLogicData(savedAiLogicData);
+            FreeRestoreBattleMons(savedBattleMons);
+            SetBattlerAiData(battler, gAiLogicData);
             return FALSE;
         } else {
             gAiLogicData->mostSuitableMonId[battler] = bestCandidate.mon;
+            // Restore battler data
+            FreeRestoreAiLogicData(savedAiLogicData);
+            FreeRestoreBattleMons(savedBattleMons);
+            SetBattlerAiData(battler, gAiLogicData);
             return TRUE;
         }
     }
@@ -1376,22 +1440,42 @@ bool32 ShouldSwitch(enum BattlerId battler)
                     || gBattleMons[battler].volatiles.escapePrevention
                     || gBattleMons[battler].volatiles.root
                     || IsAbilityPreventingEscape(battler)){
+                // Restore battler data
+                FreeRestoreAiLogicData(savedAiLogicData);
+                FreeRestoreBattleMons(savedBattleMons);
+                SetBattlerAiData(battler, gAiLogicData);
                 return FALSE;
             } else {
                 gAiLogicData->mostSuitableMonId[battler] = bestCandidate.mon;
+                // Restore battler data
+                FreeRestoreAiLogicData(savedAiLogicData);
+                FreeRestoreBattleMons(savedBattleMons);
+                SetBattlerAiData(battler, gAiLogicData);
                 return TRUE;
             }
         } else if (aiIsFaster && !willSetHazards && !willDestinyBond && !battlerCanKOPlayerMon && !MonHasRelevantStatsRaised(battler)){
             if(canPivot){
                 gAiBattleData->chosenMoveIndex[battler] = pivot;
+                // Restore battler data
+                FreeRestoreAiLogicData(savedAiLogicData);
+                FreeRestoreBattleMons(savedBattleMons);
+                SetBattlerAiData(battler, gAiLogicData);
                 return FALSE;
             } else if (gBattleMons[battler].volatiles.wrapped
                     || gBattleMons[battler].volatiles.escapePrevention
                     || gBattleMons[battler].volatiles.root
                     || IsAbilityPreventingEscape(battler)){
+                // Restore battler data
+                FreeRestoreAiLogicData(savedAiLogicData);
+                FreeRestoreBattleMons(savedBattleMons);
+                SetBattlerAiData(battler, gAiLogicData);
                 return FALSE;
             } else {
                 gAiLogicData->mostSuitableMonId[battler] = bestCandidate.mon;
+                // Restore battler data
+                FreeRestoreAiLogicData(savedAiLogicData);
+                FreeRestoreBattleMons(savedBattleMons);
+                SetBattlerAiData(battler, gAiLogicData);
                 return TRUE;
             }
         }
@@ -1401,20 +1485,41 @@ bool32 ShouldSwitch(enum BattlerId battler)
     if(bestHitsToKOPlayer > 3 && bestHitsToKOBattler <= 3 && !gAiLogicData->hasViableStatus && !MonHasRelevantStatsRaised(battler)){
         if(canPivot){
                 gAiBattleData->chosenMoveIndex[battler] = pivot;
+                // Restore battler data
+                FreeRestoreAiLogicData(savedAiLogicData);
+                FreeRestoreBattleMons(savedBattleMons);
+                SetBattlerAiData(battler, gAiLogicData);
                 return FALSE;
         } else if (canTeleport){
                 gAiBattleData->chosenMoveIndex[battler] = teleport;
+                // Restore battler data
+                FreeRestoreAiLogicData(savedAiLogicData);
+                FreeRestoreBattleMons(savedBattleMons);
+                SetBattlerAiData(battler, gAiLogicData);
                 return FALSE;
         } else if (gBattleMons[battler].volatiles.wrapped
                     || gBattleMons[battler].volatiles.escapePrevention
                     || gBattleMons[battler].volatiles.root
                     || IsAbilityPreventingEscape(battler)){
+                // Restore battler data
+                FreeRestoreAiLogicData(savedAiLogicData);
+                FreeRestoreBattleMons(savedBattleMons);
+                SetBattlerAiData(battler, gAiLogicData);
                 return FALSE;
         } else {
                 gAiLogicData->mostSuitableMonId[battler] = bestCandidate.mon;
+                // Restore battler data
+                FreeRestoreAiLogicData(savedAiLogicData);
+                FreeRestoreBattleMons(savedBattleMons);
+                SetBattlerAiData(battler, gAiLogicData);
                 return TRUE;
         }
     }
+
+    // Restore battler data
+    FreeRestoreAiLogicData(savedAiLogicData);
+    FreeRestoreBattleMons(savedBattleMons);
+    SetBattlerAiData(battler, gAiLogicData);
 
     return FALSE;
 }
@@ -2994,6 +3099,10 @@ struct MostSuitableCandidate GetMostSuitableMonToSwitchInto(enum BattlerId battl
     currentMonArray[0] = -1;
     consideredMonArray[0] = -1;
 
+    // Save existing battler data
+    struct AiLogicData *savedAiLogicData = AllocSaveAiLogicData();
+    struct BattlePokemon *savedBattleMons = AllocSaveBattleMons();
+
     if (gBattleTypeFlags & BATTLE_TYPE_DOUBLE)
     {
         for (i = (firstId); i < lastId; i++)
@@ -3018,6 +3127,11 @@ struct MostSuitableCandidate GetMostSuitableMonToSwitchInto(enum BattlerId battl
                 bestCandidate.score = highestSwitchScore;
             }
         }
+
+        // Restore battler data
+        FreeRestoreAiLogicData(savedAiLogicData);
+        FreeRestoreBattleMons(savedBattleMons);
+        SetBattlerAiData(battler, gAiLogicData);
 
         return bestCandidate;
     }
@@ -3056,6 +3170,10 @@ struct MostSuitableCandidate GetMostSuitableMonToSwitchInto(enum BattlerId battl
 
     if(currentMonArray[0] >= 12){
         bestCandidate.mon = consideredMonArray[Random() % numberOfBestMons];
+        // Restore battler data
+        FreeRestoreAiLogicData(savedAiLogicData);
+        FreeRestoreBattleMons(savedBattleMons);
+        SetBattlerAiData(battler, gAiLogicData);
         return bestCandidate;
     } else if (currentMonArray[0] >= 1){
         //finds mon with highest damage roll on player
@@ -3079,9 +3197,18 @@ struct MostSuitableCandidate GetMostSuitableMonToSwitchInto(enum BattlerId battl
         }
 
         bestCandidate.mon = consideredMonArray[bestMon];
+
+        // Restore battler data
+        FreeRestoreAiLogicData(savedAiLogicData);
+        FreeRestoreBattleMons(savedBattleMons);
+        SetBattlerAiData(battler, gAiLogicData);
         return bestCandidate;
     } else {
         bestCandidate.mon = consideredMonArray[0];
+        // Restore battler data
+        FreeRestoreAiLogicData(savedAiLogicData);
+        FreeRestoreBattleMons(savedBattleMons);
+        SetBattlerAiData(battler, gAiLogicData);
         return bestCandidate;
     }
 }

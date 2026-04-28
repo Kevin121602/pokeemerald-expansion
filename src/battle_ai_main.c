@@ -384,8 +384,8 @@ void ComputeBattlerDecisions(enum BattlerId battler)
         if (isAiBattler)
         {
             gAiLogicData->mostSuitableMonId[battler] = PARTY_SIZE;
-            //if (ShouldSwitch(battler))
-            //    gAiLogicData->shouldSwitch |= (1u << battler);
+            if (ShouldSwitch(battler))
+                gAiLogicData->shouldSwitch |= (1u << battler);
             gBattleStruct->prevTurnSpecies[battler] = gBattleMons[battler].species;
         }
 

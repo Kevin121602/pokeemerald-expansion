@@ -17576,7 +17576,7 @@
             },
             {
 #line 6891
-            .species = SPECIES_OINKOLOGNE_F,
+            .species = SPECIES_OINKOLOGNE_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6891
             .heldItem = ITEM_CHOPLE_BERRY,
@@ -19104,8 +19104,8 @@
             .moves = {
 #line 7484
                 MOVE_FUTURE_SIGHT,
-                MOVE_HYPER_VOICE,
                 MOVE_MEGAHORN,
+                MOVE_EARTH_POWER,
                 MOVE_THUNDER_WAVE,
             },
             },
