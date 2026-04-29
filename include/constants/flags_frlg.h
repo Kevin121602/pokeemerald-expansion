@@ -2440,7 +2440,7 @@
 #define FLAG_ITEM_ROUTE_103_PP_UP                                   0
 #define FLAG_UNUSED_0x472                                           0 // Unused Flag
 #define FLAG_ITEM_ROUTE_108_STAR_PIECE                              0
-#define FLAG_ITEM_ROUTE_109_POTION                                  0
+#define FLAG_ITEM_ROUTE_109_ABILITY_SHIELD                                  0
 #define FLAG_ITEM_ROUTE_110_ELIXIR                                  0
 #define FLAG_ITEM_ROUTE_111_ELIXIR                                  0
 #define FLAG_ITEM_ROUTE_113_HYPER_POTION                            0
