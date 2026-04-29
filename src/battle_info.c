@@ -184,6 +184,7 @@ static const struct VolatileIndex sVolatileStatusListItems[] =
     {_("LaserFocus"),        VOLATILE_LASER_FOCUS},
     {_("PowerTrick"),        VOLATILE_POWER_TRICK},
     {_("Wrapped"),           VOLATILE_WRAPPED},
+    {_("Boosted"),           VOLATILE_BOOSTER_ENERGY_ACTIVATED},
 };
 
 static const struct OamData sOamData_StatusCondition =
@@ -1267,34 +1268,6 @@ static void PrintOnBattlerStatsWindow(u8 windowId, u8 taskId)
             volatileOffset++;
     }*/
 
-    //changed to volatile, but keep stat logic
-    /*if(gDisableStructs[data->battlerId].boosterEnergyActivated 
-        || (gBattleMons[data->battlerId].ability == ABILITY_PROTOSYNTHESIS && (gBattleWeather & B_WEATHER_SUN && HasWeatherEffect()))
-        || (gBattleMons[data->battlerId].ability == ABILITY_QUARK_DRIVE && gFieldStatuses & STATUS_FIELD_ELECTRIC_TERRAIN)){
-        switch(GetParadoxBoostedStatId(data->battlerId)){
-            case STAT_ATK:
-                AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_BoostAtk, 100, 64 + volatileOffset * 15, 0, NULL);
-                volatileOffset++; 
-                break;
-            case STAT_DEF:
-                AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_BoostDef, 100, 64 + volatileOffset * 15, 0, NULL);
-                volatileOffset++; 
-                break;
-            case STAT_SPATK:
-                AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_BoostSpAtk, 100, 64 + volatileOffset * 15, 0, NULL);
-                volatileOffset++; 
-                break;
-            case STAT_SPDEF:
-                AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_BoostSpDef, 100, 64 + volatileOffset * 15, 0, NULL);
-                volatileOffset++; 
-                break;
-            case STAT_SPEED:
-                AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_BoostSpeed, 100, 64 + volatileOffset * 15, 0, NULL);
-                volatileOffset++; 
-                break;
-        }
-    }*/
-
     if(gSideStatuses[GetBattlerSide(data->battlerId)] & SIDE_STATUS_SAFEGUARD && volatileOffset < 4){
         AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_Safeguard, 100, 64 + volatileOffset * 15, 0, NULL);
             txtPtr = ConvertIntToDecimalStringN(text, gSideTimers[GetBattlerSide(data->battlerId)].safeguardTimer, STR_CONV_MODE_LEFT_ALIGN, 1);
@@ -1471,6 +1444,33 @@ static void PrintOnBattlerStatsWindow(u8 windowId, u8 taskId)
                 AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, text, 153, 64 + volatileOffset * 15, 0, NULL);
             } 
             volatileOffset++;
+
+            if(sVolatileStatusListItems[k].id == VOLATILE_BOOSTER_ENERGY_ACTIVATED){
+                switch(GetParadoxBoostedStatId(data->battlerId)){
+                case STAT_ATK:
+                    AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_BoostAtk, 100, 64 + volatileOffset * 15, 0, NULL);
+                    volatileOffset++; 
+                    break;
+                case STAT_DEF:
+                    AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_BoostDef, 100, 64 + volatileOffset * 15, 0, NULL);
+                    volatileOffset++; 
+                    break;
+                case STAT_SPATK:
+                    AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_BoostSpAtk, 100, 64 + volatileOffset * 15, 0, NULL);
+                    volatileOffset++; 
+                    break;
+                case STAT_SPDEF:
+                    AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_BoostSpDef, 100, 64 + volatileOffset * 15, 0, NULL);
+                    volatileOffset++; 
+                    break;
+                case STAT_SPEED:
+                    AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_BoostSpeed, 100, 64 + volatileOffset * 15, 0, NULL);
+                    volatileOffset++; 
+                    break;
+                default:
+                    break;
+                }
+            }
         }
     }
 
