@@ -2831,8 +2831,8 @@ Ability: Water Absorb
 Level: 27
 - Poison Jab
 - Stomping Tantrum
+- Megahorn
 - Recover
-- Toxic
 
 Spinda @ Chople Berry
 Nature: Naive
@@ -2879,8 +2879,8 @@ Nature: Jolly
 Ability: Defiant
 Level: 27
 - Body Slam
+- Iron Tail
 - Stomping Tantrum
-- Feint Attack
 - Hypnosis
 
 Illumise @ Leftovers
@@ -3584,7 +3584,7 @@ Gumshoos @ Custap Berry
 Nature: Jolly
 Ability: Strong Jaw
 Level: 31
-- Body Slam
+- Hyper Fang
 - Crunch
 - Fire Fang
 - Endeavor
@@ -6577,13 +6577,12 @@ Ability: Speed Boost
 
 Aggron @ Leftovers
 Level: 43
-Nature: Sassy
+Nature: Jolly
 Ability: Sturdy
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
 - Stone Edge
 - Heavy Slam
 - Stomping Tantrum
-- Metal Burst
+- Autotomize
 
 Machamp @ Lum Berry
 Level: 44

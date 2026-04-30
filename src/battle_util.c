@@ -10593,6 +10593,40 @@ bool32 CanMoveSkipAccuracyCalc(enum BattlerId battlerAtk, enum BattlerId battler
     return effect;
 }
 
+static u32 GetDewfordGymTrainersDefeated(){
+    u32 trainersDefeated = 0;
+
+    if(HasTrainerBeenFought(VarGet(TRAINER_LAURA))){
+        trainersDefeated++;
+    } else {
+        return trainersDefeated;
+    }
+
+    if(HasTrainerBeenFought(VarGet(TRAINER_TAKAO))){
+        trainersDefeated++;
+    } else {
+        return trainersDefeated;
+    }
+
+    if(HasTrainerBeenFought(VarGet(TRAINER_LILITH))){
+        trainersDefeated++;
+    } else {
+        return trainersDefeated;
+    }
+
+    if(HasTrainerBeenFought(VarGet(TRAINER_CRISTIAN))){
+        trainersDefeated++;
+    } else {
+        return trainersDefeated;
+    }
+
+    if(HasTrainerBeenFought(VarGet(TRAINER_JOCELYN))){
+        trainersDefeated++;
+    }
+
+    return trainersDefeated;
+}
+
 u32 GetTotalAccuracy(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum Move move, enum Ability atkAbility, enum Ability defAbility, enum HoldEffect atkHoldEffect, enum HoldEffect defHoldEffect)
 {
     u32 calc, moveAcc;
@@ -10725,6 +10759,15 @@ u32 GetTotalAccuracy(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum 
     if (HasWeatherEffect() && gBattleWeather & B_WEATHER_FOG)
         calc = (calc * 60) / 100; // modified by 3/5
 
+    if (gFieldStatuses & STATUS_FIELD_DARKNESS && atkAbility != ABILITY_KEEN_EYE && atkAbility != ABILITY_ILLUMINATE
+        && atkAbility != ABILITY_INFILTRATOR){
+        
+        u32 trainersDefeated = GetDewfordGymTrainersDefeated();
+        u32 darknessModifier = 70 + (trainersDefeated * 5);
+        calc = (calc * darknessModifier) / 100;
+    }
+
+    //evens out hypnosis accuracy to 100%
     if (gBattleMons[battlerAtk].species == SPECIES_HYPNO && move == MOVE_HYPNOSIS)
         calc = (calc * 143) / 100;
 
