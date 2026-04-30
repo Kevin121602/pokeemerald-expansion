@@ -203,6 +203,9 @@ static const struct VolatileIndex sVolatileStatusListItems[] =
     {_("FlashFire"),        VOLATILE_FLASH_FIRE_BOOSTED},
     {_("Unburden"),         VOLATILE_UNBURDEN_ACTIVE},
     {_("Protect"),          VOLATILE_PROTECT_USES},
+    {_("SpeedSwap"),        VOLATILE_SPEED_SWAP},
+    {_("GuardSplit"),         VOLATILE_GUARD_SPLIT},
+    {_("PowerSplit"),          VOLATILE_POWER_SPLIT},
 };
 
 static const struct OamData sOamData_StatusCondition =
@@ -552,10 +555,6 @@ static const u8 sText_Accuracy[] =  _("Accuracy");
 static const u8 sText_None2[] =     _("None");
 static const u8 sText_X[] =         _("{BIG_MULT_X}");
 static const u8 sText_NextMon[] =   _("{A_BUTTON} Next Mon");
-
-static const u8 sText_SpeedSwap[] = _("SpeedSwap");
-static const u8 sText_GuardSplit[] = _("GuardSplit");
-static const u8 sText_PowerSplit[] = _("PowerSplit");
 
 static const u8 sText_BoostAtk[] =   _("Atk Boost");
 static const u8 sText_BoostDef[] =   _("Def Boost");
@@ -1254,21 +1253,6 @@ static void PrintOnBattlerStatsWindow(u8 windowId, u8 taskId)
                 AddTextPrinterParameterized(windowId, FONT_SMALL, sText_X, 15, 64 + j * 15, 0, NULL);
         }
     }
-
-    /*if(gDisableStructs[data->battlerId].speedSwap){
-            AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_SpeedSwap, 100, 64 + volatileOffset * 15, 0, NULL);
-            volatileOffset++;
-    }
-
-    if(gDisableStructs[data->battlerId].guardSplit){
-            AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_GuardSplit, 100, 64 + volatileOffset * 15, 0, NULL);
-            volatileOffset++;
-    }
-
-    if(gDisableStructs[data->battlerId].powerSplit){
-            AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_PowerSplit, 100, 64 + volatileOffset * 15, 0, NULL);
-            volatileOffset++;
-    }*/
 
     if(gSideStatuses[GetBattlerSide(data->battlerId)] & SIDE_STATUS_SAFEGUARD && volatileOffset < 4){
         AddTextPrinterParameterized(windowId, FONT_SMALL_NARROW, sText_Safeguard, 100, 64 + volatileOffset * 15, 0, NULL);

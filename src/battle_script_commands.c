@@ -11466,15 +11466,15 @@ static void Cmd_averagestats(void)
 {
     CMD_ARGS(u8 stat);
 
-    /*if(cmd->stat == STAT_ATK){
-        gDisableStructs[gBattlerAttacker].powerSplit = TRUE;
-        gDisableStructs[gBattlerTarget].powerSplit = TRUE;
+    if(cmd->stat == STAT_ATK){
+        gBattleMons[gBattlerAttacker].volatiles.powerSplit = TRUE;
+        gBattleMons[gBattlerTarget].volatiles.powerSplit = TRUE;
     }
 
     if(cmd->stat == STAT_DEF){
-        gDisableStructs[gBattlerAttacker].guardSplit = TRUE;
-        gDisableStructs[gBattlerTarget].guardSplit = TRUE;
-    }*/
+        gBattleMons[gBattlerAttacker].volatiles.guardSplit = TRUE;
+        gBattleMons[gBattlerTarget].volatiles.guardSplit = TRUE;
+    }
 
     u16 *stat1 = GetBattlerStat(&gBattleMons[gBattlerAttacker], cmd->stat);
     u16 *stat2 = GetBattlerStat(&gBattleMons[gBattlerTarget], cmd->stat);
@@ -13009,14 +13009,14 @@ void BS_SwapStats(void)
         SWAP(gBattleMons[gBattlerAttacker].defense, gBattleMons[gBattlerTarget].defense, temp);
         break;
     case STAT_SPEED:
-        /*if(!gDisableStructs[gBattlerAttacker].speedSwap){
-            gDisableStructs[gBattlerAttacker].originalSpeed = gBattleMons[gBattlerAttacker].speed;
-            gDisableStructs[gBattlerAttacker].speedSwap = TRUE;
+        if(!gBattleMons[gBattlerAttacker].volatiles.speedSwap){
+            gBattleMons[gBattlerAttacker].volatiles.originalSpeed = gBattleMons[gBattlerAttacker].speed;
+            gBattleMons[gBattlerAttacker].volatiles.speedSwap = TRUE;
         }
-        if(!gDisableStructs[gBattlerTarget].speedSwap){
-            gDisableStructs[gBattlerTarget].originalSpeed = gBattleMons[gBattlerTarget].speed;
-            gDisableStructs[gBattlerTarget].speedSwap = TRUE;
-        }*/
+        if(!gBattleMons[gBattlerTarget].volatiles.speedSwap){
+            gBattleMons[gBattlerTarget].volatiles.originalSpeed = gBattleMons[gBattlerTarget].speed;
+            gBattleMons[gBattlerTarget].volatiles.speedSwap = TRUE;
+        }
         SWAP(gBattleMons[gBattlerAttacker].speed, gBattleMons[gBattlerTarget].speed, temp);
         break;
     case STAT_SPATK:

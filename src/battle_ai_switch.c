@@ -1006,17 +1006,17 @@ static bool32 MonHasRelevantStatsRaised(enum BattlerId battler)
         anyStatIsRaised = TRUE;
 
     //if ai has used speed swap, gained speed from it, and is faster than player while being slower without it
-    /*if(gDisableStructs[battler].speedSwap && gBattleMons[battler].speed > gDisableStructs[battler].originalSpeed
+    if(gBattleMons[battler].volatiles.speedSwap && gBattleMons[battler].speed > gBattleMons[battler].volatiles. originalSpeed
         && battlerSpeed >= playerSpeed){
-            if(gDisableStructs[opposingBattler].speedSwap){
-                if(gDisableStructs[battler].originalSpeed < gDisableStructs[opposingBattler].originalSpeed)
+            if(gBattleMons[opposingBattler].volatiles.speedSwap){
+                if(gBattleMons[battler].volatiles. originalSpeed < gBattleMons[opposingBattler].volatiles. originalSpeed)
                     return TRUE;
             }
             else{
-                if(gDisableStructs[battler].originalSpeed < playerSpeed)
+                if(gBattleMons[battler].volatiles.originalSpeed < playerSpeed)
                     return TRUE;
             }
-    }*/
+    }
 
     if(!anyStatIsRaised)
         return FALSE;
