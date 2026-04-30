@@ -7093,6 +7093,21 @@ static bool32 DefogClearHazards(u32 saveBattler, enum BattleSide side, bool32 cl
     return FALSE;
 }
 
+static bool32 TryFlashClear(bool32 clear)
+{
+    if (gFieldStatuses & STATUS_FIELD_DARKNESS)
+        {
+            if (clear)
+            {
+                gFieldStatuses &= ~STATUS_FIELD_DARKNESS;
+                BattleScriptCall(BattleScript_DarknessEnded_Ret);
+            }
+            return TRUE;
+        }
+
+    return FALSE;
+}
+
 static bool32 TryDefogClear(enum BattlerId battlerAtk, bool32 clear)
 {
     s32 i;
@@ -12451,6 +12466,26 @@ void BS_TryHealPulse(void)
 
         SetHealAmount(gBattlerTarget, healAmount);
         gBattlescriptCurrInstr = cmd->nextInstr;
+    }
+}
+
+void BS_TryFlash(void)
+{
+    NATIVE_ARGS(u8 clear, const u8 *failInstr);
+
+    if (cmd->clear)
+    {
+        if (TryFlashClear(TRUE))
+            return;
+        else
+            gBattlescriptCurrInstr = cmd->nextInstr;
+    }
+    else
+    {
+        if (TryFlashClear(FALSE))
+            gBattlescriptCurrInstr = cmd->nextInstr;
+        else
+            gBattlescriptCurrInstr = cmd->failInstr;
     }
 }
 

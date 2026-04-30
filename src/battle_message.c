@@ -881,6 +881,7 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_ZENMODETRIGGERED]                     = COMPOUND_STRING("{B_SCR_ABILITY} triggered!"),
     [STRINGID_ZENMODEENDED]                         = COMPOUND_STRING("{B_SCR_ABILITY} ended!"),
     [STRINGID_PERMEATINGDARKNESS]                   = COMPOUND_STRING("The battlefield is enveloped in a permeating darkness!"), 
+    [STRINGID_DARKNESSLIFTED]                       = COMPOUND_STRING("The darkness was lifted."),
 };
 
 const u16 gTrainerUsedItemStringIds[] =

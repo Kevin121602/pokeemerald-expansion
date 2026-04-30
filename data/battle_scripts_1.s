@@ -4441,6 +4441,11 @@ BattleScript_FogEnded_Ret::
 	call BattleScript_ActivateWeatherAbilities
 	return
 
+BattleScript_DarknessEnded_Ret::
+	printstring STRINGID_DARKNESSLIFTED
+	waitmessage B_WAIT_TIME_LONG
+	return
+
 BattleScript_IceBodyHeal::
 	call BattleScript_AbilityPopUp
 	playanimation BS_ATTACKER, B_ANIM_SIMPLE_HEAL
@@ -8320,4 +8325,33 @@ BattleScript_SilphScopeUnveiled::
 
 BattleScript_EffectFlash::
 	setstatchanger STAT_ACC, 1, TRUE
-	goto BattleScript_EffectStatDown
+	attackcanceler
+	jumpifstat BS_TARGET, CMP_NOT_EQUAL, STAT_ACC, MIN_STAT_STAGE, BattleScript_FlashWorks
+BattleScript_FlashIfCanClearDarkness:
+	tryflash FALSE, BattleScript_ButItFailed
+BattleScript_FlashWorks:
+	accuracycheck BattleScript_MoveMissedPause
+	statbuffchange BS_TARGET, STAT_CHANGE_ALLOW_PTR | STAT_CHANGE_ONLY_CHECKING, BattleScript_FlashTryDarknessWithAnim
+	jumpifbyte CMP_LESS_THAN, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_CHANGE, BattleScript_FlashDoAnim
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_CHANGE_EMPTY, BattleScript_FlashTryDarknessWithAnim
+	pause B_WAIT_TIME_SHORT
+	setmoveresultflags MOVE_RESULT_MISSED @ TODO: Is this even necessary?
+	goto BattleScript_FlashPrintString
+BattleScript_FlashDoAnim::
+	attackanimation
+	waitanimation
+	call BattleScript_SwapFromSubstitute
+	statbuffchange BS_TARGET, STAT_CHANGE_ALLOW_PTR, BattleScript_FlashTryDarkness
+	call BattleScript_SwapToSubstitute
+BattleScript_FlashPrintString::
+	printfromtable gStatDownStringIds
+	waitmessage B_WAIT_TIME_LONG
+BattleScript_FlashTryDarkness:
+	copybyte gEffectBattler, gBattlerAttacker
+	tryflash TRUE, NULL
+	copybyte gBattlerAttacker, gEffectBattler
+	goto BattleScript_MoveEnd
+BattleScript_FlashTryDarknessWithAnim:
+	attackanimation
+	waitanimation
+	goto BattleScript_FlashTryDarkness

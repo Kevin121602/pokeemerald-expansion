@@ -1448,6 +1448,12 @@
 	.4byte \failInstr
 	.endm
 
+	.macro tryflash clear:req, failInstr:req
+	callnative BS_TryFlash
+	.byte \clear
+	.4byte \failInstr
+	.endm
+
 	.macro trytriggerstatusform
 	callnative BS_TryTriggerStatusForm
 	.endm
