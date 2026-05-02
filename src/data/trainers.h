@@ -1284,7 +1284,7 @@
 #line 566
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 565
-            .ability = ABILITY_POISON_TOUCH,
+            .ability = ABILITY_POISON_POINT,
 #line 563
             .lvl = 14,
             .ball = POKEBALL_COUNT,
@@ -2267,7 +2267,7 @@
 #line 942
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 941
-            .ability = ABILITY_SHELL_ARMOR,
+            .ability = ABILITY_BATTLE_ARMOR,
 #line 939
             .lvl = 16,
             .ball = POKEBALL_COUNT,

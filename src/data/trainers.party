@@ -562,7 +562,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Skrelp @ Lum Berry
 Level: 14
 Nature: Sassy
-Ability: Poison Touch
+Ability: Poison Point
 -Bubble Beam
 -Acid
 -Dragon Tail
@@ -938,7 +938,7 @@ Ability: Sturdy
 Kabuto @ Scope Lens
 Level: 16
 Nature: Jolly
-Ability: Shell Armor
+Ability: Battle Armor
 - Rock Tomb
 - Aqua Jet
 - Leech Life
@@ -2582,7 +2582,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
 
 Absol @ Leftovers
 Nature: Jolly
-Ability: Pressure
+Ability: Justified
 Level: 25
 - Pursuit
 - Psycho Cut
@@ -3657,7 +3657,7 @@ Level: 30
 
 Pidgeot @ Wacan Berry
 Nature: Naive
-Ability: Keen Eye
+Ability: Big Pecks
 IVs: 30 HP / 30 Atk / 31 Def / 30 SpA / 30 SpD / 30 Spe
 Level: 31
 - Return

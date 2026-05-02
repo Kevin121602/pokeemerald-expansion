@@ -12,8 +12,6 @@ RusturfTunnel_MapScripts::
 	.byte 0
 
 RusturfTunnel_OnFrame:
-	map_script_2 VAR_RUSTURF_TUNNEL_STATE, 4, RusturfTunnel_EventScript_ClearTunnelScene
-	map_script_2 VAR_RUSTURF_TUNNEL_STATE, 5, RusturfTunnel_EventScript_ClearTunnelScene
 	.2byte 0
 
 RusturfTunnel_OnTransition:
@@ -81,67 +79,33 @@ RusturfTunnel_EventScript_ClearTunnelScene::
 	end
 
 RusturfTunnel_EventScript_BoyfriendApproachWanda1::
-	applymovement OBJ_EVENT_ID_PLAYER, RusturfTunnel_Movement_PlayerWatchBoyfriend1
-	applymovement LOCALID_WANDAS_BF, RusturfTunnel_Movement_BoyfriendApproachWanda1
-	waitmovement 0
 	return
 
 RusturfTunnel_EventScript_BoyfriendApproachWanda2::
-	applymovement OBJ_EVENT_ID_PLAYER, RusturfTunnel_Movement_PlayerWatchBoyfriend
-	applymovement LOCALID_WANDAS_BF, RusturfTunnel_Movement_BoyfriendApproachWanda
-	waitmovement 0
-	applymovement LOCALID_WANDA, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
 	return
 
 RusturfTunnel_EventScript_BoyfriendApproachWanda3::
-	applymovement OBJ_EVENT_ID_PLAYER, RusturfTunnel_Movement_PlayerWatchBoyfriend
-	applymovement LOCALID_WANDAS_BF, RusturfTunnel_Movement_BoyfriendApproachWanda
-	waitmovement 0
-	applymovement LOCALID_WANDA, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
 	return
 
 RusturfTunnel_EventScript_FaceWandasBoyfriend1::
-	applymovement LOCALID_WANDAS_BF, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
 	return
 
 RusturfTunnel_EventScript_FaceWandasBoyfriend2::
-	applymovement LOCALID_WANDAS_BF, RusturfTunnel_Movement_BoyfriendFaceRight
-	waitmovement 0
 	return
 
 RusturfTunnel_EventScript_FaceWandasBoyfriend3::
 	return
 
 RusturfTunnel_EventScript_WandasBoyfriendApproachPlayer::
-	closemessage
-	applymovement LOCALID_WANDAS_BF, RusturfTunnel_Movement_WandasBoyfriendApproachPlayer
-	waitmovement 0
 	return
 
 RusturfTunnel_EventScript_WandaAndBoyfriendExit1::
-	applymovement LOCALID_WANDA, RusturfTunnel_Movement_WandaExit1
-	applymovement LOCALID_WANDAS_BF, RusturfTunnel_Movement_WandasBoyfriendExit1
-	waitmovement 0
 	return
 
 RusturfTunnel_EventScript_WandaAndBoyfriendExit::
-	applymovement OBJ_EVENT_ID_PLAYER, RusturfTunnel_Movement_PlayerWatchWandaExit
-	applymovement LOCALID_WANDA, RusturfTunnel_Movement_WandaExit
-	applymovement LOCALID_WANDAS_BF, RusturfTunnel_Movement_WandasBoyfriendExit
-	waitmovement 0
 	return
 
 RusturfTunnel_EventScript_WandasBoyfriendNotice::
-	playse SE_PIN
-	applymovement LOCALID_WANDAS_BF, Common_Movement_ExclamationMark
-	waitmovement 0
-	applymovement LOCALID_WANDAS_BF, Common_Movement_Delay48
-	waitmovement 0
 	return
 
 RusturfTunnel_Movement_WandaExit1:

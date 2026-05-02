@@ -1141,9 +1141,9 @@ RustboroCity_Text_GymLeaderIsntEasyWithFire:
 
 RustboroCity_Text_MrBrineyWalksInTheTunnel:
 	.string "The old sailor Mr. Briney lives in\n"
-	.string "a cottage by the sea.\p"
-	.string "He goes for walks in the tunnel every\n"
-	.string "so often.$"
+	.string "a cottage in Dewford.\p"
+	.string "He visits and for walks in the tunnel\n"
+	.string "every so often.$"
 
 RustboroCity_Text_MrBrineyLovesPeeko:
 	.string "The old sailor Mr. Briney lives in\n"
