@@ -2051,7 +2051,7 @@
 #line 861
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 860
-            .ability = ABILITY_SAND_RUSH,
+            .ability = ABILITY_ROUGH_SKIN,
 #line 858
             .lvl = 14,
             .ball = POKEBALL_COUNT,
@@ -9898,7 +9898,7 @@
 #line 3873
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 3871
-            .ability = ABILITY_SLUSH_RUSH,
+            .ability = ABILITY_ROUGH_SKIN,
 #line 3872
             .lvl = 32,
             .ball = POKEBALL_COUNT,
@@ -10306,7 +10306,7 @@
 #line 4039
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4037
-            .ability = ABILITY_SAND_RUSH,
+            .ability = ABILITY_ROUGH_SKIN,
 #line 4038
             .lvl = 32,
             .ball = POKEBALL_COUNT,

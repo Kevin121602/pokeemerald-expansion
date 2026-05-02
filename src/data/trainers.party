@@ -857,7 +857,7 @@ Ability: Defeatist
 Sandshrew @ Focus Sash
 Level: 14
 Nature: Jolly
-Ability: Sand Rush
+Ability: Rough Skin
 - Bulldoze
 - Night Slash
 - Aerial Ace
@@ -3868,7 +3868,7 @@ Level: 31
 
 Sandslash-Alola @ Lum Berry
 Nature: Jolly
-Ability: Slush Rush
+Ability: Rough Skin
 Level: 32
 - Iron Head
 - Ice Punch
@@ -4034,7 +4034,7 @@ Level: 32
 
 Sandslash @ Loaded Dice
 Nature: Adamant
-Ability: Sand Rush
+Ability: Rough Skin
 Level: 32
 - Drill Run
 - Pin Missile

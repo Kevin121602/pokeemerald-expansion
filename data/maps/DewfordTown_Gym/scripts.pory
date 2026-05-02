@@ -113,31 +113,30 @@ DewfordTown_Gym_EventScript_AnimateFlashFullBrightness::
 
 DewfordTown_Gym_EventScript_CountTrainersDefeated::
 	setvar VAR_0x8000, 0
-	goto_if_not_defeated TRAINER_TAKAO, DewfordTown_Gym_EventScript_CheckJocelyn
+	goto_if_not_defeated TRAINER_LAURA, DewfordTown_Gym_EventScript_CheckTakao
 	addvar VAR_0x8000, 1
-DewfordTown_Gym_EventScript_CheckJocelyn::
-	goto_if_not_defeated TRAINER_JOCELYN, DewfordTown_Gym_EventScript_CheckLaura
-	addvar VAR_0x8000, 1
-DewfordTown_Gym_EventScript_CheckLaura::
-	goto_if_not_defeated TRAINER_LAURA, DewfordTown_Gym_EventScript_CheckBrenden
-	addvar VAR_0x8000, 1
-DewfordTown_Gym_EventScript_CheckBrenden::
-	goto_if_not_defeated TRAINER_BRENDEN, DewfordTown_Gym_EventScript_CheckCristian
-	addvar VAR_0x8000, 1
-DewfordTown_Gym_EventScript_CheckCristian::
-	goto_if_not_defeated TRAINER_CRISTIAN, DewfordTown_Gym_EventScript_CheckLilith
+DewfordTown_Gym_EventScript_CheckTakao::
+	goto_if_not_defeated TRAINER_TAKAO, DewfordTown_Gym_EventScript_CheckLilith
 	addvar VAR_0x8000, 1
 DewfordTown_Gym_EventScript_CheckLilith::
-	goto_if_not_defeated TRAINER_LILITH, DewfordTown_Gym_EventScript_StopCountingTrainers
+	goto_if_not_defeated TRAINER_LILITH, DewfordTown_Gym_EventScript_CheckCristian
+	addvar VAR_0x8000, 1
+DewfordTown_Gym_EventScript_CheckCristian::
+	goto_if_not_defeated TRAINER_CRISTIAN, DewfordTown_Gym_EventScript_CheckJocelyn
+	addvar VAR_0x8000, 1
+DewfordTown_Gym_EventScript_CheckJocelyn::
+	goto_if_not_defeated TRAINER_JOCELYN, DewfordTown_Gym_EventScript_StopCountingTrainers
 	addvar VAR_0x8000, 1
 DewfordTown_Gym_EventScript_StopCountingTrainers::
 	return
 
 DewfordTown_Gym_EventScript_Brawly::
+	setflag FLAG_DISABLE_EXP
 	trainerbattle_single TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, DewfordTown_Gym_EventScript_BrawlyRematch
 	goto_if_unset FLAG_RECEIVED_TM_BULK_UP, DewfordTown_Gym_EventScript_GiveBulkUp2
+	clearflag FLAG_DISABLE_EXP
 	msgbox DewfordTown_Gym_Text_BrawlyPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -149,6 +148,7 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_DEWFORD_GYM
+	clearflag FLAG_DISABLE_EXP
 	setflag FLAG_BADGE02_GET
 	setvar VAR_0x8008, 2
 	call Common_EventScript_SetGymTrainers
