@@ -6563,7 +6563,7 @@
 #line 2587
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 2585
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_JUSTIFIED,
 #line 2586
             .lvl = 25,
             .ball = POKEBALL_COUNT,
@@ -9348,7 +9348,7 @@
 #line 3661
             .iv = TRAINER_PARTY_IVS(30, 30, 31, 30, 30, 30),
 #line 3660
-            .ability = ABILITY_KEEN_EYE,
+            .ability = ABILITY_BIG_PECKS,
 #line 3662
             .lvl = 31,
             .ball = POKEBALL_COUNT,
