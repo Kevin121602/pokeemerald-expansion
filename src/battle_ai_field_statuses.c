@@ -520,16 +520,7 @@ s32 CalcWeatherScore(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum 
         {
             score += DECENT_EFFECT;
 
-            if (HasBattlerSideMoveWithEffect(battlerAtk, EFFECT_WEATHER_BALL))
-                score += WEAK_EFFECT;
             if (aiData->holdEffects[battlerAtk] == HOLD_EFFECT_DAMP_ROCK)
-                score += WEAK_EFFECT;
-            if (HasBattlerSideMoveWithEffect(battlerDef, EFFECT_MORNING_SUN)
-             || HasBattlerSideMoveWithEffect(battlerDef, EFFECT_SYNTHESIS)
-             || HasBattlerSideMoveWithEffect(battlerDef, EFFECT_SOLAR_BEAM)
-             || HasBattlerSideMoveWithEffect(battlerDef, EFFECT_MOONLIGHT))
-                score += WEAK_EFFECT;
-            if (HasDamagingMoveOfType(battlerDef, TYPE_FIRE) || HasDamagingMoveOfType(BATTLE_PARTNER(battlerDef), TYPE_FIRE))
                 score += WEAK_EFFECT;
         }
         break;
@@ -538,13 +529,7 @@ s32 CalcWeatherScore(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum 
         {
             score += DECENT_EFFECT;
 
-            if (HasBattlerSideMoveWithEffect(battlerAtk, EFFECT_WEATHER_BALL))
-                score += WEAK_EFFECT;
             if (aiData->holdEffects[battlerAtk] == HOLD_EFFECT_HEAT_ROCK)
-                score += WEAK_EFFECT;
-            if (HasDamagingMoveOfType(battlerDef, TYPE_WATER) || HasDamagingMoveOfType(BATTLE_PARTNER(battlerDef), TYPE_WATER))
-                score += WEAK_EFFECT;
-            if (HasMoveWithFlag(battlerDef, MoveHas50AccuracyInSun) || HasMoveWithFlag(BATTLE_PARTNER(battlerDef), MoveHas50AccuracyInSun))
                 score += WEAK_EFFECT;
         }
         break;
@@ -553,13 +538,7 @@ s32 CalcWeatherScore(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum 
         {
             score += DECENT_EFFECT;
 
-            if (HasBattlerSideMoveWithEffect(battlerAtk, EFFECT_WEATHER_BALL))
-                score += WEAK_EFFECT;
             if (aiData->holdEffects[battlerAtk] == HOLD_EFFECT_SMOOTH_ROCK)
-                score += WEAK_EFFECT;
-            if (HasMoveWithEffect(battlerDef, EFFECT_MORNING_SUN)
-             || HasMoveWithEffect(battlerDef, EFFECT_SYNTHESIS)
-             || HasMoveWithEffect(battlerDef, EFFECT_MOONLIGHT))
                 score += WEAK_EFFECT;
         }
         break;
@@ -568,15 +547,7 @@ s32 CalcWeatherScore(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum 
         {
             score += DECENT_EFFECT;
 
-            if (HasBattlerSideMoveWithEffect(battlerAtk, EFFECT_AURORA_VEIL) && ShouldSetScreen(battlerAtk, battlerDef, EFFECT_AURORA_VEIL))
-                score += GOOD_EFFECT;
-            if (HasBattlerSideMoveWithEffect(battlerAtk, EFFECT_WEATHER_BALL))
-                score += WEAK_EFFECT;
             if (aiData->holdEffects[battlerAtk] == HOLD_EFFECT_ICY_ROCK)
-                score += WEAK_EFFECT;
-            if (HasMoveWithEffect(battlerDef, EFFECT_MORNING_SUN)
-             || HasMoveWithEffect(battlerDef, EFFECT_SYNTHESIS)
-             || HasMoveWithEffect(battlerDef, EFFECT_MOONLIGHT))
                 score += WEAK_EFFECT;
         }
         break;
@@ -585,15 +556,7 @@ s32 CalcWeatherScore(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum 
         {
             score += DECENT_EFFECT;
 
-            if (HasBattlerSideMoveWithEffect(battlerAtk, EFFECT_AURORA_VEIL) && ShouldSetScreen(battlerAtk, battlerDef, EFFECT_AURORA_VEIL))
-                score += GOOD_EFFECT;
-            if (HasBattlerSideMoveWithEffect(battlerAtk, EFFECT_WEATHER_BALL))
-                score += WEAK_EFFECT;
             if (aiData->holdEffects[battlerAtk] == HOLD_EFFECT_ICY_ROCK)
-                score += WEAK_EFFECT;
-            if (HasMoveWithEffect(battlerDef, EFFECT_MORNING_SUN)
-             || HasMoveWithEffect(battlerDef, EFFECT_SYNTHESIS)
-             || HasMoveWithEffect(battlerDef, EFFECT_MOONLIGHT))
                 score += WEAK_EFFECT;
         }
         break;

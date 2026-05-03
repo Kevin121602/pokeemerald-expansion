@@ -2269,7 +2269,7 @@ bool32 ShouldSetWeather(enum BattlerId battler, u32 weather)
     if (AI_GetWeather() & weather)
         return FALSE;
 
-    return WeatherChecker(battler, weather, FIELD_EFFECT_POSITIVE);
+    return TRUE;
 }
 
 bool32 ShouldClearWeather(enum BattlerId battler, u32 weather)

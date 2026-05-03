@@ -11627,7 +11627,7 @@
 #line 4551
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4550
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_DANCER,
 #line 4548
             .lvl = 36,
             .ball = POKEBALL_COUNT,

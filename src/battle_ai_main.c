@@ -2012,6 +2012,9 @@ static s32 AI_CheckBadMove(enum BattlerId battlerAtk, enum BattlerId battlerDef,
             }
             // fallthrough
         case EFFECT_WEATHER:
+            if(IsAbilityOnField(ABILITY_CLOUD_NINE))
+                ADJUST_SCORE(-10);
+                
             switch (GetMoveWeatherType(move))
             {
             case BATTLE_WEATHER_RAIN:

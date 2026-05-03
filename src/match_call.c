@@ -1086,6 +1086,8 @@ static bool32 MapAllowsMatchCall(void)
 
 static bool32 UpdateMatchCallStepCounter(void)
 {
+    return FALSE;
+    
     if (++sMatchCallState.stepCounter >= 10)
     {
         sMatchCallState.stepCounter = 0;
@@ -1099,6 +1101,8 @@ static bool32 UpdateMatchCallStepCounter(void)
 
 static bool32 SelectMatchCallTrainer(void)
 {
+    return FALSE;
+
     u32 matchCallId;
     u32 numRegistered = GetNumRegisteredTrainers();
     if (numRegistered == 0)
