@@ -183,6 +183,7 @@ DewfordTown_EventScript_SailToPetalburg::
 
 DewfordTown_EventScript_SailToSlateport::
 	call EventScript_BackupMrBrineyLocation
+	setflag FLAG_SYS_GAUNTLET
 	setobjectsubpriority LOCALID_BRINEY_DEWFORD, MAP_DEWFORD_TOWN, 0
 	setobjectsubpriority OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN, 1
 	applymovement LOCALID_BRINEY_DEWFORD, DewfordTown_Movement_BrineyBoardBoat
@@ -726,7 +727,6 @@ DewfordTown_Text_PetalburgWereSettingSail:
 	.string "PEEKO, we're setting sail, my darling!$"
 
 DewfordTown_Text_SlateportWereSettingSail:
-	.string "Mr. Briney: Slateport, is it?\p"
 	.string "Anchors aweigh!\n"
 	.string "Peeko, we're setting sail, my darling!$"
 
@@ -748,7 +748,7 @@ DewfordTown_Text_CanOnlyMakeOneTrip:
 	.string "is ready to sail!\p"
 	.string "Unfortunately, it's on its last legs\n"
 	.string "and can only make one more trip…\p"
-	.string "But fot the man who saved Peeko it's\n"
+	.string "But for the man who saved Peeko it's\n"
 	.string "a trip I'll gladly make!\p"
 	.string "Once we land, you won't be able to use\n"
 	.string "a Pokécenter until you reach Slateport.\p"

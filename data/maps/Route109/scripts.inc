@@ -555,9 +555,9 @@ Route109_EventScript_MrBriney::
 # 278 "data/maps/Route109/scripts.pory"
 	faceplayer
 # 279 "data/maps/Route109/scripts.pory"
-	goto_if_unset FLAG_DELIVERED_DEVON_GOODS, Route109_EventScript_HaveNotDeliveredDevonGood
+	msgbox Route109_Text_BrineySailToDewfordQuestion, MSGBOX_DEFAULT
 # 280 "data/maps/Route109/scripts.pory"
-	goto Route109_EventScript_DeliveredDevonGoods
+	release
 # 281 "data/maps/Route109/scripts.pory"
 	end
 # 282 "data/maps/Route109/scripts.pory"
@@ -959,7 +959,7 @@ Route109_EventScript_Elijah::
 # 480 "data/maps/Route109/scripts.pory"
 DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
 # 481 "data/maps/Route109/scripts.pory"
-	.string "MR. Briney: Ahoy!\n"
+	.string "Mr. Briney: Ahoy!\n"
 # 482 "data/maps/Route109/scripts.pory"
 	.string "We've made land in Slateport!\p"
 # 483 "data/maps/Route109/scripts.pory"

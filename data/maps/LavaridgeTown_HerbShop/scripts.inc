@@ -89,11 +89,11 @@ LavaridgeTown_HerbShop_PokemartWithDuskStone:
 # 45 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.2byte ITEM_DAWN_STONE
 # 46 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
-	.2byte ITEM_DUSK_STONE
-# 47 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.2byte ITEM_SHINY_STONE
-# 48 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
+# 47 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.2byte ITEM_ICE_STONE
+# 48 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
+	.2byte ITEM_DUSK_STONE
 # 49 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.2byte ITEM_NONE
 # 50 "data/maps/LavaridgeTown_HerbShop/scripts.pory"

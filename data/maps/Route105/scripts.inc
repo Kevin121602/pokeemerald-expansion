@@ -129,82 +129,78 @@ Route105_EventScript_Josue::
 # 69 "data/maps/Route105/scripts.pory"
 Route105_EventScript_Andres::
 # 70 "data/maps/Route105/scripts.pory"
-	trainerbattle_single TRAINER_ANDRES_1, Route105_Text_AndresIntro, Route105_Text_AndresDefeated, Route105_EventScript_AndresRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_ANDRES_1, Route105_Text_AndresIntro, Route105_Text_AndresDefeated
 # 71 "data/maps/Route105/scripts.pory"
-	specialvar VAR_RESULT, ShouldTryRematchBattle
+	msgbox Route105_Text_AndresPostBattle, MSGBOX_AUTOCLOSE
 # 72 "data/maps/Route105/scripts.pory"
-	goto_if_eq VAR_RESULT, TRUE, Route105_EventScript_AndresRematch
+	release
 # 73 "data/maps/Route105/scripts.pory"
-	msgbox Route105_Text_AndresPostBattle, MSGBOX_DEFAULT
+	end
 # 74 "data/maps/Route105/scripts.pory"
-	release
+
 # 75 "data/maps/Route105/scripts.pory"
-	end
-# 76 "data/maps/Route105/scripts.pory"
-
-# 77 "data/maps/Route105/scripts.pory"
 Route105_EventScript_AndresRegisterMatchCallAfterBattle::
-# 78 "data/maps/Route105/scripts.pory"
+# 76 "data/maps/Route105/scripts.pory"
 	special PlayerFaceTrainerAfterBattle
-# 79 "data/maps/Route105/scripts.pory"
+# 77 "data/maps/Route105/scripts.pory"
 	waitmovement 0
-# 80 "data/maps/Route105/scripts.pory"
+# 78 "data/maps/Route105/scripts.pory"
 	msgbox Route105_Text_AndresRegister, MSGBOX_DEFAULT
-# 81 "data/maps/Route105/scripts.pory"
+# 79 "data/maps/Route105/scripts.pory"
 	register_matchcall TRAINER_ANDRES_1
-# 82 "data/maps/Route105/scripts.pory"
+# 80 "data/maps/Route105/scripts.pory"
 	release
+# 81 "data/maps/Route105/scripts.pory"
+	end
+# 82 "data/maps/Route105/scripts.pory"
+
 # 83 "data/maps/Route105/scripts.pory"
-	end
-# 84 "data/maps/Route105/scripts.pory"
-
-# 85 "data/maps/Route105/scripts.pory"
 Route105_EventScript_AndresRematch::
-# 86 "data/maps/Route105/scripts.pory"
+# 84 "data/maps/Route105/scripts.pory"
 	trainerbattle_rematch TRAINER_ANDRES_1, Route105_Text_AndresRematchIntro, Route105_Text_AndresRematchDefeated
-# 87 "data/maps/Route105/scripts.pory"
+# 85 "data/maps/Route105/scripts.pory"
 	msgbox Route105_Text_AndresRematchPostBattle, MSGBOX_AUTOCLOSE
-# 88 "data/maps/Route105/scripts.pory"
+# 86 "data/maps/Route105/scripts.pory"
 	end
-# 89 "data/maps/Route105/scripts.pory"
+# 87 "data/maps/Route105/scripts.pory"
 
-# 90 "data/maps/Route105/scripts.pory"
+# 88 "data/maps/Route105/scripts.pory"
 Route104_Text_DadPokenavCall:
-# 91 "data/maps/Route105/scripts.pory"
+# 89 "data/maps/Route105/scripts.pory"
 	.string "… … … … … …\n"
-# 92 "data/maps/Route105/scripts.pory"
+# 90 "data/maps/Route105/scripts.pory"
 	.string "… … … … … Beep!\p"
-# 93 "data/maps/Route105/scripts.pory"
+# 91 "data/maps/Route105/scripts.pory"
 	.string "DAD: Oh, {PLAYER}?\p"
-# 94 "data/maps/Route105/scripts.pory"
+# 92 "data/maps/Route105/scripts.pory"
 	.string "… … … … … …\n"
-# 95 "data/maps/Route105/scripts.pory"
+# 93 "data/maps/Route105/scripts.pory"
 	.string "Where are you now?\l"
-# 96 "data/maps/Route105/scripts.pory"
+# 94 "data/maps/Route105/scripts.pory"
 	.string "It sounds windy wherever you are.\p"
-# 97 "data/maps/Route105/scripts.pory"
+# 95 "data/maps/Route105/scripts.pory"
 	.string "I just heard from DEVON's MR. STONE\n"
-# 98 "data/maps/Route105/scripts.pory"
+# 96 "data/maps/Route105/scripts.pory"
 	.string "about your Pokénav, so I decided\l"
-# 99 "data/maps/Route105/scripts.pory"
+# 97 "data/maps/Route105/scripts.pory"
 	.string "to give you a call.\p"
-# 100 "data/maps/Route105/scripts.pory"
+# 98 "data/maps/Route105/scripts.pory"
 	.string "It sounds like you're doing fine,\n"
-# 101 "data/maps/Route105/scripts.pory"
+# 99 "data/maps/Route105/scripts.pory"
 	.string "so that's fine with me.\p"
-# 102 "data/maps/Route105/scripts.pory"
+# 100 "data/maps/Route105/scripts.pory"
 	.string "You take care now.\p"
-# 103 "data/maps/Route105/scripts.pory"
+# 101 "data/maps/Route105/scripts.pory"
 	.string "… … … … … …\n"
-# 104 "data/maps/Route105/scripts.pory"
+# 102 "data/maps/Route105/scripts.pory"
 	.string "… … … … … Click!$"
-# 105 "data/maps/Route105/scripts.pory"
+# 103 "data/maps/Route105/scripts.pory"
 
-# 106 "data/maps/Route105/scripts.pory"
+# 104 "data/maps/Route105/scripts.pory"
 Route104_Text_RegisteredDadInPokenav:
-# 107 "data/maps/Route105/scripts.pory"
+# 105 "data/maps/Route105/scripts.pory"
 	.string "Registered DAD NORMAN\n"
-# 108 "data/maps/Route105/scripts.pory"
+# 106 "data/maps/Route105/scripts.pory"
 	.string "in the Pokénav.$"
 
 Route105_EventScript_AquaGrunts_Text_0:

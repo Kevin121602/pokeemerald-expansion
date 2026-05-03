@@ -1092,9 +1092,8 @@ EventScript_AfterWhiteOutMomHeal::
 	end
 
 EventScript_ResetMrBriney::
-	goto_if_eq VAR_BRINEY_LOCATION, 1, EventScript_MoveMrBrineyToHouse
-	goto_if_eq VAR_BRINEY_LOCATION, 2, EventScript_MoveMrBrineyToDewford
-	goto_if_eq VAR_BRINEY_LOCATION, 3, EventScript_MoveMrBrineyToRoute109
+	goto_if_eq VAR_BRINEY_LOCATION, 0, EventScript_MoveMrBrineyToHouse
+	goto_if_eq VAR_BRINEY_LOCATION, 1, EventScript_MoveMrBrineyToDewford
 	end
 
 EventScript_MoveMrBrineyToHouse::
@@ -1146,15 +1145,15 @@ Common_EventScript_UpdateBrineyLocation::
 	return
 
 EventScript_SetBrineyLocation_House::
-	setvar VAR_BRINEY_LOCATION, 1
+	setvar VAR_BRINEY_LOCATION, 0
 	return
 
 EventScript_SetBrineyLocation_Dewford::
-	setvar VAR_BRINEY_LOCATION, 2
+	setvar VAR_BRINEY_LOCATION, 1
 	return
 
 EventScript_SetBrineyLocation_Route109::
-	setvar VAR_BRINEY_LOCATION, 3
+	setvar VAR_BRINEY_LOCATION, 1
 	return
 
 	.include "data/scripts/pkmn_center_nurse.inc"
@@ -1191,7 +1190,7 @@ Common_EventScript_BufferTrendyPhrase::
 
 EventScript_BackupMrBrineyLocation::
 	copyvar VAR_0x8008, VAR_BRINEY_LOCATION
-	setvar VAR_BRINEY_LOCATION, 0
+	setvar VAR_BRINEY_LOCATION, 1
 	return
 
 	.include "data/scripts/surf.inc"
@@ -1256,7 +1255,7 @@ EventScript_RegionMap::
 
 Common_EventScript_PlayBrineysBoatMusic::
 	setflag FLAG_DONT_TRANSITION_MUSIC
-	playbgm MUS_SAILING, FALSE
+	playbgm MUS_DP_GTS, FALSE
 	return
 
 Common_EventScript_StopBrineysBoatMusic::

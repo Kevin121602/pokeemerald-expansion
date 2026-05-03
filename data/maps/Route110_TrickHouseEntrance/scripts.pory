@@ -118,21 +118,17 @@ script Route110_TrickHouseEntrance_Apprentice{
 					random(2)
 					switch(var(VAR_RESULT)){
 						case 0:
-							givemon(SPECIES_MURKROW, 20)
+							givemon(SPECIES_MURKROW, 20, , , , , , , , , , , , , , , , , , MOVE_TORMENT, MOVE_ASSURANCE, MOVE_WING_ATTACK, MOVE_OBLIVION_WING)
 							playfanfare(MUS_DP_OBTAIN_ITEM)
 							msgbox(format("{PLAYER} recieved Murkrow!"))
 							waitmessage
 							waitfanfare
 						case 1:
-							givemon(SPECIES_MISDREAVUS, 20)
+							givemon(SPECIES_MISDREAVUS, 20, , , , , , , , , , , , , , , , , , MOVE_ASTONISH, MOVE_CONFUSE_RAY, MOVE_PAIN_SPLIT, MOVE_MOONGEIST_BEAM)
 							playfanfare(MUS_DP_OBTAIN_ITEM)
 							msgbox(format("{PLAYER} recieved Misdreavus!"))
 							waitmessage
 							waitfanfare
-					}
-					msgbox("Give this Pokémon a nickname?", MSGBOX_YESNO)
-					if(var(VAR_RESULT) == YES){
-						call(Common_EventScript_NameReceivedPartyMon)
 					}
 					setflag(FLAG_RECIEVED_TRICK_HOUSE_GIFT_3)
 				}
@@ -151,7 +147,7 @@ script Route110_TrickHouseEntrance_Apprentice{
 			} else {
 				msgbox("The fourth reward is either a Jynx\n"
 					"with Psycho Boost, an Electivire with\p"
-					"Volt Tackle, or a Magmortar with\n"
+					"Plasma Fists, or a Magmortar with\n"
 					"Armor Cannon.\p"
 					"Do you want this reward?$", MSGBOX_YESNO)
 				if(var(VAR_RESULT) == NO){
@@ -178,10 +174,6 @@ script Route110_TrickHouseEntrance_Apprentice{
 							msgbox(format("{PLAYER} recieved Magmortar!"))
 							waitmessage
 							waitfanfare
-					}
-					msgbox("Give this Pokémon a nickname?", MSGBOX_YESNO)
-					if(var(VAR_RESULT) == YES){
-						call(Common_EventScript_NameReceivedPartyMon)
 					}
 					setflag(FLAG_RECIEVED_TRICK_HOUSE_GIFT_4)
 				}
@@ -228,10 +220,6 @@ script Route110_TrickHouseEntrance_Apprentice{
 							waitmessage
 							waitfanfare
 					}
-					msgbox("Give this Pokémon a nickname?", MSGBOX_YESNO)
-					if(var(VAR_RESULT) == YES){
-						call(Common_EventScript_NameReceivedPartyMon)
-					}
 					setflag(FLAG_RECIEVED_TRICK_HOUSE_GIFT_5)
 				}
 			}
@@ -270,10 +258,6 @@ script Route110_TrickHouseEntrance_Apprentice{
 							waitmessage
 							waitfanfare
 					}
-					msgbox("Give this Pokémon a nickname?", MSGBOX_YESNO)
-					if(var(VAR_RESULT) == YES){
-						call(Common_EventScript_NameReceivedPartyMon)
-					}
 					setflag(FLAG_RECIEVED_TRICK_HOUSE_GIFT_6)
 				}
 			}
@@ -311,10 +295,6 @@ script Route110_TrickHouseEntrance_Apprentice{
 							msgbox(format("{PLAYER} recieved Clefairy!"))
 							waitmessage
 							waitfanfare
-					}
-					msgbox("Give this Pokémon a nickname?", MSGBOX_YESNO)
-					if(var(VAR_RESULT) == YES){
-						call(Common_EventScript_NameReceivedPartyMon)
 					}
 					setflag(FLAG_RECIEVED_TRICK_HOUSE_GIFT_7)
 				}
@@ -360,10 +340,6 @@ script Route110_TrickHouseEntrance_Apprentice{
 							msgbox(format("{PLAYER} recieved Scizor!"))
 							waitmessage
 							waitfanfare
-					}
-					msgbox("Give this Pokémon a nickname?", MSGBOX_YESNO)
-					if(var(VAR_RESULT) == YES){
-						call(Common_EventScript_NameReceivedPartyMon)
 					}
 					setflag(FLAG_RECIEVED_TRICK_HOUSE_GIFT_8)
 				}
