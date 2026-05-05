@@ -1097,9 +1097,33 @@ static const struct InGameTrade sIngameTrades[] =
         .abilityNum = 0,
         .otId = 91481,
         .heldItem = ITEM_BIG_PEARL,
-        .otName = _("Devon"),
+        .otName = _("Devin"),
         .otGender = MALE,
         .requestedSpecies = SPECIES_WEEZING
+    },
+    [INGAME_TRADE_ALOLAN_GRIMER] =
+    {
+        .nickname = _("Trebol"),
+        .species = SPECIES_GRIMER_ALOLA,
+        .fixedAbility = FALSE,
+        .abilityNum = 0,
+        .otId = 24143,
+        .heldItem = ITEM_BIG_NUGGET,
+        .otName = _("Dove"),
+        .otGender = FEMALE,
+        .requestedSpecies = SPECIES_GRIMER
+    },
+    [INGAME_TRADE_ALOLAN_MUK] =
+    {
+        .nickname = _("Magellan"),
+        .species = SPECIES_MUK_ALOLA,
+        .fixedAbility = FALSE,
+        .abilityNum = 0,
+        .otId = 24143,
+        .heldItem = ITEM_BIG_NUGGET,
+        .otName = _("Dove"),
+        .otGender = FEMALE,
+        .requestedSpecies = SPECIES_MUK
     }
 };
 

@@ -8517,7 +8517,7 @@ Nature: Jolly
 Ability: Unseen Fist
 - Close Combat
 - Wicked Blow
-- Iron Head
+- Sucker Punch
 - Swords Dance
 
 Absol @ Absolite
@@ -8528,6 +8528,79 @@ Ability: Justified
 - Psycho Cut
 - X-Scissor
 - Pursuit
+
+/*
+Loc: Trick House [Optional]
+*/
+
+/*
+Loc: Petalburg Gym
+*/
+
+=== TRAINER_NORMAN_1 ===
+Name: Norman
+Class: Leader
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Blue
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Palafin @ Punching Glove
+Level: 52
+Nature: Jolly
+Ability: Zero to Hero
+- Jet Punch
+- Flip Turn
+- Body Slam
+- Drain Punch
+
+Kangaskhan @ Focus Sash
+Level: 53
+Nature: Jolly
+Ability: Scrappy
+- Body Slam
+- Dynamic Punch
+- Power-Up Punch
+- Seismic Toss
+
+Sandy Shocks @ Booster Energy
+Level: 53
+Nature: Timid
+Ability: Protosynthesis
+IVs: 31 HP / 30 Atk / 30 Def / 31 SpA / 31 SpD / 31 Spe
+- Earth Power
+- Charge Beam
+- Tri Attack
+- Hidden Power
+
+Meloetta @ Throat Spray
+Level: 53
+Nature: Timid
+Ability: Serene Grace
+- Hyper Voice
+- Psychic
+- Alluring Voice
+- Sing
+
+Pyroar @ Pyroarite
+Level: 54
+Nature: Timid
+Ability: Unnerve
+- Heat Wave
+- Hyper Voice
+- Dark Pulse
+- Substitute
 
 /*End Parse*/
 
@@ -12171,48 +12244,6 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Sunny Day
 - Body Slam
 - Attract
-
-=== TRAINER_NORMAN_1 ===
-Name: NORMAN
-Class: Leader
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Basic Trainer
-
-Spinda
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Teeter Dance
-- Psybeam
-- Facade
-- Encore
-
-Vigoroth
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Facade
-- Encore
-- Feint Attack
-
-Linoone
-Level: 29
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Belly Drum
-- Facade
-- Headbutt
-
-Slaking @ Sitrus Berry
-Level: 31
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
-- Yawn
-- Facade
-- Feint Attack
 
 === TRAINER_WINONA_1 ===
 Name: WINONA

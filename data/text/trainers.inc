@@ -952,14 +952,14 @@ Route109_Text_PaulNotEnoughPokemon:
 
 Route109_Text_MelIntro:
 	.string "Mel: We're, like, totally in love.\n"
-	.string "Our romance is heating up all of HOENN!$"
+	.string "Our romance is heating up all of Hoenn!$"
 
 Route109_Text_MelDefeated:
 	.string "Mel: We lost, and it's my fault!\n"
-	.string "PAUL will hate me!$"
+	.string "Paul will hate me!$"
 
 Route109_Text_MelPostBattle:
-	.string "Mel: Um, PAUL, are you angry with me?\n"
+	.string "Mel: Um, Paul, are you angry with me?\n"
 	.string "Please don't be angry.$"
 
 Route109_Text_MelNotEnoughPokemon:

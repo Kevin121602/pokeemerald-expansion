@@ -161,6 +161,117 @@ SlateportCity_Pokemart_EnergyGuru:
 	release
 	end
 
+SlateportCity_EventScript_Trader1::
+	lock
+	faceplayer
+	goto_if_set FLAG_SLATEPORT_CITY_TRADE_1_COMPLETED, SlateportCity_EventScript_Trade1Completed
+	ingame_trade INGAME_TRADE_ALOLAN_GRIMER, SlateportCity_Text_IllTradeIfYouWant1, SlateportCity_EventScript_MukTrade, SlateportCity_EventScript_NotRequestedMon1, SlateportCity_Text_RememberToRecycle
+	setflag FLAG_SLATEPORT_CITY_TRADE_1_COMPLETED
+	release
+	end
+
+SlateportCity_EventScript_MukTrade::
+	ingame_trade INGAME_TRADE_ALOLAN_MUK, SlateportCity_Text_WillingToTradeMuks, SlateportCity_EventScript_DeclineTrade1, SlateportCity_EventScript_NotRequestedMon2, SlateportCity_Text_RememberToRecycle
+	setflag FLAG_SLATEPORT_CITY_TRADE_1_COMPLETED
+	release
+	end
+
+SlateportCity_EventScript_DeclineTrade1::
+	msgbox SlateportCity_Text_YoungPeopleDont, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_EventScript_NotRequestedMon1::
+	msgbox SlateportCity_Text_ThatsNotAGrimer, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_EventScript_NotRequestedMon2::
+	msgbox SlateportCity_Text_ThatsNotAMuk, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_EventScript_Trade1Completed::
+	msgbox SlateportCity_Text_RememberToRecycle, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_Text_IllTradeIfYouWant1:
+	.string "Oil spills are such a tragedy.\p"
+	.string "Look at what happened to this Grimer I\n"
+	.string "found by the harbor…\p"
+	.string "Maybe you can care for this Grimer better\n"
+	.string "than I can.\p"
+	.string "If you have a Grimer of your own, I would\n"
+	.string "be willing to trade.$"
+
+SlateportCity_Text_WillingToTradeMuks:
+	.string "I see, would you be willing to trade Muks\n"
+	.string "instead?$"
+
+SlateportCity_Text_ThatsNotAGrimer:
+	.string "That's not a Grimer, silly.$"
+
+SlateportCity_Text_ThatsNotAMuk:
+	.string "That's not a Muk, silly.$"
+
+SlateportCity_Text_YoungPeopleDont:
+	.string "Young people don't care about the\n"
+	.string "environment these days…$"
+
+SlateportCity_Text_RememberToRecycle:
+	.string "Remember to recycle!$"
+
+SlateportCity_EventScript_Trader2::
+	lock
+	faceplayer
+	goto_if_set FLAG_SLATEPORT_CITY_TRADE_2_COMPLETED, SlateportCity_EventScript_TradeCompleted
+	ingame_trade INGAME_TRADE_GALARIAN_WEEZING, SlateportCity_Text_IllTradeIfYouWant2, SlateportCity_EventScript_DeclineTrade2, SlateportCity_EventScript_NotRequestedMon3, SlateportCity_Text_MyWeezingLooks
+	setflag FLAG_SLATEPORT_CITY_TRADE_2_COMPLETED
+	release
+	end
+
+SlateportCity_EventScript_DeclineTrade2::
+	msgbox SlateportCity_Text_YouDontWantToThatsOkay, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_EventScript_NotRequestedMon3::
+	msgbox SlateportCity_Text_DontTryToPull, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_EventScript_TradeCompleted::
+	msgbox SlateportCity_Text_AnyPokemonCanBeCute, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_Text_IllTradeIfYouWant2:
+	.string "The name's Devin, and I just set up\n"
+	.string "this tent, I call it the Devin Tent!\p"
+	.string "Anyway, I have this Weezing I want to\n"
+	.string "trade.\p"
+	.string "If you have a Weezing from Kanto i'll\n"
+	.string "trade you for it!\p"
+	.string "There's just one catch, this Weezing is\n"
+	.string "quite afraid of heights you see.\p"
+	.string "So if you could keep it as Levitate, so\n"
+	.string "it doesn't have to worry about falling,\l"
+	.string "that would be great.\p"
+	.string "Are you up for it?$"
+
+SlateportCity_Text_MyWeezingLooks:
+	.string "My Weezing looks happier already.$"
+
+SlateportCity_Text_DontTryToPull:
+	.string "Don't try to pull a fast one on me.$"
+
+SlateportCity_Text_YouDontWantToThatsOkay:
+	.string "Thats fine.$"
+
+SlateportCity_Text_AnyPokemonCanBeCute:
+	.string "How is my Weezing doing?$"
+
 SlateportCity_EventScript_EffortRibbonWoman::
 	lock
 	faceplayer
@@ -557,20 +668,23 @@ SlateportCity_PokemartDecor:
 	release
 	end
 
-SlateportCity_EventScript_PowerTMClerk::
+SlateportCity_EventScript_AccurateMoveTMClerk::
 	lock
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemart SlateportCity_Pokemart_PowerTMs
+	pokemart SlateportCity_Pokemart_AccurateTMs
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
-SlateportCity_Pokemart_PowerTMs:
-	.2byte ITEM_TM_ACROBATICS
-	.2byte ITEM_TM_ACROBATICS
+SlateportCity_Pokemart_AccurateTMs:
+	.2byte ITEM_TM_AERIAL_ACE
+	.2byte ITEM_TM_DISARMING_VOICE
+	.2byte ITEM_TM_FEINT_ATTACK
+	.2byte ITEM_TM_MAGICAL_LEAF
+	.2byte ITEM_TM_SHOCK_WAVE
 	.2byte ITEM_NONE
 	release
 	end
