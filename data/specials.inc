@@ -450,7 +450,6 @@ gSpecials::
 	def_special ShowPokemonJumpRecords
 	def_special IsDodrioInParty
 	def_special IsRotomInParty
-	def_special ChangeRotomFormBufferPositionAndName
 	def_special ShowDodrioBerryPickingRecords
 	def_special OffsetCameraForBattle
 	def_special GetDeptStoreDefaultFloorChoice
@@ -498,6 +497,7 @@ gSpecials::
 	def_special CloseBattleFrontierTutorWindow
 	def_special ScrollableMultichoice_RedrawPersistentMenu
 	def_special ChooseMonForMoveTutor
+	def_special ChooseRotomForRandomFormChange
 	def_special ScrollableMultichoice_ClosePersistentMenu
 	def_special DoDeoxysRockInteraction
 	def_special SetDeoxysRockPalette

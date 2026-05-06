@@ -1393,44 +1393,6 @@ void IsRotomInParty(void)
     gSpecialVar_Result = FALSE;
 }
 
-void ChangeRotomFormBufferPositionAndName(void)
-{
-    int i;
-    u32 species;
-    for (i = 0; i < PARTY_SIZE; i++)
-    {
-        if (GetMonData(&gPlayerParty[i], MON_DATA_SANITY_HAS_SPECIES)
-            && GetMonData(&gPlayerParty[i], MON_DATA_SPECIES_OR_EGG) == SPECIES_ROTOM)
-        {
-            gSpecialVar_0x8004 = i;
-
-            switch(gSpecialVar_Result){
-                case 0:
-                    species = SPECIES_ROTOM_HEAT;
-                    break;
-                case 1:
-                    species = SPECIES_ROTOM_WASH;
-                    break;
-                case 2:
-                    species = SPECIES_ROTOM_FROST;
-                    break;
-                case 3:
-                    species = SPECIES_ROTOM_FAN;
-                    break;
-                case 4:
-                    species = SPECIES_ROTOM_MOW;
-                    break;
-            }
-
-            SetMonData(&gPlayerParty[i], MON_DATA_SPECIES, &species);
-            GetMonNickname(&gPlayerParty[i], gStringVar1);
-            return;
-        }
-    }
-
-    gSpecialVar_0x8004 = FALSE;
-}
-
 void SpawnCameraObject(void)
 {
     u8 obj = SpawnSpecialObjectEventParameterized(OBJ_EVENT_GFX_BOY_1,

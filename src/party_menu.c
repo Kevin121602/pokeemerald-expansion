@@ -334,6 +334,7 @@ static void PartyMenuRemoveWindow(u8 *);
 static void CB2_SetUpExitToBattleScreen(void);
 static void Task_ClosePartyMenuAfterText(u8);
 static void TryTutorSelectedMon(u8);
+static void TryApplyRotomFormChange(u8);
 static void TryGiveMailToSelectedMon(u8);
 static void TryGiveItemOrMailToSelectedMon(u8);
 static void SwitchSelectedMons(u8);
@@ -1576,6 +1577,14 @@ static void HandleChooseMonSelection(u8 taskId, s8 *slotPtr)
             }
             break;
         }
+        case PARTY_ACTION_RANDOM_ROTOM_FORM:
+            if (IsSelectedMonNotEgg((u8 *)slotPtr))
+            {
+                PlaySE(SE_SELECT);
+                PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+                TryApplyRotomFormChange(taskId);
+            }
+            break;
         case PARTY_ACTION_SEND_MON_TO_BOX:
         {
             u8 partyId = (u8)*slotPtr;
@@ -7196,6 +7205,55 @@ bool32 TryMultichoiceFormChange(u8 taskId)
     }
 }
 
+static void TryApplyRotomFormChange(u8 taskId)
+{
+    struct Pokemon *mon;
+
+    if (!gPaletteFade.active)
+    {
+        mon = &gPlayerParty[gPartyMenu.slotId];
+        GetMonNickname(mon, gStringVar1);
+
+        if(GetMonData(mon, MON_DATA_SPECIES) != SPECIES_ROTOM)
+        {
+            DisplayLearnMoveMessageAndClose(taskId, gText_PkmnNotInterested);
+            gSpecialVar_Result = FALSE;
+            return;
+        }
+
+        if (GetMonData(mon, MON_DATA_SANITY_HAS_SPECIES)
+            && GetMonData(mon, MON_DATA_SPECIES_OR_EGG) == SPECIES_ROTOM)
+        {
+            gSpecialVar_ItemId = ITEM_ROTOM_CATALOG;
+
+            switch(gSpecialVar_Result){
+                case 0:
+                    gSpecialVar_0x8000 = ROTOM_HEAT_MOVE;
+                    break;
+                case 1:
+                    gSpecialVar_0x8000 = ROTOM_WASH_MOVE;
+                    break;
+                case 2:
+                    gSpecialVar_0x8000 = ROTOM_FROST_MOVE;
+                    break;
+                case 3:
+                    gSpecialVar_0x8000 = ROTOM_FAN_MOVE;
+                    break;
+                case 4:
+                    gSpecialVar_0x8000 = ROTOM_MOW_MOVE;
+                    break;
+            }
+
+            gSpecialVar_Result++;
+
+            TryMultichoiceFormChange(taskId);
+            gSpecialVar_Result = TRUE;
+
+            return;
+        }
+    }
+}
+
 static void CursorCb_CatalogBulb(u8 taskId)
 {
     gSpecialVar_Result = 0;
@@ -7816,6 +7874,11 @@ void ChooseMonForTradingBoard(u8 menuType, MainCallback callback)
 void ChooseMonForMoveTutor(void)
 {
     InitPartyMenu(PARTY_MENU_TYPE_FIELD, PARTY_LAYOUT_SINGLE, PARTY_ACTION_MOVE_TUTOR, FALSE, PARTY_MSG_TEACH_WHICH_MON, Task_HandleChooseMonInput, CB2_ReturnToFieldContinueScriptPlayMapMusic);
+}
+
+void ChooseRotomForRandomFormChange(void)
+{
+    InitPartyMenu(PARTY_MENU_TYPE_FIELD, PARTY_LAYOUT_SINGLE, PARTY_ACTION_RANDOM_ROTOM_FORM, FALSE, PARTY_MSG_CHOOSE_MON, Task_HandleChooseMonInput, CB2_ReturnToFieldContinueScriptPlayMapMusic);
 }
 
 void ChooseMonForWirelessMinigame(void)

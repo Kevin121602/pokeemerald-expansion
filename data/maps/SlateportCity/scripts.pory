@@ -23,48 +23,16 @@ script SlateportCity_EventScript_ApplianceMan{
 				end
 			} else {
 				random(5)
-				switch(var(VAR_RESULT)){
-					case 0:
-						special(ChangeRotomFormBufferPositionAndName)
-						playfanfare(MUS_DP_OBTAIN_ITEM)
-						msgbox("{STR_VAR_1} enters the old oven!$")
-						waitmessage
-						waitfanfare
-						closemessage
-					case 1:
-						special(ChangeRotomFormBufferPositionAndName)
-						playfanfare(MUS_DP_OBTAIN_ITEM)
-						msgbox("{STR_VAR_1} enters the old washer!$")
-						waitmessage
-						waitfanfare
-						closemessage	
-					case 2:
-						special(ChangeRotomFormBufferPositionAndName)
-						playfanfare(MUS_DP_OBTAIN_ITEM)
-						msgbox("{STR_VAR_1} enters the old fridge!$")
-						waitmessage
-						waitfanfare	
-						closemessage
-					case 3:
-						special(ChangeRotomFormBufferPositionAndName)
-						playfanfare(MUS_DP_OBTAIN_ITEM)
-						msgbox("{STR_VAR_1} enters the old fan!$")
-						waitmessage
-						waitfanfare	
-						closemessage
-					case 4:
-						special(ChangeRotomFormBufferPositionAndName)
-						playfanfare(MUS_DP_OBTAIN_ITEM)
-						msgbox("{STR_VAR_1} enters the old mower!$")
-						waitmessage
-						waitfanfare	
-						closemessage
+				call(SlateportCity_EventScript_OpenPartyMenu)
+				if(var(VAR_RESULT) == TRUE){
+					setflag(FLAG_CHANGED_ROTOM_FORM)
+					msgbox("I had no idea Pokémon could do that…$")
+					release
+					end
+				} else {
+					release
+					end
 				}
-				setflag(FLAG_CHANGED_ROTOM_FORM)
-				delay(30)
-				msgbox("I had no idea Pokémon could do that…$")
-				release
-				end
 			}
 		}
 	}
@@ -131,6 +99,13 @@ SlateportCity_EventScript_MovePeopleForSternInterview::
 	setobjectmovementtype LOCALID_GIRL, MOVEMENT_TYPE_FACE_UP
 	setobjectmovementtype LOCALID_FAT_MAN, MOVEMENT_TYPE_FACE_UP
 	setobjectmovementtype LOCALID_MAN_1, MOVEMENT_TYPE_FACE_LEFT
+	return
+
+SlateportCity_EventScript_OpenPartyMenu::
+	special ChooseRotomForRandomFormChange
+	waitstate
+	lock
+	faceplayer
 	return
 
 SlateportCity_EventScript_SetReadyForScottScene::
