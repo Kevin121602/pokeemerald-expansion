@@ -295,3 +295,8 @@ MoveTutor_Text_TrappingTeach:
 	.string "your catch on the hook!\p"
 	.string "Luckily I have some moves that can\n"
 	.string "help with that.$"
+
+MoveTutor_Text_ProtectionTeach:
+	.string "I hate seeing Pokémon get hurt…\p"
+	.string "Hopefully these techniques can make\n"
+	.string "yours a little bit safer.$"

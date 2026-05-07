@@ -186,6 +186,7 @@
 #define MULTI_BERRIES_TUTOR                175
 #define MULTI_SEALING_TUTOR                176
 #define MULTI_TRAPPING_TUTOR               177
+#define MULTI_PROTECTION_TUTOR             178
 
 #define MULTI_NONE 255
 

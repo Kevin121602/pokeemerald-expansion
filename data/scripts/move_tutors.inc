@@ -504,6 +504,47 @@ DewfordTown_EventScript_InfestationTutor::
 	release
 	end
 	
+SlateportCity_EventScript_ProtectionTutor::
+	lock
+	faceplayer
+	msgbox MoveTutor_Text_ProtectionTeach
+	multichoice 21, 0, MULTI_PROTECTION_TUTOR, FALSE
+	switch VAR_RESULT
+	case 0, SlateportCity_EventScript_SafeguardTutor
+	case 1, SlateportCity_EventScript_MistTutor
+	case 2, SlateportCity_EventScript_LuckyChantTutor
+	case 3, SlateportCity_EventScript_HazeTutor
+	case MULTI_B_PRESSED, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+
+SlateportCity_EventScript_SafeguardTutor::
+	setvar VAR_0x8005, MOVE_SAFEGUARD
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+	
+SlateportCity_EventScript_MistTutor::
+	setvar VAR_0x8005, MOVE_MIST
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+	
+SlateportCity_EventScript_LuckyChantTutor::
+	setvar VAR_0x8005, MOVE_LUCKY_CHANT
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
+	
+SlateportCity_EventScript_HazeTutor::
+	setvar VAR_0x8005, MOVE_HAZE
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	release
+	end
 
 MoveTutor_AfterChooseBoxMon::
 	waitstate

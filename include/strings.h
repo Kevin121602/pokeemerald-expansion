@@ -2392,6 +2392,11 @@ extern const u8 gText_Whirlpool[];
 extern const u8 gText_SandTomb[];
 extern const u8 gText_Infestation[];
 
+extern const u8 gText_Safeguard[];
+extern const u8 gText_Mist[];
+extern const u8 gText_LuckyChant[];
+extern const u8 gText_Haze[];
+
 //gourd splicer and nectar text
 extern const u8 gText_SplicerSmall[];
 extern const u8 gText_SplicerAverage[];

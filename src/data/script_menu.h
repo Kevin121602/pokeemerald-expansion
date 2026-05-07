@@ -978,6 +978,14 @@ static const struct MenuAction MultichoiceList_TrappingTutor[] =
     {gText_Infestation},
 };
 
+static const struct MenuAction MultichoiceList_ProtectionTutor[] =
+{
+    {gText_Safeguard},
+    {gText_Mist},
+    {gText_LuckyChant},
+    {gText_Haze},
+};
+
 static const struct MenuAction sMultichoiceList_BikeShop[] = {
     { COMPOUND_STRING("BICYCLE{CLEAR_TO 0x49}{FONT_SMALL}¥1,000,000") },
     { COMPOUND_STRING("NO THANKS") }
@@ -1434,6 +1442,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_SEEDS_MENU]                 = MULTICHOICE(MultichoiceList_SeedsMenu),
     [MULTI_BERRIES_TUTOR]              = MULTICHOICE(MultichoiceList_BerriesTutor),
     [MULTI_SEALING_TUTOR]              = MULTICHOICE(MultichoiceList_SealingTutor),
+    [MULTI_PROTECTION_TUTOR]           = MULTICHOICE(MultichoiceList_ProtectionTutor),
     [MULTI_TRAPPING_TUTOR]             = MULTICHOICE(MultichoiceList_TrappingTutor),
     [MULTI_BIKE_SHOP]                  = MULTICHOICE(sMultichoiceList_BikeShop),
     [MULTI_EEVEELUTIONS]               = MULTICHOICE(sMultichoiceList_Eeveelutions),
