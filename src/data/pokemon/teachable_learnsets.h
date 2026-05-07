@@ -144,7 +144,6 @@
 // - MOVE_LOW_KICK                                           //
 // - MOVE_ME_FIRST                                           //
 // - MOVE_MISTY_EXPLOSION                                    //
-// - MOVE_PAYBACK                                            //
 // - MOVE_PLAY_ROUGH                                         //
 // - MOVE_POLTERGEIST                                        //
 // - MOVE_PROTECT                                            //

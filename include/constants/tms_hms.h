@@ -151,7 +151,6 @@
     F(LOW_KICK) \ Dewford
     F(ME_FIRST) \ Slateport
     F(MISTY_EXPLOSION) \ Verdanturf
-    F(PAYBACK) \ Abandoned Ship
     F(PLAY_ROUGH) \ Winona Split
     F(POLTERGEIST) \ 121
     F(PROTECT) \ VR

@@ -397,23 +397,23 @@ SlateportCity_BattleTentLobby_Movement_UnusedEnterDoor::
 # 199 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 
 # 200 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-SlateportCity_BattleTentLobby_EventScript_TormentGiver::
+SlateportCity_BattleTentLobby_EventScript_BlunderPolicyGiver::
 # 201 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	lock
 # 202 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	faceplayer
 # 203 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	goto_if_set FLAG_RECEIVED_TM_TORMENT, SlateportCity_BattleTentLobby_EventScript_ReceivedTorment
+	goto_if_set FLAG_RECEIVED_BLUNDER_POLICY, SlateportCity_BattleTentLobby_EventScript_ReceivedBlunderPolicy
 # 204 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	msgbox SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe, MSGBOX_DEFAULT
+	msgbox SlateportCity_BattleTentLobby_Text_LostEveryBattle, MSGBOX_DEFAULT
 # 205 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	giveitem ITEM_TM_ACROBATICS
+	giveitem ITEM_BLUNDER_POLICY
 # 206 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 # 207 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	setflag FLAG_RECEIVED_TM_TORMENT
+	setflag FLAG_RECEIVED_BLUNDER_POLICY
 # 208 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	msgbox SlateportCity_BattleTentLobby_Text_ExplainTorment, MSGBOX_DEFAULT
+	msgbox SlateportCity_BattleTentLobby_Text_ExplainBlunderPolicy, MSGBOX_DEFAULT
 # 209 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	release
 # 210 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
@@ -421,9 +421,9 @@ SlateportCity_BattleTentLobby_EventScript_TormentGiver::
 # 211 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 
 # 212 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-SlateportCity_BattleTentLobby_EventScript_ReceivedTorment::
+SlateportCity_BattleTentLobby_EventScript_ReceivedBlunderPolicy::
 # 213 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	msgbox SlateportCity_BattleTentLobby_Text_ExplainTorment, MSGBOX_DEFAULT
+	msgbox SlateportCity_BattleTentLobby_Text_ExplainBlunderPolicy, MSGBOX_DEFAULT
 # 214 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	release
 # 215 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
@@ -553,66 +553,52 @@ SlateportCity_BattleTentLobby_EventScript_ExitRules::
 # 277 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 
 # 278 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
+SlateportCity_BattleTentLobby_Text_LostEveryBattle:
 # 279 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "So, like, I couldn't find myself any\n"
+	.string "So, like, I've lost every single Battle\n"
 # 280 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "Pokémon that were, like, for me.\p"
+	.string "in this Battle Tent.\p"
 # 281 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "So, I figured, like, hey, I should file\n"
+	.string "I think this thing is bad luck…\n"
 # 282 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "a complaint to the guy there?\p"
+	.string "Maybe you should take it.$"
 # 283 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "And he wouldn't hear me out, like, hey!\n"
-# 284 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "So, like, total bummer, man!\p"
-# 285 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "Hey, like, you! Zip it, you know?\n"
-# 286 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "Just, you know, take this!$"
-# 287 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 
+# 284 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+SlateportCity_BattleTentLobby_Text_ExplainBlunderPolicy:
+# 285 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+	.string "That's, like, a Blunder Policy, you know?\p"
+# 286 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+	.string "If you miss an attack, your Pokémon's\n"
+# 287 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+	.string "speed is doubled, see?$"
 # 288 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-SlateportCity_BattleTentLobby_Text_ExplainTorment:
+
 # 289 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "That's, like, TM41, you know?\n"
+SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
 # 290 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "Hey, it's TORMENT, you hearing me?\p"
+	.string "I don't really like Bug Pokémon,\n"
 # 291 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "Like, it won't let the other guy\n"
+	.string "but maybe I'll try using some for\l"
 # 292 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "use the same move twice in a row, see?\p"
+	.string "a change of pace.\p"
 # 293 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "Hey, now, you listen here, like,\n"
+	.string "Who knows, I might even get to like\n"
 # 294 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "I'm not laying a torment on you!$"
+	.string "them!$"
 # 295 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 
 # 296 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
-# 297 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "I don't really like BUG Pokémon,\n"
-# 298 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "but maybe I'll try using some for\l"
-# 299 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "a change of pace.\p"
-# 300 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "Who knows, I might even get to like\n"
-# 301 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	.string "them!$"
-# 302 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-
-# 303 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons:
-# 304 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+# 297 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "You can battle all you want here even\n"
-# 305 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+# 298 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "if you don't have any tough Pokémon.$"
-# 306 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+# 299 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 
-# 307 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+# 300 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection:
-# 308 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+# 301 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "Wouldn't it be nice if they had more of\n"
-# 309 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+# 302 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "a selection?$"

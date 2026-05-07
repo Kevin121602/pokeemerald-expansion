@@ -197,20 +197,20 @@ SlateportCity_BattleTentLobby_Movement_UnusedEnterDoor::
 	set_invisible
 	step_end
 
-SlateportCity_BattleTentLobby_EventScript_TormentGiver::
+SlateportCity_BattleTentLobby_EventScript_BlunderPolicyGiver::
 	lock
 	faceplayer
-	goto_if_set FLAG_RECEIVED_TM_TORMENT, SlateportCity_BattleTentLobby_EventScript_ReceivedTorment
-	msgbox SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe, MSGBOX_DEFAULT
-	giveitem ITEM_TM_ACROBATICS
+	goto_if_set FLAG_RECEIVED_BLUNDER_POLICY, SlateportCity_BattleTentLobby_EventScript_ReceivedBlunderPolicy
+	msgbox SlateportCity_BattleTentLobby_Text_LostEveryBattle, MSGBOX_DEFAULT
+	giveitem ITEM_BLUNDER_POLICY
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_TM_TORMENT
-	msgbox SlateportCity_BattleTentLobby_Text_ExplainTorment, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_BLUNDER_POLICY
+	msgbox SlateportCity_BattleTentLobby_Text_ExplainBlunderPolicy, MSGBOX_DEFAULT
 	release
 	end
 
-SlateportCity_BattleTentLobby_EventScript_ReceivedTorment::
-	msgbox SlateportCity_BattleTentLobby_Text_ExplainTorment, MSGBOX_DEFAULT
+SlateportCity_BattleTentLobby_EventScript_ReceivedBlunderPolicy::
+	msgbox SlateportCity_BattleTentLobby_Text_ExplainBlunderPolicy, MSGBOX_DEFAULT
 	release
 	end
 
@@ -275,26 +275,19 @@ SlateportCity_BattleTentLobby_EventScript_ExitRules::
 	releaseall
 	end
 
-SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
-	.string "So, like, I couldn't find myself any\n"
-	.string "Pokémon that were, like, for me.\p"
-	.string "So, I figured, like, hey, I should file\n"
-	.string "a complaint to the guy there?\p"
-	.string "And he wouldn't hear me out, like, hey!\n"
-	.string "So, like, total bummer, man!\p"
-	.string "Hey, like, you! Zip it, you know?\n"
-	.string "Just, you know, take this!$"
+SlateportCity_BattleTentLobby_Text_LostEveryBattle:
+	.string "So, like, I've lost every single Battle\n"
+	.string "in this Battle Tent.\p"
+	.string "I think this thing is bad luck…\n"
+	.string "Maybe you should take it.$"
 
-SlateportCity_BattleTentLobby_Text_ExplainTorment:
-	.string "That's, like, TM41, you know?\n"
-	.string "Hey, it's TORMENT, you hearing me?\p"
-	.string "Like, it won't let the other guy\n"
-	.string "use the same move twice in a row, see?\p"
-	.string "Hey, now, you listen here, like,\n"
-	.string "I'm not laying a torment on you!$"
+SlateportCity_BattleTentLobby_Text_ExplainBlunderPolicy:
+	.string "That's, like, a Blunder Policy, you know?\p"
+	.string "If you miss an attack, your Pokémon's\n"
+	.string "speed is doubled, see?$"
 
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
-	.string "I don't really like BUG Pokémon,\n"
+	.string "I don't really like Bug Pokémon,\n"
 	.string "but maybe I'll try using some for\l"
 	.string "a change of pace.\p"
 	.string "Who knows, I might even get to like\n"

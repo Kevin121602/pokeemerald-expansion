@@ -1692,11 +1692,11 @@
 #define FLAG_RECEIVED_TM_BULLET_SEED         0
 #define FLAG_ENTERED_ELITE_FOUR              0
 #define FLAG_RECEIVED_TM_HIDDEN_POWER        0
-#define FLAG_RECEIVED_TM_TORMENT             0
+#define FLAG_RECEIVED_BLUNDER_POLICY             0
 #define FLAG_RECEIVED_LAVARIDGE_EGG          0
 #define FLAG_RECEIVED_REVIVED_FOSSIL_MON     0
 #define FLAG_SECRET_BASE_REGISTRY_ENABLED    0
-#define FLAG_RECEIVED_TM_THIEF               0
+#define FLAG_RECEIVED_TM_PAYBACK               0
 #define FLAG_CONTEST_SKETCH_CREATED          0  // Set but never read
 #define FLAG_EVIL_TEAM_ESCAPED_STERN_SPOKE   0
 #define FLAG_RECEIVED_EXP_SHARE              0

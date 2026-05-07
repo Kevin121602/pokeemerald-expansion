@@ -25,9 +25,9 @@ SlateportCity_House_EventScript_Girl::
 # 13 "data/maps/SlateportCity_House/scripts.pory"
 SlateportCity_House_Text_NatureToDoWithStatGains:
 # 14 "data/maps/SlateportCity_House/scripts.pory"
-	.string "My Pokémon has a HASTY nature.\p"
+	.string "My Pokémon has a Hasty nature.\p"
 # 15 "data/maps/SlateportCity_House/scripts.pory"
-	.string "It has higher SPEED compared to\n"
+	.string "It has higher Speed compared to\n"
 # 16 "data/maps/SlateportCity_House/scripts.pory"
 	.string "my other Pokémon.\p"
 # 17 "data/maps/SlateportCity_House/scripts.pory"
@@ -39,8 +39,8 @@ SlateportCity_House_Text_NatureToDoWithStatGains:
 # 20 "data/maps/SlateportCity_House/scripts.pory"
 SlateportCity_House_Text_MustBeGoingToBattleTent:
 # 21 "data/maps/SlateportCity_House/scripts.pory"
-	.string "You're a TRAINER, aren't you?\p"
+	.string "You're a Trainer, aren't you?\p"
 # 22 "data/maps/SlateportCity_House/scripts.pory"
-	.string "Since you came to SLATEPORT CITY,\n"
+	.string "Since you came to Slateport City,\n"
 # 23 "data/maps/SlateportCity_House/scripts.pory"
-	.string "you must be going to the BATTLE TENT.$"
+	.string "you must be going to the Battle Tent.$"

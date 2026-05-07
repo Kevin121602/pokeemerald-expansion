@@ -15,7 +15,7 @@ script LittlerootTown_EventScript_SuperRod {
 		setflag(FLAG_RECEIVED_SUPER_ROD)
 		msgbox(format("It's time to pass the torch to someone else."))
 	}
-	releaseall
+	release
 	end
 }
 
