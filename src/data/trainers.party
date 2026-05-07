@@ -4989,13 +4989,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
 - Protect
 - Wish
 
-Lilligant @ Metronome
+Lilligant @ Eject Pack
 Level: 37
 Nature: Timid
 Ability: Own Tempo
-- Petal Dance
+- Leaf Storm
+- Weather Ball
 - Pollen Puff
-- Quiver Dance
 - Sleep Powder
 
 Wormadam-Trash @ Assault Vest
@@ -7530,23 +7530,23 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Hawlucha @ Fighting Gem
+Nature: Adamant
+Ability: Unburden
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Flying Press
+- Helping Hand
+- Roost
+- Tailwind
 
-Rhyperior @ Assault Vest
+Stonjourner @ Focus Sash
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Power Spot
 Level: 49
-- High Horsepower
 - Rock Slide
-- Fire Punch
-- Avalanche
+- High Horsepower
+- Body Press
+- Protect
 
 === TRAINER_MARCOS ===
 Name: Marcos
@@ -7557,32 +7557,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Seismitoad @ Rindo Berry
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+Nature: Hasty
+Ability: Water Absorb
+- Earth Power
+- Muddy Water
+- Ice Punch
+- Supersonic
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Magneton @ Eviolite
 Level: 48
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+Nature: Timid
+Ability: Sturdy
+- Thunderbolt
+- Flash Cannon
+- Charge Beam
+- Tri-Attack
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Zoroark-Hisui @ Wise Glasses
+Nature: Timid
+Ability: Illusion
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Hyper Voice
+- Bitter Malice
+- Dark Pulse
+- Sleep Talk
 
 === TRAINER_DAISY ===
 Name: Daisy
@@ -7593,41 +7593,42 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Weezing-Galar @ Salac Berry
+Nature: Timid
+Ability: Misty Surge
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Sludge Wave
+- Strange Steam
+- Flamethrower
+- Destiny Bond
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Typhlosion @ Sitrus Berry
+Nature: Hasty
+Ability: Flash Fire
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Eruption
+- Flamethrower
+- Earthquake
+- Nature Power
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Ferrothorn @ Misty Seed
+Nature: Sassy
+Ability: Iron Barbs
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Seed Bomb
+- Gyro Ball
+- Body Press
+- Curse
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Florges @ Leftovers
+Nature: Timid
+Ability: Flower Veil
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Misty Explosion
+- Moonblast
+- Psychic
+- Calm Mind
 
 === TRAINER_AMY_AND_LIV_1 ===
 Name: Amy & Liv
@@ -7638,50 +7639,50 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Oricorio-Sensu @ Lum Berry
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+Nature: Timid
+Ability: Dancer
+- Revelation Dance
+- Air Slash
+- Icy Wind
+- Feather Dance
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Ribombee @ Focus Sash
+Nature: Timid
+Ability: Shield Dust
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Pollen Puff
+- Dazzling Gleam
+- Quiver Dance
+- Roost
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Lilligant @ Metronome
+Nature: Timid
+Ability: Own Tempo
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Petal Dance
+- Quiver Dance
+- Sleep Powder
+- Synthesis
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Oricorio @ Flying Gem
+Nature: Hasty
+Ability: Dancer
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Acrobatics
+- Revelation Dance
+- Quiver Dance
+- Teeter Dance
 
-Rhyperior @ Assault Vest
+Dodrio @ Starf Berry
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Tangled Feet
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Brave Bird
+- Double Edge
+- Drill Run
+- Swords Dance
 
 === TRAINER_MIGUEL_1 ===
 Name: Miguel
