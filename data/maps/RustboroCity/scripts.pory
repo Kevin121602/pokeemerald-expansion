@@ -48,11 +48,9 @@ RustboroCity_EventScript_PositionScientistLeftExit::
 	end
 
 RustboroCity_EventScript_HideMapNamePopup::
-	setflag FLAG_HIDE_MAP_NAME_POPUP
 	return
 
 RustboroCity_OnFrame:
-	map_script_2 VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_EventScript_ScientistAddMatchCall
 	.2byte 0
 
 RustboroCity_EventScript_ScientistAddMatchCall::

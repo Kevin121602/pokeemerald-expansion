@@ -915,7 +915,7 @@ static void Task_ShowAiPartyIcons(u8 taskId)
                 data->spriteIds.aiPartyIcons[i] = 0xFF;
 
             data->battlerId = B_POSITION_OPPONENT_RIGHT;
-            for (i = 2; i < PARTY_SIZE; i++)
+            for (i = 3; i < PARTY_SIZE; i++)
             {
                 xOffset = 39 + (i % 3) * 80;
                 yOffset = 100;

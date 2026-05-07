@@ -19,7 +19,7 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE04_GET, 36}, // 35
         {FLAG_DEFEATED_PHOEBE, 42}, //41
         {FLAG_BADGE02_GET, 46}, //45
-        {FLAG_DEFEATED_AQUA_GRUNTS_SLATEPORT, 51}, //50
+        {FLAG_DELIVERED_DEVON_GOODS, 51}, //50
         {FLAG_DEFEATED_SIDNEY, 54}, //53
         {FLAG_BADGE05_GET, 55}, //54
         {FLAG_DEFEATED_CLAIR, 57}, //56

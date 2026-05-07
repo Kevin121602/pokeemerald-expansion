@@ -177,7 +177,7 @@
 #define FLAG_CAUGHT_HO_OH                    0x92
 #define FLAG_MR_BRINEY_SAILING_INTRO         0x93
 #define FLAG_DOCK_REJECTED_DEVON_GOODS       0x94
-#define FLAG_DELIVERED_DEVON_GOODS           0x95
+#define FLAG_UNUSED_0x95                     0x95 // Unused Flag
 #define FLAG_ROUTE_113_NPC_TRADE_COMPLETED           0x96 // Unused, leftover from R/S
 #define FLAG_RECEIVED_CASTFORM               0x97
 #define FLAG_RECEIVED_SUPER_ROD              0x98
@@ -519,16 +519,16 @@
 #define FLAG_ENABLE_TATE_AND_LIZA_MATCH_CALL 0x1D8
 #define FLAG_ENABLE_JUAN_MATCH_CALL          0x1D9
 
-#define FLAG_ITEM_MT_PYRE_SUMMIT_MALICIOUS_ARMOR                    0x1DA // Unused Flag
+#define FLAG_ITEM_MT_PYRE_SUMMIT_MALICIOUS_ARMOR                    0x1DA 
 
 #define FLAG_SHOWN_MYSTIC_TICKET             0x1DB
 #define FLAG_DEFEATED_HO_OH                  0x1DC
 #define FLAG_DEFEATED_LUGIA                  0x1DD
 
-#define FLAG_RECEIVED_MEMORY                    0x1DE // Unused Flag
-#define FLAG_SLATEPORT_CITY_TRADE_1_COMPLETED                    0x1DF // Unused Flag
-#define FLAG_SLATEPORT_CITY_TRADE_2_COMPLETED                    0x1E0 // Unused Flag
-#define FLAG_UNUSED_0x1E1                    0x1E1 // Unused Flag
+#define FLAG_RECEIVED_MEMORY                    0x1DE 
+#define FLAG_SLATEPORT_CITY_TRADE_1_COMPLETED                    0x1DF 
+#define FLAG_SLATEPORT_CITY_TRADE_2_COMPLETED                    0x1E0 
+#define FLAG_ITEM_SLATEPORT_CITY_RING_TARGET                    0x1E1 
 #define FLAG_UNUSED_0x1E2                    0x1E2 // Unused Flag
 #define FLAG_UNUSED_0x1E3                    0x1E3 // Unused Flag
 
@@ -673,7 +673,7 @@
 #define FLAG_DEFEATED_MARLEY  0x268 // Unused Flag
 #define FLAG_DEFEATED_MIRA  0x269 // Unused Flag
 #define FLAG_DEFEATED_PHOEBE  0x26A // Unused Flag
-#define FLAG_DEFEATED_AQUA_GRUNTS_SLATEPORT  0x26B // Unused Flag
+#define FLAG_DELIVERED_DEVON_GOODS  0x26B // Unused Flag
 #define FLAG_DEFEATED_SIDNEY  0x26C // Unused Flag
 #define FLAG_DEFEATED_CLAIR  0x26D // Unused Flag
 #define FLAG_DEFEATED_BROCK_DESERT  0x26E // Unused Flag

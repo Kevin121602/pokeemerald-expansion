@@ -766,19 +766,19 @@ Route110_Movement_BirchExit4:
 	step_end
 
 Route110_Text_WeCantTalkAboutAquaActivities:
-	.string "TEAM AQUA's activities…\n"
+	.string "Team Aqua's activities…\n"
 	.string "We can't talk about them yet.$"
 
 Route110_Text_KickUpARuckus:
-	.string "I want to get going to SLATEPORT and\n"
+	.string "I want to get going to Slateport and\n"
 	.string "kick up a ruckus!$"
 
 Route110_Text_MyFirstJobInAqua:
 	.string "This is my first job after joining\n"
-	.string "TEAM AQUA. It's a little scary.$"
+	.string "Team Aqua. It's a little scary.$"
 
 Route110_Text_AquaActionsBringSmiles:
-	.string "TEAM AQUA's actions should bring\n"
+	.string "Team Aqua's actions should bring\n"
 	.string "smiles to people's faces!$"
 
 Route110_Text_MayLetsBattle:
@@ -879,9 +879,14 @@ Route110_Text_BikeTechniques:
 
 Route110_Text_WhichShouldIChoose:
 	.string "Which should I choose?\p"
-	.string "Make a beeline for MAUVILLE on\n"
-	.string "CYCLING ROAD, or take the low road\l"
-	.string "and look for Pokémon?$"
+	.string "Make a beeline for Mauville on\n"
+	.string "Cycling Road, or take the low road\l"
+	.string "and look for Pokémon?\p"
+	.string "Just kidding!\n"
+	.string "There's no way to get to Mauville\l"
+	.string "from here.\p"
+	.string "The only way to access Cycling Road\n"
+	.string "is to Surf in from Route 134.$"
 
 Route110_Text_CyclingChallengeResultSummary:
 	.string "Number of collisions:\n"
@@ -940,10 +945,10 @@ Route110_Text_AcroBikesDoNotQualify:
 
 Route110_Text_SlateportCitySign:
 	.string "Route 110\n"
-	.string "{DOWN_ARROW} SLATEPORT CITY$"
+	.string "{DOWN_ARROW} Slateport City$"
 
 Route110_Text_CyclingRoadSign:
-	.string "SEASIDE CYCLING ROAD$"
+	.string "Seaside Cycling Road$"
 
 Route110_Text_AquaWasHere:
 	.string "“TEAM AQUA was here!”\p"

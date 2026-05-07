@@ -26,7 +26,7 @@ LittlerootTown_EventScript_SuperRod::
 	msgbox LittlerootTown_EventScript_SuperRod_Text_2
 LittlerootTown_EventScript_SuperRod_1:
 # 18 "data/maps/LittlerootTown/scripts.pory"
-	releaseall
+	release
 	end
 
 LittlerootTown_EventScript_SuperRod_2:
