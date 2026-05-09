@@ -70,17 +70,15 @@ Route102_Text_TianaPostBattle:
 	.string "I have to catch more Pokémon.$"
 
 Route103_Text_DaisyIntro:
-	.string "Amy: I'm Amy.\n"
-	.string "And this is my little sister Liv.\l"
-	.string "We battle together!$"
+	.string "Did you feel the tug of our\n"
+	.string "soul-soothing fragrance?$"
 
 Route103_Text_DaisyDefeated:
-	.string "Amy: Uh-oh, we lost.$"
+	.string "You weren't led astray by our aroma…$"
 
 Route103_Text_DaisyPostBattle:
-	.string "Amy: You have to think about all\n"
-	.string "kinds of things when you're battling\l"
-	.string "against two Trainers.$"
+	.string "Aromatherapy is a form of mental\n"
+	.string "healing that works with fragrances.$"
 
 Route103_Text_AmyIntro:
 	.string "Amy: I'm Amy.\n"

@@ -5339,9 +5339,9 @@ Level: 38
 Nature: Jolly
 Ability: Mold Breaker
 - Rock Slide
+- Earthquake
 - Zen Headbutt
 - Fire Punch
-- Ice Punch
 
 Mr. Rime @ Never-Melt Ice
 Level: 37
@@ -6887,7 +6887,7 @@ Level: 44
 - Energy Ball
 - Ice Beam
 
-Oinkologne-M @ Chople Berry
+Oinkologne @ Chople Berry
 Nature: Impish
 Ability: Lingering Aroma
 Level: 45
@@ -7557,8 +7557,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Seismitoad @ Rindo Berry
+Zoroark-Hisui @ Wise Glasses
+Nature: Timid
+Ability: Illusion
 Level: 49
+- Hyper Voice
+- Bitter Malice
+- Dark Pulse
+- Sleep Talk
+
+Seismitoad @ Rindo Berry
+Level: 48
 Nature: Hasty
 Ability: Water Absorb
 - Earth Power
@@ -7567,22 +7576,13 @@ Ability: Water Absorb
 - Supersonic
 
 Magneton @ Eviolite
-Level: 48
+Level: 50
 Nature: Timid
 Ability: Sturdy
 - Thunderbolt
 - Flash Cannon
 - Charge Beam
 - Tri-Attack
-
-Zoroark-Hisui @ Wise Glasses
-Nature: Timid
-Ability: Illusion
-Level: 50
-- Hyper Voice
-- Bitter Malice
-- Dark Pulse
-- Sleep Talk
 
 === TRAINER_DAISY ===
 Name: Daisy
@@ -7648,14 +7648,14 @@ Ability: Dancer
 - Icy Wind
 - Feather Dance
 
-Ribombee @ Focus Sash
+Volcarona @ Focus Sash
 Nature: Timid
-Ability: Shield Dust
+Ability: Swarm
 Level: 49
-- Pollen Puff
-- Dazzling Gleam
+- Bug Buzz
+- Fiery Dance
+- Morning Sun
 - Quiver Dance
-- Roost
 
 Lilligant @ Metronome
 Nature: Timid
@@ -7666,7 +7666,7 @@ Level: 50
 - Sleep Powder
 - Synthesis
 
-Oricorio @ Flying Gem
+Oricorio-Pom-Pom @ Flying Gem
 Nature: Hasty
 Ability: Dancer
 Level: 49
@@ -7693,41 +7693,41 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
+Bouffalant @ Sitrus Berry
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Reckless
 Level: 49
+- Head Charge
 - High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Wild Charge
+- Pursuit
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Tangrowth @ Assault Vest
+Nature: Sassy
+Ability: Regenerator
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Power Whip
+- Focus Blast
+- Ancient Power
+- Knock Off
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Rotom-Heat @ White Herb
+Nature: Timid
+Ability: Levitate
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Overheat
+- Thunderbolt
+- Nasty Plot
+- Thunder Wave
 
-Rhyperior @ Assault Vest
+Feraligatr @ Life Orb
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Sheer Force
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Liquidation
+- Crunch
+- Ice Punch
+- Aqua Jet
 
 === TRAINER_ANDREW ===
 Name: Andrew
@@ -7738,50 +7738,50 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Shuckle @ Iapapa Berry
+Nature: Relaxed
+Ability: Sturdy
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Infestation
+- Stealth Rock
+- Sticky Web
+- Toxic
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Dondozo @ Leftovers
+Nature: Brave
+Ability: Oblivious
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
+- Liquidation
+- Earthquake
+- Body Press
 - Avalanche
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Venomoth @ Focus Sash
+Nature: Timid
+Ability: Tinted Lens
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Bug Buzz
+- Sludge Bomb
+- Psychic
+- Quiver Dance
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Chatot @ Throat Spray
+Nature: Timid
+Ability: Punk Rock
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Boomburst
+- Chatter
+- Heat Wave
+- Sing
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Greninja @ Expert Belt
+Nature: Timid
+Ability: Protean
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Surf
+- Dark Pulse
+- Water Shuriken
+- Extrasensory
 
 /*
 Loc: Route 109
@@ -7796,41 +7796,42 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
+Bruxish @ Life Orb
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Strong Jaw
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Wave Crash
+- Psychic Fangs
+- Crunch
+- Aqua Jet
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Rotom-Mow @ Leftovers
+Nature: Timid
+Ability: Levitate
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Leaf Storm
+- Volt Switch
+- Signal Beam
+- Thunder Wave
 
-Rhyperior @ Assault Vest
+Archeops @ Sitrus Berry
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Defeatist
 Level: 50
-- High Horsepower
+- Dual Wingbeat
 - Rock Slide
-- Fire Punch
-- Avalanche
+- Aqua Tail
+- Roost
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Beheeyem @ Power Herb
+Nature: Quiet
+Ability: Analytic
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Psyshock
+- Meteor Beam
+- Signal Beam
+- Recover
 
 === TRAINER_ALICE ===
 Name: Alice
@@ -7841,41 +7842,41 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Torkoal @ Mental Herb
+Nature: Quiet
+Ability: Drought
 Level: 49
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Heat Wave
+- Explosion
+- Solar Beam
+- Stealth Rock
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Mismagius @ Leftovers
+Nature: Timid
+Ability: Levitate
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Hex
+- Mystical Fire
+- Hypnosis
+- Will-O-Wisp
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Swalot @ Custap Berry
+Nature: Adamant
+Ability: Gluttony
 Level: 51
-- High Horsepower
-- Rock Slide
+- Gunk Shot
+- Earthquake
 - Fire Punch
-- Avalanche
+- Destiny Bond
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Victreebel @ Lum Berry
+Nature: Lonely
+Ability: Chlorophyll
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Leaf Blade
+- Poison Jab
+- Weather Ball
+- Sleep Powder
 
 /*
 Loc: Route 108
@@ -7890,41 +7891,41 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Slowbro @ Light Clay
+Nature: Calm
+Ability: Regenerator
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Surf
+- Psyshock
+- Light Screen
+- Reflect
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Tauros @ Life Orb
+Nature: Naive
+Ability: Sheer Force
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Rock Climb
+- Fire Blast
+- Iron Tail
+- Zen Headbutt
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Braviary-Hisui @ Lum Berry
+Nature: Timid
+Ability: Tinted Lens
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Psychic
+- Air Slash
+- Roost
+- Tailwind
 
-Rhyperior @ Assault Vest
+Hitmonlee @ Focus Sash
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Striker
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Low Kick
+- Power-Up-Punch
+- Mega Kick
+- Blaze Kick
 
 === TRAINER_TARA ===
 Name: Tara
@@ -7935,41 +7936,41 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Toedscruel @ Rocky Helmet
+Nature: Timid
+Ability: Mycelium Might
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Earth Power
+- Energy Ball
+- Sludge Bomb
+- Mirror Coat
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Gorebyss @ White Herb
+Nature: Timid
+Ability: Dazzling
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Hydro Pump
+- Psychic
+- Ice Beam
+- Shell Smash
 
-Rhyperior @ Assault Vest
+Mandibuzz @ Leftovers
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Big Pecks
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Foul Play
+- Roost
+- Swagger
+- Toxic
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Porygon-Z @ Normal Gem
+Nature: Timid
+Ability: Adaptability
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Tri-Attack
+- Ice Beam
+- Dark Pulse
+- Thunder Wave
 
 === TRAINER_MATTHEW ===
 Name: Matthew
@@ -7980,41 +7981,41 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Politoed @ Lum Berry
+Nature: Timid
+Ability: Drizzle
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Hydro Pump
+- Focus Blast
+- Earth Power
+- Hypnosis
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Kingdra @ Mystic Water
+Nature: Modest
+Ability: Swift Swim
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Surf
+- Dragon Pulse
+- Ice Beam
+- Sleep Talk
 
-Rhyperior @ Assault Vest
+Malamar @ Tanga Berry
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Contrary
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Night Slash
+- Psycho Cut
+- Superpower
+- Liquidation
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Mantine @ Sharp Beak
+Nature: Modest
+Ability: Swift Swim
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Hurricane
+- Scald
+- Confuse Ray
+- Roost
 
 === TRAINER_MISSY ===
 Name: Missy
@@ -8025,41 +8026,42 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
+Scizor @ Occa Berry
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Technician
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Bug Bite
+- Bullet Punch
+- Close Combat
+- Dual Wingbeat
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Zebstrika @ Life Orb
+Nature: Naive
+Ability: Reckless
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Wild Charge
+- Overheat
+- Double-Edge
+- Low Kick
 
-Rhyperior @ Assault Vest
+Ursaring @ Eviolite
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Quick Feet
 Level: 51
+Status: Poison
+- Facade
 - High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Play Rough
+- Swords Dance
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Basculegion-F @ Colbur Berry
+Nature: Modest
+Ability: Adaptability
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Hydro Pump
+- Shadow Ball
+- Ice Beam
+- Agility
 
 /*
 Double:
@@ -8074,23 +8076,23 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Silvally-Ground @ Ground Memory
+Nature: Naive
+Ability: Armor Tail
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Multi-Attack
+- Ice Beam
+- Grass Pledge
+- Round
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Noivern @ Focus Sash
+Nature: Timid
+Ability: Telepathy
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Dragon Pulse
+- Air Slash
+- Focus Blast
+- Round
 
 === TRAINER_CORY_1 ===
 Name: Cory
@@ -8101,32 +8103,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Electrode @ Air Balloon
+Nature: Hasty
+Ability: Galvanize
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Explosion
+- Round
+- Foul Play
+- Signal Beam
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Farigiraf @ Throat Spray
+Nature: Timid
+Ability: Armor Tail
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Psychic Noise
+- Round
+- Dazzling Gleam
+- Reflect
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Primarina @ Kebia Berry
+Nature: Timid
+Ability: Liquid Voice
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Moonblast
+- Hyper Voice
+- Round
+- Icy Wind
 
 /*
 Loc: Abandoned Ship
@@ -8141,41 +8143,45 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
-Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+/*
+Comment: In Abandoned Ship, critical hits use the Gen 5 modifier.
+*/
 
-Rhyperior @ Assault Vest
+Quaquaval @ Focus Sash
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Torrent
+Level: 50
+- Close Combat
+- Aqua Cutter
+- Triple Axel
+- Counter
+
+Togekiss @ Scope Lens
+Nature: Timid
+Ability: Super Luck
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Dazzling Gleam
+- Air Cutter
+- Mystical Fire
+- Roost
 
-Rhyperior @ Assault Vest
+Lurantis @ Grass Gem
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Sharpness
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Leaf Blade
+- X-Scissor
+- Night Slash
+- Substitute
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Delphox @ Lum Berry
+Nature: Timid
+Ability: Blaze
 Level: 52
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Overheat
+- Psychic
+- Hypnosis
+- Laser Focus
 
 === TRAINER_DEMETRIUS ===
 Name: Demetrius
@@ -8186,41 +8192,41 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
+Samurott-Hisui @ Assault Vest
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Sharpness
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Aqua Cutter
+- Night Slash
+- Ceaseless Edge
+- Sacred Sword
 
-Rhyperior @ Assault Vest
+Unfezant @ Power Herb
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Super Luck
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Sky Attack
+- Return
+- Drill Peck
+- Night Slash
 
-Rhyperior @ Assault Vest
+Donphan @ Custap Berry
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Sturdy
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Earthquake
+- Ice Spinner
+- Endeavor
+- Roar
 
-Rhyperior @ Assault Vest
+Gumshoos @ Red Card
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Stakeout
 Level: 52
-- High Horsepower
-- Rock Slide
+- Frustration
+- Iron Tail
 - Fire Punch
-- Avalanche
+- Pursuit
 
 === TRAINER_DUNCAN ===
 Name: Duncan
@@ -8231,41 +8237,41 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Alakazam @ Focus Sash
+Nature: Timid
+Ability: Inner Focus
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Psychic
+- Focus Blast
+- Dazzling Gleam
+- Laser Focus
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Conkeldurr @ Fighting Gem
+Nature: Careful
+Ability: Iron Fist
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Hammer Arm
+- Ice Punch
+- Thunder Punch
+- Mach Punch
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Escavalier @ Occa Berry
+Nature: Careful
+Ability: Swarm
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Iron Head
+- X-Scissor
+- Drill Run
+- Metal Burst
 
-Rhyperior @ Assault Vest
+Barbaracle @ White Herb
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Sniper
 Level: 51
-- High Horsepower
+- Liquidation
 - Rock Slide
-- Fire Punch
-- Avalanche
+- Cross Chop
+- Shell Smash
 
 === TRAINER_CHARLIE ===
 Name: Charlie
@@ -8276,50 +8282,50 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Hatterene @ Custap Berry
+Nature: Bold
+Ability: Magic Bounce
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Misty Explosion
+- Psychic
+- Magic Powder
+- Endure
 
-Rhyperior @ Assault Vest
+Drapion @ Dark Gem
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Sniper
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Cross Poison
+- Night Slash
+- Pursuit
+- Aqua Tail
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Beedrill @ Focus Sash
+Nature: Adamant
+Ability: Sniper
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- X-Scissor
+- Cross Poison
+- Pursuit
+- Agility
 
-Rhyperior @ Assault Vest
+Floatzel @ Expert Belt
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Technician
 Level: 52
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Wave Crash
+- Flip Turn
+- Ice Fang
+- Pursuit
 
-Rhyperior @ Assault Vest
+Fearow @ Scope Lens
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Sniper
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Double-Edge
+- Drill Peck
+- Drill Run
+- Pursuit
 
 === TRAINER_GARRISON ===
 Name: Garrison
@@ -8330,41 +8336,41 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
+Gigalith @ Leftovers
+Nature: Careful
+Ability: Sand Stream
+Level: 51
+- Stone Edge
+- Earthquake
+- Body Press
+- Stealth Rock
+
+Krookodile @ Black Glasses
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Intimidate
 Level: 51
 - High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Knock Off
+- Gunk Shot
+- Focus Energy
 
-Rhyperior @ Assault Vest
+Leavanny @ Focus Sash
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Overcoat
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Leaf Blade
+- X-Scissor
+- Flail
+- Grass Whistle
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
-Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
-
-Rhyperior @ Assault Vest
+Lycanroc-Dusk @ Loaded Dice
 Nature: Jolly
 Ability: Lightning Rod
 Level: 52
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Rock Blast
+- Close Combat
+- Play Rough
+- Substitute
 
 === TRAINER_JANI ===
 Name: Jani
@@ -8375,50 +8381,48 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior @ Assault Vest
+Blaziken @ Focus Sash
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Speed Boost
 Level: 50
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Blaze Kick
+- Baton Pass
+- Detect
+- Focus Energy
 
-Rhyperior @ Assault Vest
+Gogoat @ Expert Belt
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Sap Sipper
 Level: 51
+- Leaf Blade
 - High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Wild Charge
+- Milk Drink
 
-Rhyperior @ Assault Vest
+Haxorus @ Lum Berry
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Mold Breaker
 Level: 51
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Dragon Claw
+- Iron Tail
+- Aqua Tail
+- Reversal
 
-Rhyperior @ Assault Vest
+Drednaw @ Choice Band
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Shell Armor
 Level: 52
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+- Head Smash
+- Liquidation
 
-Rhyperior @ Assault Vest
-Nature: Jolly
-Ability: Lightning Rod
+Sirfetch'd @ Leek
 Level: 52
-- High Horsepower
-- Rock Slide
-- Fire Punch
-- Avalanche
+Nature: Jolly
+Ability: Scrappy
+- Meteor Assault
+- Brave Bird
+- Poison Jab
+- Quick Attack
 
 === TRAINER_KIRA_AND_DAN_1 ===
 Name: Kira & Dan
@@ -8430,8 +8434,8 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Coalossal @ Covert Cloak
-Level: 53
-Nature: Hasty
+Level: 52
+Nature: Gentle
 Ability: Steam Engine
 - Burn Up
 - Power Gem
@@ -8439,7 +8443,7 @@ Ability: Steam Engine
 - Explosion
 
 Dragapult @ Kings Rock
-Level: 49
+Level: 50
 Nature: Jolly
 Ability: Cursed Body
 IVs: 31 HP / 31 Atk / 31 Def / 0 SpA / 31 SpD / 31 Spe
