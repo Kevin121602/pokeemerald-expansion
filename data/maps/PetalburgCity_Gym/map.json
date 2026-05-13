@@ -145,20 +145,6 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
       "flag": "FLAG_HIDE_PETALBURG_GYM_WALLY"
-    },
-    {
-      "local_id": "LOCALID_PETALBURG_GYM_WALLYS_DAD",
-      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
-      "x": 1,
-      "y": 7,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "0x0",
-      "flag": "FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD"
     }
   ],
   "warp_events": [
@@ -437,7 +423,7 @@
       "y": 105,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "PetalburgCity_Gym_EventScript_SpeedRoomDoor"
+      "script": "PetalburgCity_Gym_EventScript_CritRoomDoor"
     },
     {
       "type": "sign",
@@ -453,7 +439,7 @@
       "y": 79,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "PetalburgCity_Gym_EventScript_ConfusionRoomDoor"
+      "script": "PetalburgCity_Gym_EventScript_SpeedRoomDoor"
     },
     {
       "type": "sign",
@@ -461,7 +447,7 @@
       "y": 79,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "PetalburgCity_Gym_EventScript_LeftDefenseRoomDoor"
+      "script": "PetalburgCity_Gym_EventScript_LeftStrengthRoomDoor"
     },
     {
       "type": "sign",
@@ -469,7 +455,7 @@
       "y": 92,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "PetalburgCity_Gym_EventScript_RightDefenseRoomDoor"
+      "script": "PetalburgCity_Gym_EventScript_RightStrengthRoomDoor"
     },
     {
       "type": "sign",
@@ -485,7 +471,7 @@
       "y": 40,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "PetalburgCity_Gym_EventScript_LeftStrengthRoomDoor"
+      "script": "PetalburgCity_Gym_EventScript_LeftRecoilRoomDoor"
     },
     {
       "type": "sign",
@@ -493,7 +479,7 @@
       "y": 53,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "PetalburgCity_Gym_EventScript_RightStrengthRoomDoor"
+      "script": "PetalburgCity_Gym_EventScript_RightRecoilRoomDoor"
     },
     {
       "type": "sign",
@@ -501,7 +487,7 @@
       "y": 53,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "PetalburgCity_Gym_EventScript_LeftOHKORoomDoor"
+      "script": "PetalburgCity_Gym_EventScript_LeftZeroReductionRoomDoor"
     },
     {
       "type": "sign",
@@ -509,7 +495,7 @@
       "y": 66,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "PetalburgCity_Gym_EventScript_RightOHKORoomDoor"
+      "script": "PetalburgCity_Gym_EventScript_RightZeroReductionRoomDoor"
     },
     {
       "type": "sign",

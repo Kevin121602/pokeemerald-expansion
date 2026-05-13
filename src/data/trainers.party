@@ -1623,7 +1623,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Ninjask @ Power Herb
 Nature: Adamant
-Ability: Speed Boost
+Ability: Infiltrator
 Level: 21
 - Dual Wingbeat
 - Leech Life
@@ -3340,7 +3340,7 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Eldegoss @ Kings Rock
+Eldegoss @ King's Rock
 Nature: Bold
 Ability: Cotton Down
 Level: 30
@@ -4684,8 +4684,8 @@ Nature: Jolly
 Ability: Grassy Surge
 - Drum Beating
 - Acrobatics
-- Hammer Arm
 - High Horsepower
+- Endeavor
 
 Dedenne @ Petaya Berry
 Level: 37
@@ -5274,7 +5274,7 @@ Ability: Levitate
 Rapidash @ Muscle Band
 Level: 38
 Nature: Jolly
-Ability: Reckless
+Ability: Flame Body
 - Flare Blitz
 - Megahorn
 - Wild Charge
@@ -5336,12 +5336,12 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Rampardos @ Muscle Band
 Level: 38
-Nature: Jolly
+Nature: Naive
 Ability: Mold Breaker
 - Rock Slide
 - Earthquake
 - Zen Headbutt
-- Fire Punch
+- Pursuit
 
 Mr. Rime @ Never-Melt Ice
 Level: 37
@@ -5379,7 +5379,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Gourgeist-Small @ Focus Sash
+Gourgeist-Super @ Sitrus Berry
 Level: 37
 Nature: Jolly
 Ability: Insomnia
@@ -6315,7 +6315,7 @@ Ability: Volt Absorb
 - Blizzard
 - Heal Bell
 
-Cloyster @ Kings Rock
+Cloyster @ King's Rock
 Level: 43
 Nature: Jolly
 Ability: Skill Link
@@ -6878,14 +6878,14 @@ Level: 44
 - Stomping Tantrum
 - Will-O-Wisp
 
-Octillery @ Water Gem
-Nature: Timid
-Ability: Sniper
+Drednaw @ Rindo Berry
+Nature: Jolly
+Ability: Strong Jaw
 Level: 44
-- Water Spout
-- Octazooka
-- Energy Ball
-- Ice Beam
+- Head Smash
+- Liquidation
+- Jaw Lock
+- Ice Fang
 
 Oinkologne @ Chople Berry
 Nature: Impish
@@ -7247,7 +7247,7 @@ Level: 47
 - Acrobatics
 - Bug Buzz
 
-Luvdisc @ Kings Rock
+Luvdisc @ King's Rock
 Nature: Hasty
 Ability: Run Away
 Level: 48
@@ -7612,7 +7612,7 @@ Level: 49
 - Nature Power
 
 Ferrothorn @ Misty Seed
-Nature: Sassy
+Nature: Relaxed
 Ability: Iron Barbs
 Level: 50
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
@@ -8035,14 +8035,15 @@ Level: 50
 - Close Combat
 - Dual Wingbeat
 
-Zebstrika @ Life Orb
-Nature: Naive
-Ability: Reckless
+Manectric @ Life Orb
+Nature: Timid
+Ability: Static
 Level: 51
-- Wild Charge
-- Overheat
-- Double-Edge
-- Low Kick
+IVs: 31 HP / 30 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flamethrower
+- Hidden Power
+- Magnet Rise
 
 Ursaring @ Eviolite
 Nature: Jolly
@@ -8159,19 +8160,20 @@ Level: 50
 Togekiss @ Scope Lens
 Nature: Timid
 Ability: Super Luck
-Level: 51
+Level: 50
 - Dazzling Gleam
 - Air Cutter
 - Mystical Fire
 - Roost
 
-Lurantis @ Grass Gem
-Nature: Jolly
-Ability: Sharpness
-Level: 50
-- Leaf Blade
-- X-Scissor
-- Night Slash
+Simisage @ Lansat Berry
+Nature: Naive
+Ability: Gluttony
+Level: 51
+IVs: 30 HP / 31 Atk / 31 Def / 0 SpA / 31 SpD / 31 Spe
+- Leaf Storm
+- Focus Blast
+- Acrobatics
 - Substitute
 
 Delphox @ Lum Berry
@@ -8300,14 +8302,14 @@ Level: 51
 - Pursuit
 - Aqua Tail
 
-Beedrill @ Focus Sash
-Nature: Adamant
-Ability: Sniper
+Gourgeist-Small @ Focus Sash
+Nature: Jolly
+Ability: Insomnia
 Level: 51
-- X-Scissor
-- Cross Poison
-- Pursuit
-- Agility
+- Power Whip
+- Poltergeist
+- Explosion
+- Trick-or-Treat
 
 Floatzel @ Expert Belt
 Nature: Jolly
@@ -8365,7 +8367,7 @@ Level: 51
 
 Lycanroc-Dusk @ Loaded Dice
 Nature: Jolly
-Ability: Lightning Rod
+Ability: Tough Claws
 Level: 52
 - Rock Blast
 - Close Combat
@@ -8390,14 +8392,14 @@ Level: 50
 - Detect
 - Focus Energy
 
-Gogoat @ Expert Belt
+Lurantis @ Life Orb
 Nature: Jolly
-Ability: Sap Sipper
+Ability: Sharpness
 Level: 51
 - Leaf Blade
-- High Horsepower
-- Wild Charge
-- Milk Drink
+- X-Scissor
+- Night Slash
+- Swords Dance
 
 Haxorus @ Lum Berry
 Nature: Jolly
@@ -8408,12 +8410,14 @@ Level: 51
 - Aqua Tail
 - Reversal
 
-Drednaw @ Choice Band
-Nature: Jolly
-Ability: Shell Armor
+Octillery @ Scope Lens
+Nature: Timid
+Ability: Sniper
 Level: 52
-- Head Smash
-- Liquidation
+- Water Spout
+- Octazooka
+- Energy Ball
+- Sludge Bomb
 
 Sirfetch'd @ Leek
 Level: 52
@@ -8433,41 +8437,40 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Coalossal @ Covert Cloak
+Gengar @ Focus Sash
 Level: 52
-Nature: Gentle
-Ability: Steam Engine
-- Burn Up
-- Power Gem
-- Earth Power
+Nature: Timid
+Ability: Levitate
+- Sludge Wave
+- Shadow Ball
 - Explosion
+- Thunder Wave
 
-Dragapult @ Kings Rock
-Level: 50
+Medicham @ Fighting Gem
+Level: 51
 Nature: Jolly
-Ability: Cursed Body
-IVs: 31 HP / 31 Atk / 31 Def / 0 SpA / 31 SpD / 31 Spe
-- Dragon Darts
-- Surf
-- Steel Wing
-- Infestation
+Ability: Telepathy
+- Close Combat
+- Zen Headbutt
+- Rock Slide
+- Fake Out
 
-Ceruledge @ Focus Sash
+Drifblim @ Flying Gem
 Level: 52
-Nature: Jolly
-Ability: Sharpness
-- Bitter Blade
-- Shadow Claw
-- X-Scissor
-- Shadow Sneak
+Nature: Lonely
+Ability: Unburden
+- Acrobatics
+- Shadow Ball
+- Explosion
+- Tailwind
 
-Gardevoir @ Lum Berry
+Gardevoir @ Scope Lens
 Level: 52
 Nature: Timid
 Ability: Telepathy
-- Moonblast
 - Psychic
-- Thunderbolt
+- Dazzling Gleam
+- Mystical Fire
 - Hypnosis
 
 === TRAINER_SIDNEY ===
@@ -8539,8 +8542,589 @@ Loc: Trick House [Optional]
 */
 
 /*
+Double:
+*/
+
+=== TRAINER_JOSHUA ===
+Name: Joshua
+Class: Psychic
+Pic: Psychic M
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 51
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 52
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+=== TRAINER_PATRICIA ===
+Name: Patricia
+Class: Hex Maniac
+Pic: Hex Maniac
+Gender: Female
+Music: Suspicious
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 52
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 52
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 52
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+/*
+Double:
+*/
+
+=== TRAINER_MARIELA ===
+Name: Mariela
+Class: Psychic
+Pic: Psychic F
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 51
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 52
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+=== TRAINER_EVERETT ===
+Name: Everett
+Class: Gentleman
+Pic: Gentleman
+Gender: Male
+Music: Rich
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 52
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 52
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+/*
+Double:
+*/
+
+=== TRAINER_ALVARO ===
+Name: Alvaro
+Class: Psychic
+Pic: Psychic M
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 52
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 52
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+=== TRAINER_ALEXIS ===
+Name: Alexis
+Class: Psychic
+Pic: Psychic F
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 52
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 52
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+/*
 Loc: Petalburg Gym
 */
+
+=== TRAINER_RANDALL ===
+Name: Randall
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Infernape @ Focus Sash
+Level: 52
+Nature: Timid
+Ability: Blaze
+- Flamethrower
+- Aura Sphere
+- Grass Knot
+- Focus Energy
+
+Kleavor @ Lum Berry
+Level: 52
+Nature: Jolly
+Ability: Sharpness
+- X-Scissor
+- Stone Axe
+- Brick Break
+- Morning Sun
+
+Iron Valiant @ Booster Energy
+Level: 52
+Nature: Jolly
+Ability: Quark Drive
+- Spirit Break
+- Low Kick
+- Psycho Cut
+- Hypnosis
+
+Shiftry @ Scope Lens
+Level: 53
+Nature: Jolly
+Ability: Wind Rider
+- Leaf Blade
+- Night Slash
+- Tailwind
+- Explosion
+
+Swellow @ Flame Orb
+Level: 53
+Nature: Jolly
+Ability: Guts
+- Brave Bird
+- Facade
+- Reversal
+- Focus Energy
+
+=== TRAINER_MARY ===
+Name: Mary
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rotom-Wash @ Lum Berry
+Level: 52
+Nature: Timid
+Ability: Levitate
+- Hydro Pump
+- Thunder
+- Signal Beam
+- Will-O-Wisp
+
+Chandelure @ Leftovers
+Level: 52
+Nature: Timid
+Ability: Shadow Tag
+- Inferno
+- Shadow Ball
+- Hex
+- Sleep Talk
+
+Hariyama @ Assault Vest
+Level: 52
+Nature: Jolly
+Ability: Thick Fat
+- Dynamic Punch
+- Ice Punch
+- Knock Off
+- Bullet Punch
+
+Durant @ Focus Sash
+Level: 53
+Nature: Jolly
+Ability: Hustle
+- Iron Head
+- X-Scissor
+- Infestation
+- Stomping Tantrum
+
+Porygon2 @ Eviolite
+Level: 53
+Nature: Quiet
+Ability: Analytic
+- Tri-Attack
+- Zap Cannon
+- Ice Beam
+- Recover
+
+=== TRAINER_PARKER ===
+Name: Parker
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ninjask @ Focus Sash
+Level: 52
+Nature: Adamant
+Ability: Speed Boost
+- Dual Wingbeat
+- Leech Life
+- Baton Pass
+- Swords Dance
+
+Chesnaught @ Coba Berry
+Level: 53
+Nature: Jolly
+Ability: Bulletproof
+- Needle Arm
+- Drain Punch
+- Trailblaze
+- Rock Slide
+
+Rampardos @ Life Orb
+Level: 52
+Nature: Jolly
+Ability: Sheer Force
+- Rock Slide
+- Zen Headbutt
+- Fire Punch
+- Rock Polish
+
+Luxray @ Flame Orb
+Level: 53
+Nature: Jolly
+Ability: Guts
+- Wild Charge
+- Crunch
+- Facade
+- Agility
+
+Cinccino @ King's Rock
+Level: 53
+Nature: Jolly
+Ability: Skill Link
+- Tail Slap
+- Bullet Seed
+- Rock Blast
+- Triple Axel
+
+=== TRAINER_ALEXIA ===
+Name: Alexia
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Darmanitan @ Life Orb
+Level: 52
+Nature: Jolly
+Ability: Sheer Force
+- Flare Blitz
+- Zen Headbutt
+- Rock Slide
+- U-turn
+
+Crabominable @ Eject Pack
+Level: 53
+Nature: Careful
+Ability: Hyper Cutter
+- Close Combat
+- Ice Hammer
+- Thunder Punch
+- Bulk Up
+
+Torterra @ White Herb
+Level: 52
+Nature: Jolly
+Ability: Overgrow
+- Headlong Rush
+- Wood Hammer
+- Stone Edge
+- Shell Smash
+
+Dracozolt @ Lum Berry
+Level: 53
+Nature: Jolly
+Ability: Hustle
+- Bolt Beak
+- Dragon Claw
+- Low Kick
+- Thunder Wave
+
+Ursaluna @ Leftovers
+Level: 53
+Nature: Jolly
+Ability: Unnerve
+- High Horsepower
+- Body Slam
+- Ice Punch
+- Yawn
+
+=== TRAINER_GEORGE ===
+Name: George
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rillaboom @ Lum Berry
+Level: 52
+Nature: Adamant
+Ability: Grassy Surge
+- Wood Hammer
+- Hammer Arm
+- Knock Off
+- Leech Seed
+
+Magnezone @ Custap Berry
+Level: 53
+Nature: Timid
+Ability: Sturdy
+IVs: 31 HP / 30 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flash Cannon
+- Hidden Power
+- Mirror Coat
+
+Gogoat @ Assault Vest
+Level: 52
+Nature: Jolly
+Ability: Grass Pelt
+- Horn Leech
+- High Horsepower
+- Zen Headbutt
+- Rock Slide
+
+Aegislash @ Muscle Band
+Level: 53
+Nature: Brave
+Ability: Stance Change
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+- Iron Head
+- Shadow Claw
+- Sacred Sword
+- King's Shield
+
+Blissey @ Grassy Seed
+Level: 53
+Nature: Bold
+Ability: Natural Cure
+- Hyper Voice
+- Flamethrower
+- Grass Knot
+- Softboiled
+
+=== TRAINER_JODY ===
+Name: Jody
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Floette-Eternal @ Fairy Feather
+Level: 52
+Nature: Timid
+Ability: Flower Veil
+- Light of Ruin
+- Calm Mind
+- Rest
+- Sleep Talk
+
+Bronzong @ Occa Berry
+Level: 53
+Nature: Quiet
+Ability: Levitate
+- Steel Beam
+- Future Sight
+- Earthquake
+- Stealth Rock
+
+Rapidash @ Life Orb
+Level: 53
+Nature: Jolly
+Ability: Reckless
+- Flare Blitz
+- Double Edge
+- High Horsepower
+- Wild Charge
+
+Relicanth @ Weakness Policy
+Level: 53
+Nature: Jolly
+Ability: Sturdy
+- Head Smash
+- Waterfall
+- Zen Headbutt
+- Rock Polish
+
+Staraptor @ Lum Berry
+Level: 53
+Nature: Jolly
+Ability: Reckless
+- Brave Bird
+- Double-Edge
+- Close Combat
+- U-turn
+
+=== TRAINER_BERKE ===
+Name: Berke
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Roserade @ Focus Sash
+Level: 52
+Nature: Timid
+Ability: Poison Point
+- Leaf Storm
+- Venoshock
+- Extrasensory
+- Toxic Spikes
+
+Turtonator @ Wise Glasses
+Level: 53
+Nature: Timid
+Ability: Shell Armor
+- Draco Meteor
+- Overheat
+- Charge Beam
+- Shell Smash
+
+Metagross @ Lum Berry
+Level: 53
+Nature: Jolly
+Ability: Clear Body
+- Meteor Mash
+- Psychic Fangs
+- Hammer Arm
+- Agility
+
+Flygon @ Dragon Fang
+Level: 53
+Nature: Naive
+Ability: Levitate
+- Draco Meteor
+- Earthquake
+- Sand Tomb
+- Stone Edge
+
+Bewear @ Sitrus Berry
+Level: 53
+Nature: Jolly
+Ability: Fluffy
+- Mega Kick
+- Superpower
+- Payback
+- Attract
 
 === TRAINER_NORMAN_1 ===
 Name: Norman
@@ -8561,23 +9145,23 @@ Ability: Harvest
 - Earth Power
 - Endure
 
-Palafin @ Punching Glove
+Palafin @ Lum Berry
 Level: 52
 Nature: Jolly
 Ability: Zero to Hero
-- Jet Punch
+- Liquidation
 - Flip Turn
 - Body Slam
 - Drain Punch
 
-Kangaskhan @ Focus Sash
+Kangaskhan @ Chople Berry
 Level: 53
 Nature: Jolly
 Ability: Scrappy
 - Body Slam
+- Facade
 - Dynamic Punch
 - Power-Up Punch
-- Seismic Toss
 
 Sandy Shocks @ Booster Energy
 Level: 53
@@ -9365,69 +9949,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Tail Whip
 - Surf
 
-=== TRAINER_RANDALL ===
-Name: RANDALL
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Basic Trainer
-
-Swellow
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Quick Attack
-- Agility
-- Wing Attack
-
-=== TRAINER_PARKER ===
-Name: PARKER
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Basic Trainer
-
-Spinda
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Dizzy Punch
-- Focus Punch
-
-=== TRAINER_GEORGE ===
-Name: GEORGE
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Basic Trainer
-
-Slakoth @ Sitrus Berry
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Slack Off
-- Counter
-- Shadow Ball
-
-=== TRAINER_BERKE ===
-Name: BERKE
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Basic Trainer
-
-Vigoroth
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Focus Energy
-- Slash
-
 === TRAINER_VINCENT ===
 Name: VINCENT
 Class: Cooltrainer
@@ -9673,55 +10194,6 @@ Ludicolo
 Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_MARY ===
-Name: MARY
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Basic Trainer
-
-Delcatty
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Feint Attack
-- Shock Wave
-
-=== TRAINER_ALEXIA ===
-Name: ALEXIA
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Basic Trainer
-
-Wigglytuff
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Defense Curl
-- Double Edge
-- Shadow Ball
-
-=== TRAINER_JODY ===
-Name: JODY
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
-
-Zangoose
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Slash
-
 === TRAINER_KEIRA ===
 Name: KEIRA
 Class: Cooltrainer
@@ -9921,23 +10393,6 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 Roselia
 Level: 34
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-
-=== TRAINER_PATRICIA ===
-Name: PATRICIA
-Class: Hex Maniac
-Pic: Hex Maniac
-Gender: Female
-Music: Suspicious
-Double Battle: No
-AI: Check Bad Move
-
-Banette
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Lunatone
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TAMMY ===
 Name: TAMMY
@@ -11703,23 +12158,6 @@ Girafarig
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_JOSHUA ===
-Name: JOSHUA
-Class: Psychic
-Pic: Psychic M
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Kadabra
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Solrock
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_CAMERON_2 ===
 Name: CAMERON
 Class: Psychic
@@ -11840,23 +12278,6 @@ AI: Check Bad Move
 Kadabra
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_ALEXIS ===
-Name: ALEXIS
-Class: Psychic
-Pic: Psychic F
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Kirlia
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Xatu
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JACKI_2 ===
 Name: JACKI
@@ -22059,46 +22480,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Kingdra
 Level: 40
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_MARIELA ===
-Name: MARIELA
-Class: Psychic
-Pic: Psychic F
-Gender: Female
-Music: Intense
-Double Battle: No
-
-Chimecho
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ALVARO ===
-Name: ALVARO
-Class: Psychic
-Pic: Psychic M
-Gender: Male
-Music: Intense
-Double Battle: No
-
-Banette
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Kadabra
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_EVERETT ===
-Name: EVERETT
-Class: Gentleman
-Pic: Gentleman
-Gender: Male
-Music: Rich
-Double Battle: No
-
-Wobbuffet
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_RED ===
 Name: RED
