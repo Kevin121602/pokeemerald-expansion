@@ -8818,7 +8818,7 @@ Ability: Levitate
 - Signal Beam
 - Will-O-Wisp
 
-Chandelure @ Leftovers
+Chandelure @ Wide Lens
 Level: 52
 Nature: Timid
 Ability: Shadow Tag
@@ -8827,14 +8827,14 @@ Ability: Shadow Tag
 - Hex
 - Sleep Talk
 
-Hariyama @ Assault Vest
+Dracozolt @ Lum Berry
 Level: 52
 Nature: Jolly
-Ability: Thick Fat
-- Dynamic Punch
-- Ice Punch
-- Knock Off
-- Bullet Punch
+Ability: Hustle
+- Bolt Beak
+- Dragon Claw
+- Low Kick
+- Thunder Wave
 
 Durant @ Focus Sash
 Level: 53
@@ -8845,10 +8845,11 @@ Ability: Hustle
 - Infestation
 - Stomping Tantrum
 
-Porygon2 @ Eviolite
+Porygon2 @ Zoom Lens
 Level: 53
 Nature: Quiet
 Ability: Analytic
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
 - Tri-Attack
 - Zap Cannon
 - Ice Beam
@@ -8926,14 +8927,14 @@ Ability: Sheer Force
 - Rock Slide
 - U-turn
 
-Crabominable @ Eject Pack
+Kabutops @ Focus Sash
 Level: 53
-Nature: Careful
-Ability: Hyper Cutter
-- Close Combat
-- Ice Hammer
-- Thunder Punch
-- Bulk Up
+Nature: Jolly
+Ability: Weak Armor
+- Waterfall
+- Rock Slide
+- Psycho Cut
+- Swords Dance
 
 Torterra @ White Herb
 Level: 52
@@ -8944,23 +8945,23 @@ Ability: Overgrow
 - Stone Edge
 - Shell Smash
 
-Dracozolt @ Lum Berry
+Iron Hands @ Booster Energy
 Level: 53
 Nature: Jolly
-Ability: Hustle
-- Bolt Beak
-- Dragon Claw
-- Low Kick
-- Thunder Wave
+Ability: Quark Drive
+- Drain Punch
+- Thunder Punch
+- Fire Punch
+- Seismic Toss
 
-Ursaluna @ Leftovers
+Komala @ Choice Band
 Level: 53
 Nature: Jolly
-Ability: Unnerve
-- High Horsepower
-- Body Slam
-- Ice Punch
-- Yawn
+Ability: Comatose
+- Double-Edge
+- Earthquake
+- Play Rough
+- Sleep Talk
 
 === TRAINER_GEORGE ===
 Name: George
@@ -8999,15 +9000,14 @@ Ability: Grass Pelt
 - Zen Headbutt
 - Rock Slide
 
-Aegislash @ Muscle Band
+Ceruledge @ Power Herb
 Level: 53
-Nature: Brave
-Ability: Stance Change
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
-- Iron Head
+Nature: Jolly
+Ability: Sharpness
+- Bitter Blade
 - Shadow Claw
-- Sacred Sword
-- King's Shield
+- Shadow Sneak
+- Solar Blade
 
 Blissey @ Grassy Seed
 Level: 53
@@ -9045,13 +9045,13 @@ Ability: Levitate
 - Earthquake
 - Stealth Rock
 
-Rapidash @ Life Orb
+Tauros-Paldea-Blaze @ Life Orb
 Level: 53
 Nature: Jolly
-Ability: Reckless
+Ability: Intimidate
 - Flare Blitz
-- Double Edge
-- High Horsepower
+- Close Combat
+- Fire Spin
 - Wild Charge
 
 Relicanth @ Weakness Policy
@@ -9096,26 +9096,26 @@ Nature: Timid
 Ability: Shell Armor
 - Draco Meteor
 - Overheat
-- Charge Beam
 - Shell Smash
+- Sleep Talk
 
-Metagross @ Lum Berry
+Gholdengo @ Lum Berry
+Level: 53
+Nature: Timid
+Ability: Good As Gold
+- Make It Rain
+- Hex
+- Power Gem
+- Recover
+
+Crabominable @ Assault Vest
 Level: 53
 Nature: Jolly
-Ability: Clear Body
-- Meteor Mash
-- Psychic Fangs
-- Hammer Arm
-- Agility
-
-Flygon @ Dragon Fang
-Level: 53
-Nature: Naive
-Ability: Levitate
-- Draco Meteor
-- Earthquake
-- Sand Tomb
-- Stone Edge
+Ability: Iron Fist
+- Close Combat
+- Ice Hammer
+- Thunder Punch
+- Power-Up Punch
 
 Bewear @ Sitrus Berry
 Level: 53
