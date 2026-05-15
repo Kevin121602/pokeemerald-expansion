@@ -21369,19 +21369,19 @@
             },
             {
 #line 8368
-            .species = SPECIES_LYCANROC_DUSK,
+            .species = SPECIES_LYCANROC,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8368
-            .heldItem = ITEM_LOADED_DICE,
+            .heldItem = ITEM_SCOPE_LENS,
 #line 8372
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8370
-            .ability = ABILITY_TOUGH_CLAWS,
+            .ability = ABILITY_SAND_RUSH,
 #line 8371
             .lvl = 52,
             .ball = POKEBALL_COUNT,
 #line 8369
-            .nature = NATURE_JOLLY,
+            .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8372
@@ -21851,50 +21851,50 @@
         {
             {
 #line 8557
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_WEEZING,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8557
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_PAYAPA_BERRY,
 #line 8561
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8560
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_LEVITATE,
 #line 8558
             .lvl = 51,
             .ball = POKEBALL_COUNT,
 #line 8559
-            .nature = NATURE_BOLD,
+            .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8561
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_MALIGNANT_CHAIN,
+                MOVE_FIRE_BLAST,
+                MOVE_DARK_PULSE,
+                MOVE_PROTECT,
             },
             },
             {
 #line 8566
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_MAGMORTAR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8566
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_WHITE_HERB,
 #line 8570
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8569
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_FLAME_BODY,
 #line 8567
             .lvl = 52,
             .ball = POKEBALL_COUNT,
 #line 8568
-            .nature = NATURE_BOLD,
+            .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8570
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_ARMOR_CANNON,
+                MOVE_PSYCHIC,
+                MOVE_THUNDERBOLT,
+                MOVE_FOLLOW_ME,
             },
             },
         },
@@ -21923,74 +21923,74 @@
         {
             {
 #line 8584
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_LILLIGANT_HISUI,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8584
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_FLYING_GEM,
 #line 8588
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8587
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_OWN_TEMPO,
 #line 8585
             .lvl = 52,
             .ball = POKEBALL_COUNT,
 #line 8586
-            .nature = NATURE_BOLD,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8588
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_CLOSE_COMBAT,
+                MOVE_TROP_KICK,
+                MOVE_ACROBATICS,
+                MOVE_HELPING_HAND,
             },
             },
             {
 #line 8593
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_MR_MIME,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8593
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_FOCUS_SASH,
 #line 8597
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8596
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_FILTER,
 #line 8594
             .lvl = 52,
             .ball = POKEBALL_COUNT,
 #line 8595
-            .nature = NATURE_BOLD,
+            .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8597
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_SPARKLY_SWIRL,
+                MOVE_PSYCHIC,
+                MOVE_PSYWAVE,
+                MOVE_FAKE_OUT,
             },
             },
             {
 #line 8602
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_SPINDA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8602
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_CHOPLE_BERRY,
 #line 8606
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8605
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_CONTRARY,
 #line 8603
             .lvl = 52,
             .ball = POKEBALL_COUNT,
 #line 8604
-            .nature = NATURE_BOLD,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8606
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_V_CREATE,
+                MOVE_CLOSE_COMBAT,
+                MOVE_DRAGON_ASCENT,
+                MOVE_HEADLONG_RUSH,
             },
             },
         },
@@ -22019,50 +22019,50 @@
         {
             {
 #line 8624
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_INDEEDEE_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8624
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_FOCUS_SASH,
 #line 8628
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8627
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_SYNCHRONIZE,
 #line 8625
             .lvl = 51,
             .ball = POKEBALL_COUNT,
 #line 8626
-            .nature = NATURE_BOLD,
+            .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8628
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_TERA_STARSTORM,
+                MOVE_PSYSHOCK,
+                MOVE_FAKE_OUT,
+                MOVE_TERRAIN_PULSE,
             },
             },
             {
 #line 8633
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_GALLADE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8633
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_ELECTRIC_SEED,
 #line 8637
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8636
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_SHARPNESS,
 #line 8634
             .lvl = 52,
             .ball = POKEBALL_COUNT,
 #line 8635
-            .nature = NATURE_BOLD,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8637
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_SACRED_SWORD,
+                MOVE_PSYBLADE,
+                MOVE_LEAF_BLADE,
+                MOVE_REFLECT,
             },
             },
         },
@@ -22091,74 +22091,74 @@
         {
             {
 #line 8651
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_PINCURCHIN,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8651
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_SHUCA_BERRY,
 #line 8655
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8654
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_ELECTRIC_SURGE,
 #line 8652
             .lvl = 52,
             .ball = POKEBALL_COUNT,
 #line 8653
-            .nature = NATURE_BOLD,
+            .nature = NATURE_SASSY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8655
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_THUNDERCLAP,
+                MOVE_LIQUIDATION,
+                MOVE_SPIKES,
+                MOVE_TOXIC_SPIKES,
             },
             },
             {
 #line 8660
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_ELECTIVIRE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8660
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_SITRUS_BERRY,
 #line 8664
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8663
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_MOTOR_DRIVE,
 #line 8661
             .lvl = 52,
             .ball = POKEBALL_COUNT,
 #line 8662
-            .nature = NATURE_BOLD,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8664
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_PLASMA_FISTS,
+                MOVE_CROSS_CHOP,
+                MOVE_FIRE_PUNCH,
+                MOVE_FOLLOW_ME,
             },
             },
             {
 #line 8669
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_IRON_THORNS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8669
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_LUM_BERRY,
 #line 8673
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8672
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_QUARK_DRIVE,
 #line 8670
             .lvl = 53,
             .ball = POKEBALL_COUNT,
 #line 8671
-            .nature = NATURE_BOLD,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8673
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_DOUBLE_SHOCK,
+                MOVE_ROCK_SLIDE,
+                MOVE_HIGH_HORSEPOWER,
+                MOVE_DRAGON_DANCE,
             },
             },
         },
@@ -22187,50 +22187,50 @@
         {
             {
 #line 8691
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_BRUXISH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8691
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_LUM_BERRY,
 #line 8695
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8694
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_DAZZLING,
 #line 8692
             .lvl = 52,
             .ball = POKEBALL_COUNT,
 #line 8693
-            .nature = NATURE_BOLD,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8695
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_FISHIOUS_REND,
+                MOVE_PSYCHIC_FANGS,
+                MOVE_AQUA_JET,
+                MOVE_PSYWAVE,
             },
             },
             {
 #line 8700
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_JYNX,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8700
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_POWER_HERB,
 #line 8704
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8703
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_DRY_SKIN,
 #line 8701
             .lvl = 52,
             .ball = POKEBALL_COUNT,
 #line 8702
-            .nature = NATURE_BOLD,
+            .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8704
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_ICE_BURN,
+                MOVE_PSYCHO_BOOST,
+                MOVE_FOCUS_BLAST,
+                MOVE_FAKE_OUT,
             },
             },
         },
@@ -22259,38 +22259,38 @@
         {
             {
 #line 8718
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_COALOSSAL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8718
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_PASSHO_BERRY,
 #line 8722
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8721
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_STEAM_ENGINE,
 #line 8719
             .lvl = 52,
             .ball = POKEBALL_COUNT,
 #line 8720
-            .nature = NATURE_BOLD,
+            .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8722
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
+                MOVE_POWER_GEM,
+                MOVE_TORCH_SONG,
                 MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_SLEEP_TALK,
             },
             },
             {
 #line 8727
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_SLOWKING_GALAR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8727
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_SITRUS_BERRY,
 #line 8731
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8730
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_CURIOUS_MEDICINE,
 #line 8728
             .lvl = 52,
             .ball = POKEBALL_COUNT,
@@ -22299,34 +22299,34 @@
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8731
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_PHOTON_GEYSER,
+                MOVE_SLUDGE_BOMB,
+                MOVE_FLAMETHROWER,
+                MOVE_THUNDER_WAVE,
             },
             },
             {
 #line 8736
-            .species = SPECIES_ARBOLIVA,
+            .species = SPECIES_WEAVILE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8736
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_FOCUS_SASH,
 #line 8740
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8739
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_INNER_FOCUS,
 #line 8737
             .lvl = 53,
             .ball = POKEBALL_COUNT,
 #line 8738
-            .nature = NATURE_BOLD,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8740
-                MOVE_ENERGY_BALL,
-                MOVE_HYPER_VOICE,
-                MOVE_EARTH_POWER,
-                MOVE_ENDURE,
+                MOVE_TRIPLE_AXEL,
+                MOVE_KNOCK_OFF,
+                MOVE_LOW_KICK,
+                MOVE_TOPSY_TURVY,
             },
             },
         },
@@ -22445,8 +22445,8 @@
 #line 8789
                 MOVE_LEAF_BLADE,
                 MOVE_NIGHT_SLASH,
-                MOVE_TAILWIND,
                 MOVE_EXPLOSION,
+                MOVE_TAILWIND,
             },
             },
             {
@@ -22877,8 +22877,8 @@
 #line 8952
                 MOVE_DRAIN_PUNCH,
                 MOVE_THUNDER_PUNCH,
-                MOVE_FIRE_PUNCH,
                 MOVE_SEISMIC_TOSS,
+                MOVE_FIRE_PUNCH,
             },
             },
             {
@@ -22958,7 +22958,7 @@
             .species = SPECIES_MAGNEZONE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8984
-            .heldItem = ITEM_CUSTAP_BERRY,
+            .heldItem = ITEM_IAPAPA_BERRY,
 #line 8988
             .iv = TRAINER_PARTY_IVS(31, 30, 31, 31, 30, 31),
 #line 8987

@@ -8365,9 +8365,9 @@ Level: 51
 - Flail
 - Grass Whistle
 
-Lycanroc-Dusk @ Loaded Dice
-Nature: Jolly
-Ability: Tough Claws
+Lycanroc @ Scope Lens
+Nature: Adamant
+Ability: Sand Rush
 Level: 52
 - Rock Blast
 - Close Combat
@@ -8554,23 +8554,23 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Weezing @ Payapa Berry
 Level: 51
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Timid
+Ability: Levitate
+- Malignant Chain
+- Fire Blast
+- Dark Pulse
+- Protect
 
-Arboliva @ Custap Berry
+Magmortar @ White Herb
 Level: 52
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Timid
+Ability: Flame Body
+- Armor Cannon
+- Psychic
+- Thunderbolt
+- Follow Me
 
 === TRAINER_PATRICIA ===
 Name: Patricia
@@ -8581,32 +8581,32 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Lilligant-Hisui @ Flying Gem
 Level: 52
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Own Tempo
+- Close Combat
+- Trop Kick
+- Acrobatics
+- Helping Hand
 
-Arboliva @ Custap Berry
+Mr. Mime @ Focus Sash
 Level: 52
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Timid
+Ability: Filter
+- Sparkly Swirl
+- Psychic
+- Psywave
+- Fake Out
 
-Arboliva @ Custap Berry
+Spinda @ Chople Berry
 Level: 52
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Contrary
+- V-Create
+- Close Combat
+- Dragon Ascent
+- Headlong Rush
 
 /*
 Double:
@@ -8621,23 +8621,23 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Indeedee-F @ Focus Sash
 Level: 51
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Timid
+Ability: Synchronize
+- Tera Starstorm
+- Psyshock
+- Fake Out
+- Terrain Pulse
 
-Arboliva @ Custap Berry
+Gallade @ Electric Seed
 Level: 52
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Sharpness
+- Sacred Sword
+- Psyblade
+- Leaf Blade
+- Reflect
 
 === TRAINER_EVERETT ===
 Name: Everett
@@ -8648,32 +8648,32 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Pincurchin @ Shuca Berry
 Level: 52
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Sassy
+Ability: Electric Surge
+- Thunderclap
+- Liquidation
+- Spikes
+- Toxic Spikes
 
-Arboliva @ Custap Berry
+Electivire @ Sitrus Berry
 Level: 52
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Motor Drive
+- Plasma Fists
+- Cross Chop
+- Fire Punch
+- Follow Me
 
-Arboliva @ Custap Berry
+Iron Thorns @ Lum Berry
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Quark Drive
+- Double Shock
+- Rock Slide
+- High Horsepower
+- Dragon Dance
 
 /*
 Double:
@@ -8688,23 +8688,23 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Bruxish @ Lum Berry
 Level: 52
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Dazzling
+- Fishious Rend
+- Psychic Fangs
+- Aqua Jet
+- Psywave
 
-Arboliva @ Custap Berry
+Jynx @ Power Herb
 Level: 52
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Timid
+Ability: Dry Skin
+- Ice Burn
+- Psycho Boost
+- Focus Blast
+- Fake Out
 
 === TRAINER_ALEXIS ===
 Name: Alexis
@@ -8715,32 +8715,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Coalossal @ Passho Berry
+Level: 52
+Nature: Timid
+Ability: Steam Engine
+- Power Gem
+- Torch Song
+- Earth Power
+- Sleep Talk
+
+Slowking-Galar @ Sitrus Berry
 Level: 52
 Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Ability: Curious Medicine
+- Photon Geyser
+- Sludge Bomb
+- Flamethrower
+- Thunder Wave
 
-Arboliva @ Custap Berry
-Level: 52
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
-
-Arboliva @ Custap Berry
+Weavile @ Focus Sash
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Inner Focus
+- Triple Axel
+- Knock Off
+- Low Kick
+- Topsy-Turvy
 
 /*
 Loc: Petalburg Gym
@@ -8788,8 +8788,8 @@ Nature: Jolly
 Ability: Wind Rider
 - Leaf Blade
 - Night Slash
-- Tailwind
 - Explosion
+- Tailwind
 
 Swellow @ Flame Orb
 Level: 53
@@ -8951,8 +8951,8 @@ Nature: Jolly
 Ability: Quark Drive
 - Drain Punch
 - Thunder Punch
-- Fire Punch
 - Seismic Toss
+- Fire Punch
 
 Komala @ Choice Band
 Level: 53
@@ -8981,7 +8981,7 @@ Ability: Grassy Surge
 - Knock Off
 - Leech Seed
 
-Magnezone @ Custap Berry
+Magnezone @ Iapapa Berry
 Level: 53
 Nature: Timid
 Ability: Sturdy

@@ -715,7 +715,7 @@ Route110_TrickHousePuzzle7_Text_AlexisPostBattle:
 # 358 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	.string "You're solving all the puzzles in the\n"
 # 359 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "TRICK HOUSE. That's the feeling I get.$"
+	.string "Trick House. That's the feeling I get.$"
 # 360 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 361 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
