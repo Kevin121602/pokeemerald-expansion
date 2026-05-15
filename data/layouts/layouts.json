@@ -357,7 +357,7 @@
       "id": "LAYOUT_ROUTE117",
       "name": "Route117_Layout",
       "width": 60,
-      "height": 20,
+      "height": 35,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route117/border.bin",

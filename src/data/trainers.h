@@ -19681,8 +19681,8 @@
 #line 7709
                 MOVE_POWER_WHIP,
                 MOVE_FOCUS_BLAST,
-                MOVE_ANCIENT_POWER,
                 MOVE_KNOCK_OFF,
+                MOVE_ANCIENT_POWER,
             },
             },
             {
@@ -20632,7 +20632,7 @@
 #line 8084
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8082
-            .ability = ABILITY_ARMOR_TAIL,
+            .ability = ABILITY_RKS_SYSTEM,
 #line 8083
             .lvl = 50,
             .ball = POKEBALL_COUNT,
@@ -22206,7 +22206,7 @@
                 MOVE_FISHIOUS_REND,
                 MOVE_PSYCHIC_FANGS,
                 MOVE_AQUA_JET,
-                MOVE_PSYWAVE,
+                MOVE_REFLECT,
             },
             },
             {
@@ -22229,8 +22229,8 @@
 #line 8704
                 MOVE_ICE_BURN,
                 MOVE_PSYCHO_BOOST,
+                MOVE_BLIZZARD,
                 MOVE_FOCUS_BLAST,
-                MOVE_FAKE_OUT,
             },
             },
         },
@@ -22307,14 +22307,14 @@
             },
             {
 #line 8736
-            .species = SPECIES_WEAVILE,
+            .species = SPECIES_MIMIKYU,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8736
-            .heldItem = ITEM_FOCUS_SASH,
+            .heldItem = ITEM_LIFE_ORB,
 #line 8740
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8739
-            .ability = ABILITY_INNER_FOCUS,
+            .ability = ABILITY_DISGUISE,
 #line 8737
             .lvl = 53,
             .ball = POKEBALL_COUNT,
@@ -22323,9 +22323,9 @@
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8740
-                MOVE_TRIPLE_AXEL,
-                MOVE_KNOCK_OFF,
-                MOVE_LOW_KICK,
+                MOVE_PLAY_ROUGH,
+                MOVE_SHADOW_CLAW,
+                MOVE_WOOD_HAMMER,
                 MOVE_TOPSY_TURVY,
             },
             },

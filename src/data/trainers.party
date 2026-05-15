@@ -7708,8 +7708,8 @@ Ability: Regenerator
 Level: 50
 - Power Whip
 - Focus Blast
-- Ancient Power
 - Knock Off
+- Ancient Power
 
 Rotom-Heat @ White Herb
 Nature: Timid
@@ -8079,7 +8079,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Silvally-Ground @ Ground Memory
 Nature: Naive
-Ability: Armor Tail
+Ability: RKS System
 Level: 50
 - Multi-Attack
 - Ice Beam
@@ -8695,7 +8695,7 @@ Ability: Dazzling
 - Fishious Rend
 - Psychic Fangs
 - Aqua Jet
-- Psywave
+- Reflect
 
 Jynx @ Power Herb
 Level: 52
@@ -8703,8 +8703,8 @@ Nature: Timid
 Ability: Dry Skin
 - Ice Burn
 - Psycho Boost
+- Blizzard
 - Focus Blast
-- Fake Out
 
 === TRAINER_ALEXIS ===
 Name: Alexis
@@ -8733,14 +8733,14 @@ Ability: Curious Medicine
 - Flamethrower
 - Thunder Wave
 
-Weavile @ Focus Sash
+Mimikyu @ Life Orb
 Level: 53
 Nature: Jolly
-Ability: Inner Focus
-- Triple Axel
-- Knock Off
-- Low Kick
-- Topsy-Turvy
+Ability: Disguise
+- Play Rough
+- Shadow Claw
+- Wood Hammer
+- Topsy Turvy
 
 /*
 Loc: Petalburg Gym
