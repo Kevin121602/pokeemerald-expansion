@@ -1147,7 +1147,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 /*
-Comment: In Rustboro Gym, stat changes from Rock, Ground, and Steel type moves are doubled.
+Comment: All gyms have a field effect, check the field effects doc for more information.
 */
 
 Parasect @ Coba Berry
@@ -3597,6 +3597,7 @@ Gender: Female
 Music: Girl
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+
 /*
 Comment: Gauntlet from this fight to Camper Ethan.
 */
@@ -3905,10 +3906,6 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-
-/*
-Comment: In Lavaridge Gym, all Pokémon receive a 20% boost to their weaker defense stat.
-*/
 
 Toedscruel @ Lum Berry
 Nature: Timid
@@ -5169,7 +5166,7 @@ Ability: Water Veil
 - Power-Up Punch
 
 /*
-Loc: Mt. Pyre
+Loc: Mt. Pyre [Permanent Grudge]
 */
 
 === TRAINER_DEZ_AND_LUKE ===
@@ -5180,10 +5177,6 @@ Gender: Male
 Music: Girl
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
-
-/*
-Comment: In Mt. Pyre, all Pokémon have the Grudge status.
-*/
 
 Aromatisse @ Fairy Feather
 Level: 37
@@ -6505,7 +6498,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 /*
-Comment: In Dewford Gym, accuracy is decreased until you use flash in battle. This fight has a 0.7x accuracy modifier
+Comment: 0.7x accuracy
 */
 
 Kingambit @ Chople Berry
@@ -6554,7 +6547,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 /*
-Comment: This fight has a 0.75x accuracy modifier
+Comment: 0.75x accuracy
 */
 
 Passimian @ Flying Gem
@@ -6607,7 +6600,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 /*
-Comment: This fight has a 0.8x accuracy modifier
+Comment: 0.8x accuracy
 */
 
 Braviary @ White Herb
@@ -6674,7 +6667,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 /*
-Comment: This fight has a 0.85x accuracy modifier
+Comment: 0.85x accuracy
 */
 
 Gliscor @ Lum Berry
@@ -6732,7 +6725,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 /*
-Comment: This fight has a 0.9x accuracy modifier
+Comment: 0.9x accuracy
 */
 
 Primeape @ Eviolite
@@ -6791,7 +6784,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Blue
 
 /*
-Comment: This fight has a 0.95x accuracy modifier
+Comment: 0.95x accuracy
 */
 
 Obstagoon @ Flame Orb
@@ -8132,7 +8125,7 @@ Level: 51
 - Icy Wind
 
 /*
-Loc: Abandoned Ship
+Loc: Abandoned Ship [Crits Use Old Gen Modifier]
 */
 
 === TRAINER_THALIA_1 ===
@@ -8143,10 +8136,6 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-
-/*
-Comment: In Abandoned Ship, critical hits use the Gen 5 modifier.
-*/
 
 Quaquaval @ Focus Sash
 Nature: Jolly
@@ -9190,6 +9179,481 @@ Ability: Unnerve
 - Hyper Voice
 - Dark Pulse
 - Substitute
+
+/*
+Split: Juan Split
+*/
+
+/*
+Loc: Rusturf Tunnel
+*/
+
+=== TRAINER_MIKE_1 ===
+Name: Mike
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 52
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+/*
+Loc: Route 117 [Misty Terrain]
+*/
+
+=== TRAINER_DEREK ===
+Name: Derek
+Class: Bug Maniac
+Pic: Bug Maniac
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+=== TRAINER_BRANDI ===
+Name: Brandi
+Class: Psychic
+Pic: Psychic F
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+=== TRAINER_AISHA ===
+Name: Aisha
+Class: Battle Girl
+Pic: Battle Girl
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 55
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+=== TRAINER_MARIA_1 ===
+Name: Maria
+Class: Triathlete
+Pic: Running Triathlete F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 55
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+/*
+Double:
+*/
+
+=== TRAINER_LYDIA_1 ===
+Name: Lydia
+Class: Pkmn Breeder
+Pic: Pokemon Breeder F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 55
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+=== TRAINER_MELINA ===
+Name: Melina
+Class: Triathlete
+Pic: Running Triathlete F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+=== TRAINER_ISAAC_1 ===
+Name: Isaac
+Class: Pkmn Breeder
+Pic: Pokemon Breeder M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 55
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 55
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+=== TRAINER_DYLAN_1 ===
+Name: Dylan
+Class: Triathlete
+Pic: Running Triathlete M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 55
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 55
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 55
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+=== TRAINER_ANNA_AND_MEG_1 ===
+Name: Anna & Meg
+Class: Sr And Jr
+Pic: Sr And Jr
+Gender: Male
+Music: Twins
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 54
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 55
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 55
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 55
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
 
 /*End Parse*/
 
@@ -11992,23 +12456,6 @@ Surskit
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DEREK ===
-Name: DEREK
-Class: Bug Maniac
-Pic: Bug Maniac
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: Check Bad Move
-
-Dustox
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Beautifly
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
 === TRAINER_JEFFREY_2 ===
 Name: JEFFREY
 Class: Bug Maniac
@@ -12977,30 +13424,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Yawn
 - Slack Off
 - Feint Attack
-
-=== TRAINER_ANNA_AND_MEG_1 ===
-Name: ANNA & MEG
-Class: Sr And Jr
-Pic: Sr And Jr
-Gender: Male
-Music: Twins
-Double Battle: Yes
-AI: Check Bad Move
-
-Zigzagoon
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Tail Whip
-- Headbutt
-- Odor Sleuth
-
-Makuhita
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Focus Energy
-- Arm Thrust
 
 === TRAINER_ANNA_AND_MEG_2 ===
 Name: ANNA & MEG
@@ -14054,19 +14477,6 @@ Magneton
 Level: 37
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_DYLAN_1 ===
-Name: DYLAN
-Class: Triathlete
-Pic: Running Triathlete M
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Doduo
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_DYLAN_2 ===
 Name: DYLAN
 Class: Triathlete
@@ -14118,19 +14528,6 @@ AI: Check Bad Move
 Dodrio
 Level: 37
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_MARIA_1 ===
-Name: MARIA
-Class: Triathlete
-Pic: Running Triathlete F
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Doduo
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MARIA_2 ===
 Name: MARIA
@@ -16563,39 +16960,6 @@ Marshtomp
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_ISAAC_1 ===
-Name: ISAAC
-Class: Pkmn Breeder
-Pic: Pokemon Breeder M
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Whismur
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zigzagoon
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Aron
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Poochyena
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Makuhita
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_MITCHELL ===
 Name: MITCHELL
 Class: Cooltrainer
@@ -16752,39 +17116,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Hariyama
 Level: 31
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_LYDIA_1 ===
-Name: LYDIA
-Class: Pkmn Breeder
-Pic: Pokemon Breeder F
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Wingull
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Shroomish
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Marill
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Roselia
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Skitty
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Goldeen
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HALLE ===
 Name: HALLE
@@ -17913,27 +18244,6 @@ Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Splash
 - Water Gun
-
-=== TRAINER_MIKE_1 ===
-Name: MIKE
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Pelipper
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Gust
-- Growl
-
-Poochyena
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Scary Face
 
 === TRAINER_MIKE_2 ===
 Name: MIKE
@@ -19619,45 +19929,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nuzleaf
 Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_MELINA ===
-Name: MELINA
-Class: Triathlete
-Pic: Running Triathlete F
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Doduo
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BRANDI ===
-Name: BRANDI
-Class: Psychic
-Pic: Psychic F
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Ralts
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_AISHA ===
-Name: AISHA
-Class: Battle Girl
-Pic: Battle Girl
-Gender: Female
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Meditite
-Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAKAYLA ===
