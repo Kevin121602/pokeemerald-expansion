@@ -9255,35 +9255,35 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
-Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
-
-Arboliva @ Custap Berry
-Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
-
-Arboliva @ Custap Berry
-Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
-
-Arboliva @ Custap Berry
+Cyclizar @ Sitrus Berry
 Level: 54
+Nature: Naive
+Ability: Regenerator
+- Body Slam
+- Knock Off
+- Overheat
+- Shed Tail
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
+Nature: Bold
+Ability: Harvest
+- Energy Ball
+- Hyper Voice
+- Earth Power
+- Endure
+
+Arboliva @ Custap Berry
+Level: 53
 Nature: Bold
 Ability: Harvest
 - Energy Ball
@@ -9448,23 +9448,23 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Meowscarada @ Focus Sash
 Level: 54
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Protean
+- Petal Blizzard
+- Knock Off
+- Triple Axel
+- Play Rough
 
-Arboliva @ Custap Berry
+Comfey @ Leftovers
 Level: 55
-Nature: Bold
+Nature: Timid
 Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+- Dazzling Gleam
+- Petal Blizzard
+- Encore
+- Light Screen
 
 === TRAINER_MELINA ===
 Name: Melina
@@ -9475,32 +9475,32 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
-Level: 54
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
-
-Arboliva @ Custap Berry
+Zebstrika @ Life Orb
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Adamant
+Ability: Sap Sipper
+- Wild Charge
+- Double-Edge
+- High Horsepower
+- Low Kick
 
-Arboliva @ Custap Berry
+Miltank @ Steel Gem
 Level: 54
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Sap Sipper
+- Return
+- Steel Roller
+- Fire Punch
+- Milk Drink
+
+Sawsbuck @ Loaded Dice
+Level: 54
+Nature: Jolly
+Ability: Sap Sipper
+- Double-Edge
+- Bullet Seed
+- Megahorn
+- Stomping Tantrum
 
 === TRAINER_ISAAC_1 ===
 Name: Isaac
@@ -9556,50 +9556,47 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Carbink @ Custap Berry
 Level: 54
 Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Ability: Sturdy
+- Misty Explosion
+- Moonblast
+- Body Press
+- Stealth Rock
 
-Arboliva @ Custap Berry
+Alcremie @ Choice Specs
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Timid
+Ability: Aroma Veil
+- Misty Explosion
 
-Arboliva @ Custap Berry
+Scream Tail @ Booster Energy
+Level: 55
+Nature: Timid
+Ability: Protosynthesis
+- Misty Explosion
+- Psychic
+- Dazzling Gleam
+- Fake Tears
+
+Azumarill @ Water Gem
+Level: 55
+Nature: Naive
+Ability: Huge Power
+- Misty Explosion
+- Aqua Tail
+- Play Rough
+- Aqua Jet
+
+Musharna @ Misty Seed
 Level: 55
 Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
-
-Arboliva @ Custap Berry
-Level: 55
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
-
-Arboliva @ Custap Berry
-Level: 55
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Ability: Synchronize
+- Future Sight
+- Misty Explosion
+- Signal Beam
+- Moonlight
 
 === TRAINER_ANNA_AND_MEG_1 ===
 Name: Anna & Meg
@@ -9610,50 +9607,50 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Sneasler @ Misty Seed
 Level: 54
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
 
-Arboliva @ Custap Berry
+Silvally-Ghost @ Ghost Memory
 Level: 54
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Naive
+Ability: RKS System
+- Multi-Attack
+- Terrain Pulse
+- Rock Slide
+- Tailwind
 
-Arboliva @ Custap Berry
+Drampa @ Sitrus Berry
 Level: 55
 Nature: Bold
-Ability: Harvest
-- Energy Ball
+Ability: Berserk
 - Hyper Voice
-- Earth Power
-- Endure
+- Nature Power
+- Flamethrower
+- Roost
 
-Arboliva @ Custap Berry
+Whimsicott @ Focus Sash
 Level: 55
-Nature: Bold
-Ability: Harvest
+Nature: Modest
+Ability: Prankster
 - Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+- Nature Power
+- Charm
+- Tailwind
 
-Arboliva @ Custap Berry
+Aurorus @ Power Herb
 Level: 55
-Nature: Bold
-Ability: Harvest
-- Energy Ball
+Nature: Timid
+Ability: Refrigerate
+- Meteor Beam
 - Hyper Voice
+- Nature Power
 - Earth Power
-- Endure
 
 /*End Parse*/
 
