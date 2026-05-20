@@ -6,7 +6,6 @@ script Route107_EventScript_SwimmerM{
 	msgbox("We're having a battle and it might\n"
 			"take a while.\p"
 			"Could you come back later?$")
-	applymovement(VAR_LAST_TALKED, Common_Movement_FaceDown)
 	release
 	end
 }
@@ -19,7 +18,6 @@ script Route107_EventScript_SwimmerF{
 	msgbox("Sorry! I guess we're in your way.\p"
 			"We'll be done battling soon, I\n"
 			"promise!$")
-	applymovement(VAR_LAST_TALKED, Common_Movement_FaceUp)
 	release
 	end
 }

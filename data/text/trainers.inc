@@ -760,7 +760,7 @@ Route108_Text_MissyPostBattle:
 	.string "It's so healthy!$"
 
 Route108_Text_CoryIntro:
-	.string "I love WATER-type Pokémon.\n"
+	.string "I love Water-type Pokémon.\n"
 	.string "I love other Pokémon, too!$"
 
 Route108_Text_CoryDefeated:

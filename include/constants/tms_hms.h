@@ -120,7 +120,6 @@
 #endif
 
 /*  F(ACROBATICS) \ Winona Split
-    F(AFTER_YOU) \ Slateport
     F(AIR_SLASH) \ Norman Split
     F(AURA_SPHERE) \ Dewford
     F(AURORA_VEIL) \ Sootopolis
@@ -129,14 +128,12 @@
     F(DAZZLING_GLEAM) \ Verdanturf/117
     F(DRAGON_CLAW) \ Norman Split
     F(DRAGON_PULSE) \ 111
-    F(DRAIN_PUNCH) \ Brawly
     F(DRAINING_KISS) \ Winona Split
     F(DUAL_WINGBEAT) \ Norman/Juan Split
     F(EARTH_POWER) \ 111 Desert
     F(EARTHQUAKE) \ Seafloor Cavern
     F(ENERGY_BALL) \ Verdanturf/117
     F(EXPLOSION) \ MHO
-    F(FACADE) \ Norman
     F(FLAMETHROWER) \ MHO
     F(FLIP_TURN)\ VR
     F(GIGA_DRAIN) \ Winona Split
@@ -148,8 +145,6 @@
     F(LEECH_LIFE) \ Winona Split
     F(LIGHT_SCREEN) \ T&L
     F(LIQUIDATION) \ Route 109-108
-    F(LOW_KICK) \ Dewford
-    F(ME_FIRST) \ Slateport
     F(MISTY_EXPLOSION) \ Verdanturf
     F(PLAY_ROUGH) \ Winona Split
     F(POLTERGEIST) \ 121

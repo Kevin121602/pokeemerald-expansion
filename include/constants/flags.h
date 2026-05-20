@@ -529,7 +529,7 @@
 #define FLAG_SLATEPORT_CITY_TRADE_1_COMPLETED                    0x1DF 
 #define FLAG_SLATEPORT_CITY_TRADE_2_COMPLETED                    0x1E0 
 #define FLAG_ITEM_SLATEPORT_CITY_RING_TARGET                    0x1E1 
-#define FLAG_UNUSED_0x1E2                    0x1E2 // Unused Flag
+#define FLAG_ITEM_ROUTE_103_TM_SEED_BOMB                    0x1E2 // Unused Flag
 #define FLAG_UNUSED_0x1E3                    0x1E3 // Unused Flag
 
 // Mystery Gift Flags (Unknown)
@@ -638,7 +638,7 @@
 #define FLAG_HIDDEN_ITEM_VICTORY_ROAD_B2F_MAX_REPEL          (FLAG_HIDDEN_ITEMS_START + 0x53)
 #define FLAG_HIDDEN_ITEM_ROUTE_120_REVIVE                    (FLAG_HIDDEN_ITEMS_START + 0x54)
 #define FLAG_HIDDEN_ITEM_ROUTE_104_ANTIDOTE                  (FLAG_HIDDEN_ITEMS_START + 0x55)
-#define FLAG_HIDDEN_ITEM_ROUTE_108_RARE_CANDY                (FLAG_HIDDEN_ITEMS_START + 0x56)
+#define FLAG_ITEM_ROUTE_109_TM_AIR_SLASH                (FLAG_HIDDEN_ITEMS_START + 0x56)
 #define FLAG_HIDDEN_ITEM_ROUTE_119_MAX_ETHER                 (FLAG_HIDDEN_ITEMS_START + 0x57)
 #define FLAG_HIDDEN_ITEM_ROUTE_104_HEART_SCALE               (FLAG_HIDDEN_ITEMS_START + 0x58)
 #define FLAG_ITEM_ROUTE_105_TM_SCALD               (FLAG_HIDDEN_ITEMS_START + 0x59)
@@ -1057,7 +1057,7 @@
 #define FLAG_ITEM_ROUTE_104_POWER_HERB                                   0x3EA
 #define FLAG_ITEM_ROUTE_107_FAIRY_GEM                                    0x3EB
 #define FLAG_ITEM_ROUTE_106_DRAGON_GEM                                 0x3EC
-#define FLAG_ITEM_ROUTE_109_PP_UP                                   0x3ED
+#define FLAG_ITEM_ROUTE_109_ADRENALINE_ORB                                   0x3ED
 #define FLAG_ITEM_ROUTE_110_RARE_CANDY                              0x3EE
 #define FLAG_ITEM_ROUTE_110_DIRE_HIT                                0x3EF
 #define FLAG_ITEM_ROUTE_111_TM_SANDSTORM                            0x3F0
@@ -1191,7 +1191,7 @@
 #define FLAG_ITEM_ALTERING_CAVE_GRIP_CLAW                           0x470 // Unused Flag
 #define FLAG_ITEM_ALTERING_CAVE_TM_ICICLE_SPEAR                     0x471
 #define FLAG_ITEM_ALTERING_CAVE_BINDING_BAND                                           0x472 // Unused Flag
-#define FLAG_ITEM_ROUTE_108_STAR_PIECE                              0x473
+#define FLAG_ITEM_ROUTE_108_TM_LIQUIDATION                              0x473
 #define FLAG_ITEM_ROUTE_109_ABILITY_SHIELD                                  0x474
 #define FLAG_ITEM_ROUTE_110_ELIXIR                                  0x475
 #define FLAG_ITEM_ROUTE_111_ELIXIR                                  0x476

@@ -2305,7 +2305,7 @@
 #define FLAG_ITEM_ROUTE_104_POWER_HERB                                   0
 #define FLAG_ITEM_ROUTE_105_IRON                                    0
 #define FLAG_ITEM_ROUTE_106_PROTEIN                                 0
-#define FLAG_ITEM_ROUTE_109_PP_UP                                   0
+#define FLAG_ITEM_ROUTE_109_ADRENALINE_ORB                                   0
 #define FLAG_ITEM_ROUTE_110_RARE_CANDY                              0
 #define FLAG_ITEM_ROUTE_110_DIRE_HIT                                0
 #define FLAG_ITEM_ROUTE_111_TM_SANDSTORM                            0
@@ -2439,7 +2439,7 @@
 #define FLAG_UNUSED_0x470                                           0 // Unused Flag
 #define FLAG_ITEM_ROUTE_103_PP_UP                                   0
 #define FLAG_UNUSED_0x472                                           0 // Unused Flag
-#define FLAG_ITEM_ROUTE_108_STAR_PIECE                              0
+#define FLAG_ITEM_ROUTE_108_TM_LIQUIDATION                              0
 #define FLAG_ITEM_ROUTE_109_ABILITY_SHIELD                                  0
 #define FLAG_ITEM_ROUTE_110_ELIXIR                                  0
 #define FLAG_ITEM_ROUTE_111_ELIXIR                                  0
