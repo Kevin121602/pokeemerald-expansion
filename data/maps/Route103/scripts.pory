@@ -1,3 +1,36 @@
+const LOCALID_ROUTE103_NORMAN = 12
+
+script Route103_EventScript_Norman{
+	lock
+	faceplayer
+	msgbox("{PLAYER}, I had a feeling I'd find\n"
+			"you here.\p"
+			"I was ecstatic to find out that you\n"
+			"already have three badges.\p"
+			"I suppose you want to challenge your\n"
+			"old man next, huh?\p"
+			"I'll have you know, my Gym is not for\n"
+			"the faint of heart.\p"
+			"If you want to challenge me, you'll\n"
+			"have to prove yourself first.$")
+	giveitem(ITEM_HM_SURF)
+	msgbox("Take this HM and travel south of\n"
+			"Slateport City.\p"
+			"You'll reach an abandoned ship where\n"
+			"an old buddy of mine trains.\p"
+			"If you can defeat him, I'll know that\n"
+			"you're ready to face me!\p"
+			"Good luck, {PLAYER}.$")
+	closemessage
+	fadescreen(FADE_TO_BLACK)
+	removeobject(LOCALID_ROUTE103_NORMAN)
+	setflag(FLAG_HIDE_ROUTE_103_NORMAN)
+	clearflag(FLAG_HIDE_ROUTE_107_SWIMMERS)
+	fadescreen(FADE_FROM_BLACK)
+	release
+	end
+}
+
 raw `
 .set LOCALID_RIVAL, 2
 

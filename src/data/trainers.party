@@ -9197,50 +9197,51 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Glimmora @ Focus Sash
 Level: 52
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
+Nature: Timid
+Ability: Toxic Debris
+- Sludge Bomb
+- Power Gem
 - Earth Power
-- Endure
+- Spikes
 
-Arboliva @ Custap Berry
+Garganacl @ Leftovers
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Careful
+Ability: Purifying Salt
+- Salt Cure
+- Body Press
+- Iron Defense
+- Recover
 
-Arboliva @ Custap Berry
+Mamoswine @ Lum Berry
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Thick Fat
+- High Horsepower
+- Icicle Crash
+- Ice Shard
+- Roar
 
-Arboliva @ Custap Berry
+Copperajah @ White Herb
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Impish
+Ability: Heavy Metal
+- Heavy Slam
+- Power Whip
+- Superpower
+- Heat Crash
 
-Arboliva @ Custap Berry
+Steelix @ Life Orb
 Level: 54
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Careful
+Ability: Sheer Force
+- Iron Tail
+- Bulldoze
+- Thunder Fang
+- Explosion
+
 
 /*
 Loc: Route 117 [Misty Terrain]
@@ -9260,36 +9261,36 @@ Level: 54
 Nature: Naive
 Ability: Regenerator
 - Body Slam
-- Knock Off
 - Overheat
+- Knock Off
 - Shed Tail
 
-Arboliva @ Custap Berry
+Ninetales @ Leftovers
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Timid
+Ability: Drought
+- Mystical Fire
+- Solar Beam
+- Extrasensory
+- Nasty Plot
 
-Arboliva @ Custap Berry
+Wigglytuff @ Wise Glasses
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Hasty
+Ability: Competitive
+- Self-Destruct
+- Misty Explosion
+- Moonblast
+- Fire Blast
 
-Arboliva @ Custap Berry
+Slither Wing @ Misty Seed
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Protosynthesis
+- Leech Life
+- Low Kick
+- Flare Blitz
+- Bulk Up
 
 === TRAINER_BRANDI ===
 Name: Brandi
@@ -9460,7 +9461,7 @@ Ability: Protean
 Comfey @ Leftovers
 Level: 55
 Nature: Timid
-Ability: Harvest
+Ability: Flower Veil
 - Dazzling Gleam
 - Petal Blizzard
 - Encore

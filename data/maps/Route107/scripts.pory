@@ -1,3 +1,29 @@
+script Route107_EventScript_SwimmerM{
+	lock
+	msgbox(format("Wobbuffet! Use Counter!"))
+	delay(10)
+	faceplayer
+	msgbox("We're having a battle and it might\n"
+			"take a while.\p"
+			"Could you come back later?$")
+	applymovement(VAR_LAST_TALKED, Common_Movement_FaceDown)
+	release
+	end
+}
+
+script Route107_EventScript_SwimmerF{
+	lock
+	msgbox(format("Wobbuffet! Use Mirror Coat!"))
+	delay(10)
+	faceplayer
+	msgbox("Sorry! I guess we're in your way.\p"
+			"We'll be done battling soon, I\n"
+			"promise!$")
+	applymovement(VAR_LAST_TALKED, Common_Movement_FaceUp)
+	release
+	end
+}
+
 raw `
 Route107_MapScripts::
 	.byte 0

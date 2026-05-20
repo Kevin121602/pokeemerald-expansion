@@ -73,11 +73,10 @@ SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 	setvar VAR_0x8004, ITEM_DEVON_PARTS
 	call Common_EventScript_PlayerHandedOverTheItem
 	msgbox SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo, MSGBOX_DEFAULT
+	giveitem ITEM_HEART_SCALE
+	msgbox SlateportCity_OceanicMuseum_2F_Text_SternThanksAgain, MSGBOX_DEFAULT
 	closemessage
 	fadescreen FADE_TO_BLACK
-	playfanfare MUS_HEAL
-	waitfanfare
-	special HealPlayerParty
 	callnative UpdateFollowingPokemon
 	removeobject LOCALID_CAPT_STERN
 	setflag FLAG_HIDE_ROUTE_110_TEAM_AQUA
@@ -386,8 +385,13 @@ SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
 	.string "There's no time to lose!\p"
 	.string "We have to set out on our ocean-floor\n"
 	.string "expedition really soon.\p"
-	.string "Thanks again, but now I've got\n"
-	.string "to go!\p"
+	.string "That reminds me, I found this during\n"
+	.string "my latest expedition.\p"
+	.string "You should have it!$"
+
+SlateportCity_OceanicMuseum_2F_Text_SternThanksAgain:
+	.string "Capt. Stern: Thanks again, but now\n"
+	.string "I've got to go!\p"
 	.string "Feel free to wander around and check\n"
 	.string "out our facilities, though.$"
 

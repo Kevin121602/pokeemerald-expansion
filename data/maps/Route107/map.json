@@ -27,29 +27,29 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
-      "x": 50,
-      "y": 11,
+      "x": 51,
+      "y": 9,
       "elevation": 1,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_UP",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
-      "script": "Route107_EventScript_Beth",
-      "flag": "0"
+      "script": "Route107_EventScript_SwimmerF",
+      "flag": "FLAG_HIDE_ROUTE_107_SWIMMERS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
-      "x": 50,
-      "y": 5,
+      "x": 51,
+      "y": 8,
       "elevation": 1,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_DOWN",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
-      "script": "Route107_EventScript_Camron",
-      "flag": "0"
+      "script": "Route107_EventScript_SwimmerM",
+      "flag": "FLAG_HIDE_ROUTE_107_SWIMMERS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",

@@ -177,7 +177,7 @@
 #define FLAG_CAUGHT_HO_OH                    0x92
 #define FLAG_MR_BRINEY_SAILING_INTRO         0x93
 #define FLAG_DOCK_REJECTED_DEVON_GOODS       0x94
-#define FLAG_UNUSED_0x95                     0x95 // Unused Flag
+#define FLAG_HIDE_ROUTE_107_SWIMMERS                     0x95 // Unused Flag
 #define FLAG_ROUTE_113_NPC_TRADE_COMPLETED           0x96 // Unused, leftover from R/S
 #define FLAG_RECEIVED_CASTFORM               0x97
 #define FLAG_RECEIVED_SUPER_ROD              0x98
