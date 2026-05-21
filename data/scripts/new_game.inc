@@ -292,6 +292,7 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3
 	setflag FLAG_HIDE_CHAMBER_GUARD_TRAINERS
 	setflag FLAG_HIDE_ROUTE_107_SWIMMERS
+	setflag FLAG_HIDE_PETALBURG_CITY_TRICK_MASTER
 	call EventScript_ResetAllBerries
 	end
 

@@ -300,3 +300,7 @@ MoveTutor_Text_ProtectionTeach:
 	.string "I hate seeing Pokémon get hurt…\p"
 	.string "Hopefully these techniques can make\n"
 	.string "yours a little bit safer.$"
+
+MoveTutor_Text_CritMoveTeach:
+	.string "Nothing stings like a move that's more\n"
+	.string "likely to land a critical hit!$"

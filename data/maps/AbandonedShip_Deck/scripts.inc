@@ -13,4 +13,6 @@ AbandonedShip_Deck_OnTransition:
 # 7 "data/maps/AbandonedShip_Deck/scripts.pory"
 	setflag FLAG_LANDMARK_ABANDONED_SHIP
 # 8 "data/maps/AbandonedShip_Deck/scripts.pory"
+	setflag FLAG_HIDE_ROUTE_107_SWIMMERS
+# 9 "data/maps/AbandonedShip_Deck/scripts.pory"
 	end

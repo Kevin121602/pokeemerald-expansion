@@ -2397,6 +2397,13 @@ extern const u8 gText_Mist[];
 extern const u8 gText_LuckyChant[];
 extern const u8 gText_Haze[];
 
+extern const u8 gText_Slash2[];
+extern const u8 gText_NightSlash[];
+extern const u8 gText_ShadowClaw[];
+extern const u8 gText_PsychoCut[];
+extern const u8 gText_CrossPoison[];
+extern const u8 gText_AquaCutter[];
+
 //gourd splicer and nectar text
 extern const u8 gText_SplicerSmall[];
 extern const u8 gText_SplicerAverage[];

@@ -1,3 +1,52 @@
+script AbandonedShip_CaptainsOffice_EventScript_Sidney {
+	lock
+	faceplayer
+	if(flag(FLAG_DEFEATED_SIDNEY)){
+		goto(AbandonedShip_CaptainsOffice_EventScript_CritMoveTutor)
+	} else {
+		msgbox("Hey, {PLAYER} right?\p"
+				"I'm Sidney, and I used to be a member\n"
+				"of the Elite Four!\p"
+				"I've since retired, and spend most of\n"
+				"my time here training.\p"
+				"An eerie place like this really suits\n"
+				"me.\p"
+				"Anyway, your dad told me that you're\n"
+				"stronger than you look, so I'm not\l"
+				"going to pull any punches.\p"
+				"Here I go!$")
+		trainerbattle_no_intro(TRAINER_SIDNEY, AbandonedShip_CaptainsOffice_Text_Defeat)
+		setflag(FLAG_DEFEATED_SIDNEY)
+		clearflag(FLAG_HIDE_PETALBURG_CITY_TRICK_MASTER)
+		setvar(VAR_PETALBURG_GYM_STATE, 6)
+		clearflag(FLAG_HIDE_PETALBURG_GYM_GREETER)
+		msgbox("You've got what it takes to go far!\p"
+				"I think you're more than ready to\n"
+				"challenge your father.\p"
+				"A trainer like you should be able to\n"
+				"make good use out of these items.$")
+		giveitem(ITEM_HEART_SCALE)
+		giveitem(ITEM_SCOPE_LENS)
+		msgbox("That's a Heart Scale, I'm sure you\n"
+				"know what it does.\p"
+				"That other thing is a Scope Lens.\p"
+				"I'm sure by now you understand the\n"
+				"devastating power of critical hits.\p"
+				"That item makes them easier to land.\p"
+				"If you want, I can teach your Pokémon\n"
+				"some moves that go well with that\l"
+				"Scope Lens.$", MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES){
+			goto(AbandonedShip_CaptainsOffice_EventScript_CritMoveTutor)
+		} else {
+			msgbox("No worries.\n"
+					"Good luck, {PLAYER}!$")
+		}
+		release
+		end
+	}
+}
+
 raw `
 AbandonedShip_CaptainsOffice_MapScripts::
 	.byte 0
@@ -40,4 +89,7 @@ AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus:
 	.string "This ship is called S.S. CACTUS.\n"
 	.string "It seems to be from an earlier era.$"
 
+AbandonedShip_CaptainsOffice_Text_Defeat:
+	.string "Well, how do you like that? I lost!\n"
+	.string "Eh, it was fun, so it doesn't matter.$"
 `

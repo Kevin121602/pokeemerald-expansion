@@ -168,10 +168,10 @@ Route104_PrettyPetalFlowerShop_EventScript_HelpingHandTutor::
 	lock
 	faceplayer
 	msgbox Route104_PrettyPetalFlowerShop_Text_HelpingHand, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, NO, MoveTutor_EventScript_TutorDeclined
 	setvar VAR_0x8005, MOVE_HELPING_HAND
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
@@ -186,42 +186,42 @@ Route115_EventScript_FangsTutor::
 	case 2, Route115_EventScript_IceFangTutor
 	case 3, Route115_EventScript_PoisonFangTutor
 	case 4, Route115_EventScript_BiteTutor
-	case MULTI_B_PRESSED, MoveTutor_EventScript_HelpingHandDeclined
+	case MULTI_B_PRESSED, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route115_EventScript_FireFangTutor::
 	setvar VAR_0x8005, MOVE_FIRE_FANG
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route115_EventScript_ThunderFangTutor::
 	setvar VAR_0x8005, MOVE_THUNDER_FANG
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route115_EventScript_IceFangTutor::
 	setvar VAR_0x8005, MOVE_ICE_FANG
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route115_EventScript_PoisonFangTutor::
 	setvar VAR_0x8005, MOVE_POISON_FANG
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route115_EventScript_BiteTutor::
 	setvar VAR_0x8005, MOVE_BITE
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
@@ -254,21 +254,21 @@ LittlerootTown_EventScript_SportTutor::
 	switch VAR_RESULT
 	case 0, LittlerootTown_EventScript_WaterSportTutor
 	case 1, LittlerootTown_EventScript_MudSportTutor
-	case MULTI_B_PRESSED, MoveTutor_EventScript_HelpingHandDeclined
+	case MULTI_B_PRESSED, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 LittlerootTown_EventScript_WaterSportTutor::
 	setvar VAR_0x8005, MOVE_WATER_SPORT
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 LittlerootTown_EventScript_MudSportTutor::
 	setvar VAR_0x8005, MOVE_MUD_SPORT
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
@@ -282,39 +282,39 @@ Route114_EventScript_PhasingTutor::
 	case 1, Route114_EventScript_WhirlwindTutor
 	case 2, Route114_EventScript_DragonTailTutor
 	case 3, Route114_EventScript_CircleThrowTutor
-	case MULTI_B_PRESSED, MoveTutor_EventScript_HelpingHandDeclined
+	case MULTI_B_PRESSED, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route114_EventScript_RoarTutor::
 	setvar VAR_0x8005, MOVE_ROAR
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route114_EventScript_WhirlwindTutor::
 	setvar VAR_0x8005, MOVE_WHIRLWIND
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route114_EventScript_DragonTailTutor::
 	setvar VAR_0x8005, MOVE_DRAGON_TAIL
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route114_EventScript_CircleThrowTutor::
 	setvar VAR_0x8005, MOVE_CIRCLE_THROW
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
-MoveTutor_EventScript_HelpingHandDeclined:
+MoveTutor_EventScript_TutorDeclined:
 	release
 	end
 
@@ -328,35 +328,35 @@ Route112_EventScript_PunchTutor::
 	case 1, Route112_EventScript_FirePunchTutor
 	case 2, Route112_EventScript_IcePunchTutor
 	case 3, Route112_EventScript_ThunderPunchTutor
-	case MULTI_B_PRESSED, MoveTutor_EventScript_HelpingHandDeclined
+	case MULTI_B_PRESSED, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route112_EventScript_BrickBreakTutor::
 	setvar VAR_0x8005, MOVE_BRICK_BREAK
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route112_EventScript_FirePunchTutor::
 	setvar VAR_0x8005, MOVE_FIRE_PUNCH
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route112_EventScript_IcePunchTutor::
 	setvar VAR_0x8005, MOVE_ICE_PUNCH
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route112_EventScript_ThunderPunchTutor::
 	setvar VAR_0x8005, MOVE_THUNDER_PUNCH
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
@@ -369,28 +369,28 @@ Route123_EventScript_BerriesTutor::
 	case 0, Route123_EventScript_BugBiteTutor
 	case 1, Route123_EventScript_PluckTutor
 	case 2, Route123_EventScript_IncinerateTutor
-	case MULTI_B_PRESSED, MoveTutor_EventScript_HelpingHandDeclined
+	case MULTI_B_PRESSED, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route123_EventScript_BugBiteTutor::
 	setvar VAR_0x8005, MOVE_BUG_BITE
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route123_EventScript_PluckTutor::
 	setvar VAR_0x8005, MOVE_PLUCK
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 Route123_EventScript_IncinerateTutor::
 	setvar VAR_0x8005, MOVE_INCINERATE
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
@@ -404,35 +404,35 @@ MtPyre_Summit_EventScript_SealingTutor::
 	case 1, MtPyre_Summit_EventScript_GrudgeTutor
 	case 2, MtPyre_Summit_EventScript_EmbargoTutor
 	case 3, MtPyre_Summit_EventScript_ImprisonTutor
-	case MULTI_B_PRESSED, MoveTutor_EventScript_HelpingHandDeclined
+	case MULTI_B_PRESSED, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 MtPyre_Summit_EventScript_SpiteTutor::
 	setvar VAR_0x8005, MOVE_SPITE
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 MtPyre_Summit_EventScript_GrudgeTutor::
 	setvar VAR_0x8005, MOVE_GRUDGE
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 MtPyre_Summit_EventScript_EmbargoTutor::
 	setvar VAR_0x8005, MOVE_EMBARGO
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 MtPyre_Summit_EventScript_ImprisonTutor::
 	setvar VAR_0x8005, MOVE_IMPRISON
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
@@ -451,56 +451,56 @@ DewfordTown_EventScript_TrappingTutor::
 	case 4, DewfordTown_EventScript_WhirlpoolTutor
 	case 5, DewfordTown_EventScript_SandTombTutor
 	case 6, DewfordTown_EventScript_InfestationTutor
-	case MULTI_B_PRESSED, MoveTutor_EventScript_HelpingHandDeclined
+	case MULTI_B_PRESSED, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 DewfordTown_EventScript_BindTutor::
 	setvar VAR_0x8005, MOVE_BIND
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 DewfordTown_EventScript_WrapTutor::
 	setvar VAR_0x8005, MOVE_WRAP
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 DewfordTown_EventScript_FireSpinTutor::
 	setvar VAR_0x8005, MOVE_FIRE_SPIN
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 DewfordTown_EventScript_ClampTutor::
 	setvar VAR_0x8005, MOVE_CLAMP
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 	
 DewfordTown_EventScript_WhirlpoolTutor::
 	setvar VAR_0x8005, MOVE_WHIRLPOOL
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 	
 DewfordTown_EventScript_SandTombTutor::
 	setvar VAR_0x8005, MOVE_SAND_TOMB
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 	
 DewfordTown_EventScript_InfestationTutor::
 	setvar VAR_0x8005, MOVE_INFESTATION
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 	
@@ -514,35 +514,93 @@ SlateportCity_EventScript_ProtectionTutor::
 	case 1, SlateportCity_EventScript_MistTutor
 	case 2, SlateportCity_EventScript_LuckyChantTutor
 	case 3, SlateportCity_EventScript_HazeTutor
-	case MULTI_B_PRESSED, MoveTutor_EventScript_HelpingHandDeclined
+	case MULTI_B_PRESSED, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
 SlateportCity_EventScript_SafeguardTutor::
 	setvar VAR_0x8005, MOVE_SAFEGUARD
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 	
 SlateportCity_EventScript_MistTutor::
 	setvar VAR_0x8005, MOVE_MIST
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 	
 SlateportCity_EventScript_LuckyChantTutor::
 	setvar VAR_0x8005, MOVE_LUCKY_CHANT
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 	
 SlateportCity_EventScript_HazeTutor::
 	setvar VAR_0x8005, MOVE_HAZE
 	call MoveTutor_EventScript_OpenPartyMenu
-	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_HelpingHandDeclined
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
+	release
+	end
+
+AbandonedShip_CaptainsOffice_EventScript_CritMoveTutor::
+	lock
+	faceplayer
+	msgbox MoveTutor_Text_CritMoveTeach
+	multichoice 21, 0, MULTI_CRIT_MOVE_TUTOR, FALSE
+	switch VAR_RESULT
+	case 0, AbandonedShip_CaptainsOffice_EventScript_SlashTutor
+	case 1, AbandonedShip_CaptainsOffice_EventScript_NightSlashTutor
+	case 2, AbandonedShip_CaptainsOffice_EventScript_ShadowClawTutor
+	case 3, AbandonedShip_CaptainsOffice_EventScript_PsychoCutTutor
+	case 4, AbandonedShip_CaptainsOffice_EventScript_CrossPoisonTutor
+	case 5, AbandonedShip_CaptainsOffice_EventScript_AquaCutterTutor
+	case MULTI_B_PRESSED, MoveTutor_EventScript_TutorDeclined
+	release
+	end
+
+AbandonedShip_CaptainsOffice_EventScript_SlashTutor::
+	setvar VAR_0x8005, MOVE_SLASH
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
+	release
+	end
+
+AbandonedShip_CaptainsOffice_EventScript_NightSlashTutor::
+	setvar VAR_0x8005, MOVE_NIGHT_SLASH
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
+	release
+	end
+
+AbandonedShip_CaptainsOffice_EventScript_ShadowClawTutor::
+	setvar VAR_0x8005, MOVE_SHADOW_CLAW
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
+	release
+	end
+
+AbandonedShip_CaptainsOffice_EventScript_PsychoCutTutor::
+	setvar VAR_0x8005, MOVE_PSYCHO_CUT
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
+	release
+	end
+
+AbandonedShip_CaptainsOffice_EventScript_CrossPoisonTutor::
+	setvar VAR_0x8005, MOVE_CROSS_POISON
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
+	release
+	end
+
+AbandonedShip_CaptainsOffice_EventScript_AquaCutterTutor::
+	setvar VAR_0x8005, MOVE_AQUA_CUTTER
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
 	release
 	end
 
