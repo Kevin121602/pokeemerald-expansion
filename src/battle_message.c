@@ -882,6 +882,7 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_ZENMODEENDED]                         = COMPOUND_STRING("{B_SCR_ABILITY} ended!"),
     [STRINGID_PERMEATINGDARKNESS]                   = COMPOUND_STRING("The battlefield is enveloped in a permeating darkness!"), 
     [STRINGID_DARKNESSLIFTED]                       = COMPOUND_STRING("The darkness was lifted."),
+    [STRINGID_SINISTERAURA]                         = COMPOUND_STRING("A sinister aura boosts the power of critical hits!"),
 };
 
 const u16 gTrainerUsedItemStringIds[] =
@@ -1282,6 +1283,7 @@ const u16 gWeatherStartsStringIds[] =
     [FIELD_EFFECT_GRUDGE]           = STRINGID_VENGEFULSPIRITS,
     [FIELD_EFFECT_GRUDGE_FOG]       = STRINGID_VENGEFULSPIRITS,
     [FIELD_EFFECT_DARKNESS]         = STRINGID_PERMEATINGDARKNESS,
+    [FIELD_EFFECT_BOOSTED_CRITS]    = STRINGID_SINISTERAURA,
 };
 
 const u16 gTerrainStartsStringIds[] =

@@ -31492,6 +31492,9 @@ gBattleAnimGeneral_Grudge::
 gBattleAnimGeneral_Darkness::
 	goto gBattleAnimMove_MeanLook
 
+gBattleAnimGeneral_CritBoost::
+	goto gBattleAnimMove_FocusEnergy
+
 gBattleAnimGeneral_IllusionOff::
 	monbg ANIM_TARGET
 	playsewithpan SE_M_TELEPORT, SOUND_PAN_ATTACKER

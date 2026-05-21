@@ -3059,6 +3059,11 @@ bool32 TryFieldEffects(enum FieldEffectCases caseId)
                 gBattleScripting.animArg1 = B_ANIM_DARKNESS;
                 effect = TRUE;
                 break;
+            case FIELD_EFFECT_BOOSTED_CRITS:
+                gFieldStatuses = STATUS_FIELD_BOOSTED_CRITS;
+                gBattleScripting.animArg1 = B_ANIM_CRIT_BOOST;
+                effect = TRUE;
+                break;
             }
         }
         if (effect)
@@ -7504,7 +7509,7 @@ static inline uq4_12_t GetBurnOrFrostBiteModifier(struct BattleContext *ctx)
 static inline uq4_12_t GetCriticalModifier(bool32 isCrit)
 {
     if (isCrit)
-        return GetConfig(B_CRIT_MULTIPLIER) >= GEN_6 ? UQ_4_12(1.5) : UQ_4_12(2.0);
+        return (gFieldStatuses & STATUS_FIELD_BOOSTED_CRITS) ? UQ_4_12(2.0) : UQ_4_12(1.5);
     return UQ_4_12(1.0);
 }
 
@@ -8019,7 +8024,7 @@ static inline u32 GetCriticalHitOdds(u32 critChance)
     if (GetConfig(B_CRIT_CHANCE) == GEN_2)
         return sGen2CriticalHitOdds[critChance];
 
-    return sCriticalHitOdds[critChance];
+    return sGen6CriticalHitOdds[critChance];
 }
 
 static inline u32 IsBattlerLeekAffected(enum BattlerId battler, enum HoldEffect holdEffect)
@@ -8085,7 +8090,7 @@ s32 CalcCritChanceStage(struct BattleContext *ctx)
             critChance = ARRAY_COUNT(sCriticalHitOdds) - 1;
     }
 
-    if (critChance != CRITICAL_HIT_BLOCKED && (ctx->abilityDef == ABILITY_BATTLE_ARMOR || ctx->abilityDef == ABILITY_SHELL_ARMOR))
+    if (critChance != CRITICAL_HIT_BLOCKED && (ctx->abilityDef == ABILITY_BATTLE_ARMOR || ctx->abilityDef == ABILITY_SHELL_ARMOR || ctx->abilityDef == ABILITY_MAGMA_ARMOR))
     {
         // Record ability only if move had 100% chance to get a crit
         if (ctx->updateFlags)

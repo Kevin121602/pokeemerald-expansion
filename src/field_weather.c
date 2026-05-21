@@ -146,6 +146,7 @@ static const struct WeatherCallbacks sWeatherFuncs[] =
     [FIELD_EFFECT_GRUDGE]           = {None_Init,              None_Main,          None_Init,             None_Finish},
     [FIELD_EFFECT_GRUDGE_FOG]       = {FogHorizontal_InitVars, FogHorizontal_Main, FogHorizontal_InitAll, FogHorizontal_Finish},
     [FIELD_EFFECT_DARKNESS]         = {None_Init,              None_Main,          None_Init,             None_Finish},
+    [FIELD_EFFECT_BOOSTED_CRITS]              = {Shade_InitVars,         Shade_Main,         Shade_InitAll,         Shade_Finish},
 };
 
 void (*const gWeatherPalStateFuncs[])(void) =
@@ -370,6 +371,7 @@ static void FadeInScreenWithWeather(void)
     case WEATHER_RAIN_THUNDERSTORM:
     case WEATHER_DOWNPOUR:
     case WEATHER_SHADE:
+    case FIELD_EFFECT_BOOSTED_CRITS:
         if (FadeInScreen_RainShowShade() == FALSE)
         {
             gWeatherPtr->colorMapIndex = 3;
@@ -774,6 +776,7 @@ void FadeSelectedPals(u8 mode, s8 delay, u32 selectedPalettes)
     case WEATHER_FOG_HORIZONTAL:
     case WEATHER_SHADE:
     case WEATHER_DROUGHT:
+    case FIELD_EFFECT_BOOSTED_CRITS:
         useWeatherPal = TRUE;
         break;
     default:

@@ -5,7 +5,7 @@
   "music": "MUS_DP_GALACTIC_ETERNA_BUILDING",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
-  "weather": "WEATHER_SHADE",
+  "weather": "FIELD_EFFECT_BOOSTED_CRITS",
   "map_type": "MAP_TYPE_UNDERGROUND",
   "allow_cycling": true,
   "allow_escaping": true,
