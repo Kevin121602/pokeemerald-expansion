@@ -138,7 +138,6 @@
     F(FLIP_TURN)\ VR
     F(GIGA_DRAIN) \ Winona Split
     F(GRAVITY) \ Mossdeep
-    F(HEAT_CRASH) \ Abandoned Ship
     F(HEAVY_SLAM) \ 111 Desert
     F(HURRICANE) \ Winstitute
     F(ICE_BEAM) \ Juan
@@ -154,7 +153,6 @@
     F(REFLECT) \ T&L
     F(ROOST) \ Winona
     F(SEED_BOMB) \ 103 post matt
-    F(SLUDGE_BOMB) \ Abandoned Ship
     F(SOLAR_BEAM) \ Fiery Path
     F(SOLAR_BLADE) \ Fiery Path
     F(SUPERCELL_SLAM) \ 119

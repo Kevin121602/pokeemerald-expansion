@@ -990,7 +990,7 @@
 #define FLAG_HIDE_REGISTEEL                                         0x3A9
 #define FLAG_HIDE_METEOR_FALLS_TEAM_AQUA                            0x3AA
 #define FLAG_HIDE_METEOR_FALLS_TEAM_MAGMA                           0x3AB
-#define FLAG_UNUSED_1                      0x3AC //Used to be for hiding sludge bomb npc
+#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_2_1F_IRON_BALL               0x3AC
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ENTRANCE_AQUA_GRUNT               0x3AD
 #define FLAG_HIDE_METEOR_FALLS_1F_1R_COZMO                          0x3AE
 #define FLAG_HIDE_AQUA_HIDEOUT_B2F_SUBMARINE_SHADOW                 0x3AF
@@ -1085,7 +1085,7 @@
 #define FLAG_ITEM_ROUTE_120_NUGGET                                  0x406
 #define FLAG_ITEM_ROUTE_120_FULL_HEAL                               0x407
 #define FLAG_ITEM_ROUTE_123_BUG_GEM                                 0x408
-#define FLAG_ITEM_ROUTE_123_RARE_CANDY                              0x409 // Unused Flag, leftover from R/S. In Emerald this is a hidden item and uses a different flag
+#define FLAG_ITEM_PETALBURG_CITY_WHITE_HERB                         0x409
 #define FLAG_ITEM_ROUTE_127_ZINC                                    0x40A
 #define FLAG_ITEM_ROUTE_127_CARBOS                                  0x40B
 #define FLAG_ITEM_ROUTE_132_RARE_CANDY                              0x40C
@@ -1147,12 +1147,12 @@
 #define FLAG_ITEM_ROUTE_124_RED_SHARD                               0x444
 #define FLAG_ITEM_ROUTE_124_BLUE_SHARD                              0x445
 #define FLAG_ITEM_SAFARI_ZONE_NORTH_WEST_TM_SOLAR_BEAM              0x446
-#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_1F_HARBOR_MAIL               0x447
-#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_B1F_ESCAPE_ROPE              0x448
-#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_2_B1F_DIVE_BALL              0x449
-#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_B1F_TM_ICE_BEAM              0x44A
-#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_2_1F_REVIVE                  0x44B
-#define FLAG_ITEM_ABANDONED_SHIP_CAPTAINS_OFFICE_STORAGE_KEY        0x44C
+#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_1F_BLACK_SLUDGE               0x447
+#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_B1F_TM_SLUDGE_BOMB              0x448
+#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_2_B1F_ROOM_SERVICE              0x449
+#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_B1F_TM_X_SCISSOR              0x44A
+#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_2_1F_TM_HEAT_CRASH                  0x44B
+#define FLAG_ITEM_ABANDONED_SHIP_CAPTAINS_OFFICE_TM_THROAT_CHOP        0x44C
 #define FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_3_WATER_STONE    0x44D
 #define FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_1_TM_RAIN_DANCE  0x44E
 #define FLAG_ITEM_ROUTE_121_CARBOS                                  0x44F
