@@ -779,12 +779,12 @@
               {
                 "min_level": 23,
                 "max_level": 24,
-                "species": "SPECIES_ARON"
+                "species": "SPECIES_PHANPY"
               },
               {
                 "min_level": 23,
                 "max_level": 24,
-                "species": "SPECIES_GEODUDE_ALOLA"
+                "species": "SPECIES_HIPPOPOTAS"
               },
               {
                 "min_level": 23,
@@ -1390,36 +1390,6 @@
                 "min_level": 22,
                 "max_level": 23,
                 "species": "SPECIES_AUDINO"
-              }
-            ]
-          },
-          "water_mons": {
-            "encounter_rate": 4,
-            "mons": [
-              {
-                "min_level": 20,
-                "max_level": 30,
-                "species": "SPECIES_MARILL"
-              },
-              {
-                "min_level": 10,
-                "max_level": 20,
-                "species": "SPECIES_MARILL"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
-                "species": "SPECIES_MARILL"
-              },
-              {
-                "min_level": 5,
-                "max_level": 10,
-                "species": "SPECIES_MARILL"
-              },
-              {
-                "min_level": 20,
-                "max_level": 30,
-                "species": "SPECIES_GOLDEEN"
               }
             ]
           },
@@ -3191,17 +3161,17 @@
               {
                 "min_level": 21,
                 "max_level": 22,
-                "species": "SPECIES_HAWLUCHA"
+                "species": "SPECIES_DRUDDIGON"
               },
               {
                 "min_level": 21,
                 "max_level": 22,
-                "species": "SPECIES_FLAMIGO"
+                "species": "SPECIES_TURTONATOR"
               },
               {
                 "min_level": 21,
                 "max_level": 22,
-                "species": "SPECIES_BOMBIRDIER"
+                "species": "SPECIES_DRAMPA"
               },
               {
                 "min_level": 21,
@@ -10224,7 +10194,7 @@
               {
                 "min_level": 20,
                 "max_level": 21,
-                "species": "SPECIES_DONDOZO"
+                "species": "SPECIES_ARCTOZOLT"
               },
               {
                 "min_level": 20,
@@ -10239,7 +10209,7 @@
               {
                 "min_level": 20,
                 "max_level": 21,
-                "species": "SPECIES_ARCTOVISH"
+                "species": "SPECIES_DONDOZO"
               }
             ]
           }

@@ -15,7 +15,9 @@ script AbandonedShip_CaptainsOffice_EventScript_Sidney {
 				"stronger than you look, so I'm not\l"
 				"going to pull any punches.\p"
 				"Here I go!$")
+		setflag(FLAG_DISABLE_EXP)
 		trainerbattle_no_intro(TRAINER_SIDNEY, AbandonedShip_CaptainsOffice_Text_Defeat)
+		clearflag(FLAG_DISABLE_EXP)
 		setflag(FLAG_DEFEATED_SIDNEY)
 		clearflag(FLAG_HIDE_PETALBURG_CITY_TRICK_MASTER)
 		setvar(VAR_PETALBURG_GYM_STATE, 6)

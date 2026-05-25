@@ -8,30 +8,34 @@ AbandonedShip_CaptainsOffice_EventScript_Sidney::
 # 7 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	msgbox AbandonedShip_CaptainsOffice_EventScript_Sidney_Text_0
 # 18 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	trainerbattle_no_intro TRAINER_SIDNEY, AbandonedShip_CaptainsOffice_Text_Defeat
+	setflag FLAG_DISABLE_EXP
 # 19 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	setflag FLAG_DEFEATED_SIDNEY
+	trainerbattle_no_intro TRAINER_SIDNEY, AbandonedShip_CaptainsOffice_Text_Defeat
 # 20 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	clearflag FLAG_HIDE_PETALBURG_CITY_TRICK_MASTER
+	clearflag FLAG_DISABLE_EXP
 # 21 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	setvar VAR_PETALBURG_GYM_STATE, 6
+	setflag FLAG_DEFEATED_SIDNEY
 # 22 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	clearflag FLAG_HIDE_PETALBURG_GYM_GREETER
+	clearflag FLAG_HIDE_PETALBURG_CITY_TRICK_MASTER
 # 23 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+	setvar VAR_PETALBURG_GYM_STATE, 6
+# 24 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+	clearflag FLAG_HIDE_PETALBURG_GYM_GREETER
+# 25 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	msgbox AbandonedShip_CaptainsOffice_EventScript_Sidney_Text_1
-# 28 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	giveitem ITEM_HEART_SCALE
-# 29 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	giveitem ITEM_SCOPE_LENS
 # 30 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+	giveitem ITEM_HEART_SCALE
+# 31 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+	giveitem ITEM_SCOPE_LENS
+# 32 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	msgbox AbandonedShip_CaptainsOffice_EventScript_Sidney_Text_2, MSGBOX_YESNO
-# 39 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+# 41 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq AbandonedShip_CaptainsOffice_EventScript_Sidney_5
-# 42 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+# 44 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	msgbox AbandonedShip_CaptainsOffice_EventScript_Sidney_Text_3
 AbandonedShip_CaptainsOffice_EventScript_Sidney_4:
-# 45 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+# 47 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	release
 	end
 
@@ -41,100 +45,100 @@ AbandonedShip_CaptainsOffice_EventScript_Sidney_1:
 	return
 
 AbandonedShip_CaptainsOffice_EventScript_Sidney_5:
-# 40 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+# 42 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	goto AbandonedShip_CaptainsOffice_EventScript_CritMoveTutor
 	goto AbandonedShip_CaptainsOffice_EventScript_Sidney_4
 
 
-# 50 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-
-# 51 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-AbandonedShip_CaptainsOffice_MapScripts::
 # 52 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.byte 0
+
 # 53 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-
+AbandonedShip_CaptainsOffice_MapScripts::
 # 54 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-AbandonedShip_CaptainsOffice_EventScript_CaptSternAide::
+	.byte 0
 # 55 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	lock
+
 # 56 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	faceplayer
+AbandonedShip_CaptainsOffice_EventScript_CaptSternAide::
 # 57 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	goto_if_set FLAG_EXCHANGED_SCANNER, AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus
+	lock
 # 58 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	checkitem ITEM_SCANNER
+	faceplayer
 # 59 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	goto_if_eq VAR_RESULT, TRUE, AbandonedShip_CaptainsOffice_EventScript_CanYouDeliverScanner
+	goto_if_set FLAG_EXCHANGED_SCANNER, AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus
 # 60 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	goto_if_set FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_2_SCANNER, AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus
+	checkitem ITEM_SCANNER
 # 61 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	msgbox AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner, MSGBOX_DEFAULT
+	goto_if_eq VAR_RESULT, TRUE, AbandonedShip_CaptainsOffice_EventScript_CanYouDeliverScanner
 # 62 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	release
+	goto_if_set FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_2_SCANNER, AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus
 # 63 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	end
+	msgbox AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner, MSGBOX_DEFAULT
 # 64 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-
+	release
 # 65 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-AbandonedShip_CaptainsOffice_EventScript_CanYouDeliverScanner::
+	end
 # 66 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	msgbox AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner, MSGBOX_DEFAULT
+
 # 67 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	release
+AbandonedShip_CaptainsOffice_EventScript_CanYouDeliverScanner::
 # 68 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	end
+	msgbox AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner, MSGBOX_DEFAULT
 # 69 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-
-# 70 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus::
-# 71 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	msgbox AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus, MSGBOX_DEFAULT
-# 72 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	release
-# 73 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+# 70 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	end
+# 71 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+
+# 72 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus::
+# 73 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+	msgbox AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus, MSGBOX_DEFAULT
 # 74 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-
+	release
 # 75 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner:
+	end
 # 76 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.string "I'm investigating this ship on behalf\n"
+
 # 77 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.string "of CAPT. STERN.\p"
+AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner:
 # 78 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.string "He also asked me to find a SCANNER,\n"
+	.string "I'm investigating this ship on behalf\n"
 # 79 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.string "but I haven't had any success…$"
+	.string "of CAPT. STERN.\p"
 # 80 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-
+	.string "He also asked me to find a SCANNER,\n"
 # 81 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner:
+	.string "but I haven't had any success…$"
 # 82 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.string "Oh! That's a SCANNER!\p"
+
 # 83 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.string "Listen, can I get you to deliver that\n"
+AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner:
 # 84 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.string "to CAPT. STERN?\p"
+	.string "Oh! That's a SCANNER!\p"
 # 85 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.string "I want to investigate this ship a\n"
+	.string "Listen, can I get you to deliver that\n"
 # 86 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.string "little more.$"
+	.string "to CAPT. STERN?\p"
 # 87 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-
+	.string "I want to investigate this ship a\n"
 # 88 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus:
+	.string "little more.$"
 # 89 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.string "This ship is called S.S. CACTUS.\n"
-# 90 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.string "It seems to be from an earlier era.$"
-# 91 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 
+# 90 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus:
+# 91 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+	.string "This ship is called S.S. CACTUS.\n"
 # 92 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-AbandonedShip_CaptainsOffice_Text_Defeat:
+	.string "It seems to be from an earlier era.$"
 # 93 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	.string "Well, how do you like that? I lost!\n"
+
 # 94 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+AbandonedShip_CaptainsOffice_Text_Defeat:
+# 95 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+	.string "Well, how do you like that? I lost!\n"
+# 96 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	.string "Eh, it was fun, so it doesn't matter.$"
 
 AbandonedShip_CaptainsOffice_EventScript_Sidney_Text_0:
@@ -152,7 +156,7 @@ AbandonedShip_CaptainsOffice_EventScript_Sidney_Text_0:
 	.string "Here I go!$"
 
 AbandonedShip_CaptainsOffice_EventScript_Sidney_Text_1:
-# 23 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+# 25 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	.string "You've got what it takes to go far!\p"
 	.string "I think you're more than ready to\n"
 	.string "challenge your father.\p"
@@ -160,7 +164,7 @@ AbandonedShip_CaptainsOffice_EventScript_Sidney_Text_1:
 	.string "make good use out of these items.$"
 
 AbandonedShip_CaptainsOffice_EventScript_Sidney_Text_2:
-# 30 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+# 32 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	.string "That's a Heart Scale, I'm sure you\n"
 	.string "know what it does.\p"
 	.string "That other thing is a Scope Lens.\p"
@@ -172,6 +176,6 @@ AbandonedShip_CaptainsOffice_EventScript_Sidney_Text_2:
 	.string "Scope Lens.$"
 
 AbandonedShip_CaptainsOffice_EventScript_Sidney_Text_3:
-# 42 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+# 44 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	.string "No worries.\n"
 	.string "Good luck, {PLAYER}!$"
