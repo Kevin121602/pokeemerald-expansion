@@ -583,29 +583,40 @@ PetalburgCity_Gym_EventScript_GiveEnigmaBerry::
 	end
 
 PetalburgCity_Gym_EventScript_NormanBattle::
+	setflag FLAG_DISABLE_EXP
 	msgbox PetalburgCity_Gym_Text_NormanIntro, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat
 	message PetalburgCity_Gym_Text_ReceivedBalanceBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis, MSGBOX_DEFAULT
+	clearflag FLAG_DISABLE_EXP
 	setflag FLAG_DEFEATED_PETALBURG_GYM
 	setvar VAR_PETALBURG_GYM_STATE, 7
+	setvar VAR_PETALBURG_GYM_ENTRANCE_DOOR, 3
+	setvar VAR_PETALBURG_GYM_FIRST_ROOM_DOOR, 3
+	setvar VAR_PETALBURG_GYM_SECOND_ROOM_DOOR, 3
+	setvar VAR_TRICK_HOUSE_LEVEL, 4
+	setvar VAR_TRICK_HOUSE_BEING_WATCHED_STATE, 0
+	setvar VAR_TRICK_HOUSE_ENTRANCE_STATE, 0
 	setflag FLAG_BADGE05_GET
 	call EventScript_HideMrBriney
-	setflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
-	clearflag FLAG_HIDE_MAUVILLE_CITY_WATTSON
 	setvar VAR_0x8008, 5
 	call Common_EventScript_SetGymTrainers
 	call PetalburgCity_Gym_EventScript_UnlockAllDoors
 	special DrawWholeMapView
 	call PetalburgCity_Gym_EventScript_GiveFacade
 	delay 30
+	msgbox PetalburgCity_Gym_Text_GiveMegaRing, MSGBOX_DEFAULT
+	giveitem ITEM_MEGA_RING
+	msgbox PetalburgCity_Gym_Text_ExplainMegaRing, MSGBOX_DEFAULT
+	delay 30
 	msgbox PetalburgCity_Gym_Text_DadHappyAndSad, MSGBOX_DEFAULT
 	release
 	end
 
 PetalburgCity_Gym_EventScript_GiveFacade::
+	giveitem ITEM_HEART_SCALE
 	giveitem ITEM_TM_FACADE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_RECEIVED_TM_FACADE
@@ -1442,8 +1453,8 @@ PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
 	.string "Dad: With that Badge, Pokémon that\n"
 	.string "know the HM move Rock Smash will\l"
 	.string "be able to destroy rocks in your path.\p"
-	.string "This is my gift to you. {PLAYER}, I'm\n"
-	.string "sure you can use it correctly.$"
+	.string "These are my gifts to you. {PLAYER},\n"
+	.string "I'm sure you can use them correctly.$"
 
 PetalburgCity_Gym_Text_ExplainFacade:
 	.string "Dad: TM29 contains Facade.\p"
@@ -1452,6 +1463,21 @@ PetalburgCity_Gym_Text_ExplainFacade:
 	.string "or burned.\p"
 	.string "It might be able to turn a bad\n"
 	.string "situation into an advantage.$"
+
+PetalburgCity_Gym_Text_GiveMegaRing:
+	.string "Dad: A trainer like you certainly has\n"
+	.string "what it takes to take your battling to\l"
+	.string "the next level.\p"
+	.string "I believe you are long overdue to\n"
+	.string "recieve this Mega Ring!$"
+
+PetalburgCity_Gym_Text_ExplainMegaRing:
+	.string "Dad: That Ring allows you to unlock\n"
+	.string "the latent power of Mega Evolution.\p"
+	.string "Mega Stones can be found all across\n"
+	.string "the Hoenn region!\p"
+	.string "However, only one Pokémon can Mega\n"
+	.string "Evolve per battle…$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
 	.string "Dad: As the Gym Leader, I can't\n"
