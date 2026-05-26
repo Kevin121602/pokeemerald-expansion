@@ -9362,6 +9362,17 @@
       "border_height": 2,
       "border_width": 2,
       "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_JAGGED_PASS_LAYOUT_2",
+      "name": "JaggedPass_Layout_2",
+      "width": 30,
+      "height": 46,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/JaggedPass_Layout_2/border.bin",
+      "blockdata_filepath": "data/layouts/JaggedPass_Layout_2/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

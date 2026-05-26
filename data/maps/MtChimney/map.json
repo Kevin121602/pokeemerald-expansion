@@ -84,8 +84,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 19,
-      "y": 39,
+      "x": 12,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -136,8 +136,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 22,
-      "y": 39,
+      "x": 15,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -306,8 +306,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POOCHYENA",
-      "x": 20,
-      "y": 39,
+      "x": 13,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_RIGHT",
       "movement_range_x": 0,
@@ -319,8 +319,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POOCHYENA",
-      "x": 21,
-      "y": 39,
+      "x": 14,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_LEFT",
       "movement_range_x": 0,
@@ -433,7 +433,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtChimney_EventScript_Mira",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MT_CHIMNEY_TRAINERS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(KADABRA)",
@@ -446,7 +446,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MT_CHIMNEY_TRAINERS"
     }
   ],
   "warp_events": [

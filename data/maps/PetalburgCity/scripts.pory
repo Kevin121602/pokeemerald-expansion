@@ -1,4 +1,6 @@
-const LOCALID_TRICK_MASTER = 7
+const LOCALID_TRICK_MASTER = 6
+const LOCALID_PETALBURG_BOY = 1
+const LOCALID_PETALBURG_STEVEN = 3
 
 script PetalburgCity_EventScript_TrickHouseOpen{
 	lockall
@@ -22,7 +24,6 @@ script PetalburgCity_EventScript_TrickHouseOpen{
 }
 
 raw `
-.set LOCALID_WALLYS_DAD, 5
 
 PetalburgCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, PetalburgCity_OnTransition
@@ -31,14 +32,10 @@ PetalburgCity_MapScripts::
 
 PetalburgCity_OnTransition:
 	setflag FLAG_VISITED_PETALBURG_CITY
-	call_if_eq VAR_PETALBURG_CITY_STATE, 0, PetalburgCity_EventScript_MoveGymBoyToWestEntrance
-	call_if_eq VAR_PETALBURG_CITY_STATE, 2, PetalburgCity_EventScript_DisableMapNameAndMusic
-	call_if_eq VAR_PETALBURG_CITY_STATE, 4, PetalburgCity_EventScript_DisableMapNameAndMusic
-	call_if_eq VAR_PETALBURG_GYM_STATE, 8, PetalburgCity_EventScript_SetGymDoorsUnlocked
 	end
 
 PetalburgCity_EventScript_MoveGymBoyToWestEntrance::
-	setobjectxyperm LOCALID_WALLYS_DAD, 5, 11
+	setobjectxyperm LOCALID_PETALBURG_STEVEN, 5, 11
 	return
 
 PetalburgCity_EventScript_DisableMapNameAndMusic::
@@ -51,8 +48,7 @@ PetalburgCity_EventScript_SetGymDoorsUnlocked::
 	return
 
 PetalburgCity_OnFrame:
-	map_script_2 VAR_PETALBURG_CITY_STATE, 2, PetalburgCity_EventScript_WallyTutorial
-	map_script_2 VAR_PETALBURG_CITY_STATE, 4, PetalburgCity_EventScript_WalkToWallyHouse
+	map_script_2 VAR_PETALBURG_CITY_STATE, 1, PetalburgCity_EventScript_StevenApproaches
 	.2byte 0
 
 PetalburgCity_EventScript_WallyTutorial::
@@ -81,28 +77,29 @@ PetalburgCity_EventScript_WallyTutorial::
 	releaseall
 	end
 
-PetalburgCity_EventScript_WalkToWallyHouse::
+PetalburgCity_EventScript_StevenApproaches::
 	lockall
-	setflag FLAG_HIDE_MAP_NAME_POPUP
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_WalkToWallyHouseWallysDad
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_WalkToWallyHousePlayer
+	applymovement LOCALID_PETALBURG_STEVEN, Common_Movement_ExclamationMark
 	waitmovement 0
-	setvar VAR_0x8004, 7
-	setvar VAR_0x8005, 5
-	opendoor VAR_0x8004, VAR_0x8005
-	waitdooranim
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_WalkInsideHouseWallysDad
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_WalkInsideHousePlayer
+	delay 30
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_StevenApproachesPlayer
 	waitmovement 0
+	msgbox PetalburgCity_Text_ImGladIFoundYou, MSGBOX_DEFAULT
+	waitmessage
+	applymovement LOCALID_PETALBURG_STEVEN, Common_Movement_FaceDown
+	waitmovement 0
+	delay 30
+	msgbox PetalburgCity_Text_IdLoveToHelp, MSGBOX_DEFAULT
+	waitmessage
+	closemessage
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_StevenExits
+	waitmovement 0
+	removeobject LOCALID_PETALBURG_STEVEN
 	setflag FLAG_HIDE_PETALBURG_CITY_STEVEN
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_PETALBURG_CITY
-	closedoor VAR_0x8004, VAR_0x8005
-	waitdooranim
-	clearflag FLAG_HIDE_MAP_NAME_POPUP
-	fadedefaultbgm
-	clearflag FLAG_DONT_TRANSITION_MUSIC
-	warp MAP_PETALBURG_CITY_WALLYS_HOUSE, 2, 4
-	waitstate
+	setflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
+	clearflag FLAG_HIDE_MT_CHIMNEY_TEAM_MAGMA
+	clearflag FLAG_HIDE_MT_CHIMNEY_TEAM_AQUA
+	setvar VAR_PETALBURG_CITY_STATE, 2
 	releaseall
 	end
 
@@ -145,8 +142,12 @@ PetalburgCity_Movement_WalkInsideHousePlayer:
 	walk_up
 	step_end
 
-PetalburgCity_Movement_WalkToWallyHouseWallysDad:
-	delay_8
+PetalburgCity_Movement_StevenApproachesPlayer:
+	walk_up
+	walk_up
+	step_end
+
+PetalburgCity_Movement_StevenExits:
 	walk_down
 	walk_down
 	walk_left
@@ -157,12 +158,6 @@ PetalburgCity_Movement_WalkToWallyHouseWallysDad:
 	walk_left
 	walk_left
 	walk_left
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
 	step_end
 
 PetalburgCity_Movement_WalkInsideHouseWallysDad:
@@ -285,13 +280,13 @@ PetalburgCity_EventScript_ShowGymToPlayer3::
 	end
 
 PetalburgCity_EventScript_ShowGymToPlayer::
-	applymovement LOCALID_WALLYS_DAD, Common_Movement_FacePlayer
+	applymovement LOCALID_PETALBURG_STEVEN, Common_Movement_FacePlayer
 	waitmovement 0
 	playbgm MUS_FOLLOW_ME, FALSE
 	playse SE_PIN
-	applymovement LOCALID_WALLYS_DAD, Common_Movement_ExclamationMark
+	applymovement LOCALID_PETALBURG_STEVEN, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_WALLYS_DAD, Common_Movement_Delay48
+	applymovement LOCALID_PETALBURG_STEVEN, Common_Movement_Delay48
 	waitmovement 0
 	call_if_eq VAR_0x8008, 0, PetalburgCity_EventScript_BoyApproachPlayer0
 	call_if_eq VAR_0x8008, 1, PetalburgCity_EventScript_BoyApproachPlayer1
@@ -304,63 +299,63 @@ PetalburgCity_EventScript_ShowGymToPlayer::
 	call_if_eq VAR_0x8008, 2, PetalburgCity_EventScript_LeadPlayerToGym2
 	call_if_eq VAR_0x8008, 3, PetalburgCity_EventScript_LeadPlayerToGym3
 	msgbox PetalburgCity_Text_ThisIsPetalburgGym, MSGBOX_DEFAULT
-	applymovement LOCALID_WALLYS_DAD, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_PETALBURG_STEVEN, Common_Movement_WalkInPlaceFasterRight
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	msgbox PetalburgCity_Text_ThisIsGymSign, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_BoyWalkAway
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_BoyWalkAway
 	waitmovement 0
 	fadedefaultbgm
 	releaseall
 	end
 
 PetalburgCity_EventScript_BoyApproachPlayer0::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_BoyApproachPlayer0
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_BoyApproachPlayer0
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 PetalburgCity_EventScript_BoyApproachPlayer1::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_BoyApproachPlayer1
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_BoyApproachPlayer1
 	waitmovement 0
 	return
 
 PetalburgCity_EventScript_BoyApproachPlayer2::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_BoyApproachPlayer2
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_BoyApproachPlayer2
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	return
 
 PetalburgCity_EventScript_BoyApproachPlayer3::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_BoyApproachPlayer3
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_BoyApproachPlayer3
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	return
 
 PetalburgCity_EventScript_LeadPlayerToGym0::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_BoyWalkToGym0
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_BoyWalkToGym0
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_PlayerWalkToGym0
 	waitmovement 0
 	return
 
 PetalburgCity_EventScript_LeadPlayerToGym1::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_BoyWalkToGym1
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_BoyWalkToGym1
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_PlayerWalkToGym1
 	waitmovement 0
 	return
 
 PetalburgCity_EventScript_LeadPlayerToGym2::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_BoyWalkToGym2
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_BoyWalkToGym2
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_PlayerWalkToGym2
 	waitmovement 0
 	return
 
 PetalburgCity_EventScript_LeadPlayerToGym3::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Movement_BoyWalkToGym3
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_BoyWalkToGym3
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_PlayerWalkToGym3
 	waitmovement 0
 	return
@@ -785,4 +780,36 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "I'm roaming the land in search of\n"
 	.string "talented Trainers.\p"
 	.string "I'm sorry to have taken your time.$"
+
+PetalburgCity_Text_ImGladIFoundYou:
+	.string "Oh, {PLAYER}!\p"
+	.string "I'm glad I found you here.\p"
+	.string "I heard about how you fended off Team\n"
+	.string "Aqua at Slateport and I have a favour\l"
+	.string "to ask.\p"
+	.string "My colleague, Professor Cozmo had a\n"
+	.string "meteorite stolen from him recently.\p"
+	.string "Not by Team Aqua, but by Team Magma,\n"
+	.string "a rival gang.\p"
+	.string "They've taken the meteorite to Mt.\n"
+	.string "Chimney, near Lavaridge.\p"
+	.string "To make matters worse, some of their\n"
+	.string "goons are blocking the entrance to\l"
+	.string "the Cable Car.\p"
+	.string "Normally, it would be impossible to\n"
+	.string "travel up Mt. Chimney without the\l"
+	.string "Cable Car, but I have an idea.\p"
+	.string "There is a man from Kanto who trains\n"
+	.string "in the Route 111 desert.\p"
+	.string "This man is said to be extremely\n"
+	.string "proficient in martial arts.\p"
+	.string "It's possible that he could break\n"
+	.string "the rocks blocking Jagged Pass, and\l"
+	.string "open up another path to Mt. Chimney.$"
+
+PetalburgCity_Text_IdLoveToHelp:
+	.string "I'd love to help, but I just caught\n"
+	.string "wind of an even more sinister plan in\l"
+	.string "my hometown of Mossdeep.\p"
+	.string "Best of luck, {PLAYER}!$" 
 `
