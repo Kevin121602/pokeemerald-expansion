@@ -97,7 +97,7 @@
 #define VAR_POKELOT_RND1                                 0x404B
 #define VAR_POKELOT_RND2                                 0x404C
 #define VAR_POKELOT_PRIZE_PLACE                          0x404D
-#define VAR_GAUNTLET_STATE                                0x404E // Unused Var
+#define VAR_GAUNTLET_STATE                               0x404E
 #define VAR_LOTAD_SIZE_RECORD                            0x404F
 #define VAR_LITTLEROOT_TOWN_STATE                        0x4050
 #define VAR_OLDALE_TOWN_STATE                            0x4051
@@ -266,9 +266,15 @@
 #define VAR_ROXANNE_CALL_STEP_COUNTER                    0x40F4
 #define VAR_SCOTT_BF_CALL_STEP_COUNTER                   0x40F5
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER             0x40F6
-#define VAR_UNUSED_0x40F7                                0x40F7 // Unused Var
-#define VAR_UNUSED_0x40F8                                0x40F8 // Unused Var
-#define VAR_UNUSED_0x40F9                                0x40F9 // Unused Var
+
+//0: Door hasn't been chosen
+//1: Left Room
+//2: Right Room
+//3: Norman Defeated, all doors unlocked
+#define VAR_PETALBURG_GYM_ENTRANCE_DOOR                  0x40F7
+#define VAR_PETALBURG_GYM_FIRST_ROOM_DOOR                0x40F8
+#define VAR_PETALBURG_GYM_SECOND_ROOM_DOOR               0x40F9
+
 #define VAR_UNUSED_0x40FA                                0x40FA // Unused Var
 #define VAR_UNUSED_0x40FB                                0x40FB // Unused Var
 #define VAR_UNUSED_0x40FC                                0x40FC // Unused Var

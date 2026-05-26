@@ -2128,7 +2128,7 @@
 #define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE                      0
-#define FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD                         0
+#define FLAG_HIDE_PETALBURG_CITY_STEVEN                         0
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS               0
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER                0
 #define FLAG_HIDE_GRANITE_CAVE_STEVEN                               0

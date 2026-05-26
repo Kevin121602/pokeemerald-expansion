@@ -8668,11 +8668,11 @@ Ability: Quark Drive
 Double:
 */
 
-=== TRAINER_ALVARO ===
-Name: Alvaro
+=== TRAINER_ALEXIS ===
+Name: Alexis
 Class: Psychic
-Pic: Psychic M
-Gender: Male
+Pic: Psychic F
+Gender: Female
 Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
@@ -8695,11 +8695,11 @@ Ability: Dry Skin
 - Blizzard
 - Focus Blast
 
-=== TRAINER_ALEXIS ===
-Name: Alexis
+=== TRAINER_ALVARO ===
+Name: Alvaro
 Class: Psychic
-Pic: Psychic F
-Gender: Female
+Pic: Psychic M
+Gender: Male
 Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability

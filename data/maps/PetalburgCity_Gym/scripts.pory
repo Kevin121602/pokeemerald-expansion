@@ -1,3 +1,213 @@
+script PetalburgCity_Gym_EventScript_CritRoomDoor {
+	lockall
+	if(var(VAR_PETALBURG_GYM_STATE) < 6 || var(VAR_PETALBURG_GYM_ENTRANCE_DOOR) == 2){
+		goto(PetalburgCity_Gym_EventScript_DoorLocked)
+	}
+	setvar(VAR_0x8008, 7)
+	setvar(VAR_0x8009, 85)
+	if(var(VAR_PETALBURG_GYM_ENTRANCE_DOOR) == 0){
+		msgbox(PetalburgCity_Gym_Text_EnterCritRoom, MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES){
+			setvar(VAR_PETALBURG_GYM_ENTRANCE_DOOR, 1)
+			goto(PetalburgCity_Gym_EventScript_EnterRoom)
+		} else {
+			goto(PetalburgCity_Gym_EventScript_DontEnterRoom)
+		}
+	} else {
+		goto(PetalburgCity_Gym_EventScript_EnterRoom)
+	}
+	end
+}
+
+script PetalburgCity_Gym_EventScript_AccuracyRoomDoor {
+	lockall
+	if(var(VAR_PETALBURG_GYM_STATE) < 6 || var(VAR_PETALBURG_GYM_ENTRANCE_DOOR) == 1){
+		goto(PetalburgCity_Gym_EventScript_DoorLocked)
+	}
+	setvar(VAR_0x8008, 1)
+	setvar(VAR_0x8009, 98)
+	if(var(VAR_PETALBURG_GYM_ENTRANCE_DOOR) == 0){
+		msgbox(PetalburgCity_Gym_Text_EnterAccuracyRoom, MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES){
+			setvar(VAR_PETALBURG_GYM_ENTRANCE_DOOR, 2)
+			goto(PetalburgCity_Gym_EventScript_EnterRoom)
+		} else {
+			goto(PetalburgCity_Gym_EventScript_DontEnterRoom)
+		}
+	} else {
+		goto(PetalburgCity_Gym_EventScript_EnterRoom)
+	}
+	end
+}
+
+script PetalburgCity_Gym_EventScript_SpeedRoomDoor {
+	lockall
+	if(!defeated(TRAINER_RANDALL) || var(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR) == 2){
+		goto(PetalburgCity_Gym_EventScript_DoorLocked)
+	}
+	setvar(VAR_0x8008, 7)
+	setvar(VAR_0x8009, 46)
+	if(var(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR) == 0){
+		msgbox(PetalburgCity_Gym_Text_EnterSpeedRoom, MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES){
+			setvar(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR, 1)
+			goto(PetalburgCity_Gym_EventScript_EnterRoom)
+		} else {
+			goto(PetalburgCity_Gym_EventScript_DontEnterRoom)
+		}
+	} else {
+		goto(PetalburgCity_Gym_EventScript_EnterRoom)
+	}
+	end
+}
+
+script PetalburgCity_Gym_EventScript_LeftStrengthRoomDoor {
+	lockall
+	if(!defeated(TRAINER_RANDALL) || var(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR) == 1){
+		goto(PetalburgCity_Gym_EventScript_DoorLocked)
+	}
+	setvar(VAR_0x8008, 1)
+	setvar(VAR_0x8009, 59)
+	if(var(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR) == 0){
+		msgbox(PetalburgCity_Gym_Text_EnterStrengthRoom, MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES){
+			setvar(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR, 2)
+			goto(PetalburgCity_Gym_EventScript_EnterRoom)
+		} else {
+			goto(PetalburgCity_Gym_EventScript_DontEnterRoom)
+		}
+	} else {
+		goto(PetalburgCity_Gym_EventScript_EnterRoom)
+	}
+	end
+}
+
+script PetalburgCity_Gym_EventScript_RightStrengthRoomDoor {
+	lockall
+	if(!defeated(TRAINER_MARY) || var(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR) == 2){
+		goto(PetalburgCity_Gym_EventScript_DoorLocked)
+	}
+	setvar(VAR_0x8008, 7)
+	setvar(VAR_0x8009, 59)
+	if(var(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR) == 0){
+		msgbox(PetalburgCity_Gym_Text_EnterStrengthRoom, MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES){
+			setvar(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR, 1)
+			goto(PetalburgCity_Gym_EventScript_EnterRoom)
+		} else {
+			goto(PetalburgCity_Gym_EventScript_DontEnterRoom)
+		}
+	} else {
+		goto(PetalburgCity_Gym_EventScript_EnterRoom)
+	}
+	end
+}
+
+script PetalburgCity_Gym_EventScript_RecoveryRoomDoor {
+	lockall
+	if(!defeated(TRAINER_MARY) || var(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR) == 1){
+		goto(PetalburgCity_Gym_EventScript_DoorLocked)
+	}
+	setvar(VAR_0x8008, 1)
+	setvar(VAR_0x8009, 72)
+	if(var(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR) == 0){
+		msgbox(PetalburgCity_Gym_Text_EnterRecoveryRoom, MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES){
+			setvar(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR, 2)
+			goto(PetalburgCity_Gym_EventScript_EnterRoom)
+		} else {
+			goto(PetalburgCity_Gym_EventScript_DontEnterRoom)
+		}
+	} else {
+		goto(PetalburgCity_Gym_EventScript_EnterRoom)
+	}
+	end
+}
+
+script PetalburgCity_Gym_EventScript_LeftRecoilRoomDoor {
+	lockall
+	if(!defeated(TRAINER_PARKER)){
+		goto(PetalburgCity_Gym_EventScript_DoorLocked)
+	}
+	setvar(VAR_0x8008, 1)
+	setvar(VAR_0x8009, 20)
+	if(var(VAR_PETALBURG_GYM_SECOND_ROOM_DOOR) == 0){
+		msgbox(PetalburgCity_Gym_Text_EnterRecoilRoom, MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES){
+			setvar(VAR_PETALBURG_GYM_SECOND_ROOM_DOOR, 1)
+			goto(PetalburgCity_Gym_EventScript_EnterRoom)
+		} else {
+			goto(PetalburgCity_Gym_EventScript_DontEnterRoom)
+		}
+	} else {
+		goto(PetalburgCity_Gym_EventScript_EnterRoom)
+	}
+	end
+}
+
+script PetalburgCity_Gym_EventScript_RightRecoilRoomDoor {
+	lockall
+	if(!defeated(TRAINER_ALEXIA) || var(VAR_PETALBURG_GYM_SECOND_ROOM_DOOR) == 2){
+		goto(PetalburgCity_Gym_EventScript_DoorLocked)
+	}
+	setvar(VAR_0x8008, 7)
+	setvar(VAR_0x8009, 20)
+	if(var(VAR_PETALBURG_GYM_SECOND_ROOM_DOOR) == 0){
+		msgbox(PetalburgCity_Gym_Text_EnterRecoilRoom2, MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES){
+			setvar(VAR_PETALBURG_GYM_SECOND_ROOM_DOOR, 1)
+			goto(PetalburgCity_Gym_EventScript_EnterRoom)
+		} else {
+			goto(PetalburgCity_Gym_EventScript_DontEnterRoom)
+		}
+	} else {
+		goto(PetalburgCity_Gym_EventScript_EnterRoom)
+	}
+	end
+}
+
+script PetalburgCity_Gym_EventScript_LeftZeroReductionRoomDoor {
+	lockall
+	if(!defeated(TRAINER_ALEXIA) || var(VAR_PETALBURG_GYM_SECOND_ROOM_DOOR) == 1){
+		goto(PetalburgCity_Gym_EventScript_DoorLocked)
+	}
+	setvar(VAR_0x8008, 1)
+	setvar(VAR_0x8009, 33)
+	if(var(VAR_PETALBURG_GYM_SECOND_ROOM_DOOR) == 0){
+		msgbox(PetalburgCity_Gym_Text_EnterZeroReductionRoom2, MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES){
+			setvar(VAR_PETALBURG_GYM_SECOND_ROOM_DOOR, 2)
+			goto(PetalburgCity_Gym_EventScript_EnterRoom)
+		} else {
+			goto(PetalburgCity_Gym_EventScript_DontEnterRoom)
+		}
+	} else {
+		goto(PetalburgCity_Gym_EventScript_EnterRoom)
+	}
+	end
+}
+
+script PetalburgCity_Gym_EventScript_RightZeroReductionRoomDoor {
+	lockall
+	if(!defeated(TRAINER_GEORGE)){
+		goto(PetalburgCity_Gym_EventScript_DoorLocked)
+	}
+	setvar(VAR_0x8008, 7)
+	setvar(VAR_0x8009, 33)
+	if(var(VAR_PETALBURG_GYM_SECOND_ROOM_DOOR) == 0){
+		msgbox(PetalburgCity_Gym_Text_EnterZeroReductionRoom, MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES){
+			setvar(VAR_PETALBURG_GYM_SECOND_ROOM_DOOR, 1)
+			goto(PetalburgCity_Gym_EventScript_EnterRoom)
+		} else {
+			goto(PetalburgCity_Gym_EventScript_DontEnterRoom)
+		}
+	} else {
+		goto(PetalburgCity_Gym_EventScript_EnterRoom)
+	}
+	end
+}
+
 raw `
 .set LOCALID_NORMAN, 1
 .set LOCALID_WALLY, 10
@@ -680,15 +890,15 @@ PetalburgCity_Gym_EventScript_NoAmountOfTrainingIsEnough::
 	release
 	end
 
-PetalburgCity_Gym_EventScript_CritRoomDoor::
-	lockall
-	goto_if_lt VAR_PETALBURG_GYM_STATE, 6, PetalburgCity_Gym_EventScript_DoorLocked
-	setvar VAR_0x8008, 7
-	setvar VAR_0x8009, 85
-	msgbox PetalburgCity_Gym_Text_EnterCritRoom, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
-	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
-	end
+@PetalburgCity_Gym_EventScript_CritRoomDoor::
+@	lockall
+@	goto_if_lt VAR_PETALBURG_GYM_STATE, 6, PetalburgCity_Gym_EventScript_DoorLocked
+@	setvar VAR_0x8008, 7
+@	setvar VAR_0x8009, 85
+@	msgbox PetalburgCity_Gym_Text_EnterCritRoom, MSGBOX_YESNO
+@	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
+@	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
+@	end
 
 PetalburgCity_Gym_EventScript_EnterRoom::
 	closemessage
@@ -708,95 +918,95 @@ PetalburgCity_Gym_EventScript_DoorLocked::
 	end
 
 @ VAR_0x8008 and VAR_0x8009 below are the x and y coordinates of the warp
-PetalburgCity_Gym_EventScript_AccuracyRoomDoor::
-	lockall
-	goto_if_lt VAR_PETALBURG_GYM_STATE, 6, PetalburgCity_Gym_EventScript_DoorLocked
-	setvar VAR_0x8008, 1
-	setvar VAR_0x8009, 98
-	msgbox PetalburgCity_Gym_Text_EnterAccuracyRoom, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
-	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
-	end
+@PetalburgCity_Gym_EventScript_AccuracyRoomDoor::
+@	lockall
+@	goto_if_lt VAR_PETALBURG_GYM_STATE, 6, PetalburgCity_Gym_EventScript_DoorLocked
+@	setvar VAR_0x8008, 1
+@	setvar VAR_0x8009, 98
+@	msgbox PetalburgCity_Gym_Text_EnterAccuracyRoom, MSGBOX_YESNO
+@	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
+@	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
+@	end
 
-PetalburgCity_Gym_EventScript_SpeedRoomDoor::
-	lockall
-	goto_if_not_defeated TRAINER_RANDALL, PetalburgCity_Gym_EventScript_DoorLocked
-	setvar VAR_0x8008, 7
-	setvar VAR_0x8009, 46
-	msgbox PetalburgCity_Gym_Text_EnterSpeedRoom, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
-	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
-	end
+@PetalburgCity_Gym_EventScript_SpeedRoomDoor::
+@	lockall
+@	goto_if_not_defeated TRAINER_RANDALL, PetalburgCity_Gym_EventScript_DoorLocked
+@	setvar VAR_0x8008, 7
+@	setvar VAR_0x8009, 46
+@	msgbox PetalburgCity_Gym_Text_EnterSpeedRoom, MSGBOX_YESNO
+@	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
+@	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
+@	end
 
-PetalburgCity_Gym_EventScript_LeftStrengthRoomDoor::
-	lockall
-	goto_if_not_defeated TRAINER_RANDALL, PetalburgCity_Gym_EventScript_DoorLocked
-	setvar VAR_0x8008, 1
-	setvar VAR_0x8009, 59
-	msgbox PetalburgCity_Gym_Text_EnterStrengthRoom, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
-	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
-	end
+@PetalburgCity_Gym_EventScript_LeftStrengthRoomDoor::
+@	lockall
+@	goto_if_not_defeated TRAINER_RANDALL, PetalburgCity_Gym_EventScript_DoorLocked
+@	setvar VAR_0x8008, 1
+@	setvar VAR_0x8009, 59
+@	msgbox PetalburgCity_Gym_Text_EnterStrengthRoom, MSGBOX_YESNO
+@	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
+@	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
+@	end
 
-PetalburgCity_Gym_EventScript_RightStrengthRoomDoor::
-	lockall
-	goto_if_not_defeated TRAINER_MARY, PetalburgCity_Gym_EventScript_DoorLocked
-	setvar VAR_0x8008, 7
-	setvar VAR_0x8009, 59
-	msgbox PetalburgCity_Gym_Text_EnterStrengthRoom, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
-	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
-	end
+@PetalburgCity_Gym_EventScript_RightStrengthRoomDoor::
+@	lockall
+@	goto_if_not_defeated TRAINER_MARY, PetalburgCity_Gym_EventScript_DoorLocked
+@	setvar VAR_0x8008, 7
+@	setvar VAR_0x8009, 59
+@	msgbox PetalburgCity_Gym_Text_EnterStrengthRoom, MSGBOX_YESNO
+@	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
+@	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
+@	end
 
-PetalburgCity_Gym_EventScript_RecoveryRoomDoor::
-	lockall
-	goto_if_not_defeated TRAINER_MARY, PetalburgCity_Gym_EventScript_DoorLocked
-	setvar VAR_0x8008, 1
-	setvar VAR_0x8009, 72
-	msgbox PetalburgCity_Gym_Text_EnterRecoveryRoom, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
-	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
-	end
+@PetalburgCity_Gym_EventScript_RecoveryRoomDoor::
+@	lockall
+@	goto_if_not_defeated TRAINER_MARY, PetalburgCity_Gym_EventScript_DoorLocked
+@	setvar VAR_0x8008, 1
+@	setvar VAR_0x8009, 72
+@	msgbox PetalburgCity_Gym_Text_EnterRecoveryRoom, MSGBOX_YESNO
+@	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
+@	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
+@	end
 
-PetalburgCity_Gym_EventScript_LeftRecoilRoomDoor::
-	lockall
-	goto_if_not_defeated TRAINER_PARKER, PetalburgCity_Gym_EventScript_DoorLocked
-	setvar VAR_0x8008, 1
-	setvar VAR_0x8009, 20
-	msgbox PetalburgCity_Gym_Text_EnterRecoilRoom, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
-	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
-	end
+@PetalburgCity_Gym_EventScript_LeftRecoilRoomDoor::
+@	lockall
+@	goto_if_not_defeated TRAINER_PARKER, PetalburgCity_Gym_EventScript_DoorLocked
+@	setvar VAR_0x8008, 1
+@	setvar VAR_0x8009, 20
+@	msgbox PetalburgCity_Gym_Text_EnterRecoilRoom, MSGBOX_YESNO
+@	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
+@	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
+@	end
 
-PetalburgCity_Gym_EventScript_RightRecoilRoomDoor::
-	lockall
-	goto_if_not_defeated TRAINER_ALEXIA, PetalburgCity_Gym_EventScript_DoorLocked
-	setvar VAR_0x8008, 7
-	setvar VAR_0x8009, 20
-	msgbox PetalburgCity_Gym_Text_EnterRecoilRoom, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
-	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
-	end
+@PetalburgCity_Gym_EventScript_RightRecoilRoomDoor::
+@	lockall
+@	goto_if_not_defeated TRAINER_ALEXIA, PetalburgCity_Gym_EventScript_DoorLocked
+@	setvar VAR_0x8008, 7
+@	setvar VAR_0x8009, 20
+@	msgbox PetalburgCity_Gym_Text_EnterRecoilRoom, MSGBOX_YESNO
+@	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
+@	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
+@	end
 
-PetalburgCity_Gym_EventScript_LeftZeroReductionRoomDoor::
-	lockall
-	goto_if_not_defeated TRAINER_ALEXIA, PetalburgCity_Gym_EventScript_DoorLocked
-	setvar VAR_0x8008, 1
-	setvar VAR_0x8009, 33
-	msgbox PetalburgCity_Gym_Text_EnterZeroReductionRoom, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
-	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
-	end
+@PetalburgCity_Gym_EventScript_LeftZeroReductionRoomDoor::
+@	lockall
+@	goto_if_not_defeated TRAINER_ALEXIA, PetalburgCity_Gym_EventScript_DoorLocked
+@	setvar VAR_0x8008, 1
+@	setvar VAR_0x8009, 33
+@	msgbox PetalburgCity_Gym_Text_EnterZeroReductionRoom, MSGBOX_YESNO
+@	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
+@	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
+@	end
 
-PetalburgCity_Gym_EventScript_RightZeroReductionRoomDoor::
-	lockall
-	goto_if_not_defeated TRAINER_GEORGE, PetalburgCity_Gym_EventScript_DoorLocked
-	setvar VAR_0x8008, 7
-	setvar VAR_0x8009, 33
-	msgbox PetalburgCity_Gym_Text_EnterZeroReductionRoom, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
-	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
-	end
+@PetalburgCity_Gym_EventScript_RightZeroReductionRoomDoor::
+@	lockall
+@	goto_if_not_defeated TRAINER_GEORGE, PetalburgCity_Gym_EventScript_DoorLocked
+@	setvar VAR_0x8008, 7
+@	setvar VAR_0x8009, 33
+@	msgbox PetalburgCity_Gym_Text_EnterZeroReductionRoom, MSGBOX_YESNO
+@	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
+@	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
+@	end
 
 PetalburgCity_Gym_EventScript_LeftGymLeadersRoomDoor::
 	lockall
@@ -1465,6 +1675,8 @@ PetalburgCity_Gym_Text_DoorAppearsLocked:
 
 PetalburgCity_Gym_Text_EnterCritRoom:
 	.string "“Critical Room,” the sign says.\p"
+	.string "If you enter, the other door will\n"
+	.string "be locked.\p"
 	.string "Do you want to go through?$"
 
 @ Unused
@@ -1474,26 +1686,46 @@ PetalburgCity_Gym_Text_DoorAppearsLocked2:
 
 PetalburgCity_Gym_Text_EnterAccuracyRoom:
 	.string "“Accuracy Room,” the sign says.\p"
+	.string "If you enter, the other door will\n"
+	.string "be locked.\p"
 	.string "Do you want to go through?$"
 
 PetalburgCity_Gym_Text_EnterSpeedRoom:
 	.string "“Speed Room,” the sign says.\p"
+	.string "If you enter, the other door will\n"
+	.string "be locked.\p"
 	.string "Do you want to go through?$"
 
 PetalburgCity_Gym_Text_EnterRecoilRoom:
 	.string "“Recoil Room,” the sign says.\p"
 	.string "Do you want to go through?$"
 
+PetalburgCity_Gym_Text_EnterRecoilRoom2:
+	.string "“Recoil Room,” the sign says.\p"
+	.string "If you enter, the other door will\n"
+	.string "be locked.\p"
+	.string "Do you want to go through?$"
+
 PetalburgCity_Gym_Text_EnterRecoveryRoom:
 	.string "“Recovery Room,” the sign says.\p"
+	.string "If you enter, the other door will\n"
+	.string "be locked.\p"
 	.string "Do you want to go through?$"
 
 PetalburgCity_Gym_Text_EnterStrengthRoom:
 	.string "“Strength Room,” the sign says.\p"
+	.string "If you enter, the other door will\n"
+	.string "be locked.\p"
 	.string "Do you want to go through?$"
 
 PetalburgCity_Gym_Text_EnterZeroReductionRoom:
 	.string "“Zero Reduction Room,” the sign says.\p"
+	.string "Do you want to go through?$"
+
+PetalburgCity_Gym_Text_EnterZeroReductionRoom2:
+	.string "“Zero Reduction Room,” the sign says.\p"
+	.string "If you enter, the other door will\n"
+	.string "be locked.\p"
 	.string "Do you want to go through?$"
 
 PetalburgCity_Gym_Text_EnterGymLeadersRoom:

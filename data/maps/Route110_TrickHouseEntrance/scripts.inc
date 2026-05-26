@@ -176,9 +176,9 @@ Route110_TrickHouseEntrance_Apprentice_108:
 
 Route110_TrickHouseEntrance_Apprentice_16:
 # 227 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	goto_if_unset FLAG_BEAT_TRICK_HOUSE_PUZZLE_6, Route110_TrickHouseEntrance_Apprentice_35
+	goto_if_unset FLAG_BEAT_TRICK_HOUSE_PUZZLE_7, Route110_TrickHouseEntrance_Apprentice_35
 # 233 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	goto_if_set FLAG_RECIEVED_TRICK_HOUSE_GIFT_6, Route110_TrickHouseEntrance_Apprentice_58
+	goto_if_set FLAG_RECIEVED_TRICK_HOUSE_GIFT_7, Route110_TrickHouseEntrance_Apprentice_58
 # 238 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	msgbox Route110_TrickHouseEntrance_Apprentice_Text_20, MSGBOX_YESNO
 # 242 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
@@ -194,14 +194,14 @@ Route110_TrickHouseEntrance_Apprentice_16:
 	case 1, Route110_TrickHouseEntrance_Apprentice_116
 Route110_TrickHouseEntrance_Apprentice_113:
 # 261 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	setflag FLAG_RECIEVED_TRICK_HOUSE_GIFT_6
+	setflag FLAG_RECIEVED_TRICK_HOUSE_GIFT_7
 	goto Route110_TrickHouseEntrance_Apprentice_9
 
 Route110_TrickHouseEntrance_Apprentice_17:
 # 265 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	goto_if_unset FLAG_BEAT_TRICK_HOUSE_PUZZLE_7, Route110_TrickHouseEntrance_Apprentice_38
+	goto_if_unset FLAG_BEAT_TRICK_HOUSE_PUZZLE_6, Route110_TrickHouseEntrance_Apprentice_38
 # 271 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	goto_if_set FLAG_RECIEVED_TRICK_HOUSE_GIFT_7, Route110_TrickHouseEntrance_Apprentice_61
+	goto_if_set FLAG_RECIEVED_TRICK_HOUSE_GIFT_6, Route110_TrickHouseEntrance_Apprentice_61
 # 276 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	msgbox Route110_TrickHouseEntrance_Apprentice_Text_23, MSGBOX_YESNO
 # 280 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
@@ -217,7 +217,7 @@ Route110_TrickHouseEntrance_Apprentice_17:
 	case 1, Route110_TrickHouseEntrance_Apprentice_120
 Route110_TrickHouseEntrance_Apprentice_117:
 # 299 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	setflag FLAG_RECIEVED_TRICK_HOUSE_GIFT_7
+	setflag FLAG_RECIEVED_TRICK_HOUSE_GIFT_6
 	goto Route110_TrickHouseEntrance_Apprentice_9
 
 Route110_TrickHouseEntrance_Apprentice_18:
@@ -477,7 +477,7 @@ Route110_TrickHouseEntrance_Apprentice_102:
 
 Route110_TrickHouseEntrance_Apprentice_105:
 # 160 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	givemon SPECIES_JYNX, 30
+	givemon SPECIES_JYNX, 30, , , , , , , , , , , , , , , , , , MOVE_AURORA_BEAM, MOVE_FAKE_OUT, MOVE_SWEET_KISS, MOVE_PSYCHO_BOOST
 # 161 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	playfanfare MUS_DP_OBTAIN_ITEM
 # 162 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
@@ -490,7 +490,7 @@ Route110_TrickHouseEntrance_Apprentice_105:
 
 Route110_TrickHouseEntrance_Apprentice_106:
 # 166 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	givemon SPECIES_ELECTIVIRE, 30
+	givemon SPECIES_ELECTIVIRE, 30, , , , , , , , , , , , , , , , , , MOVE_SCREECH, MOVE_THUNDER_PUNCH, MOVE_DISCHARGE, MOVE_PLASMA_FISTS
 # 167 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	playfanfare MUS_DP_OBTAIN_ITEM
 # 168 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
@@ -503,7 +503,7 @@ Route110_TrickHouseEntrance_Apprentice_106:
 
 Route110_TrickHouseEntrance_Apprentice_107:
 # 172 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	givemon SPECIES_MAGMORTAR, 30
+	givemon SPECIES_MAGMORTAR, 30, , , , , , , , , , , , , , , , , , MOVE_MACH_PUNCH, MOVE_FIRE_PUNCH, MOVE_LAVA_PLUME, MOVE_ARMOR_CANNON
 # 173 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	playfanfare MUS_DP_OBTAIN_ITEM
 # 174 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
@@ -555,7 +555,7 @@ Route110_TrickHouseEntrance_Apprentice_112:
 
 Route110_TrickHouseEntrance_Apprentice_115:
 # 249 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	givemon SPECIES_RELICANTH, 40
+	givemon SPECIES_TOGETIC, 25
 # 250 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	playfanfare MUS_DP_OBTAIN_ITEM
 # 251 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
@@ -568,7 +568,7 @@ Route110_TrickHouseEntrance_Apprentice_115:
 
 Route110_TrickHouseEntrance_Apprentice_116:
 # 255 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	givemon SPECIES_AERODACTYL, 40
+	givemon SPECIES_CLEFAIRY, 25
 # 256 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	playfanfare MUS_DP_OBTAIN_ITEM
 # 257 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
@@ -581,7 +581,7 @@ Route110_TrickHouseEntrance_Apprentice_116:
 
 Route110_TrickHouseEntrance_Apprentice_119:
 # 287 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	givemon SPECIES_TOGETIC, 25
+	givemon SPECIES_DREDNAW, 40
 # 288 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	playfanfare MUS_DP_OBTAIN_ITEM
 # 289 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
@@ -594,7 +594,7 @@ Route110_TrickHouseEntrance_Apprentice_119:
 
 Route110_TrickHouseEntrance_Apprentice_120:
 # 293 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	givemon SPECIES_CLEFAIRY, 25
+	givemon SPECIES_AERODACTYL, 40
 # 294 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	playfanfare MUS_DP_OBTAIN_ITEM
 # 295 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
@@ -2404,33 +2404,33 @@ Route110_TrickHouseEntrance_Apprentice_Text_19:
 
 Route110_TrickHouseEntrance_Apprentice_Text_20:
 # 238 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "The sixth reward is either a Relicanth\n"
-	.string "with Wave Crash, or an Aerodactyl\l"
-	.string "with Brave Bird.\p"
-	.string "Do you want this reward?$"
-
-Route110_TrickHouseEntrance_Apprentice_Text_21:
-# 251 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "{PLAYER} recieved Relicanth!$"
-
-Route110_TrickHouseEntrance_Apprentice_Text_22:
-# 257 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "{PLAYER} recieved Aerodactyl!$"
-
-Route110_TrickHouseEntrance_Apprentice_Text_23:
-# 276 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	.string "The seventh reward is either a Togetic\n"
 	.string "with Aeroblast, or a Clefairy with\l"
 	.string "Light of Ruin.\p"
 	.string "Do you want this reward?$"
 
+Route110_TrickHouseEntrance_Apprentice_Text_21:
+# 251 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+	.string "{PLAYER} recieved Togetic!$"
+
+Route110_TrickHouseEntrance_Apprentice_Text_22:
+# 257 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+	.string "{PLAYER} recieved Clefairy!$"
+
+Route110_TrickHouseEntrance_Apprentice_Text_23:
+# 276 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+	.string "The sixth reward is either a Drednaw\n"
+	.string "with Fishious Rend, or an Aerodactyl\l"
+	.string "with Brave Bird.\p"
+	.string "Do you want this reward?$"
+
 Route110_TrickHouseEntrance_Apprentice_Text_24:
 # 289 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "{PLAYER} recieved Togetic!$"
+	.string "{PLAYER} recieved Drednaw!$"
 
 Route110_TrickHouseEntrance_Apprentice_Text_25:
 # 295 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "{PLAYER} recieved Clefairy!$"
+	.string "{PLAYER} recieved Aerodactyl!$"
 
 Route110_TrickHouseEntrance_Apprentice_Text_26:
 # 314 "data/maps/Route110_TrickHouseEntrance/scripts.pory"

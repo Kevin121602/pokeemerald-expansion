@@ -22164,16 +22164,16 @@
         },
     },
 #line 8671
-    [DIFFICULTY_NORMAL][TRAINER_ALVARO] =
+    [DIFFICULTY_NORMAL][TRAINER_ALEXIS] =
     {
 #line 8672
-        .trainerName = _("Alvaro"),
+        .trainerName = _("Alexis"),
 #line 8673
         .trainerClass = TRAINER_CLASS_PSYCHIC,
 #line 8674
-        .trainerPic = TRAINER_PIC_FRONT_PSYCHIC_M,
+        .trainerPic = TRAINER_PIC_FRONT_PSYCHIC_F,
 #line 8675
-        .gender = TRAINER_GENDER_MALE,
+        .gender = TRAINER_GENDER_FEMALE,
 #line 8676
         .encounterMusic = TRAINER_ENCOUNTER_MUSIC_INTENSE,
 #line 8677
@@ -22181,7 +22181,7 @@
 #line 8678
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
 #line 0
-        .trainerBackPic = TRAINER_PIC_FRONT_PSYCHIC_M,
+        .trainerBackPic = TRAINER_PIC_FRONT_PSYCHIC_F,
         .partySize = 2,
         .party = (const struct TrainerMon[])
         {
@@ -22236,16 +22236,16 @@
         },
     },
 #line 8698
-    [DIFFICULTY_NORMAL][TRAINER_ALEXIS] =
+    [DIFFICULTY_NORMAL][TRAINER_ALVARO] =
     {
 #line 8699
-        .trainerName = _("Alexis"),
+        .trainerName = _("Alvaro"),
 #line 8700
         .trainerClass = TRAINER_CLASS_PSYCHIC,
 #line 8701
-        .trainerPic = TRAINER_PIC_FRONT_PSYCHIC_F,
+        .trainerPic = TRAINER_PIC_FRONT_PSYCHIC_M,
 #line 8702
-        .gender = TRAINER_GENDER_FEMALE,
+        .gender = TRAINER_GENDER_MALE,
 #line 8703
         .encounterMusic = TRAINER_ENCOUNTER_MUSIC_INTENSE,
 #line 8704
@@ -22253,7 +22253,7 @@
 #line 8705
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
 #line 0
-        .trainerBackPic = TRAINER_PIC_FRONT_PSYCHIC_F,
+        .trainerBackPic = TRAINER_PIC_FRONT_PSYCHIC_M,
         .partySize = 3,
         .party = (const struct TrainerMon[])
         {

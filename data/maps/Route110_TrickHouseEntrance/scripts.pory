@@ -157,19 +157,19 @@ script Route110_TrickHouseEntrance_Apprentice{
 					random(3)
 					switch(var(VAR_RESULT)){
 						case 0:
-							givemon(SPECIES_JYNX, 30)
+							givemon(SPECIES_JYNX, 30, , , , , , , , , , , , , , , , , , MOVE_AURORA_BEAM, MOVE_FAKE_OUT, MOVE_SWEET_KISS, MOVE_PSYCHO_BOOST)
 							playfanfare(MUS_DP_OBTAIN_ITEM)
 							msgbox(format("{PLAYER} recieved Jynx!"))
 							waitmessage
 							waitfanfare
 						case 1:
-							givemon(SPECIES_ELECTIVIRE, 30)
+							givemon(SPECIES_ELECTIVIRE, 30, , , , , , , , , , , , , , , , , , MOVE_SCREECH, MOVE_THUNDER_PUNCH, MOVE_DISCHARGE, MOVE_PLASMA_FISTS)
 							playfanfare(MUS_DP_OBTAIN_ITEM)
 							msgbox(format("{PLAYER} recieved Electivire!"))
 							waitmessage
 							waitfanfare
 						case 2:
-							givemon(SPECIES_MAGMORTAR, 30)
+							givemon(SPECIES_MAGMORTAR, 30, , , , , , , , , , , , , , , , , , MOVE_MACH_PUNCH, MOVE_FIRE_PUNCH, MOVE_LAVA_PLUME, MOVE_ARMOR_CANNON)
 							playfanfare(MUS_DP_OBTAIN_ITEM)
 							msgbox(format("{PLAYER} recieved Magmortar!"))
 							waitmessage
@@ -224,44 +224,6 @@ script Route110_TrickHouseEntrance_Apprentice{
 				}
 			}
 		case 5:
-			if(!flag(FLAG_BEAT_TRICK_HOUSE_PUZZLE_6)){
-				msgbox("It looks like you haven't completed\n"
-				"that puzzle.$")
-				release
-				end
-			}
-			if(flag(FLAG_RECIEVED_TRICK_HOUSE_GIFT_6)){
-				msgbox("You've already taken that reward.$")
-				release
-				end				
-			} else {
-				msgbox("The sixth reward is either a Relicanth\n"
-					"with Wave Crash, or an Aerodactyl\l"
-					"with Brave Bird.\p"
-					"Do you want this reward?$", MSGBOX_YESNO)
-				if(var(VAR_RESULT) == NO){
-					release
-					end
-				} else {
-					random(2)
-					switch(var(VAR_RESULT)){
-						case 0:
-							givemon(SPECIES_RELICANTH, 40)
-							playfanfare(MUS_DP_OBTAIN_ITEM)
-							msgbox(format("{PLAYER} recieved Relicanth!"))
-							waitmessage
-							waitfanfare
-						case 1:
-							givemon(SPECIES_AERODACTYL, 40)
-							playfanfare(MUS_DP_OBTAIN_ITEM)
-							msgbox(format("{PLAYER} recieved Aerodactyl!"))
-							waitmessage
-							waitfanfare
-					}
-					setflag(FLAG_RECIEVED_TRICK_HOUSE_GIFT_6)
-				}
-			}
-		case 6:
 			if(!flag(FLAG_BEAT_TRICK_HOUSE_PUZZLE_7)){
 				msgbox("It looks like you haven't completed\n"
 				"that puzzle.$")
@@ -297,6 +259,44 @@ script Route110_TrickHouseEntrance_Apprentice{
 							waitfanfare
 					}
 					setflag(FLAG_RECIEVED_TRICK_HOUSE_GIFT_7)
+				}
+			}
+		case 6:
+			if(!flag(FLAG_BEAT_TRICK_HOUSE_PUZZLE_6)){
+				msgbox("It looks like you haven't completed\n"
+				"that puzzle.$")
+				release
+				end
+			}
+			if(flag(FLAG_RECIEVED_TRICK_HOUSE_GIFT_6)){
+				msgbox("You've already taken that reward.$")
+				release
+				end				
+			} else {
+				msgbox("The sixth reward is either a Drednaw\n"
+					"with Fishious Rend, or an Aerodactyl\l"
+					"with Brave Bird.\p"
+					"Do you want this reward?$", MSGBOX_YESNO)
+				if(var(VAR_RESULT) == NO){
+					release
+					end
+				} else {
+					random(2)
+					switch(var(VAR_RESULT)){
+						case 0:
+							givemon(SPECIES_DREDNAW, 40)
+							playfanfare(MUS_DP_OBTAIN_ITEM)
+							msgbox(format("{PLAYER} recieved Drednaw!"))
+							waitmessage
+							waitfanfare
+						case 1:
+							givemon(SPECIES_AERODACTYL, 40)
+							playfanfare(MUS_DP_OBTAIN_ITEM)
+							msgbox(format("{PLAYER} recieved Aerodactyl!"))
+							waitmessage
+							waitfanfare
+					}
+					setflag(FLAG_RECIEVED_TRICK_HOUSE_GIFT_6)
 				}
 			}
 		case 7:
