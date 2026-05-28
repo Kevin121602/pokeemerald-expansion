@@ -2667,6 +2667,9 @@ void SetMoveEffect(enum BattlerId battlerAtk, enum BattlerId effectBattler, enum
         if(affectsUser && (GetBattlerAbility(gBattlerAttacker) == ABILITY_BAD_COMPANY))
             break;
 
+        if(affectsUser && (gSideStatuses[GetBattlerSide(gBattlerAttacker)] & SIDE_STATUS_ZERO_REDUCTION_ROOM))
+            break;
+
         if (mirrorArmorReflected && !affectsUser)
             flags.allowPtr = TRUE;
         else
@@ -2724,6 +2727,9 @@ void SetMoveEffect(enum BattlerId battlerAtk, enum BattlerId effectBattler, enum
     case MOVE_EFFECT_EVS_MINUS_2:
         flags.certain = affectsUser;
         if(affectsUser && (GetBattlerAbility(gBattlerAttacker) == ABILITY_BAD_COMPANY))
+            break;
+
+        if(affectsUser && (gSideStatuses[GetBattlerSide(gBattlerAttacker)] & SIDE_STATUS_ZERO_REDUCTION_ROOM))
             break;
 
         if (mirrorArmorReflected && !affectsUser)
@@ -2787,14 +2793,18 @@ void SetMoveEffect(enum BattlerId battlerAtk, enum BattlerId effectBattler, enum
     case MOVE_EFFECT_ATK_DEF_DOWN: // SuperPower
         if(GetBattlerAbility(gBattlerAttacker) == ABILITY_BAD_COMPANY)
             break;
-        if (!NoAliveMonsForEitherParty() || GetBattlerAbility(gBattlerAttacker) == ABILITY_BAD_COMPANY)
+
+        if(affectsUser && (gSideStatuses[GetBattlerSide(gBattlerAttacker)] & SIDE_STATUS_ZERO_REDUCTION_ROOM))
+            break;
+
+        if (!NoAliveMonsForEitherParty() || GetBattlerAbility(gBattlerAttacker) == ABILITY_BAD_COMPANY || (gSideStatuses[GetBattlerSide(gBattlerAttacker)] & SIDE_STATUS_ZERO_REDUCTION_ROOM))
         {
             BattleScriptPush(battleScript);
             gBattlescriptCurrInstr = BattleScript_AtkDefDown;
         }
         break;
     case MOVE_EFFECT_DEF_SPDEF_DOWN: // Close Combat
-        if (!NoAliveMonsForEitherParty() || GetBattlerAbility(gBattlerAttacker) == ABILITY_BAD_COMPANY)
+        if (!NoAliveMonsForEitherParty() || GetBattlerAbility(gBattlerAttacker) == ABILITY_BAD_COMPANY || (gSideStatuses[GetBattlerSide(gBattlerAttacker)] & SIDE_STATUS_ZERO_REDUCTION_ROOM))
         {
             BattleScriptPush(battleScript);
             gBattlescriptCurrInstr = BattleScript_DefSpDefDown;
@@ -2806,6 +2816,8 @@ void SetMoveEffect(enum BattlerId battlerAtk, enum BattlerId effectBattler, enum
         if (recoil == 0)
             recoil = 1;
         if (abilities[gEffectBattler] == ABILITY_PARENTAL_BOND)
+            recoil *= 2;
+        if(gSideStatuses[GetBattlerSide(gEffectBattler)] & SIDE_STATUS_LEADERS_ROOM)
             recoil *= 2;
         SetPassiveDamageAmount(gEffectBattler, recoil);
         TryUpdateEvolutionTracker(IF_RECOIL_DAMAGE_GE, gBattleStruct->passiveHpUpdate[gBattlerAttacker], MOVE_NONE);
@@ -2875,7 +2887,7 @@ void SetMoveEffect(enum BattlerId battlerAtk, enum BattlerId effectBattler, enum
         }
         break;
     case MOVE_EFFECT_V_CREATE:
-        if (!NoAliveMonsForEitherParty() || GetBattlerAbility(gBattlerAttacker) == ABILITY_BAD_COMPANY)
+        if (!NoAliveMonsForEitherParty() || GetBattlerAbility(gBattlerAttacker) == ABILITY_BAD_COMPANY || (gSideStatuses[GetBattlerSide(gBattlerAttacker)] & SIDE_STATUS_ZERO_REDUCTION_ROOM))
         {
             BattleScriptPush(battleScript);
             gBattlescriptCurrInstr = BattleScript_VCreateStatLoss;
@@ -3048,7 +3060,8 @@ void SetMoveEffect(enum BattlerId battlerAtk, enum BattlerId effectBattler, enum
         if (GetActiveGimmick(gEffectBattler) == GIMMICK_TERA
             && GetBattlerTeraType(gEffectBattler) == TYPE_STELLAR
             && !NoAliveMonsForEitherParty()
-            && GetBattlerAbility(gBattlerAttacker) != ABILITY_BAD_COMPANY)
+            && GetBattlerAbility(gBattlerAttacker) != ABILITY_BAD_COMPANY
+            && !(gSideStatuses[GetBattlerSide(gBattlerAttacker)] & SIDE_STATUS_ZERO_REDUCTION_ROOM))
         {
             BattleScriptPush(battleScript);
             gBattlescriptCurrInstr = BattleScript_LowerAtkSpAtk;

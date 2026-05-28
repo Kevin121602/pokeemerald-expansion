@@ -477,7 +477,7 @@ static enum ItemEffect TryThroatSpray(enum BattlerId battlerAtk)
     enum ItemEffect effect = ITEM_NO_EFFECT;
 
     if (IsSoundMove(gCurrentMove)
-     && gMultiHitCounter == 0
+     //&& gMultiHitCounter == 0
      && IsBattlerAlive(battlerAtk)
      && IsAnyTargetTurnDamaged(battlerAtk)
      && CompareStat(battlerAtk, STAT_SPATK, MAX_STAT_STAGE, CMP_LESS_THAN, GetBattlerAbility(battlerAtk))
@@ -546,6 +546,7 @@ static enum ItemEffect TryLifeOrb(enum BattlerId battlerAtk)
      && !gBattleStruct->unableToUseMove
      && (IsAnyTargetTurnDamaged(battlerAtk) || gBattleScripting.savedDmg > 0)
      && !IsAbilityAndRecord(battlerAtk, GetBattlerAbility(battlerAtk), ABILITY_MAGIC_GUARD)
+     && !(gSideStatuses[GetBattlerSide(battlerAtk)] & SIDE_STATUS_RECOIL_ROOM)
      && GetMoveEffect(gCurrentMove) != EFFECT_PAIN_SPLIT
      && !IsFutureSightAttackerInParty(battlerAtk, gBattlerTarget, gCurrentMove))
     {

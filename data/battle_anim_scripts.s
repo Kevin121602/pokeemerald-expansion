@@ -31493,7 +31493,31 @@ gBattleAnimGeneral_Darkness::
 	goto gBattleAnimMove_MeanLook
 
 gBattleAnimGeneral_CritBoost::
+	goto gBattleAnimMove_HoneClaws
+
+gBattleAnimGeneral_CritRoom::
 	goto gBattleAnimMove_FocusEnergy
+
+gBattleAnimGeneral_AccuracyRoom::
+	goto gBattleAnimMove_LockOn
+
+gBattleAnimGeneral_SpeedRoom::
+	goto gBattleAnimMove_Agility
+
+gBattleAnimGeneral_StrengthRoom::
+	goto gBattleAnimMove_BulkUp
+
+gBattleAnimGeneral_RecoveryRoom::
+	goto gBattleAnimMove_SlackOff
+
+gBattleAnimGeneral_RecoilRoom::
+	goto gBattleAnimMove_IronDefense
+
+gBattleAnimGeneral_ZeroReductionRoom::
+	goto gBattleAnimMove_Safeguard
+
+gBattleAnimGeneral_LeadersRoom::
+	goto gBattleAnimMove_HelpingHand
 
 gBattleAnimGeneral_IllusionOff::
 	monbg ANIM_TARGET

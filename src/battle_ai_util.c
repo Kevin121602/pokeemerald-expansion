@@ -32,7 +32,7 @@ bool32 PartyMonHasInTactFocusSashSturdy(enum BattlerId battlerAtk, enum BattlerI
 {
     if (isPartyMonCheckedForSash)
     {
-        if(GetBattlerAbility(battlerDef) == ABILITY_PARENTAL_BOND || gMovesInfo[move].multiHit || gMovesInfo[move].effect == EFFECT_TRIPLE_KICK || gMovesInfo[move].strikeCount > 1){
+        if(GetBattlerAbility(battlerDef) == ABILITY_PARENTAL_BOND || gSideStatuses[GetBattlerSide(battlerDef)] & SIDE_STATUS_LEADERS_ROOM || gMovesInfo[move].multiHit || gMovesInfo[move].effect == EFFECT_TRIPLE_KICK || gMovesInfo[move].strikeCount > 1){
             return FALSE;
         }
 
@@ -48,7 +48,7 @@ bool32 PartyMonHasInTactFocusSashSturdy(enum BattlerId battlerAtk, enum BattlerI
     }
     else
     {
-        if(battleMon.ability == ABILITY_PARENTAL_BOND || gMovesInfo[move].multiHit || gMovesInfo[move].effect == EFFECT_TRIPLE_KICK || gMovesInfo[move].strikeCount > 1){
+        if(battleMon.ability == ABILITY_PARENTAL_BOND || gSideStatuses[GetBattlerSide(battlerAtk)] & SIDE_STATUS_LEADERS_ROOM || gMovesInfo[move].multiHit || gMovesInfo[move].effect == EFFECT_TRIPLE_KICK || gMovesInfo[move].strikeCount > 1){
             return FALSE;
         }
 
@@ -68,7 +68,7 @@ bool32 PartyMonHasInTactFocusSashSturdy(enum BattlerId battlerAtk, enum BattlerI
 bool32 MonHasInTactFocusSashSturdy(enum BattlerId battler, enum BattlerId opposingBattler, enum HoldEffect holdEffect, enum Ability ability, enum Move move)
 {
     //battler is the one being checked for sash
-    if(GetBattlerAbility(opposingBattler) == ABILITY_PARENTAL_BOND || gMovesInfo[move].multiHit || gMovesInfo[move].effect == EFFECT_TRIPLE_KICK || gMovesInfo[move].strikeCount > 1){
+    if(GetBattlerAbility(opposingBattler) == ABILITY_PARENTAL_BOND || gSideStatuses[GetBattlerSide(opposingBattler)] & SIDE_STATUS_LEADERS_ROOM || gMovesInfo[move].multiHit || gMovesInfo[move].effect == EFFECT_TRIPLE_KICK || gMovesInfo[move].strikeCount > 1){
         return FALSE;
     }
 
@@ -827,7 +827,7 @@ static inline void CalcDynamicMoveDamage(struct BattleContext *ctx, u16 *medianD
             maximum *= 5;
         }
     }
-    else if (ctx->abilityAtk == ABILITY_PARENTAL_BOND
+    else if ((ctx->abilityAtk == ABILITY_PARENTAL_BOND || gSideStatuses[GetBattlerSide(ctx->battlerAtk)] & SIDE_STATUS_LEADERS_ROOM)
           && strikeCount == 0
           && !AI_IsDoubleSpreadMove(ctx->battlerAtk, ctx->move))
     {
@@ -1059,6 +1059,10 @@ bool32 AI_IsDamagedByRecoil(enum BattlerId battler)
     enum Ability ability = gAiLogicData->abilities[battler];
     if (ability == ABILITY_MAGIC_GUARD || ability == ABILITY_ROCK_HEAD)
         return FALSE;
+
+    if(gSideStatuses[GetBattlerSide(battler)] & SIDE_STATUS_RECOIL_ROOM)
+        return FALSE;
+
     return TRUE;
 }
 
@@ -1538,7 +1542,7 @@ s32 AI_WhoStrikesFirst(enum BattlerId battlerAI, enum BattlerId battler, enum Mo
 
 bool32 CanEndureHit(enum BattlerId battler, enum BattlerId battlerTarget, enum Move move)
 {
-    if (!AI_BattlerAtMaxHp(battlerTarget) || IsMultiHitMove(move) || gAiLogicData->abilities[battler]  == ABILITY_PARENTAL_BOND)
+    if (!AI_BattlerAtMaxHp(battlerTarget) || IsMultiHitMove(move) || gAiLogicData->abilities[battler]  == ABILITY_PARENTAL_BOND || gSideStatuses[GetBattlerSide(battler)] & SIDE_STATUS_LEADERS_ROOM)
         return FALSE;
     if (GetMoveStrikeCount(move) > 1 && !(AI_GetBattlerMoveTargetType(battler, move) == TARGET_SMART && !HasTwoOpponents(battler)))
         return FALSE;
@@ -5514,9 +5518,9 @@ static u32 IncreaseStatUpScoreInternal(enum BattlerId battlerAtk, enum BattlerId
         intactFocusSashOrSturdyAI = TRUE;
     }
 
-    if(AI_BattlerAtMaxHp(battlerDef) && abilityAI != ABILITY_PARENTAL_BOND && holdEffectPlayer == HOLD_EFFECT_FOCUS_SASH){
+    if(AI_BattlerAtMaxHp(battlerDef) && abilityAI != ABILITY_PARENTAL_BOND && !(gSideStatuses[GetBattlerSide(battlerAtk)] & SIDE_STATUS_LEADERS_ROOM) && holdEffectPlayer == HOLD_EFFECT_FOCUS_SASH){
         intactFocusSashOrSturdyPlayer = TRUE;
-    } else if (AI_BattlerAtMaxHp(battlerAtk) && abilityAI != ABILITY_PARENTAL_BOND && !IsMoldBreakerTypeAbility(battlerAtk, gBattleMons[battlerAtk].ability) && abilityPlayer == ABILITY_STURDY){
+    } else if (AI_BattlerAtMaxHp(battlerAtk) && abilityAI != ABILITY_PARENTAL_BOND && !(gSideStatuses[GetBattlerSide(battlerAtk)] & SIDE_STATUS_LEADERS_ROOM) && !IsMoldBreakerTypeAbility(battlerAtk, gBattleMons[battlerAtk].ability) && abilityPlayer == ABILITY_STURDY){
         intactFocusSashOrSturdyPlayer = TRUE;
     }
 

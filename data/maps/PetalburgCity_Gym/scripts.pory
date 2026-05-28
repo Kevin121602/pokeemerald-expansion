@@ -1527,7 +1527,7 @@ PetalburgCity_Gym_Text_GymGuideAdvice:
 	.string "gym battles.\p"
 	.string "As for your Dad, all of his Pokémon\n"
 	.string "attack twice in the same turn, with\l"
-	.string "the second hit landing at 30% power!\p"
+	.string "the second hit landing at 25% power!\p"
 	.string "You'll need to choose which trainers\n"
 	.string "to fight carefully in order to get\l"
 	.string "the upper hand.\p"

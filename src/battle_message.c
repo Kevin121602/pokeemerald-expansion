@@ -653,6 +653,7 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_GRAVITYGROUNDING]                     = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} fell from the sky due to the gravity!"),
     [STRINGID_MISTYTERRAINPREVENTS]                 = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} surrounds itself with a protective mist!"),
     [STRINGID_GRASSYTERRAINHEALS]                   = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} is healed by the grassy terrain!"),
+    [STRINGID_RECOVERYROOMHEALS]                    = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} recovered HP!"),
     [STRINGID_ELECTRICTERRAINPREVENTS]              = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} surrounds itself with electrified terrain!"),
     [STRINGID_PSYCHICTERRAINPREVENTS]               = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} is protected by the Psychic Terrain!"),
     [STRINGID_SAFETYGOGGLESPROTECTED]               = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} is not affected thanks to its {B_LAST_ITEM}!"),
@@ -883,6 +884,21 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_PERMEATINGDARKNESS]                   = COMPOUND_STRING("The battlefield is enveloped in a permeating darkness!"), 
     [STRINGID_DARKNESSLIFTED]                       = COMPOUND_STRING("The darkness was lifted."),
     [STRINGID_SINISTERAURA]                         = COMPOUND_STRING("A sinister aura boosts the power of critical hits!"),
+    [STRINGID_CRITROOMBUFF]                         = COMPOUND_STRING("The opposing team's critical hit rate is boosted!"),
+    [STRINGID_ACCURACYROOMBUFF]                     = COMPOUND_STRING("The opposing team's accuracy is boosted!"),
+    [STRINGID_SPEEDROOMBUFF]                        = COMPOUND_STRING("The opposing team's speed is boosted!"),
+    [STRINGID_STRENGTHROOMBUFF]                     = COMPOUND_STRING("The opposing team's attack is boosted!"),
+    [STRINGID_RECOVERYROOMBUFF]                     = COMPOUND_STRING("The opposing team will recover HP each turn!"),
+    [STRINGID_RECOILROOMBUFF]                       = COMPOUND_STRING("The opposing team is protected from self inflicted damage!"),
+    [STRINGID_ZEROREDUCTIONROOMBUFF]                = COMPOUND_STRING("The opposing team is protected from dropping their own stats!"),
+    [STRINGID_LEADERSROOMBUFF]                      = COMPOUND_STRING("Norman's fatherly love grants his Pokémon a Parental Bond!"),
+    [STRINGID_VICTORYOVERCRITROOM]                  = COMPOUND_STRING("Your victory over the Critical Room grants your Pokémon a boosted critical hit rate!"),
+    [STRINGID_VICTORYOVERACCURACYROOM]              = COMPOUND_STRING("Your victory over the Accuracy Room grants your Pokémon boosted accuracy!"),
+    [STRINGID_VICTORYOVERSPEEDROOM]                 = COMPOUND_STRING("Your victory over the Speed Room grants your Pokémon boosted speed!"),
+    [STRINGID_VICTORYOVERSTRENGTHROOM]              = COMPOUND_STRING("Your victory over the Strength Room grants your Pokémon boosted attack!"),
+    [STRINGID_VICTORYOVERRECOVERYROOM]              = COMPOUND_STRING("Your victory over the Recovery Room grants your Pokémon residual healing!"),
+    [STRINGID_VICTORYOVERRECOILROOM]                = COMPOUND_STRING("Your victory over the Recoil Room protects your Pokémon from self inflicted damage!"),
+    [STRINGID_VICTORYOVERZEROREDUCTIONROOM]         = COMPOUND_STRING("Your victory over the Zero Reduction Room protects your Pokémon from self inflicted stat drops!"),
 };
 
 const u16 gTrainerUsedItemStringIds[] =
@@ -913,22 +929,30 @@ const u16 gMentalHerbCureStringIds[] =
 
 const u16 gStartingStatusStringIds[B_MSG_STARTING_STATUS_COUNT] =
 {
-    [B_MSG_TERRAIN_SET_MISTY]    = STRINGID_TERRAINBECOMESMISTY,
-    [B_MSG_TERRAIN_SET_ELECTRIC] = STRINGID_TERRAINBECOMESELECTRIC,
-    [B_MSG_TERRAIN_SET_PSYCHIC]  = STRINGID_TERRAINBECOMESPSYCHIC,
-    [B_MSG_TERRAIN_SET_GRASSY]   = STRINGID_TERRAINBECOMESGRASSY,
-    [B_MSG_SET_TRICK_ROOM]       = STRINGID_DIMENSIONSWERETWISTED,
-    [B_MSG_SET_MAGIC_ROOM]       = STRINGID_BIZARREARENACREATED,
-    [B_MSG_SET_WONDER_ROOM]      = STRINGID_BIZARREAREACREATED,
-    [B_MSG_SET_TAILWIND]         = STRINGID_TAILWINDBLEW,
-    [B_MSG_SET_RAINBOW]          = STRINGID_ARAINBOWAPPEAREDONSIDE,
-    [B_MSG_SET_SEA_OF_FIRE]      = STRINGID_SEAOFFIREENVELOPEDSIDE,
-    [B_MSG_SET_SWAMP]            = STRINGID_SWAMPENVELOPEDSIDE,
-    [B_MSG_SET_SPIKES]           = STRINGID_SPIKESSCATTERED,
-    [B_MSG_SET_POISON_SPIKES]    = STRINGID_POISONSPIKESSCATTERED,
-    [B_MSG_SET_STICKY_WEB]       = STRINGID_STICKYWEBUSED,
-    [B_MSG_SET_STEALTH_ROCK]     = STRINGID_POINTEDSTONESFLOAT,
-    [B_MSG_SET_SHARP_STEEL]      = STRINGID_SHARPSTEELFLOATS,
+    [B_MSG_TERRAIN_SET_MISTY]           = STRINGID_TERRAINBECOMESMISTY,
+    [B_MSG_TERRAIN_SET_ELECTRIC]        = STRINGID_TERRAINBECOMESELECTRIC,
+    [B_MSG_TERRAIN_SET_PSYCHIC]         = STRINGID_TERRAINBECOMESPSYCHIC,
+    [B_MSG_TERRAIN_SET_GRASSY]          = STRINGID_TERRAINBECOMESGRASSY,
+    [B_MSG_SET_TRICK_ROOM]              = STRINGID_DIMENSIONSWERETWISTED,
+    [B_MSG_SET_MAGIC_ROOM]              = STRINGID_BIZARREARENACREATED,
+    [B_MSG_SET_WONDER_ROOM]             = STRINGID_BIZARREAREACREATED,
+    [B_MSG_SET_TAILWIND]                = STRINGID_TAILWINDBLEW,
+    [B_MSG_SET_RAINBOW]                 = STRINGID_ARAINBOWAPPEAREDONSIDE,
+    [B_MSG_SET_SEA_OF_FIRE]             = STRINGID_SEAOFFIREENVELOPEDSIDE,
+    [B_MSG_SET_SWAMP]                   = STRINGID_SWAMPENVELOPEDSIDE,
+    [B_MSG_SET_SPIKES]                  = STRINGID_SPIKESSCATTERED,
+    [B_MSG_SET_POISON_SPIKES]           = STRINGID_POISONSPIKESSCATTERED,
+    [B_MSG_SET_STICKY_WEB]              = STRINGID_STICKYWEBUSED,
+    [B_MSG_SET_STEALTH_ROCK]            = STRINGID_POINTEDSTONESFLOAT,
+    [B_MSG_SET_SHARP_STEEL]             = STRINGID_SHARPSTEELFLOATS,
+    [B_MSG_CRIT_ROOM_BUFF]              = STRINGID_CRITROOMBUFF,
+    [B_MSG_ACCURACY_ROOM_BUFF]          = STRINGID_ACCURACYROOMBUFF,
+    [B_MSG_SPEED_ROOM_BUFF]             = STRINGID_SPEEDROOMBUFF,
+    [B_MSG_STRENGTH_ROOM_BUFF]          = STRINGID_STRENGTHROOMBUFF,
+    [B_MSG_RECOVERY_ROOM_BUFF]          = STRINGID_RECOVERYROOMBUFF,
+    [B_MSG_RECOIL_ROOM_BUFF]            = STRINGID_RECOILROOMBUFF,
+    [B_MSG_ZERO_REDUCTION_ROOM_BUFF]    = STRINGID_ZEROREDUCTIONROOMBUFF,
+    [B_MSG_LEADERS_ROOM_BUFF]           = STRINGID_LEADERSROOMBUFF
 };
 
 const u16 gTerrainStringIds[B_MSG_TERRAIN_COUNT] =
@@ -1414,6 +1438,17 @@ const u16 gZenModeStringIds[] =
 {
     [B_MSG_ZEN_MODE_TRIGGERED] = STRINGID_ZENMODETRIGGERED,
     [B_MSG_ZEN_MODE_ENDED] = STRINGID_ZENMODEENDED
+};
+
+const u16 gPetalburgGymPlayerStatusStringIds[] =
+{
+    [B_MSG_CRIT_ROOM_VICTORY] = STRINGID_VICTORYOVERCRITROOM,
+    [B_MSG_ACCURACY_ROOM_VICTORY] = STRINGID_VICTORYOVERACCURACYROOM,
+    [B_MSG_SPEED_ROOM_VICTORY] = STRINGID_VICTORYOVERSPEEDROOM,
+    [B_MSG_STRENGTH_ROOM_VICTORY] = STRINGID_VICTORYOVERSTRENGTHROOM,
+    [B_MSG_RECOVERY_ROOM_VICTORY] = STRINGID_VICTORYOVERRECOVERYROOM,
+    [B_MSG_RECOIL_ROOM_VICTORY] = STRINGID_VICTORYOVERRECOILROOM,
+    [B_MSG_ZERO_REDUCTION_ROOM_VICTORY] = STRINGID_VICTORYOVERZEROREDUCTIONROOM
 };
 
 const u8 gText_PkmnIsEvolving[] = _("What?\n{STR_VAR_1} is evolving!");

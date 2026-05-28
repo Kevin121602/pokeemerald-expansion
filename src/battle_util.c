@@ -2833,6 +2833,87 @@ bool32 TryFieldEffects(enum FieldEffectCases caseId)
                         &gSideTimers[B_SIDE_OPPONENT].swampTimer, gStartingStatuses.swampOpponent ? 0 : 4);
             gStartingStatuses.swampOpponentTemporary = gStartingStatuses.swampOpponent = FALSE;
         }
+        //Petalburg Gym Statuses
+        else if (gStartingStatuses.critRoom)
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_CRIT_ROOM,
+                        B_SIDE_OPPONENT,
+                        B_MSG_CRIT_ROOM_BUFF,
+                        B_ANIM_CRIT_ROOM,
+                        &gSideTimers[B_SIDE_OPPONENT].roomTimer, 0);
+            gStartingStatuses.critRoom =  FALSE;
+        }
+        else if (gStartingStatuses.accuracyRoom)
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_ACCURACY_ROOM,
+                        B_SIDE_OPPONENT,
+                        B_MSG_ACCURACY_ROOM_BUFF,
+                        B_ANIM_ACCURACY_ROOM,
+                        &gSideTimers[B_SIDE_OPPONENT].roomTimer, 0);
+            gStartingStatuses.accuracyRoom =  FALSE;
+        }
+        else if (gStartingStatuses.speedRoom)
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_SPEED_ROOM,
+                        B_SIDE_OPPONENT,
+                        B_MSG_SPEED_ROOM_BUFF,
+                        B_ANIM_SPEED_ROOM,
+                        &gSideTimers[B_SIDE_OPPONENT].roomTimer, 0);
+            gStartingStatuses.speedRoom =  FALSE;
+        }
+        else if (gStartingStatuses.strengthRoom)
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_STRENGTH_ROOM,
+                        B_SIDE_OPPONENT,
+                        B_MSG_STRENGTH_ROOM_BUFF,
+                        B_ANIM_STRENGTH_ROOM,
+                        &gSideTimers[B_SIDE_OPPONENT].roomTimer, 0);
+            gStartingStatuses.strengthRoom =  FALSE;
+        }
+        else if (gStartingStatuses.recoveryRoom)
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_RECOVERY_ROOM,
+                        B_SIDE_OPPONENT,
+                        B_MSG_RECOVERY_ROOM_BUFF,
+                        B_ANIM_RECOVERY_ROOM,
+                        &gSideTimers[B_SIDE_OPPONENT].roomTimer, 0);
+            gStartingStatuses.recoveryRoom =  FALSE;
+        }
+        else if (gStartingStatuses.recoilRoom)
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_RECOIL_ROOM,
+                        B_SIDE_OPPONENT,
+                        B_MSG_RECOIL_ROOM_BUFF,
+                        B_ANIM_RECOIL_ROOM,
+                        &gSideTimers[B_SIDE_OPPONENT].roomTimer, 0);
+            gStartingStatuses.recoilRoom =  FALSE;
+        }
+        else if (gStartingStatuses.zeroReductionRoom)
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_ZERO_REDUCTION_ROOM,
+                        B_SIDE_OPPONENT,
+                        B_MSG_ZERO_REDUCTION_ROOM_BUFF,
+                        B_ANIM_ZERO_REDUCTION_ROOM,
+                        &gSideTimers[B_SIDE_OPPONENT].roomTimer, 0);
+            gStartingStatuses.zeroReductionRoom =  FALSE;
+        }
+        else if (gStartingStatuses.leadersRoom)
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_LEADERS_ROOM,
+                        B_SIDE_OPPONENT,
+                        B_MSG_LEADERS_ROOM_BUFF,
+                        B_ANIM_LEADERS_ROOM,
+                        &gSideTimers[B_SIDE_OPPONENT].roomTimer, 0);
+            gStartingStatuses.leadersRoom =  FALSE;
+        }
         // Hazards - Spikes
         else if (gStartingStatuses.spikesPlayerL1)
         {
@@ -7221,6 +7302,9 @@ static inline u32 CalcAttackStat(struct BattleContext *ctx)
         break;
     }
 
+    if (IsBattleMovePhysical(move) && gSideStatuses[GetBattlerSide(battlerAtk)] & SIDE_STATUS_STRENGTH_ROOM)
+        modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.2));
+
     modifier = ApplyOffensiveBadgeBoost(modifier, battlerAtk, move);
 
     return uq4_12_multiply_by_int_half_down(modifier, atkStat);
@@ -8084,6 +8168,7 @@ s32 CalcCritChanceStage(struct BattleContext *ctx)
                     + GetHoldEffectCritChanceIncrease(ctx->battlerAtk, ctx->holdEffectAtk)
                     + ((B_AFFECTION_MECHANICS == TRUE && GetBattlerAffectionHearts(ctx->battlerAtk) == AFFECTION_FIVE_HEARTS) ? 2 : 0)
                     + (ctx->abilityAtk == ABILITY_SUPER_LUCK ? 1 : 0)
+                    + (gSideStatuses[GetBattlerSide(ctx->battlerAtk)] & SIDE_STATUS_CRIT_ROOM ? 1 : 0)
                     + gBattleMons[ctx->battlerAtk].volatiles.bonusCritStages;
 
         if (critChance >= ARRAY_COUNT(sCriticalHitOdds))
@@ -10771,6 +10856,9 @@ u32 GetTotalAccuracy(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum 
         u32 darknessModifier = 70 + (trainersDefeated * 5);
         calc = (calc * darknessModifier) / 100;
     }
+
+    if (gSideStatuses[GetBattlerSide(battlerAtk)] & SIDE_STATUS_ACCURACY_ROOM)
+        calc = (calc * 6) / 5; // 1.2x accuracy boost
 
     //evens out hypnosis accuracy to 100%
     if (gBattleMons[battlerAtk].species == SPECIES_HYPNO && move == MOVE_HYPNOSIS)

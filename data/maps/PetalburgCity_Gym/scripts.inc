@@ -3081,7 +3081,7 @@ PetalburgCity_Gym_Text_GymGuideAdvice:
 # 1529 "data/maps/PetalburgCity_Gym/scripts.pory"
 	.string "attack twice in the same turn, with\l"
 # 1530 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string "the second hit landing at 30% power!\p"
+	.string "the second hit landing at 25% power!\p"
 # 1531 "data/maps/PetalburgCity_Gym/scripts.pory"
 	.string "You'll need to choose which trainers\n"
 # 1532 "data/maps/PetalburgCity_Gym/scripts.pory"

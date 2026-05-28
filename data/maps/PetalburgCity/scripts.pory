@@ -79,6 +79,7 @@ PetalburgCity_EventScript_WallyTutorial::
 
 PetalburgCity_EventScript_StevenApproaches::
 	lockall
+	playse SE_PIN
 	applymovement LOCALID_PETALBURG_STEVEN, Common_Movement_ExclamationMark
 	waitmovement 0
 	delay 30

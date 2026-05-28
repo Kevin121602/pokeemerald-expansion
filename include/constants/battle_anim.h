@@ -610,7 +610,15 @@ enum AnimBattler
 #define B_ANIM_FORM_CHANGE_DISGUISE     65
 #define B_ANIM_DARKNESS                 66
 #define B_ANIM_CRIT_BOOST               67
-#define NUM_B_ANIMS_GENERAL             68
+#define B_ANIM_CRIT_ROOM                68
+#define B_ANIM_ACCURACY_ROOM            69
+#define B_ANIM_SPEED_ROOM               70
+#define B_ANIM_STRENGTH_ROOM            71
+#define B_ANIM_RECOVERY_ROOM            72
+#define B_ANIM_RECOIL_ROOM              73
+#define B_ANIM_ZERO_REDUCTION_ROOM      74
+#define B_ANIM_LEADERS_ROOM             75
+#define NUM_B_ANIMS_GENERAL             76
 
 // special animations table (sBattleAnims_Special)
 #define B_ANIM_LVL_UP                   0

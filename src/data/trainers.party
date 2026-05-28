@@ -8743,6 +8743,11 @@ Gender: Male
 Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Starting Status: Crit Room
+
+/*
+Comment: Crit Room. +1 Critical Hit Rate.
+*/
 
 Infernape @ Focus Sash
 Level: 52
@@ -8797,6 +8802,11 @@ Gender: Female
 Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Starting Status: Accuracy Room
+
+/*
+Comment: Accuracy Room. x1.2 Accuracy.
+*/
 
 Rotom-Wash @ Lum Berry
 Level: 52
@@ -8852,6 +8862,11 @@ Gender: Male
 Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Starting Status: Speed Room
+
+/*
+Comment: Speed Room. x1.2 Speed.
+*/
 
 Ninjask @ Focus Sash
 Level: 52
@@ -8906,6 +8921,11 @@ Gender: Female
 Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Starting Status: Strength Room
+
+/*
+Comment: Strength Room. x1.2 Attack.
+*/
 
 Darmanitan @ Life Orb
 Level: 52
@@ -8932,7 +8952,7 @@ Ability: Overgrow
 - Headlong Rush
 - Wood Hammer
 - Stone Edge
-- Shell Smash
+- Stealth Rock
 
 Iron Hands @ Booster Energy
 Level: 53
@@ -8960,6 +8980,11 @@ Gender: Male
 Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Starting Status: Recovery Room
+
+/*
+Comment: Recovery Room. 1/16 HP restored per turn.
+*/
 
 Rillaboom @ Lum Berry
 Level: 52
@@ -9015,6 +9040,11 @@ Gender: Female
 Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Starting Status: Recoil Room
+
+/*
+Comment: Recoil Room. Immune to self inflicted damage.
+*/
 
 Floette-Eternal @ Fairy Feather
 Level: 52
@@ -9069,6 +9099,11 @@ Gender: Male
 Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Starting Status: Zero Reduction Room
+
+/*
+Comment: Zero Reduction Room. Immune to self inflicted stat drops.
+*/
 
 Roserade @ Focus Sash
 Level: 52
@@ -9124,6 +9159,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Blue
+Starting Status: Leaders Room
+
+/*
+Comment: Attacks land twice per turn, second hit is at 25% power.
+*/
 
 Arboliva @ Custap Berry
 Level: 54

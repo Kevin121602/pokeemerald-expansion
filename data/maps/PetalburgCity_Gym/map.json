@@ -5,7 +5,7 @@
   "music": "MUS_DP_GYM",
   "region_map_section": "MAPSEC_PETALBURG_CITY",
   "requires_flash": false,
-  "weather": "WEATHER_NONE",
+  "weather": "FIELD_EFFECT_PETALBURG_GYM",
   "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": false,

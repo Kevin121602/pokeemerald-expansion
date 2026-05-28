@@ -1019,6 +1019,14 @@ extern const u8 gBattleAnimGeneral_SafariRockThrow[];
 extern const u8 gBattleAnimGeneral_SafariReaction[];
 extern const u8 gBattleAnimGeneral_Darkness[];
 extern const u8 gBattleAnimGeneral_CritBoost[];
+extern const u8 gBattleAnimGeneral_CritRoom[];
+extern const u8 gBattleAnimGeneral_AccuracyRoom[];
+extern const u8 gBattleAnimGeneral_SpeedRoom[];
+extern const u8 gBattleAnimGeneral_StrengthRoom[];
+extern const u8 gBattleAnimGeneral_RecoveryRoom[];
+extern const u8 gBattleAnimGeneral_RecoilRoom[];
+extern const u8 gBattleAnimGeneral_ZeroReductionRoom[];
+extern const u8 gBattleAnimGeneral_LeadersRoom[];
 
 // special animations
 extern const u8 gBattleAnimSpecial_LevelUp[];

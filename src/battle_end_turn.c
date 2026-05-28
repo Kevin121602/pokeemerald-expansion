@@ -400,6 +400,17 @@ static bool32 HandleEndTurnFirstEventBlock(enum BattlerId battler)
     case FIRST_EVENT_BLOCK_HEAL_ITEMS:
         if (ItemBattleEffects(battler, 0, GetBattlerHoldEffect(battler), IsLeftoversActivation))
             effect = TRUE;
+        gBattleStruct->eventState.endTurnBlock++;
+        break;
+    case FIRST_EVENT_BLOCK_RECOVERY_ROOM_HEAL:
+        if ((gSideStatuses[GetBattlerSide(battler)] & SIDE_STATUS_RECOVERY_ROOM)
+         && !IsBattlerAtMaxHp(battler)
+         && !gBattleMons[battler].volatiles.healBlock)
+        {
+            SetHealAmount(battler, GetNonDynamaxMaxHP(battler) / 16);
+            BattleScriptExecute(BattleScript_RecoveryRoomHeals);
+            effect = TRUE;
+        }
         gBattleStruct->eventState.endTurnBlock = 0;
         gBattleStruct->eventState.endTurnBattler++;
         break;

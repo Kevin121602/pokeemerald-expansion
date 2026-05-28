@@ -369,6 +369,16 @@ enum SemiInvulnerableExclusion
 #define SIDE_STATUS_SEA_OF_FIRE             (1 << 9)
 #define SIDE_STATUS_SWAMP                   (1 << 10)
 
+//Side statuses for Norman's Gym
+#define SIDE_STATUS_CRIT_ROOM               (1 << 11)
+#define SIDE_STATUS_ACCURACY_ROOM           (1 << 12)
+#define SIDE_STATUS_SPEED_ROOM              (1 << 13)
+#define SIDE_STATUS_STRENGTH_ROOM           (1 << 14)
+#define SIDE_STATUS_RECOVERY_ROOM           (1 << 15)
+#define SIDE_STATUS_RECOIL_ROOM             (1 << 16)
+#define SIDE_STATUS_ZERO_REDUCTION_ROOM     (1 << 17)
+#define SIDE_STATUS_LEADERS_ROOM            (1 << 18)
+
 #define SIDE_STATUS_SCREEN_ANY     (SIDE_STATUS_REFLECT | SIDE_STATUS_LIGHTSCREEN | SIDE_STATUS_AURORA_VEIL)
 #define SIDE_STATUS_PLEDGE_ANY     (SIDE_STATUS_RAINBOW | SIDE_STATUS_SEA_OF_FIRE | SIDE_STATUS_SWAMP)
 #define SIDE_STATUS_GOOD_FOG       (SIDE_STATUS_SCREEN_ANY | SIDE_STATUS_SAFEGUARD | SIDE_STATUS_MIST)
@@ -804,6 +814,15 @@ enum FaintedActions
     F(STARTING_STATUS_SWAMP_PLAYER_TEMPORARY,         swampPlayerTemporary,       (u32, 1)) /* Swamp Player Temporary (4 turns) */         \
     F(STARTING_STATUS_SWAMP_OPPONENT,                 swampOpponent,              (u32, 1)) /* Swamp Opponent (Permanent) */               \
     F(STARTING_STATUS_SWAMP_OPPONENT_TEMPORARY,       swampOpponentTemporary,     (u32, 1)) /* Swamp Opponent Temporary (4 turns) */       \
+    /* Petalburg Gym Trainer Buffs */                                                                                                      \
+    F(STARTING_STATUS_CRIT_ROOM,                      critRoom,                   (u32, 1)) /* +1 Critical Hit Rate */                     \
+    F(STARTING_STATUS_ACCURACY_ROOM,                  accuracyRoom,               (u32, 1)) /* x1.2 Accuracy */                            \
+    F(STARTING_STATUS_SPEED_ROOM,                     speedRoom,                  (u32, 1)) /* x1.2 Speed */                               \
+    F(STARTING_STATUS_STRENGTH_ROOM,                  strengthRoom,               (u32, 1)) /* x1.2 Attack */                              \
+    F(STARTING_STATUS_RECOVERY_ROOM,                  recoveryRoom,               (u32, 1)) /* 1/16 Recovery Each Turn */                  \
+    F(STARTING_STATUS_RECOIL_ROOM,                    recoilRoom,                 (u32, 1)) /* Immune to self inflicted damage */          \
+    F(STARTING_STATUS_ZERO_REDUCTION_ROOM,            zeroReductionRoom,          (u32, 1)) /* Immune to self inflicted drops */           \
+    F(STARTING_STATUS_LEADERS_ROOM,                   leadersRoom,                (u32, 1)) /* Strikes twice per turn, 2nd hit x0.3 pwr*/  \
     /* Hazards */                                                                                                                          \
     F(STARTING_STATUS_SPIKES_PLAYER_L1,               spikesPlayerL1,             (u32, 1)) /* Spikes Player Layer 1 */                    \
     F(STARTING_STATUS_SPIKES_PLAYER_L2,               spikesPlayerL2,             (u32, 1)) /* Spikes Player Layer 2 */                    \

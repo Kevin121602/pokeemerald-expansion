@@ -270,6 +270,14 @@ static const u8* const sBattleAnims_General[NUM_B_ANIMS_GENERAL] =
     [B_ANIM_SAFARI_REACTION]        = gBattleAnimGeneral_SafariReaction,
     [B_ANIM_DARKNESS]               = gBattleAnimGeneral_Darkness,
     [B_ANIM_CRIT_BOOST]             = gBattleAnimGeneral_CritBoost,
+    [B_ANIM_CRIT_ROOM]              = gBattleAnimGeneral_CritRoom,
+    [B_ANIM_ACCURACY_ROOM]          = gBattleAnimGeneral_AccuracyRoom,
+    [B_ANIM_SPEED_ROOM]             = gBattleAnimGeneral_SpeedRoom,
+    [B_ANIM_STRENGTH_ROOM]          = gBattleAnimGeneral_StrengthRoom,
+    [B_ANIM_RECOVERY_ROOM]          = gBattleAnimGeneral_RecoveryRoom,
+    [B_ANIM_RECOIL_ROOM]            = gBattleAnimGeneral_RecoilRoom,
+    [B_ANIM_ZERO_REDUCTION_ROOM]    = gBattleAnimGeneral_ZeroReductionRoom,
+    [B_ANIM_LEADERS_ROOM]           = gBattleAnimGeneral_LeadersRoom,
 };
 
 static const u8* const sBattleAnims_Special[NUM_B_ANIMS_SPECIAL] =
