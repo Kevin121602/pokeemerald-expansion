@@ -7003,8 +7003,8 @@ Ability: Oblivious
 Level: 46
 - Body Slam
 - Power Whip
+- Muddy Water
 - Knock Off
-- Surf
 
 Electrode-Hisui @ Rocky Helmet
 Nature: Timid
@@ -8360,7 +8360,7 @@ Ability: Sand Rush
 Level: 52
 - Rock Blast
 - Close Combat
-- Play Rough
+- Psychic Fangs
 - Substitute
 
 === TRAINER_JANI ===
@@ -9341,41 +9341,41 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Palossand @ Assault Vest
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
+Nature: Calm
+Ability: Water Compaction
 - Earth Power
-- Endure
+- Shadow Ball
+- Terrain Pulse
+- Giga Drain
 
-Arboliva @ Custap Berry
+Oranguru @ Fairy Gem
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Timid
+Ability: Inner Focus
+- Psychic
+- Focus Blast
+- Terrain Pulse
+- Calm Mind
 
-Arboliva @ Custap Berry
+Exeggutor-Alola @ Yache Berry
 Level: 54
-Nature: Bold
+Nature: Sassy
 Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+- Grass Knot
+- Terrain Pulse
+- Low Kick
+- Explosion
 
-Arboliva @ Custap Berry
+Slurpuff @ Misty Seed
 Level: 54
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Modest
+Ability: Unburden
+- Misty Explosion
+- Dazzling Gleam
+- Flamethrower
+- Psychic
 
 === TRAINER_AISHA ===
 Name: Aisha
@@ -9386,50 +9386,51 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Hawlucha @ Misty Seed
 Level: 54
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Acrobatics
+- Poison Jab
+- Swords Dance
 
-Arboliva @ Custap Berry
+Nidoqueen @ Life Orb
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
+Nature: Timid
+Ability: Sheer Force
+- Sludge Wave
 - Earth Power
-- Endure
+- Flamethrower
+- Ice Beam
 
-Arboliva @ Custap Berry
+Lycanroc-Dusk @ Muscle Band
 Level: 54
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Tough Claws
+- Rock Slide
+- Accelerock
+- Close Combat
+- Play Rough
 
-Arboliva @ Custap Berry
+Togedemaru @ Focus Sash
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Iron Barbs
+- Steel Roller
+- Iron Head
+- Zing Zap
+- Magnet Rise
 
-Arboliva @ Custap Berry
+Squawkabilly @ Life Orb
 Level: 55
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Guts
+Status: Burn
+- Brave Bird
+- Facade
+- U-turn
+- Reversal
 
 === TRAINER_MARIA_1 ===
 Name: Maria
@@ -9440,41 +9441,38 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Cinderace @ Misty Seed
 Level: 54
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Libero
+- Blaze Kick
+- Acrobatics
+- Gunk Shot
+- Bulk Up
 
-Arboliva @ Custap Berry
+Oinkologne-F @ Starf Berry
 Level: 53
-Nature: Bold
+Nature: Relaxed
 Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+- Body Slam
+- Belch
+- Lash Out
+- Stuff Cheeks
 
-Arboliva @ Custap Berry
+Dracovish @ Metronome
 Level: 54
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Strong Jaw
+- Fishious Rend
 
-Arboliva @ Custap Berry
+Iron Treads @ Booster Energy
 Level: 55
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Jolly
+Ability: Quark Drive
+- Steel Roller
+- High Horsepower
+- Iron Head
+- Rock Slide
 
 /*
 Double:
@@ -9552,41 +9550,41 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Arboliva @ Custap Berry
+Lickilicky @ Chople Berry
 Level: 54
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Brave
+Ability: Oblivious
+- Double-Edge
+- Fire Blast
+- Terrain Pulse
+- Counter
 
-Arboliva @ Custap Berry
+Clefable @ Life Orb
 Level: 53
-Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Nature: Timid
+Ability: Magic Guard
+- Misty Explosion
+- Moonblast
+- Thunderbolt
+- Soft-Boiled
 
-Arboliva @ Custap Berry
+Clawitzer @ Fairy Gem
 Level: 55
 Nature: Bold
-Ability: Harvest
-- Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+Ability: Mega Launcher
+- Water Pulse
+- Terrain Pulse
+- Ice Beam
+- Scary Face
 
-Arboliva @ Custap Berry
+Sceptile @ Misty Seed
 Level: 55
-Nature: Bold
-Ability: Harvest
+Nature: Mild
+Ability: Unburden
 - Energy Ball
-- Hyper Voice
-- Earth Power
-- Endure
+- Focus Blast
+- Acrobatics
+- Nature Power
 
 === TRAINER_DYLAN_1 ===
 Name: Dylan
