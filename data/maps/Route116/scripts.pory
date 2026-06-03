@@ -156,7 +156,7 @@ Route116_EventScript_BrineyTrigger::
 Route116_EventScript_GlassesMan::
 	lock
 	faceplayer
-	checkitem ITEM_BLACK_GLASSES
+	checkitem ITEM_SAFETY_GOGGLES
 	goto_if_eq VAR_RESULT, TRUE, Route116_EventScript_PlayerHasGlasses
 	specialvar VAR_RESULT, FoundBlackGlasses
 	goto_if_eq VAR_RESULT, TRUE, Route116_EventScript_FoundGlassesNotOnPlayer
@@ -409,28 +409,28 @@ Route116_Text_TokenOfAppreciation:
 	.string "for our most wonderful TRAINER!$"
 
 Route116_Text_CanYouHelpMeFindGlasses:
-	.string "I dropped my glasses…\n"
+	.string "I dropped my goggles…\n"
 	.string "Can you help me find them?$"
 
 Route116_Text_MayISeeThoseGlasses:
-	.string "Those glasses!\n"
+	.string "Those goggles!\n"
 	.string "May I see them for a second?$"
 
 Route116_Text_NotWhatImLookingForMaybeTheyArentHere:
 	.string "Hmm…\n"
-	.string "These are BLACKGLASSES.\l"
+	.string "These are Safety Goggles.\l"
 	.string "They're not what I'm looking for…\p"
-	.string "Maybe my glasses aren't around\n"
+	.string "Maybe my goggles aren't around\n"
 	.string "here…$"
 
 Route116_Text_CantFindGlassesNotHere:
 	.string "Hmm…\n"
-	.string "I can't find my glasses anywhere…\l"
+	.string "I can't find my goggles anywhere…\l"
 	.string "Maybe they're not around here…$"
 
 Route116_Text_NotWhatImLookingFor:
 	.string "Hmm…\n"
-	.string "These are BLACKGLASSES.\l"
+	.string "These are Safety Goggles.\l"
 	.string "They're not what I'm looking for…$"
 
 Route116_Text_RouteSignRustboro:

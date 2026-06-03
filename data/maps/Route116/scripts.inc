@@ -315,7 +315,7 @@ Route116_EventScript_GlassesMan::
 # 158 "data/maps/Route116/scripts.pory"
 	faceplayer
 # 159 "data/maps/Route116/scripts.pory"
-	checkitem ITEM_BLACK_GLASSES
+	checkitem ITEM_SAFETY_GOGGLES
 # 160 "data/maps/Route116/scripts.pory"
 	goto_if_eq VAR_RESULT, TRUE, Route116_EventScript_PlayerHasGlasses
 # 161 "data/maps/Route116/scripts.pory"
@@ -821,7 +821,7 @@ Route116_Text_TokenOfAppreciation:
 # 411 "data/maps/Route116/scripts.pory"
 Route116_Text_CanYouHelpMeFindGlasses:
 # 412 "data/maps/Route116/scripts.pory"
-	.string "I dropped my glasses…\n"
+	.string "I dropped my goggles…\n"
 # 413 "data/maps/Route116/scripts.pory"
 	.string "Can you help me find them?$"
 # 414 "data/maps/Route116/scripts.pory"
@@ -829,7 +829,7 @@ Route116_Text_CanYouHelpMeFindGlasses:
 # 415 "data/maps/Route116/scripts.pory"
 Route116_Text_MayISeeThoseGlasses:
 # 416 "data/maps/Route116/scripts.pory"
-	.string "Those glasses!\n"
+	.string "Those goggles!\n"
 # 417 "data/maps/Route116/scripts.pory"
 	.string "May I see them for a second?$"
 # 418 "data/maps/Route116/scripts.pory"
@@ -839,11 +839,11 @@ Route116_Text_NotWhatImLookingForMaybeTheyArentHere:
 # 420 "data/maps/Route116/scripts.pory"
 	.string "Hmm…\n"
 # 421 "data/maps/Route116/scripts.pory"
-	.string "These are BLACKGLASSES.\l"
+	.string "These are Safety Goggles.\l"
 # 422 "data/maps/Route116/scripts.pory"
 	.string "They're not what I'm looking for…\p"
 # 423 "data/maps/Route116/scripts.pory"
-	.string "Maybe my glasses aren't around\n"
+	.string "Maybe my goggles aren't around\n"
 # 424 "data/maps/Route116/scripts.pory"
 	.string "here…$"
 # 425 "data/maps/Route116/scripts.pory"
@@ -853,7 +853,7 @@ Route116_Text_CantFindGlassesNotHere:
 # 427 "data/maps/Route116/scripts.pory"
 	.string "Hmm…\n"
 # 428 "data/maps/Route116/scripts.pory"
-	.string "I can't find my glasses anywhere…\l"
+	.string "I can't find my goggles anywhere…\l"
 # 429 "data/maps/Route116/scripts.pory"
 	.string "Maybe they're not around here…$"
 # 430 "data/maps/Route116/scripts.pory"
@@ -863,7 +863,7 @@ Route116_Text_NotWhatImLookingFor:
 # 432 "data/maps/Route116/scripts.pory"
 	.string "Hmm…\n"
 # 433 "data/maps/Route116/scripts.pory"
-	.string "These are BLACKGLASSES.\l"
+	.string "These are Safety Goggles.\l"
 # 434 "data/maps/Route116/scripts.pory"
 	.string "They're not what I'm looking for…$"
 # 435 "data/maps/Route116/scripts.pory"

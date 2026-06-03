@@ -272,6 +272,7 @@
 #define OBJ_EVENT_GFX_LIGHT_SPRITE               246
 #define OBJ_EVENT_GFX_TM_BALL                    247
 #define OBJ_EVENT_GFX_APRICORN_TREE              248
+#define OBJ_EVENT_GFX_MEGA_STONE                 249
 
 // FRLG objects
 #define OBJ_EVENT_GFX_RED_NORMAL                 243
@@ -610,6 +611,8 @@
 #define OBJ_EVENT_PAL_TAG_BALL_BEAST              0x1169
 // Gen VIII
 #define OBJ_EVENT_PAL_TAG_BALL_STRANGE            0x116A
+
+#define OBJ_EVENT_PAL_TAG_MEGA_STONE              0x116B
 #endif //OW_FOLLOWERS_POKEBALLS
 // Used as a placeholder follower graphic
 #define OBJ_EVENT_PAL_TAG_SUBSTITUTE              0x7611

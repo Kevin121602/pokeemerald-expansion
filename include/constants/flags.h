@@ -1101,7 +1101,7 @@
 #define FLAG_ITEM_METEOR_FALLS_1F_1R_BLACK_BELT                     0x416
 #define FLAG_ITEM_METEOR_FALLS_1F_1R_PP_UP                          0x417
 #define FLAG_ITEM_RUSTURF_TUNNEL_POKE_BALL                          0x418
-#define FLAG_ITEM_RUSTURF_TUNNEL_MAX_ETHER                          0x419
+#define FLAG_ITEM_RUSTURF_TUNNEL_BANETTITE                          0x419
 #define FLAG_ITEM_GRANITE_CAVE_1F_GROUND_GEM                       0x41A
 #define FLAG_ITEM_GRANITE_CAVE_B1F_ROCK_GEM                        0x41B
 #define FLAG_ITEM_MT_PYRE_5F_FIRE_GEM                            0x41C

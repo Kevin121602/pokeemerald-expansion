@@ -3908,6 +3908,29 @@ static void TryDoEventsBeforeFirstTurn(void)
         }
         gBattleStruct->eventState.beforeFirstTurn++;
         break;
+    case FIRST_TURN_EVENTS_PETALBURG_GYM_BUFFS:
+        if(GetCurrentWeather() == FIELD_EFFECT_PETALBURG_GYM && VarGet(VAR_PETALBURG_GYM_FIRST_ROOM_DOOR) > 0){
+            while (TRUE)
+            {
+                if (TryFieldEffects(FIELD_EFFECT_PETALBURG_GYM_STATUSES_1))
+                    return;
+                break;
+            }
+            while (TRUE)
+            {
+                if (TryFieldEffects(FIELD_EFFECT_PETALBURG_GYM_STATUSES_2))
+                    return;
+                break;
+            }
+            while (TRUE)
+            {
+                if (TryFieldEffects(FIELD_EFFECT_PETALBURG_GYM_STATUSES_3))
+                    return;
+                break;
+            }
+        }
+        gBattleStruct->eventState.beforeFirstTurn++;
+        break;
     case FIRST_TURN_EVENTS_TOTEM_BOOST:
         for (enum BattlerId battler = 0; battler < gBattlersCount; battler++)
         {

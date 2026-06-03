@@ -3040,6 +3040,89 @@ bool32 TryFieldEffects(enum FieldEffectCases caseId)
         }
 
         break;
+    case FIELD_EFFECT_PETALBURG_GYM_STATUSES_1:
+        if(HasTrainerBeenFought(VarGet(TRAINER_RANDALL)))
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_CRIT_ROOM,
+                        B_SIDE_PLAYER,
+                        B_MSG_CRIT_ROOM_VICTORY,
+                        B_ANIM_CRIT_ROOM,
+                        &gSideTimers[B_SIDE_PLAYER].roomTimer, 0);
+        }
+        else if (HasTrainerBeenFought(VarGet(TRAINER_MARY)))
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_ACCURACY_ROOM,
+                        B_SIDE_PLAYER,
+                        B_MSG_ACCURACY_ROOM_VICTORY,
+                        B_ANIM_ACCURACY_ROOM,
+                        &gSideTimers[B_SIDE_PLAYER].roomTimer, 0);
+        }
+        if (effect)
+        {
+            BattleScriptPushCursorAndCallback(BattleScript_OverworldStatusStarts);
+        }
+        break;
+    case FIELD_EFFECT_PETALBURG_GYM_STATUSES_2:
+        if (HasTrainerBeenFought(VarGet(TRAINER_PARKER)))
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_SPEED_ROOM,
+                        B_SIDE_PLAYER,
+                        B_MSG_SPEED_ROOM_VICTORY,
+                        B_ANIM_SPEED_ROOM,
+                        &gSideTimers[B_SIDE_PLAYER].roomTimer, 0);
+        }
+        else if (HasTrainerBeenFought(VarGet(TRAINER_ALEXIA)))
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_STRENGTH_ROOM,
+                        B_SIDE_PLAYER,
+                        B_MSG_STRENGTH_ROOM_VICTORY,
+                        B_ANIM_STRENGTH_ROOM,
+                        &gSideTimers[B_SIDE_PLAYER].roomTimer, 0);
+        }
+        else if (HasTrainerBeenFought(VarGet(TRAINER_GEORGE)))
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_RECOVERY_ROOM,
+                        B_SIDE_PLAYER,
+                        B_MSG_RECOVERY_ROOM_VICTORY,
+                        B_ANIM_RECOVERY_ROOM,
+                        &gSideTimers[B_SIDE_PLAYER].roomTimer, 0);
+        }
+        if (effect)
+        {
+            BattleScriptPushCursorAndCallback(BattleScript_OverworldStatusStarts);
+        }
+        break;
+    case FIELD_EFFECT_PETALBURG_GYM_STATUSES_3:
+        if (HasTrainerBeenFought(VarGet(TRAINER_JODY)))
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_RECOIL_ROOM,
+                        B_SIDE_PLAYER,
+                        B_MSG_RECOIL_ROOM_VICTORY,
+                        B_ANIM_RECOIL_ROOM,
+                        &gSideTimers[B_SIDE_PLAYER].roomTimer, 0);
+            gStartingStatuses.recoilRoom =  FALSE;
+        }
+        else if (HasTrainerBeenFought(VarGet(TRAINER_BERKE)))
+        {
+            effect = SetStartingSideStatus(
+                        SIDE_STATUS_ZERO_REDUCTION_ROOM,
+                        B_SIDE_PLAYER,
+                        B_MSG_ZERO_REDUCTION_ROOM_VICTORY,
+                        B_ANIM_ZERO_REDUCTION_ROOM,
+                        &gSideTimers[B_SIDE_PLAYER].roomTimer, 0);
+            gStartingStatuses.zeroReductionRoom =  FALSE;
+        }
+        if (effect)
+        {
+            BattleScriptPushCursorAndCallback(BattleScript_OverworldStatusStarts);
+        }
+        break;
     case FIELD_EFFECT_OVERWORLD_TERRAIN:   // terrain starting from overworld weather
         if (B_THUNDERSTORM_TERRAIN == TRUE
          && !(gFieldStatuses & STATUS_FIELD_ELECTRIC_TERRAIN)

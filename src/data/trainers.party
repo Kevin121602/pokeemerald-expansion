@@ -9453,7 +9453,7 @@ Ability: Libero
 Oinkologne-F @ Starf Berry
 Level: 53
 Nature: Relaxed
-Ability: Harvest
+Ability: Thick Fat
 - Body Slam
 - Belch
 - Lash Out
@@ -9568,14 +9568,14 @@ Ability: Magic Guard
 - Thunderbolt
 - Soft-Boiled
 
-Clawitzer @ Fairy Gem
+Blastoise @ White Herb
 Level: 55
-Nature: Bold
-Ability: Mega Launcher
-- Water Pulse
+Nature: Timid
+Ability: Torrent
+- Muddy Water
 - Terrain Pulse
 - Ice Beam
-- Scary Face
+- Shell Smash
 
 Sceptile @ Misty Seed
 Level: 55

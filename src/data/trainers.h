@@ -24110,7 +24110,7 @@
 #line 9457
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 9456
-            .ability = ABILITY_HARVEST,
+            .ability = ABILITY_THICK_FAT,
 #line 9454
             .lvl = 53,
             .ball = POKEBALL_COUNT,
@@ -24412,26 +24412,26 @@
             },
             {
 #line 9571
-            .species = SPECIES_CLAWITZER,
+            .species = SPECIES_BLASTOISE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 9571
-            .heldItem = ITEM_FAIRY_GEM,
+            .heldItem = ITEM_WHITE_HERB,
 #line 9575
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 9574
-            .ability = ABILITY_MEGA_LAUNCHER,
+            .ability = ABILITY_TORRENT,
 #line 9572
             .lvl = 55,
             .ball = POKEBALL_COUNT,
 #line 9573
-            .nature = NATURE_BOLD,
+            .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 9575
-                MOVE_WATER_PULSE,
+                MOVE_MUDDY_WATER,
                 MOVE_TERRAIN_PULSE,
                 MOVE_ICE_BEAM,
-                MOVE_SCARY_FACE,
+                MOVE_SHELL_SMASH,
             },
             },
             {
