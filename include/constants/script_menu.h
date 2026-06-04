@@ -188,6 +188,7 @@
 #define MULTI_TRAPPING_TUTOR               177
 #define MULTI_PROTECTION_TUTOR             178
 #define MULTI_CRIT_MOVE_TUTOR              179
+#define MULTI_TERRAIN_MOVE_TUTOR           180
 
 #define MULTI_NONE 255
 

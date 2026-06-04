@@ -267,7 +267,7 @@
 #define FLAG_RECEIVED_ME_FIRST               0xE9
 
 #define FLAG_RECEIVED_TM_REST                0xEA
-#define FLAG_RECEIVED_TM_ATTRACT             0xEB
+#define FLAG_RECEIVED_LOADED_DICE             0xEB
 #define FLAG_RECEIVED_GLASS_ORNAMENT         0xEC
 #define FLAG_RECEIVED_SILVER_SHIELD          0xED
 #define FLAG_RECEIVED_GOLD_SHIELD            0xEE
@@ -1132,7 +1132,7 @@
 #define FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_6_LUXURY_BALL    0x435
 #define FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_2_SCANNER        0x436
 #define FLAG_ITEM_SCORCHED_SLAB_TM_SUNNY_DAY                        0x437
-#define FLAG_ITEM_METEOR_FALLS_B1F_2R_TM_DRAGON_CLAW                0x438
+#define FLAG_ITEM_RUSTURF_TUNNEL_TM_DRAGON_CLAW                0x438
 #define FLAG_ITEM_SHOAL_CAVE_ENTRANCE_BIG_PEARL                     0x439
 #define FLAG_ITEM_SHOAL_CAVE_INNER_ROOM_RARE_CANDY                  0x43A
 #define FLAG_ITEM_SHOAL_CAVE_STAIRS_ROOM_ICE_HEAL                   0x43B
@@ -1177,15 +1177,15 @@
 #define FLAG_ITEM_NEW_MAUVILLE_FULL_HEAL                            0x462
 #define FLAG_ITEM_NEW_MAUVILLE_PARALYZE_HEAL                        0x463
 #define FLAG_ITEM_AQUA_HIDEOUT_B1F_MASTER_BALL                      0x464
-#define FLAG_ITEM_DEWFORD_TOWN_FIGHTING_GEM                 0x465 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_ITEM_DEWFORD_TOWN_TM_LOW_KICK                  0x466 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B2F_NEST_BALL                   0x467 // Unused Flag, leftover from the Ruby Magma hideout
+#define FLAG_ITEM_DEWFORD_TOWN_FIGHTING_GEM                         0x465 
+#define FLAG_ITEM_DEWFORD_TOWN_TM_LOW_KICK                          0x466 
+#define FLAG_ITEM_VERDANTURF_TOWN_AUDINITE                          0x467 
 #define FLAG_ITEM_ROUTE_107_TM_AURA_SPHERE                          0x468 
-#define FLAG_ITEM_MT_PYRE_2F_GHOST_GEM                             0x469
+#define FLAG_ITEM_MT_PYRE_2F_GHOST_GEM                              0x469
 #define FLAG_ITEM_MT_PYRE_4F_LAGGING_TAIL                            0x46A
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_WEST_MAX_REVIVE                 0x46B
 #define FLAG_ITEM_AQUA_HIDEOUT_B1F_NUGGET                           0x46C
-#define FLAG_ITEM_MOSSDEEP_STEVENS_HOUSE_HM08                       0x46D // Unused Flag, leftover from R/S. HM08 is given to the player directly in Emerald
+#define FLAG_ITEM_VERDANTURF_TOWN_TM_DAZZLING_GLEAM                 0x46D
 #define FLAG_ITEM_ROUTE_119_NUGGET                                  0x46E
 #define FLAG_ITEM_ROUTE_104_POTION                                  0x46F
 #define FLAG_ITEM_ALTERING_CAVE_GRIP_CLAW                           0x470 // Unused Flag

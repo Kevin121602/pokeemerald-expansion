@@ -205,4 +205,4 @@ VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou:
 # 103 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 VerdanturfTown_FriendshipRatersHouse_Text_Pikachu:
 # 104 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
-	.string "PIKACHU: Pika pika!$"
+	.string "Pikachu: Pika pika!$"

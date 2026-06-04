@@ -2404,6 +2404,10 @@ extern const u8 gText_PsychoCut[];
 extern const u8 gText_CrossPoison[];
 extern const u8 gText_AquaCutter[];
 
+extern const u8 gText_GrassyGlide[];
+extern const u8 gText_RisingVoltage[];
+extern const u8 gText_ExpandingForce[];
+
 //gourd splicer and nectar text
 extern const u8 gText_SplicerSmall[];
 extern const u8 gText_SplicerAverage[];

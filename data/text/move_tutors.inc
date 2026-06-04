@@ -304,3 +304,7 @@ MoveTutor_Text_ProtectionTeach:
 MoveTutor_Text_CritMoveTeach:
 	.string "Nothing stings like a move that's more\n"
 	.string "likely to land a critical hit!$"
+
+MoveTutor_Text_TerrainMoveTeach:
+	.string "If you want moves that let you get the\n"
+	.string "upper hand in Terrain, look no further!$"

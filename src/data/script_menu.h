@@ -996,6 +996,14 @@ static const struct MenuAction MultichoiceList_CritMoveTutor[] =
     {gText_AquaCutter},
 };
 
+static const struct MenuAction MultichoiceList_TerrainMoveTutor[] =
+{
+    {gText_GrassyGlide},
+    {gText_RisingVoltage},
+    {gText_ExpandingForce},
+};
+
+
 
 static const struct MenuAction sMultichoiceList_BikeShop[] = {
     { COMPOUND_STRING("BICYCLE{CLEAR_TO 0x49}{FONT_SMALL}¥1,000,000") },
@@ -1456,6 +1464,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_PROTECTION_TUTOR]           = MULTICHOICE(MultichoiceList_ProtectionTutor),
     [MULTI_TRAPPING_TUTOR]             = MULTICHOICE(MultichoiceList_TrappingTutor),
     [MULTI_CRIT_MOVE_TUTOR]            = MULTICHOICE(MultichoiceList_CritMoveTutor),
+    [MULTI_TERRAIN_MOVE_TUTOR]         = MULTICHOICE(MultichoiceList_TerrainMoveTutor),
     [MULTI_BIKE_SHOP]                  = MULTICHOICE(sMultichoiceList_BikeShop),
     [MULTI_EEVEELUTIONS]               = MULTICHOICE(sMultichoiceList_Eeveelutions),
     [MULTI_ISLAND_23]                  = MULTICHOICE(sMultichoiceList_Island23),

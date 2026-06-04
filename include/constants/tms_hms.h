@@ -120,16 +120,13 @@
 #endif
 
 /*  F(ACROBATICS) \ Winona Split
-    F(AIR_SLASH) \ Norman Split
-    F(AURA_SPHERE) \ Dewford
     F(AURORA_VEIL) \ Sootopolis
     F(BLIZZARD) \ Winstitute/119
     F(BUG_BUZZ) \ Norman/Juan Split
     F(DAZZLING_GLEAM) \ Verdanturf/117
-    F(DRAGON_CLAW) \ Norman Split
     F(DRAGON_PULSE) \ 111
     F(DRAINING_KISS) \ Winona Split
-    F(DUAL_WINGBEAT) \ Norman/Juan Split
+    F(DUAL_WINGBEAT) \ 111
     F(EARTH_POWER) \ 111 Desert
     F(EARTHQUAKE) \ Seafloor Cavern
     F(ENERGY_BALL) \ Verdanturf/117
@@ -143,7 +140,6 @@
     F(ICE_BEAM) \ Juan
     F(LEECH_LIFE) \ Winona Split
     F(LIGHT_SCREEN) \ T&L
-    F(LIQUIDATION) \ Route 109-108
     F(MISTY_EXPLOSION) \ Verdanturf
     F(PLAY_ROUGH) \ Winona Split
     F(POLTERGEIST) \ 121
@@ -152,19 +148,16 @@
     F(PSYCHIC_FANGS) \ Lilycove
     F(REFLECT) \ T&L
     F(ROOST) \ Winona
-    F(SEED_BOMB) \ 103 post matt
     F(SOLAR_BEAM) \ Fiery Path
     F(SOLAR_BLADE) \ Fiery Path
     F(SUPERCELL_SLAM) \ 119
     F(TAILWIND) \ Winstitute
     F(TELEPORT) \ VR
-    F(THROAT_CHOP)\ Abandoned Ship
     F(THUNDER) \ Winstitute
-    F(THUNDER_WAVE) \ 
+    F(THUNDER_WAVE) 121\ 
     F(THUNDERBOLT) \ 120
     F(TOXIC) \ 119
     F(TRIPLE_AXEL) \ Shoal
     F(U_TURN)\ VR
     F(VOLT_SWITCH)\ Wattson
-    F(WEATHER_BALL) \ 119
-    F(X_SCISSOR) abandoned ship*/ 
+    F(WEATHER_BALL) \ 119*/ 

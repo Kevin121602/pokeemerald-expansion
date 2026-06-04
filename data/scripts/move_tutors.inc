@@ -604,6 +604,40 @@ AbandonedShip_CaptainsOffice_EventScript_AquaCutterTutor::
 	release
 	end
 
+VerdanturfTown_FriendshipRatersHouse_EventScript_TerrainMoveTutor::
+	lock
+	faceplayer
+	msgbox MoveTutor_Text_TerrainMoveTeach
+	multichoice 21, 0, MULTI_TERRAIN_MOVE_TUTOR, FALSE
+	switch VAR_RESULT
+	case 0, VerdanturfTown_FriendshipRatersHouse_EventScript_GrassyGlideTutor
+	case 1, VerdanturfTown_FriendshipRatersHouse_EventScript_RisingVoltageTutor
+	case 2, VerdanturfTown_FriendshipRatersHouse_EventScript_ExpandingForceTutor
+	case MULTI_B_PRESSED, MoveTutor_EventScript_TutorDeclined
+	release
+	end
+
+VerdanturfTown_FriendshipRatersHouse_EventScript_GrassyGlideTutor::
+	setvar VAR_0x8005, MOVE_GRASSY_GLIDE
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
+	release
+	end
+
+VerdanturfTown_FriendshipRatersHouse_EventScript_RisingVoltageTutor::
+	setvar VAR_0x8005, MOVE_RISING_VOLTAGE
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
+	release
+	end
+
+VerdanturfTown_FriendshipRatersHouse_EventScript_ExpandingForceTutor::
+	setvar VAR_0x8005, MOVE_EXPANDING_FORCE
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_TutorDeclined
+	release
+	end
+
 MoveTutor_AfterChooseBoxMon::
 	waitstate
 	special CanTeachMoveBoxMon

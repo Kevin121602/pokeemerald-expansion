@@ -2,7 +2,7 @@
   "id": "MAP_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE",
   "name": "VerdanturfTown_FriendshipRatersHouse",
   "layout": "LAYOUT_HOUSE2",
-  "music": "MUS_VERDANTURF",
+  "music": "MUS_DP_VALOR_LAKEFRONT_DAY",
   "region_map_section": "MAPSEC_VERDANTURF_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VerdanturfTown_FriendshipRatersHouse_EventScript_FriendshipRater",
+      "script": "VerdanturfTown_FriendshipRatersHouse_EventScript_TerrainMoveTutor",
       "flag": "0"
     },
     {
