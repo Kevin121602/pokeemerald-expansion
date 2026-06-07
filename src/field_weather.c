@@ -148,6 +148,7 @@ static const struct WeatherCallbacks sWeatherFuncs[] =
     [FIELD_EFFECT_DARKNESS]         = {None_Init,              None_Main,          None_Init,             None_Finish},
     [FIELD_EFFECT_BOOSTED_CRITS]              = {Shade_InitVars,         Shade_Main,         Shade_InitAll,         Shade_Finish},
     [FIELD_EFFECT_PETALBURG_GYM]               = {None_Init,              None_Main,          None_Init,             None_Finish},
+    [FIELD_EFFECT_MISTY_TERRAIN] = {Sunny_InitVars,         Sunny_Main,         Sunny_InitAll,         Sunny_Finish},
 };
 
 void (*const gWeatherPalStateFuncs[])(void) =

@@ -27,7 +27,7 @@ MossdeepCity_Gym_OnTransition:
 # 14 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_OnLoad:
 # 15 "data/maps/MossdeepCity_Gym/scripts.pory"
-	goto_if_set FLAG_MOSSDEEP_GYM_SWITCH_1, MossdeepCity_Gym_EventScript_SetSwitch1Metatiles
+	goto_if_set FLAG_ITEM_ROUTE_117_MISTY_SEED, MossdeepCity_Gym_EventScript_SetSwitch1Metatiles
 # 16 "data/maps/MossdeepCity_Gym/scripts.pory"
 	goto MossdeepCity_Gym_EventScript_CheckSwitch2
 # 17 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -239,9 +239,9 @@ MossdeepCity_Gym_EventScript_Switch1::
 # 120 "data/maps/MossdeepCity_Gym/scripts.pory"
 	lockall
 # 121 "data/maps/MossdeepCity_Gym/scripts.pory"
-	goto_if_set FLAG_MOSSDEEP_GYM_SWITCH_1, MossdeepCity_Gym_EventScript_ClearSwitch1
+	goto_if_set FLAG_ITEM_ROUTE_117_MISTY_SEED, MossdeepCity_Gym_EventScript_ClearSwitch1
 # 122 "data/maps/MossdeepCity_Gym/scripts.pory"
-	setflag FLAG_MOSSDEEP_GYM_SWITCH_1
+	setflag FLAG_ITEM_ROUTE_117_MISTY_SEED
 # 123 "data/maps/MossdeepCity_Gym/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Gym_Movement_WaitAfterSwitchUse
 # 124 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -271,7 +271,7 @@ MossdeepCity_Gym_EventScript_DrawMapAfterSwitchUsed::
 # 136 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_ClearSwitch1::
 # 137 "data/maps/MossdeepCity_Gym/scripts.pory"
-	clearflag FLAG_MOSSDEEP_GYM_SWITCH_1
+	clearflag FLAG_ITEM_ROUTE_117_MISTY_SEED
 # 138 "data/maps/MossdeepCity_Gym/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Gym_Movement_WaitAfterSwitchUse
 # 139 "data/maps/MossdeepCity_Gym/scripts.pory"

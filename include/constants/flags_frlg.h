@@ -663,8 +663,8 @@
 #define FLAG_RECEIVED_AURORA_TICKET                      0x2A7
 #define FLAG_RECEIVED_MYSTIC_TICKET                      0x2A8
 #define FLAG_RECEIVED_OLD_SEA_MAP                        0x2A9
-#define FLAG_WONDER_CARD_UNUSED_1                        0x2AA
-#define FLAG_WONDER_CARD_UNUSED_2                        0x2AB
+#define FLAG_ITEM_ROUTE_117_ELECTRIC_SEED                        0x2AA
+#define FLAG_ITEM_ROUTE_117_TM_ENERGY_BALL                        0x2AB
 #define FLAG_WONDER_CARD_UNUSED_3                        0x2AC
 #define FLAG_WONDER_CARD_UNUSED_4                        0x2AD
 #define FLAG_WONDER_CARD_UNUSED_5                        0x2AE
@@ -1524,7 +1524,7 @@
 #define FLAG_MET_TEAM_AQUA_HARBOR            0
 #define FLAG_TV_EXPLAINED                    0
 #define FLAG_MAUVILLE_GYM_BARRIERS_STATE     0
-#define FLAG_MOSSDEEP_GYM_SWITCH_1           0 // Leftover from the RS version of Mossdeep Gym, functionally unused
+#define FLAG_ITEM_ROUTE_117_MISTY_SEED           0 // Leftover from the RS version of Mossdeep Gym, functionally unused
 #define FLAG_MOSSDEEP_GYM_SWITCH_2           0 //
 #define FLAG_MOSSDEEP_GYM_SWITCH_3           0 //
 #define FLAG_MOSSDEEP_GYM_SWITCH_4           0 //
@@ -1537,7 +1537,7 @@
 #define FLAG_RECEIVED_HM_FLY                 0
 #define FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT  0
 #define FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE  0
-#define FLAG_UNUSED_RS_LEGENDARY_BATTLE_DONE 0 // Unused Flag. Used in R/S to indicate whether player defeated or caught Groudon/Kyogre in Cave of Origin.
+#define FLAG_ITEM_ROUTE_117_GRASSY_SEED 0 // Unused Flag. Used in R/S to indicate whether player defeated or caught Groudon/Kyogre in Cave of Origin.
 #define FLAG_SCOTT_CALL_BATTLE_FRONTIER      0 // Used in order to activate a phone call from Scott, inviting the player to the SS Tidal.
 #define FLAG_RECEIVED_METEORITE              0
 #define FLAG_ADVENTURE_STARTED               0 // RECEIVED Pokédex.
@@ -1619,7 +1619,7 @@
 #define FLAG_DEFEATED_GRUNT_SPACE_CENTER_1F  0
 #define FLAG_RECEIVED_SUN_STONE_MOSSDEEP     0
 #define FLAG_WALLY_SPEECH                    0
-#define FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_1   0 // Leftover from the RS version of Puzzle Room 7, functionally unused
+#define FLAG_ITEM_ROUTE_117_PSYCHIC_SEED   0 // Leftover from the RS version of Puzzle Room 7, functionally unused
 #define FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_2   0 //
 #define FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_3   0 //
 #define FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_4   0 //
@@ -2123,7 +2123,7 @@
 #define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0
 #define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0
 #define FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          0
-#define FLAG_HIDE_LEGEND_MON_CAVE_OF_ORIGIN                         0 // Unused, leftover from R/S
+#define FLAG_ITEM_ROUTE_117_CHIMECHITE                         0 // Unused, leftover from R/S
 #define FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE                            0
 #define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0
@@ -2322,8 +2322,8 @@
 #define FLAG_ITEM_ROUTE_116_ETHER                                   0
 #define FLAG_ITEM_ROUTE_116_REPEL                                   0
 #define FLAG_ITEM_ROUTE_116_HP_UP                                   0
-#define FLAG_ITEM_ROUTE_117_GREAT_BALL                              0
-#define FLAG_ITEM_ROUTE_117_REVIVE                                  0
+#define FLAG_ITEM_ROUTE_117_TM_MISTY_EXPLOSION                              0
+#define FLAG_ITEM_ROUTE_117_CHIMECHITE                                  0
 #define FLAG_ITEM_ROUTE_119_SUPER_REPEL                             0
 #define FLAG_ITEM_ROUTE_119_ZINC                                    0
 #define FLAG_ITEM_ROUTE_119_ELIXIR_1                                0
@@ -2391,7 +2391,7 @@
 #define FLAG_ITEM_VICTORY_ROAD_B2F_FULL_HEAL                        0
 #define FLAG_ITEM_MT_PYRE_6F_TM_SHADOW_BALL                         0
 #define FLAG_ITEM_SEAFLOOR_CAVERN_ROOM_9_TM_EARTHQUAKE              0
-#define FLAG_ITEM_FIERY_PATH_TM_TOXIC                               0
+#define FLAG_ITEM_FIERY_PATH_TM_SOLAR_BEAM                               0
 #define FLAG_ITEM_ROUTE_124_RED_SHARD                               0
 #define FLAG_ITEM_ROUTE_124_BLUE_SHARD                              0
 #define FLAG_ITEM_SAFARI_ZONE_NORTH_WEST_TM_SOLAR_BEAM              0
@@ -2411,7 +2411,7 @@
 #define FLAG_ITEM_ROUTE_120_NEST_BALL                               0
 #define FLAG_ITEM_ROUTE_123_ELIXIR                                  0
 #define FLAG_ITEM_NEW_MAUVILLE_THUNDER_STONE                        0
-#define FLAG_ITEM_FIERY_PATH_FIRE_STONE                             0
+#define FLAG_ITEM_FIERY_PATH_TM_SOLAR_BLADE                             0
 #define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_TM_HAIL                       0
 #define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_NEVER_MELT_ICE                0
 #define FLAG_ITEM_ROUTE_103_GUARD_SPEC                              0

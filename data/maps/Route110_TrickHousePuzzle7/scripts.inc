@@ -31,7 +31,7 @@ Route110_TrickHousePuzzle7_OnResume:
 # 16 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_EventScript_UpdateSwitchMetatiles::
 # 17 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	call_if_set FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_1, Route110_TrickHousePuzzle7_EventScript_SetSwitch1MetatilesOn
+	call_if_set FLAG_ITEM_ROUTE_117_PSYCHIC_SEED, Route110_TrickHousePuzzle7_EventScript_SetSwitch1MetatilesOn
 # 18 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	call_if_set FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_2, Route110_TrickHousePuzzle7_EventScript_SetSwitch2MetatilesOn
 # 19 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
@@ -151,7 +151,7 @@ Route110_TrickHousePuzzle7_OnTransition:
 # 76 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	goto_if_eq VAR_TRICK_HOUSE_PUZZLE_7_STATE_2, 1, Route110_TrickHousePuzzle7_EventScript_TeleportedTransition
 # 77 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	clearflag FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_1
+	clearflag FLAG_ITEM_ROUTE_117_PSYCHIC_SEED
 # 78 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	clearflag FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_2
 # 79 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
@@ -243,17 +243,17 @@ Route110_TrickHousePuzzle7_EventScript_Switch1::
 # 122 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	delay 32
 # 123 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	call_if_unset FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_1, Route110_TrickHousePuzzle7_EventScript_SetSwitch1MetatilesOn
+	call_if_unset FLAG_ITEM_ROUTE_117_PSYCHIC_SEED, Route110_TrickHousePuzzle7_EventScript_SetSwitch1MetatilesOn
 # 124 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	call_if_set FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_1, Route110_TrickHousePuzzle7_EventScript_SetSwitch1MetatilesOff
+	call_if_set FLAG_ITEM_ROUTE_117_PSYCHIC_SEED, Route110_TrickHousePuzzle7_EventScript_SetSwitch1MetatilesOff
 # 125 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	special DrawWholeMapView
 # 126 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	playse SE_CLICK
 # 127 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	goto_if_unset FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_1, Route110_TrickHousePuzzle7_EventScript_SetSwitch1On
+	goto_if_unset FLAG_ITEM_ROUTE_117_PSYCHIC_SEED, Route110_TrickHousePuzzle7_EventScript_SetSwitch1On
 # 128 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	goto_if_set FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_1, Route110_TrickHousePuzzle7_EventScript_SetSwitch1Off
+	goto_if_set FLAG_ITEM_ROUTE_117_PSYCHIC_SEED, Route110_TrickHousePuzzle7_EventScript_SetSwitch1Off
 # 129 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	end
 # 130 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
@@ -351,7 +351,7 @@ Route110_TrickHousePuzzle7_EventScript_Switch5::
 # 176 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_EventScript_SetSwitch1On::
 # 177 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	setflag FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_1
+	setflag FLAG_ITEM_ROUTE_117_PSYCHIC_SEED
 # 178 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	releaseall
 # 179 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
@@ -361,7 +361,7 @@ Route110_TrickHousePuzzle7_EventScript_SetSwitch1On::
 # 181 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_EventScript_SetSwitch1Off::
 # 182 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	clearflag FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_1
+	clearflag FLAG_ITEM_ROUTE_117_PSYCHIC_SEED
 # 183 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	releaseall
 # 184 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
