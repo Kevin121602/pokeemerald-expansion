@@ -123,11 +123,7 @@
     F(AURORA_VEIL) \ Sootopolis
     F(BLIZZARD) \ Winstitute/119
     F(BUG_BUZZ) \ Norman/Juan Split
-    F(DAZZLING_GLEAM) \ Verdanturf/117
-    F(DRAGON_PULSE) \ 111
     F(DRAINING_KISS) \ Winona Split
-    F(DUAL_WINGBEAT) \ 111
-    F(EARTH_POWER) \ 111 Desert
     F(EARTHQUAKE) \ Seafloor Cavern
     F(ENERGY_BALL) \ Verdanturf/117
     F(EXPLOSION) \ MHO

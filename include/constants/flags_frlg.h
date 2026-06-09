@@ -1951,8 +1951,8 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_110_GREAT_BALL                0
 #define FLAG_HIDDEN_ITEM_ROUTE_110_REVIVE                    0
 #define FLAG_HIDDEN_ITEM_ROUTE_110_FULL_HEAL                 0
-#define FLAG_HIDDEN_ITEM_ROUTE_111_PROTEIN                   0
-#define FLAG_HIDDEN_ITEM_ROUTE_111_RARE_CANDY                0
+#define FLAG_ITEM_ROUTE_111_PIDGEOTITE                   0
+#define FLAG_ITEM_ROUTE_111_TM_EARTH_POWER                0
 #define FLAG_HIDDEN_ITEM_PETALBURG_WOODS_POTION              0
 #define FLAG_HIDDEN_ITEM_PETALBURG_WOODS_TINY_MUSHROOM_1     0
 #define FLAG_HIDDEN_ITEM_PETALBURG_WOODS_TINY_MUSHROOM_2     0
@@ -2308,8 +2308,8 @@
 #define FLAG_ITEM_ROUTE_109_ADRENALINE_ORB                                   0
 #define FLAG_ITEM_ROUTE_110_RARE_CANDY                              0
 #define FLAG_ITEM_ROUTE_110_DIRE_HIT                                0
-#define FLAG_ITEM_ROUTE_111_TM_SANDSTORM                            0
-#define FLAG_ITEM_ROUTE_111_STARDUST                                0
+#define FLAG_ITEM_ROUTE_111_HEAVY_DUTY_BOOTS                            0
+#define FLAG_ITEM_ROUTE_111_TM_DUAL_WINGBEAT                                0
 #define FLAG_ITEM_ROUTE_111_HP_UP                                   0
 #define FLAG_ITEM_ROUTE_112_NUGGET                                  0
 #define FLAG_ITEM_ROUTE_113_MAX_ETHER                               0
@@ -2442,7 +2442,7 @@
 #define FLAG_ITEM_ROUTE_108_TM_LIQUIDATION                              0
 #define FLAG_ITEM_ROUTE_109_ABILITY_SHIELD                                  0
 #define FLAG_ITEM_ROUTE_110_ELIXIR                                  0
-#define FLAG_ITEM_ROUTE_111_ELIXIR                                  0
+#define FLAG_ITEM_ROUTE_111_TM_DRAGON_PULSE                                  0
 #define FLAG_ITEM_ROUTE_113_HYPER_POTION                            0
 #define FLAG_ITEM_ROUTE_115_HEAL_POWDER                             0
 #define FLAG_UNUSED_0x479                                           0 // Unused Flag

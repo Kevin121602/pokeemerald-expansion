@@ -530,7 +530,7 @@
 #define FLAG_SLATEPORT_CITY_TRADE_2_COMPLETED                    0x1E0 
 #define FLAG_ITEM_SLATEPORT_CITY_RING_TARGET                    0x1E1 
 #define FLAG_ITEM_ROUTE_103_TM_SEED_BOMB                    0x1E2 // Unused Flag
-#define FLAG_UNUSED_0x1E3                    0x1E3 // Unused Flag
+#define FLAG_ITEM_ROUTE_111_TM_HEAVY_SLAM                    0x1E3 // Unused Flag
 
 // Mystery Gift Flags (Unknown)
 #define FLAG_MYSTERY_GIFT_DONE               0x1E4
@@ -608,8 +608,8 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_110_GREAT_BALL                (FLAG_HIDDEN_ITEMS_START + 0x35)
 #define FLAG_HIDDEN_ITEM_ROUTE_110_REVIVE                    (FLAG_HIDDEN_ITEMS_START + 0x36)
 #define FLAG_HIDDEN_ITEM_ROUTE_110_FULL_HEAL                 (FLAG_HIDDEN_ITEMS_START + 0x37)
-#define FLAG_HIDDEN_ITEM_ROUTE_111_PROTEIN                   (FLAG_HIDDEN_ITEMS_START + 0x38)
-#define FLAG_HIDDEN_ITEM_ROUTE_111_RARE_CANDY                (FLAG_HIDDEN_ITEMS_START + 0x39)
+#define FLAG_ITEM_ROUTE_111_PIDGEOTITE                   (FLAG_HIDDEN_ITEMS_START + 0x38)
+#define FLAG_ITEM_ROUTE_111_TM_EARTH_POWER                (FLAG_HIDDEN_ITEMS_START + 0x39)
 #define FLAG_HIDDEN_ITEM_PETALBURG_WOODS_POTION              (FLAG_HIDDEN_ITEMS_START + 0x3A)
 #define FLAG_HIDDEN_ITEM_PETALBURG_WOODS_TINY_MUSHROOM_1     (FLAG_HIDDEN_ITEMS_START + 0x3B)
 #define FLAG_HIDDEN_ITEM_PETALBURG_WOODS_TINY_MUSHROOM_2     (FLAG_HIDDEN_ITEMS_START + 0x3C)
@@ -1060,8 +1060,8 @@
 #define FLAG_ITEM_ROUTE_109_ADRENALINE_ORB                                   0x3ED
 #define FLAG_ITEM_ROUTE_110_RARE_CANDY                              0x3EE
 #define FLAG_ITEM_ROUTE_110_DIRE_HIT                                0x3EF
-#define FLAG_ITEM_ROUTE_111_TM_SANDSTORM                            0x3F0
-#define FLAG_ITEM_ROUTE_111_STARDUST                                0x3F1
+#define FLAG_ITEM_ROUTE_111_HEAVY_DUTY_BOOTS                            0x3F0
+#define FLAG_ITEM_ROUTE_111_TM_DUAL_WINGBEAT                                0x3F1
 #define FLAG_ITEM_ROUTE_111_HP_UP                                   0x3F2
 #define FLAG_ITEM_ROUTE_112_TM_SMART_STRIKE                                  0x3F3
 #define FLAG_ITEM_ROUTE_113_TWISTED_SPOON                               0x3F4
@@ -1194,7 +1194,7 @@
 #define FLAG_ITEM_ROUTE_108_TM_LIQUIDATION                              0x473
 #define FLAG_ITEM_ROUTE_109_ABILITY_SHIELD                                  0x474
 #define FLAG_ITEM_ROUTE_110_ELIXIR                                  0x475
-#define FLAG_ITEM_ROUTE_111_ELIXIR                                  0x476
+#define FLAG_ITEM_ROUTE_111_TM_DRAGON_PULSE                                  0x476
 #define FLAG_ITEM_ROUTE_113_HYPER_POTION                            0x477
 #define FLAG_ITEM_ROUTE_115_MIRACLE_SEED                             0x478
 #define FLAG_UNUSED_0x479                                           0x479 // Unused Flag
