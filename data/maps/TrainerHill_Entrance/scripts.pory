@@ -55,10 +55,6 @@ TrainerHill_Entrance_EventScript_OpenCounterDoor::
 	return
 
 TrainerHill_Entrance_OnFrame:
-	map_script_2 VAR_TEMP_0, 0, TrainerHill_Entrance_EventScript_ExitChallenge
-	map_script_2 VAR_TEMP_D, 17, TrainerHill_Entrance_EventScript_ExitElevator
-	map_script_2 VAR_TEMP_5, 1, TrainerHill_Entrance_EventScript_EntryTrigger
-	map_script_2 VAR_TEMP_1, 1, TrainerHill_EventScript_WarpToEntranceCounter
 	.2byte 0
 
 TrainerHill_Entrance_EventScript_ExitElevator::
@@ -249,7 +245,7 @@ TrainerHill_Entrance_EventScript_Clerk::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemart TrainerHill_Entrance_Pokemart_Basic
+	pokemartdecoration TrainerHill_Entrance_Pokemart_Basic
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
