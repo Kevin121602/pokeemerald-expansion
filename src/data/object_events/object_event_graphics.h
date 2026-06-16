@@ -234,6 +234,7 @@ const u32 gObjectEventPic_EnemyZigzagoon[] = INCBIN_U32("graphics/object_events/
 const u16 gObjectEventPal_EnemyZigzagoon[] = INCBIN_U16("graphics/object_events/palettes/enemy_zigzagoon.gbapal");
 const u16 gObjectEventPal_Poochyena[] = INCBIN_U16("graphics/object_events/palettes/poochyena.gbapal");
 const u16 gObjectEventPal_Buck[] = INCBIN_U16("graphics/object_events/palettes/buck.gbapal");
+const u16 gObjectEventPal_Clair[] = INCBIN_U16("graphics/object_events/palettes/clair.gbapal");
 const u32 gObjectEventPic_CableCar[] = INCBIN_U32("graphics/object_events/pics/misc/cable_car.4bpp");
 const u16 gObjectEventPal_CableCar[] = INCBIN_U16("graphics/object_events/palettes/cable_car.gbapal");
 const u32 gObjectEventPic_SSTidal[] = INCBIN_U32("graphics/object_events/pics/misc/ss_tidal.4bpp");
@@ -293,6 +294,7 @@ const u32 gObjectEventPic_Cheryl[] = INCBIN_U32("graphics/object_events/pics/peo
 const u32 gObjectEventPic_Marley[] = INCBIN_U32("graphics/object_events/pics/people/stat_trainers/marley.4bpp");
 const u32 gObjectEventPic_Mira[] = INCBIN_U32("graphics/object_events/pics/people/stat_trainers/mira.4bpp");
 const u32 gObjectEventPic_Buck[] = INCBIN_U32("graphics/object_events/pics/people/stat_trainers/buck.4bpp");
+const u32 gObjectEventPic_Clair[] = INCBIN_U32("graphics/object_events/pics/people/misc/clair.4bpp");
 
 const u32 gFieldEffectObjectPic_SurfBlob[] = INCBIN_U32("graphics/field_effects/pics/surf_blob.4bpp");
 const u32 gFieldEffectObjectPic_RockClimbBlob[] = INCBIN_U32("graphics/field_effects/pics/rock_climb_blob.4bpp");

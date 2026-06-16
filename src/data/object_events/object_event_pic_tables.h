@@ -688,6 +688,13 @@ static const struct SpriteFrameImage sPicTable_Buck[] = {
     overworld_frame(gObjectEventPic_Buck, 2, 4, 2),
 };
 
+static const struct SpriteFrameImage sPicTable_Clair[] = {
+    overworld_ascending_frames(gObjectEventPic_Clair, 2, 4),
+    overworld_frame(gObjectEventPic_Clair, 2, 4, 6),
+    overworld_frame(gObjectEventPic_Clair, 2, 4, 7),
+    overworld_frame(gObjectEventPic_Clair, 2, 4, 8),
+};
+
 static const struct SpriteFrameImage sPicTable_Wallace[] = {
     overworld_ascending_frames(gObjectEventPic_Wallace, 2, 4),
 };

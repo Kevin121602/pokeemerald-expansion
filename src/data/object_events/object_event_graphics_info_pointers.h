@@ -135,6 +135,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cheryl;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Marley;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mira;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Buck;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Clair;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wallace;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Steven;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wally;
@@ -659,6 +660,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_TM_BALL] =                  &gObjectEventGraphicsInfo_TMBall,
     [OBJ_EVENT_GFX_MEGA_STONE] =                  &gObjectEventGraphicsInfo_MegaStone,
     [OBJ_EVENT_GFX_APRICORN_TREE] =            &gObjectEventGraphicsInfo_ApricornTree,
+    [OBJ_EVENT_GFX_CLAIR] =                     &gObjectEventGraphicsInfo_Clair,
 #if IS_FRLG
     [OBJ_EVENT_GFX_RED_NORMAL] =               &gObjectEventGraphicsInfo_RedNormal,
     [OBJ_EVENT_GFX_RED_BIKE] =                 &gObjectEventGraphicsInfo_RedBike,

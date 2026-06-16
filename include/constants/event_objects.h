@@ -266,13 +266,14 @@
 #define OBJ_EVENT_GFX_OW_MON                     240
 #define OBJ_EVENT_GFX_RILEY                      241
 #define OBJ_EVENT_GFX_CHERYL                     242
-#define OBJ_EVENT_GFX_MARLEY                     243
-#define OBJ_EVENT_GFX_MIRA                       244
-#define OBJ_EVENT_GFX_BUCK                       245
-#define OBJ_EVENT_GFX_LIGHT_SPRITE               246
-#define OBJ_EVENT_GFX_TM_BALL                    247
-#define OBJ_EVENT_GFX_APRICORN_TREE              248
-#define OBJ_EVENT_GFX_MEGA_STONE                 249
+#define OBJ_EVENT_GFX_MARLEY                     388
+#define OBJ_EVENT_GFX_MIRA                       389
+#define OBJ_EVENT_GFX_BUCK                       390
+#define OBJ_EVENT_GFX_LIGHT_SPRITE               391
+#define OBJ_EVENT_GFX_TM_BALL                    392
+#define OBJ_EVENT_GFX_APRICORN_TREE              393
+#define OBJ_EVENT_GFX_MEGA_STONE                 394
+#define OBJ_EVENT_GFX_CLAIR                      395
 
 // FRLG objects
 #define OBJ_EVENT_GFX_RED_NORMAL                 243
@@ -430,7 +431,7 @@
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
 // is 65519, but even considering follower Pokémon, this should be more than enough :)
-#define NUM_OBJ_EVENT_GFX                        388
+#define NUM_OBJ_EVENT_GFX                        396
 
 
 // These are dynamic object gfx ids.
@@ -576,6 +577,7 @@
 #define OBJ_EVENT_PAL_TAG_SEAGALLOP               0x1138
 #define OBJ_EVENT_PAL_TAG_SS_ANNE                 0x1139
 #define OBJ_EVENT_PAL_TAG_BUCK                    0x1140
+#define OBJ_EVENT_PAL_TAG_CLAIR                   0x1141
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla

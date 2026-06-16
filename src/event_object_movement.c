@@ -523,6 +523,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_RubySapphireBrendan,   OBJ_EVENT_PAL_TAG_RS_BRENDAN},
     {gObjectEventPal_RubySapphireMay,       OBJ_EVENT_PAL_TAG_RS_MAY},
     {gObjectEventPal_Buck,                  OBJ_EVENT_PAL_TAG_BUCK},
+    {gObjectEventPal_Clair,                 OBJ_EVENT_PAL_TAG_CLAIR},
 #if IS_FRLG
     {gObjectEventPal_PlayerFrlg,            OBJ_EVENT_PAL_TAG_PLAYER_RED},
     {gObjectEventPal_PlayerReflectionFrlg,  OBJ_EVENT_PAL_TAG_PLAYER_RED_REFLECTION},
