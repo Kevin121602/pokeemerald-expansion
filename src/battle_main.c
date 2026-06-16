@@ -371,6 +371,8 @@ const struct TrainerClass gTrainerClasses[TRAINER_CLASS_COUNT] =
     [TRAINER_CLASS_RS_PROTAG] = { _("{PKMN} Trainer") },
     [TRAINER_CLASS_VETERAN] = { _("{PKMN} Trainer"), 25, BALL_ULTRA },
     [TRAINER_CLASS_STAT_TRAINER] = { _("{PKMN} Trainer"), 25, BALL_GREAT },
+    [TRAINER_CLASS_JOHTO_TRAINER] = { _("{PKMN} Trainer"), 25, BALL_ULTRA },
+    [TRAINER_CLASS_KANTO_TRAINER] = { _("{PKMN} Trainer"), 25, BALL_ULTRA },
 
     [TRAINER_CLASS_YOUNGSTER_FRLG] =       { _("YOUNGSTER"), 4 },
     [TRAINER_CLASS_BUG_CATCHER_FRLG] =     { _("BUG CATCHER"), 3 },
@@ -5535,6 +5537,10 @@ static void HandleEndTurn_BattleWon(void)
             break;
         case TRAINER_CLASS_LEADER:
             PlayBGM(MUS_DP_VICTORY_GYM_LEADER);
+            break;
+        case TRAINER_CLASS_JOHTO_TRAINER:
+        case TRAINER_CLASS_KANTO_TRAINER:
+            PlayBGM(MUS_HG_VICTORY_GYM_LEADER);
             break;
         default:
             PlayBGM(MUS_DP_VICTORY_TRAINER);
