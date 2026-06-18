@@ -9691,6 +9691,74 @@ Ability: Refrigerate
 - Nature Power
 - Earth Power
 
+/*
+Loc: Route 111
+*/
+
+=== TRAINER_CLAIR_1 ===
+Name: Clair
+Class: Johto Trainer
+Pic: Clair
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Blue
+
+Kingdra @ Scope Lens
+Level: 56
+Nature: Hasty
+Ability: Sniper
+- Draco Meteor
+- Octazooka
+- Waterfall
+- Focus Energy
+
+Serperior @ Lum Berry
+Level: 55
+Nature: Timid
+Ability: Contrary
+- Leaf Storm
+- Dragon Pulse
+- Glare
+- Leech Seed
+
+Lucario @ Focus Sash
+Level: 55
+Nature: Naive
+Ability: Inner Focus
+- Close Combat
+- Meteor Mash
+- Dark Pulse
+- Magnet Rise
+
+Gyarados @ Wacan Berry
+Level: 56
+Nature: Jolly
+Ability: Intimidate
+- Waterfall
+- Earthquake
+- Reflect
+- Thunder Wave
+
+Latias @ Leftovers
+Level: 55
+Nature: Timid
+Ability: Levitate
+- Mist Ball
+- Alluring Voice
+- Mystical Fire
+- Roost
+
+Altaria @ Altarianite
+Level: 56
+Nature: Jolly
+Ability: Natural Cure
+- Return
+- Dragon Claw
+- Earthquake
+- Dragon Dance
+
 /*End Parse*/
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
@@ -10236,23 +10304,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Whismur
 Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_GABBY_AND_TY_2 ===
-Name: GABBY & TY
-Class: Interviewer
-Pic: Interviewer
-Gender: Male
-Music: Interviewer
-Double Battle: Yes
-AI: Check Bad Move
-
-Magnemite
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Loudred
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_GABBY_AND_TY_3 ===
 Name: GABBY & TY

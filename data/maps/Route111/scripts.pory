@@ -1,4 +1,180 @@
 const LOCALID_MARLEY = 43
+const LOCALID_CLAIR = 44
+
+script Route111_EventScript_ClairTriggered0{
+	lock
+	applymovement(LOCALID_CLAIR, Route111_Movement_ClairLeft)
+	waitmovement(0)
+	goto(Route111_EventScript_Clair)
+	release
+	end
+}
+
+script Route111_EventScript_ClairTriggered1{
+	lock
+	applymovement(LOCALID_CLAIR, Route111_Movement_ClairCenter)
+	waitmovement(0)
+	goto(Route111_EventScript_Clair)
+	release
+	end
+}
+
+script Route111_EventScript_ClairTriggered2{
+	lock
+	applymovement(LOCALID_CLAIR, Route111_Movement_ClairRight)
+	waitmovement(0)
+	goto(Route111_EventScript_Clair)
+	release
+	end
+}
+
+movement Route111_Movement_ClairLeft{
+	walk_down * 2
+	walk_left
+	walk_down * 2
+	step_end
+}
+
+movement Route111_Movement_ClairCenter{
+	walk_down * 4
+	step_end
+}
+
+movement Route111_Movement_ClairRight{
+	walk_down * 2
+	walk_right
+	walk_down * 2
+	step_end
+}
+
+script Route111_EventScript_Clair{
+	lock
+	faceplayer
+	setflag(FLAG_DISABLE_EXP)
+	trainerbattle(TRAINER_BATTLE_CONTINUE_SCRIPT_NO_MUSIC, LOCALID_CLAIR, TRAINER_CLAIR_1, Route111_Text_ClairIntro, Route111_Text_ClairDefeat, Route111_EventScript_ClairDefeated, OBJ_ID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, TRUE, FALSE, FALSE)
+	msgbox("I think you could make good use of this\n"
+		   "Egg, do you want it?$", MSGBOX_YESNO)
+	if(var(VAR_RESULT) == NO){
+		msgbox("Alright, I'll be here in case you\n"
+				"change your mind.$", MSGBOX_DEFAULT)
+	} else {
+		playfanfare(MUS_DP_OBTAIN_ITEM)
+		msgbox("{PLAYER} received the Egg.$")
+		waitfanfare
+		closemessage
+		random(9)
+			switch(var(VAR_RESULT)){
+				case 0:
+					giveegg(SPECIES_DRATINI)
+				case 1:
+					giveegg(SPECIES_BAGON)
+				case 2:
+					giveegg(SPECIES_GIBLE)
+				case 3:
+					giveegg(SPECIES_DEINO)
+				case 4:
+					giveegg(SPECIES_GOOMY)
+				case 5:
+					giveegg(SPECIES_JANGMO_O)
+				case 6:
+					giveegg(SPECIES_DREEPY)
+				case 7:
+					giveegg(SPECIES_DURALUDON)
+				case 8:
+					giveegg(SPECIES_FRIGIBAX)
+			}
+		msgbox("That Egg has one of the strongest\n"
+				"Dragon type Pokémon around!\p"
+				"Raise it well and use it wisely.$", MSGBOX_DEFAULT)
+		waitmessage
+		closemessage
+		goto(Route111_EventScript_ClairExits)
+	}
+	clearflag(FLAG_DISABLE_EXP)
+	release
+	end
+}
+
+text Route111_Text_ClairIntro{
+	"Excuse me. Can you tell me how to get\n"
+	"to Mt. Chimney?\p"
+	"…\p"
+	"You say it's blocked?\p"
+	"That won't do, I told a colleague that I\n"
+	"would meet him there.\p"
+	"…\p"
+	"You're trying to get there too, you say?\p"
+	"Don't tell me you're after it as well…\n"
+	"In that case, I challenge you!$"
+}
+
+text Route111_Text_ClairDefeat{
+	"This can't be…$"
+}
+
+script Route111_EventScript_ClairDefeated{
+	clearflag(FLAG_DISABLE_EXP)
+	setflag(FLAG_DEFEATED_CLAIR)
+	setvar(VAR_ROUTE111_STATE, 1)
+	msgbox("Oops, I got ahead of myself there.\p"
+		   "My name is Clair, and I'm a Gym Leader\n"
+		   "from the Johto region.\p"
+		   "I came here to learn more about an\n"
+		   "ancient legend, but I haven't had any\l"
+		   "luck so far…\p"
+		   "I think you could make good use of this\n"
+		   "Egg, do you want it?$", MSGBOX_YESNO)
+	if(var(VAR_RESULT) == NO){
+		msgbox("Alright, I'll be here in case you\n"
+				"change your mind.$", MSGBOX_DEFAULT)
+	} else {
+		playfanfare(MUS_DP_OBTAIN_ITEM)
+		msgbox("{PLAYER} received the Egg.$")
+		waitfanfare
+		closemessage
+		random(9)
+			switch(var(VAR_RESULT)){
+				case 0:
+					giveegg(SPECIES_DRATINI)
+				case 1:
+					giveegg(SPECIES_BAGON)
+				case 2:
+					giveegg(SPECIES_GIBLE)
+				case 3:
+					giveegg(SPECIES_DEINO)
+				case 4:
+					giveegg(SPECIES_GOOMY)
+				case 5:
+					giveegg(SPECIES_JANGMO_O)
+				case 6:
+					giveegg(SPECIES_DREEPY)
+				case 7:
+					giveegg(SPECIES_DURALUDON)
+				case 8:
+					giveegg(SPECIES_FRIGIBAX)
+			}
+		msgbox("That Egg has one of the strongest\n"
+				"Dragon type Pokémon around!\p"
+				"Raise it well and use it wisely.$", MSGBOX_DEFAULT)
+		waitmessage
+		closemessage
+		goto(Route111_EventScript_ClairExits)
+	}
+	release
+	end
+}
+
+script Route111_EventScript_ClairExits{
+	fadescreen(FADE_TO_BLACK)
+	removeobject(LOCALID_CLAIR)
+	setflag(FLAG_HIDE_ROUTE_111_CLAIR)
+	fadescreen(FADE_FROM_BLACK)
+	delay(30)
+	msgbox("It looks like Clair dropped something.$", MSGBOX_DEFAULT)
+	giveitem(ITEM_HEART_SCALE)
+	release
+	end
+}
 
 script Route111_EventScript_MarleyTriggered{
 	lock

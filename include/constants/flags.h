@@ -351,7 +351,7 @@
 #define FLAG_RECEIVED_OLD_SEA_MAP            0x13C
 #define FLAG_ITEM_ROUTE_117_ELECTRIC_SEED                 0x13D // These Wonder Card flags are referenced but never set
 #define FLAG_ITEM_ROUTE_117_TM_ENERGY_BALL            0x13E
-#define FLAG_WONDER_CARD_UNUSED_3            0x13F
+#define FLAG_HIDE_ROUTE_111_CLAIR            0x13F
 #define FLAG_WONDER_CARD_UNUSED_4            0x140
 #define FLAG_WONDER_CARD_UNUSED_5            0x141
 #define FLAG_WONDER_CARD_UNUSED_6            0x142

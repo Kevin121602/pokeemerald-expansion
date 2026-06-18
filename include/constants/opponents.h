@@ -56,7 +56,7 @@
 #define TRAINER_DUSTY_4                      49
 #define TRAINER_DUSTY_5                      50
 #define TRAINER_GABBY_AND_TY_1               51
-#define TRAINER_GABBY_AND_TY_2               52
+#define TRAINER_CLAIR_1               52
 #define TRAINER_GABBY_AND_TY_3               53
 #define TRAINER_GABBY_AND_TY_4               54
 #define TRAINER_GABBY_AND_TY_5               55
