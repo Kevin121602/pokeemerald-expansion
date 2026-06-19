@@ -9759,6 +9759,70 @@ Ability: Natural Cure
 - Earthquake
 - Dragon Dance
 
+=== TRAINER_BROCK ===
+Name: Brock
+Class: Kanto Trainer
+Pic: Leader Brock FRLG
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Purple
+
+Golem @ Weakness Policy
+Level: 58
+Nature: Jolly
+Ability: Sturdy
+- Earthquake
+- Rock Slide
+- Explosion
+- Rock Polish
+
+Cacturne @ Focus Sash
+Level: 58
+Nature: Jolly
+Ability: Sand Veil
+- Needle Arm
+- Knock Off
+- Focus Punch
+- Spiky Shield
+
+Revavroom @ Air Balloon
+Level: 57
+Nature: Jolly
+Ability: Filter
+- Gunk Shot
+- Spin Out
+- Temper Flare
+- Shift Gear
+
+Houndstone @ Spell Tag
+Level: 57
+Nature: Adamant
+Ability: Sand Rush
+- Last Respects
+- Play Rough
+- Crunch
+- Will-O-Wisp
+
+Diancie @ Babiri Berry
+Level: 57
+Nature: Naive
+Ability: Clear Body
+- Diamond Storm
+- Moonblast
+- Body Press
+- Stealth Rock
+
+Steelix @ Steelixite
+Level: 58
+Nature: Careful
+Ability: Sturdy
+- Earthquake
+- Iron Tail
+- Sand Tomb
+- Stone Edge
+
 /*End Parse*/
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
@@ -10638,28 +10702,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Wailord
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_WILTON_2 ===
-Name: WILTON
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Basic Trainer
-
-Electrike
-Level: 26
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-
-Wailmer
-Level: 26
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-
-Makuhita
-Level: 26
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
 === TRAINER_WILTON_3 ===
 Name: WILTON

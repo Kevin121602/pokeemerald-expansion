@@ -88,7 +88,7 @@
 #define TRAINER_SAMUEL                       81
 #define TRAINER_VITO                         82
 #define TRAINER_OWEN                         83
-#define TRAINER_WILTON_2                     84
+#define TRAINER_BROCK                     84
 #define TRAINER_WILTON_3                     85
 #define TRAINER_WILTON_4                     86
 #define TRAINER_WILTON_5                     87
