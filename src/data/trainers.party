@@ -9759,6 +9759,555 @@ Ability: Natural Cure
 - Earthquake
 - Dragon Dance
 
+/*
+Double:
+*/
+
+=== TRAINER_TYRON ===
+Name: Tyron
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+/*
+Comment: Permanent Sandstorm for remainder of route.
+*/
+
+Sneasler @ Misty Seed
+Level: 54
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+=== TRAINER_CELINA ===
+Name: Celina
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+=== TRAINER_BIANCA ===
+Name: Bianca
+Class: Picnicker
+Pic: Picnicker
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sneasler @ Misty Seed
+Level: 54
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+=== TRAINER_IRENE ===
+Name: Irene
+Class: Picnicker
+Pic: Picnicker
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sneasler @ Misty Seed
+Level: 54
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+=== TRAINER_TRAVIS ===
+Name: Travis
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+/*
+Double:
+*/
+
+=== TRAINER_DUSTY_1 ===
+Name: Dusty
+Class: Ruin Maniac
+Pic: Ruin Maniac
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+=== TRAINER_BECKY ===
+Name: Becky
+Class: Picnicker
+Pic: Picnicker
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+=== TRAINER_HAYDEN ===
+Name: Hayden
+Class: Kindler
+Pic: Kindler
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+=== TRAINER_BRANDEN ===
+Name: Branden
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 57
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+=== TRAINER_HEIDI ===
+Name: Heidi
+Class: Picnicker
+Pic: Picnicker
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sneasler @ Misty Seed
+Level: 55
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 56
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 57
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+Sneasler @ Misty Seed
+Level: 57
+Nature: Adamant
+Ability: Unburden
+- Close Combat
+- Poison Jab
+- Lash Out
+- Fake Out
+
+=== TRAINER_BEAU ===
+Name: Beau
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Palossand @ Rindo Berry
+Level: 56
+Nature: Calm
+Ability: Sand Veil
+- Scorching Sands
+- Hex
+- Ancient Power
+- Shore Up
+
+Corviknight @ Leftovers
+Level: 56
+Nature: Jolly
+Ability: Mirror Armor
+- Iron Head
+- U-turn
+- Reflect
+- Light Screen
+
+Bisharp @ Focus Sash
+Level: 56
+Nature: Jolly
+Ability: Inner Focus
+- Iron Head
+- Knock Off
+- Psycho Cut
+- Stealth Rock
+
+Vespiquen @ Safety Goggles
+Level: 57
+Nature: Naive
+Ability: Queenly Majesty
+- Attack Order
+- Air Slash
+- Destiny Bond
+- Tailwind
+
+Nidoking @ Life Orb
+Level: 57
+Nature: Naive
+Ability: Sheer Force
+- Earth Power
+- Poison Jab
+- Thunderbolt
+- Ice Beam
+
+=== TRAINER_DREW ===
+Name: Drew
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Dugtrio-Alola @ Focus Sash
+Level: 56
+Nature: Jolly
+Ability: Sand Force
+- Earthquake
+- Iron Head
+- Reversal
+- Stealth Rock
+
+Ferrothorn @ Occa Berry
+Level: 56
+Nature: Careful
+Ability: Iron Barbs
+- Power Whip
+- Heavy Slam
+- Explosion
+- Leech Seed
+
+Ditto @ Safety Goggles
+Level: 57
+Nature: Timid
+Ability: Imposter
+- Transform
+
+Excadrill @ Lum Berry
+Level: 57
+Nature: Adamant
+Ability: Sand Rush
+- High Horsepower
+- Iron Head
+- Rock Slide
+- Magnet Rise
+
+Krookodile @ Dark Gem
+Level: 57
+Nature: Jolly
+Ability: Moxie
+- Earthquake
+- Pursuit
+- Thunder Fang
+- Bulk Up
+
 === TRAINER_BROCK ===
 Name: Brock
 Class: Kanto Trainer
@@ -10225,46 +10774,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Roselia
 Level: 34
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_DUSTY_1 ===
-Name: DUSTY
-Class: Ruin Maniac
-Pic: Ruin Maniac
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Geodude @ Red Card
-Level: 16
-Nature: Careful
-Ability: Sturdy
--Stealth Rock
--Explosion
-
-Lileep @ Leftovers
-Level: 16
-Nature: Hardy
-Ability: Storm Drain
--Rock Tomb
--Mega Drain
--Recover
-
-Anorith @ Metronome
-Level: 16
-Nature: Jolly
-Ability: Battle Armor
--Fury Cutter
--Smack Down
--Metal Claw
--Aqua Jet
-
-Unown @ Choice Specs
-Level: 16
-Nature: Modest
-Ability: Levitate
-IVs: 30 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 30 Spe
--Hidden Power
 
 === TRAINER_CHIP ===
 Name: CHIP
@@ -12289,86 +12798,6 @@ Pelipper
 Level: 35
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_DREW ===
-Name: DREW
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Sunkern @ Life Orb
-Level: 13
-Nature: Timid
-Ability: Chlorophyll
--Solar Beam
--Weather Ball
--Earth Power
--Growth
-
-Cubone @ Thick Club
-Level: 13
-Nature: Adamant
-Ability: Battle Armor
--Bone Club
--Headbutt
--Rock Tomb
-
-Charmander @ Berry Juice
-Level: 13
-Nature: Timid
-Ability: Solar Power
--Incinerate
--Ancient Power
--Dragon Breath
-
-
-=== TRAINER_BEAU ===
-Name: BEAU
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Thwackey @ Lum Berry
-Level: 16
-Nature: Jolly
-Ability: Grassy Surge
--Fake Out
--Grassy Glide
--Low Kick
--Double Hit
-
-Salandit @ Black Sludge
-Level: 16
-Nature: Timid
-Ability: Corrosion
--Venoshock
--Incinerate
--Toxic
--Protect
-
-Voltorb @ Berry Juice
-Level: 17
-Nature: Timid
-Ability: Static
-IVs: 31 HP / 30 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
--Shock Wave
--Hidden Power
--Sonic Boom
-
-Skiddo @ Leftovers
-Level: 16
-Nature: Adamant
-Ability: Grass Pelt
--Razor Leaf
--Stomping Tantrum
--Leech Seed
--Milk Drink
-
 === TRAINER_JUSTIN ===
 Name: JUSTIN
 Class: Camper
@@ -12380,19 +12809,6 @@ AI: Check Bad Move
 
 Kecleon
 Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_TRAVIS ===
-Name: TRAVIS
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Sandshrew
-Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ETHAN_2 ===
@@ -16018,67 +16434,6 @@ Starmie
 Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_HEIDI ===
-Name: HEIDI
-Class: Picnicker
-Pic: Picnicker
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Solosis @ Light Clay
-Level: 16
-Nature: Modest
-Ability: Magic Guard
--Psybeam
--Night Shade
--Reflect
--Light Screen
-
-Shellos @ Berry Juice
-Level: 17
-Nature: Bold
-Ability: Sand Force
--Water Pulse
--Mud Bomb
--Ancient Power
--Recover
-
-Cacnea @ Eviolite
-Level: 17
-Nature: Hardy
-Ability: Sand Rush
--Magical Leaf
--Aerial Ace
--Leech Seed
--Protect
-
-=== TRAINER_BECKY ===
-Name: BECKY
-Class: Picnicker
-Pic: Picnicker
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Sandshrew
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sand Attack
-- Poison Sting
-- Slash
-- Dig
-
-Marill
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rollout
-- Bubble Beam
-- Tail Whip
-- Defense Curl
-
 === TRAINER_MARTHA ===
 Name: MARTHA
 Class: Picnicker
@@ -16094,23 +16449,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Swablu
 Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_IRENE ===
-Name: IRENE
-Class: Picnicker
-Pic: Picnicker
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Shroomish
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Marill
-Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DIANA_2 ===
@@ -19638,58 +19976,6 @@ Magnemite
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_TYRON ===
-Name: TYRON
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Sandshrew
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CELINA ===
-Name: CELINA
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Roselia
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIANCA ===
-Name: BIANCA
-Class: Picnicker
-Pic: Picnicker
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Shroomish
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_HAYDEN ===
-Name: HAYDEN
-Class: Kindler
-Pic: Kindler
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Numel
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_GRUNT_MAGMA_HIDEOUT_1 ===
 Name: Grunt
 Class: Team Magma
@@ -20040,23 +20326,6 @@ Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandslash
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BRANDEN ===
-Name: BRANDEN
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Taillow
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Nuzleaf
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
